@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/ONI-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>ONI visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/ONI-files/logo.png" />
+	<img class="preload-hidden" src="/sets/ONI-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="ONI"><img src="/sets/ONI-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/ONI-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\ONI-files\img\11_Freila, Council President.png" id="11_Freila, Council President" data-flag="@X" onclick="openSidebar('11_Freila, Council President',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\53_Lavenza, Vertex Mariner.png" id="53_Lavenza, Vertex Mariner" data-flag="@X" onclick="openSidebar('53_Lavenza, Vertex Mariner',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\85_Kajiwara Ai.png" id="85_Kajiwara Ai" data-flag="@X" onclick="openSidebar('85_Kajiwara Ai',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\108_Akira, Blade of Hidanko.png" id="108_Akira, Blade of Hidanko" data-flag="@X" onclick="openSidebar('108_Akira, Blade of Hidanko',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\154_Korra, Wayward Explorer.png" id="154_Korra, Wayward Explorer" data-flag="@X" onclick="openSidebar('154_Korra, Wayward Explorer',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\19_Jun, Artificed Telepath.png" id="19_Jun, Artificed Telepath" data-flag="@X" onclick="openSidebar('19_Jun, Artificed Telepath',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\46_Disruptor Suit Pilot.png" id="46_Disruptor Suit Pilot" data-flag="@X" onclick="openSidebar('46_Disruptor Suit Pilot',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\73_Bael-Eye, Fell Usurper.png" id="73_Bael-Eye, Fell Usurper" data-flag="@X" onclick="openSidebar('73_Bael-Eye, Fell Usurper',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\109_Amatsu and Oda, Old Guard.png" id="109_Amatsu and Oda, Old Guard" data-flag="@X" onclick="openSidebar('109_Amatsu and Oda, Old Guard',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\149_Final Preparations.png" id="149_Final Preparations" data-flag="@X" onclick="openSidebar('149_Final Preparations',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\10_Ebonwing Proctor.png" id="10_Ebonwing Proctor" data-flag="@X" onclick="openSidebar('10_Ebonwing Proctor',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\47_Diva Sensation.png" id="47_Diva Sensation" data-flag="@X" onclick="openSidebar('47_Diva Sensation',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\76_Daemthine, Dread Influence.png" id="76_Daemthine, Dread Influence" data-flag="@X" onclick="openSidebar('76_Daemthine, Dread Influence',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\114_Chieko, Untamed Rover.png" id="114_Chieko, Untamed Rover" data-flag="@X" onclick="openSidebar('114_Chieko, Untamed Rover',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\157_Mezu Sprinter.png" id="157_Mezu Sprinter" data-flag="@X" onclick="openSidebar('157_Mezu Sprinter',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\12_Freila, Transfer Student.png" id="12_Freila, Transfer Student" data-flag="@X" onclick="openSidebar('12_Freila, Transfer Student',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\50_Future Past.png" id="50_Future Past" data-flag="@X" onclick="openSidebar('50_Future Past',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ONI-files\img\84_Izanami, Storied Empress_back.png" alt="/sets\ONI-files\img\84_Izanami, Storied Empress_front.png" id="84_Izanami, Storied Empress" data-flag="@XD" onclick="openSidebar('84_Izanami, Storied Empress',false)"><button class="flip-btn" onclick="imgFlip('84_Izanami, Storied Empress')"></button></div>
+			<div class="container"><img alt="/sets\ONI-files\img\116_Cramming Student.png" id="116_Cramming Student" data-flag="@X" onclick="openSidebar('116_Cramming Student',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ONI-files\img\158_Odayaka, Life's Tenacity_back.png" alt="/sets\ONI-files\img\158_Odayaka, Life's Tenacity_front.png" id="158_Odayaka, Lifes Tenacity" data-flag="@XD" onclick="openSidebar('158_Odayaka, Lifes Tenacity',false)"><button class="flip-btn" onclick="imgFlip('158_Odayaka, Lifes Tenacity')"></button></div>
+			<div class="container"><img data-alt_src="/sets\ONI-files\img\18_Jinse, Divine Justice_back.png" alt="/sets\ONI-files\img\18_Jinse, Divine Justice_front.png" id="18_Jinse, Divine Justice" data-flag="@XD" onclick="openSidebar('18_Jinse, Divine Justice',false)"><button class="flip-btn" onclick="imgFlip('18_Jinse, Divine Justice')"></button></div>
+			<div class="container"><img alt="/sets\ONI-files\img\51_Junko, Tenkami's Favored.png" id="51_Junko, Tenkamis Favored" data-flag="@X" onclick="openSidebar('51_Junko, Tenkamis Favored',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ONI-files\img\86_Kanashi, Night's Sorrow_back.png" alt="/sets\ONI-files\img\86_Kanashi, Night's Sorrow_front.png" id="86_Kanashi, Nights Sorrow" data-flag="@XD" onclick="openSidebar('86_Kanashi, Nights Sorrow',false)"><button class="flip-btn" onclick="imgFlip('86_Kanashi, Nights Sorrow')"></button></div>
+			<div class="container"><img alt="/sets\ONI-files\img\121_Halfblade Instigator.png" id="121_Halfblade Instigator" data-flag="@X" onclick="openSidebar('121_Halfblade Instigator',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\159_The one who Watches.png" id="159_The one who Watches" data-flag="@X" onclick="openSidebar('159_The one who Watches',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\20_Kaede, Taraikyo Vice.png" id="20_Kaede, Taraikyo Vice" data-flag="@X" onclick="openSidebar('20_Kaede, Taraikyo Vice',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\58_Rie, Final Pilot.png" id="58_Rie, Final Pilot" data-flag="@X" onclick="openSidebar('58_Rie, Final Pilot',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\88_Lost in the Brink.png" id="88_Lost in the Brink" data-flag="@X" onclick="openSidebar('88_Lost in the Brink',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ONI-files\img\131_Moreu, Unfettered Joy_back.png" alt="/sets\ONI-files\img\131_Moreu, Unfettered Joy_front.png" id="131_Moreu, Unfettered Joy" data-flag="@XD" onclick="openSidebar('131_Moreu, Unfettered Joy',false)"><button class="flip-btn" onclick="imgFlip('131_Moreu, Unfettered Joy')"></button></div>
+			<div class="container"><img alt="/sets\ONI-files\img\165_Ryujin of Burgeoning Life.png" id="165_Ryujin of Burgeoning Life" data-flag="@X" onclick="openSidebar('165_Ryujin of Burgeoning Life',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\22_Life Carries On.png" id="22_Life Carries On" data-flag="@X" onclick="openSidebar('22_Life Carries On',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\61_Ryujin of Swirling Mist.png" id="61_Ryujin of Swirling Mist" data-flag="@X" onclick="openSidebar('61_Ryujin of Swirling Mist',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\90_Masborg, Lethal Protector.png" id="90_Masborg, Lethal Protector" data-flag="@X" onclick="openSidebar('90_Masborg, Lethal Protector',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ONI-files\img\132_Nekaru, Volatile Mentor_back.png" alt="/sets\ONI-files\img\132_Nekaru, Volatile Mentor_front.png" id="132_Nekaru, Volatile Mentor" data-flag="@XD" onclick="openSidebar('132_Nekaru, Volatile Mentor',false)"><button class="flip-btn" onclick="imgFlip('132_Nekaru, Volatile Mentor')"></button></div>
+			<div class="container"><img alt="/sets\ONI-files\img\171_Shoji, Grounds Tender.png" id="171_Shoji, Grounds Tender" data-flag="@X" onclick="openSidebar('171_Shoji, Grounds Tender',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\26_Nijima, Disciplinary Head.png" id="26_Nijima, Disciplinary Head" data-flag="@X" onclick="openSidebar('26_Nijima, Disciplinary Head',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ONI-files\img\65_Shingaku, Memory's Flow_back.png" alt="/sets\ONI-files\img\65_Shingaku, Memory's Flow_front.png" id="65_Shingaku, Memorys Flow" data-flag="@XD" onclick="openSidebar('65_Shingaku, Memorys Flow',false)"><button class="flip-btn" onclick="imgFlip('65_Shingaku, Memorys Flow')"></button></div>
+			<div class="container"><img alt="/sets\ONI-files\img\96_Ryujin of Wretched Sorrow.png" id="96_Ryujin of Wretched Sorrow" data-flag="@X" onclick="openSidebar('96_Ryujin of Wretched Sorrow',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\134_Old Ways Hellraiser.png" id="134_Old Ways Hellraiser" data-flag="@X" onclick="openSidebar('134_Old Ways Hellraiser',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\177_Unleashed Within.png" id="177_Unleashed Within" data-flag="@X" onclick="openSidebar('177_Unleashed Within',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\32_Ryujin of Otherworldly Light.png" id="32_Ryujin of Otherworldly Light" data-flag="@X" onclick="openSidebar('32_Ryujin of Otherworldly Light',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\38_Alone and My Thoughts.png" id="38_Alone and My Thoughts" data-flag="@X" onclick="openSidebar('38_Alone and My Thoughts',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\74_Battleground Adversary.png" id="74_Battleground Adversary" data-flag="@X" onclick="openSidebar('74_Battleground Adversary',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\136_Ryujin of Reckless Joy.png" id="136_Ryujin of Reckless Joy" data-flag="@X" onclick="openSidebar('136_Ryujin of Reckless Joy',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\146_Archery Club Mentor.png" id="146_Archery Club Mentor" data-flag="@X" onclick="openSidebar('146_Archery Club Mentor',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\2_Academy Reinforcements.png" id="2_Academy Reinforcements" data-flag="@X" onclick="openSidebar('2_Academy Reinforcements',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\43_Delaying Deluge.png" id="43_Delaying Deluge" data-flag="@X" onclick="openSidebar('43_Delaying Deluge',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\75_Contracted Nightmare.png" id="75_Contracted Nightmare" data-flag="@X" onclick="openSidebar('75_Contracted Nightmare',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\140_Splintered Expertise.png" id="140_Splintered Expertise" data-flag="@X" onclick="openSidebar('140_Splintered Expertise',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\151_Herald of Life's Tenacity.png" id="151_Herald of Lifes Tenacity" data-flag="@X" onclick="openSidebar('151_Herald of Lifes Tenacity',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\3_After-Class Club.png" id="3_After-Class Club" data-flag="@X" onclick="openSidebar('3_After-Class Club',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\45_Disciplinary Guard.png" id="45_Disciplinary Guard" data-flag="@X" onclick="openSidebar('45_Disciplinary Guard',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\77_Daemthine's Diabolist.png" id="77_Daemthines Diabolist" data-flag="@X" onclick="openSidebar('77_Daemthines Diabolist',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\110_Angel's Resolve.png" id="110_Angels Resolve" data-flag="@X" onclick="openSidebar('110_Angels Resolve',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\152_High-Spirits Break.png" id="152_High-Spirits Break" data-flag="@X" onclick="openSidebar('152_High-Spirits Break',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\6_Calligrapher's Aides.png" id="6_Calligraphers Aides" data-flag="@X" onclick="openSidebar('6_Calligraphers Aides',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\52_Kajiwara's Lookouts.png" id="52_Kajiwaras Lookouts" data-flag="@X" onclick="openSidebar('52_Kajiwaras Lookouts',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\78_Dissonant Return.png" id="78_Dissonant Return" data-flag="@X" onclick="openSidebar('78_Dissonant Return',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\115_Consuming Ignition.png" id="115_Consuming Ignition" data-flag="@X" onclick="openSidebar('115_Consuming Ignition',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\161_Reclusive Doe.png" id="161_Reclusive Doe" data-flag="@X" onclick="openSidebar('161_Reclusive Doe',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\9_Dropped From Reality.png" id="9_Dropped From Reality" data-flag="@X" onclick="openSidebar('9_Dropped From Reality',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\56_Memory's Flow Kotobuki.png" id="56_Memorys Flow Kotobuki" data-flag="@X" onclick="openSidebar('56_Memorys Flow Kotobuki',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\81_Enma's Howler.png" id="81_Enmas Howler" data-flag="@X" onclick="openSidebar('81_Enmas Howler',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\117_Dangerous Dance.png" id="117_Dangerous Dance" data-flag="@X" onclick="openSidebar('117_Dangerous Dance',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\162_Remui, Spirited Champion.png" id="162_Remui, Spirited Champion" data-flag="@X" onclick="openSidebar('162_Remui, Spirited Champion',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\15_Hitori's Fragmentation.png" id="15_Hitoris Fragmentation" data-flag="@X" onclick="openSidebar('15_Hitoris Fragmentation',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\59_Riptide Hellraiser.png" id="59_Riptide Hellraiser" data-flag="@X" onclick="openSidebar('59_Riptide Hellraiser',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\93_Paragon of Rebellion.png" id="93_Paragon of Rebellion" data-flag="@X" onclick="openSidebar('93_Paragon of Rebellion',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\118_Delinquent Oni.png" id="118_Delinquent Oni" data-flag="@X" onclick="openSidebar('118_Delinquent Oni',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\163_Retrofitted Artillery.png" id="163_Retrofitted Artillery" data-flag="@X" onclick="openSidebar('163_Retrofitted Artillery',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\17_Inugami Twins.png" id="17_Inugami Twins" data-flag="@X" onclick="openSidebar('17_Inugami Twins',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\62_Ryu's Lineage Invocator.png" id="62_Ryus Lineage Invocator" data-flag="@X" onclick="openSidebar('62_Ryus Lineage Invocator',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\94_Point-Blank Coalescence.png" id="94_Point-Blank Coalescence" data-flag="@X" onclick="openSidebar('94_Point-Blank Coalescence',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\126_Hit Up the Spots.png" id="126_Hit Up the Spots" data-flag="@X" onclick="openSidebar('126_Hit Up the Spots',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\168_Senzao Border Patrol.png" id="168_Senzao Border Patrol" data-flag="@X" onclick="openSidebar('168_Senzao Border Patrol',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\21_Kitakui Star Aspirant.png" id="21_Kitakui Star Aspirant" data-flag="@X" onclick="openSidebar('21_Kitakui Star Aspirant',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\68_Stunning Throw.png" id="68_Stunning Throw" data-flag="@X" onclick="openSidebar('68_Stunning Throw',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\95_Relentless Reckoner.png" id="95_Relentless Reckoner" data-flag="@X" onclick="openSidebar('95_Relentless Reckoner',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\127_Honor Roll Blademaster.png" id="127_Honor Roll Blademaster" data-flag="@X" onclick="openSidebar('127_Honor Roll Blademaster',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\169_Senzao Shrine Guard.png" id="169_Senzao Shrine Guard" data-flag="@X" onclick="openSidebar('169_Senzao Shrine Guard',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\28_Paragon of Authority.png" id="28_Paragon of Authority" data-flag="@X" onclick="openSidebar('28_Paragon of Authority',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\69_Test of Talents.png" id="69_Test of Talents" data-flag="@X" onclick="openSidebar('69_Test of Talents',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\99_Spark Hunter's Ambush.png" id="99_Spark Hunters Ambush" data-flag="@X" onclick="openSidebar('99_Spark Hunters Ambush',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\129_Kazue, Hiruya's Beat.png" id="129_Kazue, Hiruyas Beat" data-flag="@X" onclick="openSidebar('129_Kazue, Hiruyas Beat',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\172_Stationside Food Market.png" id="172_Stationside Food Market" data-flag="@X" onclick="openSidebar('172_Stationside Food Market',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\29_Popular Keisei.png" id="29_Popular Keisei" data-flag="@X" onclick="openSidebar('29_Popular Keisei',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\70_Thirst for Inspiration.png" id="70_Thirst for Inspiration" data-flag="@X" onclick="openSidebar('70_Thirst for Inspiration',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\100_Stir the Pot.png" id="100_Stir the Pot" data-flag="@X" onclick="openSidebar('100_Stir the Pot',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\130_Leading Swordmaster.png" id="130_Leading Swordmaster" data-flag="@X" onclick="openSidebar('130_Leading Swordmaster',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\174_Territory Tagger.png" id="174_Territory Tagger" data-flag="@X" onclick="openSidebar('174_Territory Tagger',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\30_Rail Network Overseer.png" id="30_Rail Network Overseer" data-flag="@X" onclick="openSidebar('30_Rail Network Overseer',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\71_Visions of Improbability.png" id="71_Visions of Improbability" data-flag="@X" onclick="openSidebar('71_Visions of Improbability',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\102_Unseeing Hellkite.png" id="102_Unseeing Hellkite" data-flag="@X" onclick="openSidebar('102_Unseeing Hellkite',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\137_Sacred Flame Hinotori.png" id="137_Sacred Flame Hinotori" data-flag="@X" onclick="openSidebar('137_Sacred Flame Hinotori',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\175_Tetsushika Titan.png" id="175_Tetsushika Titan" data-flag="@X" onclick="openSidebar('175_Tetsushika Titan',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\36_Taraikyo Storywright.png" id="36_Taraikyo Storywright" data-flag="@X" onclick="openSidebar('36_Taraikyo Storywright',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\72_Wani Retriever.png" id="72_Wani Retriever" data-flag="@X" onclick="openSidebar('72_Wani Retriever',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\106_Warped Horizon.png" id="106_Warped Horizon" data-flag="@X" onclick="openSidebar('106_Warped Horizon',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\138_Shot Through the Heart.png" id="138_Shot Through the Heart" data-flag="@X" onclick="openSidebar('138_Shot Through the Heart',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\178_Unwavering Challenge.png" id="178_Unwavering Challenge" data-flag="@X" onclick="openSidebar('178_Unwavering Challenge',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\37_Voiceless Herald.png" id="37_Voiceless Herald" data-flag="@X" onclick="openSidebar('37_Voiceless Herald',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\39_Augmented Proctor.png" id="39_Augmented Proctor" data-flag="@X" onclick="openSidebar('39_Augmented Proctor',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\79_Dread Their Return.png" id="79_Dread Their Return" data-flag="@X" onclick="openSidebar('79_Dread Their Return',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\141_Star of Reckless Joy.png" id="141_Star of Reckless Joy" data-flag="@X" onclick="openSidebar('141_Star of Reckless Joy',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\145_Apprentice Flowshaper.png" id="145_Apprentice Flowshaper" data-flag="@X" onclick="openSidebar('145_Apprentice Flowshaper',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\4_Ardent Novelist.png" id="4_Ardent Novelist" data-flag="@X" onclick="openSidebar('4_Ardent Novelist',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\40_Azure Gust Descendant.png" id="40_Azure Gust Descendant" data-flag="@X" onclick="openSidebar('40_Azure Gust Descendant',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\80_Dusk Boundary Watchers.png" id="80_Dusk Boundary Watchers" data-flag="@X" onclick="openSidebar('80_Dusk Boundary Watchers',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\142_Story-Scroll Archiver.png" id="142_Story-Scroll Archiver" data-flag="@X" onclick="openSidebar('142_Story-Scroll Archiver',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\147_Bakeneko City-Goer.png" id="147_Bakeneko City-Goer" data-flag="@X" onclick="openSidebar('147_Bakeneko City-Goer',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\5_Bladework Teacher.png" id="5_Bladework Teacher" data-flag="@X" onclick="openSidebar('5_Bladework Teacher',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\41_Consider.png" id="41_Consider" data-flag="@X" onclick="openSidebar('41_Consider',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\82_Hidanko Swordmaster.png" id="82_Hidanko Swordmaster" data-flag="@X" onclick="openSidebar('82_Hidanko Swordmaster',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\111_Aoyama Grifter.png" id="111_Aoyama Grifter" data-flag="@X" onclick="openSidebar('111_Aoyama Grifter',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\148_Biology Professor.png" id="148_Biology Professor" data-flag="@X" onclick="openSidebar('148_Biology Professor',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\7_Council Roll Call.png" id="7_Council Roll Call" data-flag="@X" onclick="openSidebar('7_Council Roll Call',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\42_Consign to Nowhere.png" id="42_Consign to Nowhere" data-flag="@X" onclick="openSidebar('42_Consign to Nowhere',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\83_Idyllic Temptress.png" id="83_Idyllic Temptress" data-flag="@X" onclick="openSidebar('83_Idyllic Temptress',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\112_Battle Spirit.png" id="112_Battle Spirit" data-flag="@X" onclick="openSidebar('112_Battle Spirit',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\150_Greater Toad Sage.png" id="150_Greater Toad Sage" data-flag="@X" onclick="openSidebar('150_Greater Toad Sage',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\8_Disastrous Derailment.png" id="8_Disastrous Derailment" data-flag="@X" onclick="openSidebar('8_Disastrous Derailment',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\44_Disaster Site Surveyor.png" id="44_Disaster Site Surveyor" data-flag="@X" onclick="openSidebar('44_Disaster Site Surveyor',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\87_Late-Night Line Practice.png" id="87_Late-Night Line Practice" data-flag="@X" onclick="openSidebar('87_Late-Night Line Practice',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\113_Battle-Frenzy Oni.png" id="113_Battle-Frenzy Oni" data-flag="@X" onclick="openSidebar('113_Battle-Frenzy Oni',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\153_Inspired Itsumade.png" id="153_Inspired Itsumade" data-flag="@X" onclick="openSidebar('153_Inspired Itsumade',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\13_Gale Drake Rider.png" id="13_Gale Drake Rider" data-flag="@X" onclick="openSidebar('13_Gale Drake Rider',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\48_Drown In Logistics.png" id="48_Drown In Logistics" data-flag="@X" onclick="openSidebar('48_Drown In Logistics',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\89_Malevolent Whispers.png" id="89_Malevolent Whispers" data-flag="@X" onclick="openSidebar('89_Malevolent Whispers',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\119_Festival Celebrations.png" id="119_Festival Celebrations" data-flag="@X" onclick="openSidebar('119_Festival Celebrations',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\155_Light-Hearted Goading.png" id="155_Light-Hearted Goading" data-flag="@X" onclick="openSidebar('155_Light-Hearted Goading',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\14_Hellraisers Seraph.png" id="14_Hellraisers Seraph" data-flag="@X" onclick="openSidebar('14_Hellraisers Seraph',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\49_Exert Reality.png" id="49_Exert Reality" data-flag="@X" onclick="openSidebar('49_Exert Reality',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\91_Night's Sorrow Rattler.png" id="91_Nights Sorrow Rattler" data-flag="@X" onclick="openSidebar('91_Nights Sorrow Rattler',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\120_Guardian Ushi-Oni.png" id="120_Guardian Ushi-Oni" data-flag="@X" onclick="openSidebar('120_Guardian Ushi-Oni',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\156_Lost to Rust.png" id="156_Lost to Rust" data-flag="@X" onclick="openSidebar('156_Lost to Rust',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\16_Instructor's Guidance.png" id="16_Instructors Guidance" data-flag="@X" onclick="openSidebar('16_Instructors Guidance',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\54_M.D.D Graduate.png" id="54_M.D.D Graduate" data-flag="@X" onclick="openSidebar('54_M.D.D Graduate',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\92_Otherworldly Temptations.png" id="92_Otherworldly Temptations" data-flag="@X" onclick="openSidebar('92_Otherworldly Temptations',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\122_Hellraisers Recruit.png" id="122_Hellraisers Recruit" data-flag="@X" onclick="openSidebar('122_Hellraisers Recruit',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\160_Peaceful Tanuki.png" id="160_Peaceful Tanuki" data-flag="@X" onclick="openSidebar('160_Peaceful Tanuki',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\23_Lost in Transit.png" id="23_Lost in Transit" data-flag="@X" onclick="openSidebar('23_Lost in Transit',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\55_M.D.D Street Patrol.png" id="55_M.D.D Street Patrol" data-flag="@X" onclick="openSidebar('55_M.D.D Street Patrol',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\97_Shrine Shadowspear.png" id="97_Shrine Shadowspear" data-flag="@X" onclick="openSidebar('97_Shrine Shadowspear',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\123_Hidanko First-Year.png" id="123_Hidanko First-Year" data-flag="@X" onclick="openSidebar('123_Hidanko First-Year',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\164_Run the Rails.png" id="164_Run the Rails" data-flag="@X" onclick="openSidebar('164_Run the Rails',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\24_M.D.D Field Officer.png" id="24_M.D.D Field Officer" data-flag="@X" onclick="openSidebar('24_M.D.D Field Officer',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\57_Old-Ways Arcanist.png" id="57_Old-Ways Arcanist" data-flag="@X" onclick="openSidebar('57_Old-Ways Arcanist',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\98_Soul's Mediator.png" id="98_Souls Mediator" data-flag="@X" onclick="openSidebar('98_Souls Mediator',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\124_Hidanko Instructor.png" id="124_Hidanko Instructor" data-flag="@X" onclick="openSidebar('124_Hidanko Instructor',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\166_Seek What Remains.png" id="166_Seek What Remains" data-flag="@X" onclick="openSidebar('166_Seek What Remains',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\25_Messy Kouhai.png" id="25_Messy Kouhai" data-flag="@X" onclick="openSidebar('25_Messy Kouhai',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\60_Run for It.png" id="60_Run for It" data-flag="@X" onclick="openSidebar('60_Run for It',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\101_Toraiga Ascetic.png" id="101_Toraiga Ascetic" data-flag="@X" onclick="openSidebar('101_Toraiga Ascetic',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\125_Highblood Sophomore.png" id="125_Highblood Sophomore" data-flag="@X" onclick="openSidebar('125_Highblood Sophomore',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\167_Senzao Ascetic.png" id="167_Senzao Ascetic" data-flag="@X" onclick="openSidebar('167_Senzao Ascetic',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\27_Pactbound Howler.png" id="27_Pactbound Howler" data-flag="@X" onclick="openSidebar('27_Pactbound Howler',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\63_Seijuku Engineer.png" id="63_Seijuku Engineer" data-flag="@X" onclick="openSidebar('63_Seijuku Engineer',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\103_Unwitting Contractor.png" id="103_Unwitting Contractor" data-flag="@X" onclick="openSidebar('103_Unwitting Contractor',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\128_Just as Taught.png" id="128_Just as Taught" data-flag="@X" onclick="openSidebar('128_Just as Taught',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\170_Serpentine Companion.png" id="170_Serpentine Companion" data-flag="@X" onclick="openSidebar('170_Serpentine Companion',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\31_Rebellious Maiko.png" id="31_Rebellious Maiko" data-flag="@X" onclick="openSidebar('31_Rebellious Maiko',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\64_Seijuku First-Year.png" id="64_Seijuku First-Year" data-flag="@X" onclick="openSidebar('64_Seijuku First-Year',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\104_The Void Stares Back.png" id="104_The Void Stares Back" data-flag="@X" onclick="openSidebar('104_The Void Stares Back',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\133_Okirumi Sightseekers.png" id="133_Okirumi Sightseekers" data-flag="@X" onclick="openSidebar('133_Okirumi Sightseekers',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\173_Taraikyo Stage-Maiden.png" id="173_Taraikyo Stage-Maiden" data-flag="@X" onclick="openSidebar('173_Taraikyo Stage-Maiden',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\33_Slip on the Mask.png" id="33_Slip on the Mask" data-flag="@X" onclick="openSidebar('33_Slip on the Mask',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\66_Strategist's Uplink.png" id="66_Strategists Uplink" data-flag="@X" onclick="openSidebar('66_Strategists Uplink',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\105_Void-Fettered Monstrosity.png" id="105_Void-Fettered Monstrosity" data-flag="@X" onclick="openSidebar('105_Void-Fettered Monstrosity',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\135_Ryu-Blood Responder.png" id="135_Ryu-Blood Responder" data-flag="@X" onclick="openSidebar('135_Ryu-Blood Responder',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\176_Unassuming Staff.png" id="176_Unassuming Staff" data-flag="@X" onclick="openSidebar('176_Unassuming Staff',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\34_Soul's Channeler.png" id="34_Souls Channeler" data-flag="@X" onclick="openSidebar('34_Souls Channeler',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\67_Studious Ningyo.png" id="67_Studious Ningyo" data-flag="@X" onclick="openSidebar('67_Studious Ningyo',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\107_Withering Torment.png" id="107_Withering Torment" data-flag="@X" onclick="openSidebar('107_Withering Torment',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\139_Soul Spite.png" id="139_Soul Spite" data-flag="@X" onclick="openSidebar('139_Soul Spite',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\179_Vision of Hope's Tomorrow.png" id="179_Vision of Hopes Tomorrow" data-flag="@X" onclick="openSidebar('179_Vision of Hopes Tomorrow',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\35_Swordsmanship Club Clique.png" id="35_Swordsmanship Club Clique" data-flag="@X" onclick="openSidebar('35_Swordsmanship Club Clique',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\143_Taraikyo Thunder Artist.png" id="143_Taraikyo Thunder Artist" data-flag="@X" onclick="openSidebar('143_Taraikyo Thunder Artist',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\144_Trigger Discipline.png" id="144_Trigger Discipline" data-flag="@X" onclick="openSidebar('144_Trigger Discipline',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ONI-files\img\230_Serafhin, Temporal Investigator_back.png" alt="/sets\ONI-files\img\230_Serafhin, Temporal Investigator_front.png" id="230_Serafhin, Temporal Investigator" data-flag="@XD" onclick="openSidebar('230_Serafhin, Temporal Investigator',false)"><button class="flip-btn" onclick="imgFlip('230_Serafhin, Temporal Investigator')"></button></div>
+			<div class="container"><img alt="/sets\ONI-files\img\239_Tatsuya, Ai's Second.png" id="239_Tatsuya, Ais Second" data-flag="@X" onclick="openSidebar('239_Tatsuya, Ais Second',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\198_Hellraisers Strongarm.png" id="198_Hellraisers Strongarm" data-flag="@X" onclick="openSidebar('198_Hellraisers Strongarm',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\232_Shiori, the Unbridled.png" id="232_Shiori, the Unbridled" data-flag="@X" onclick="openSidebar('232_Shiori, the Unbridled',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\227_Sayuki, Taraikyo Guardian.png" id="227_Sayuki, Taraikyo Guardian" data-flag="@X" onclick="openSidebar('227_Sayuki, Taraikyo Guardian',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\236_Soulbond Nephilim.png" id="236_Soulbond Nephilim" data-flag="@X" onclick="openSidebar('236_Soulbond Nephilim',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\209_Itakura, Hellraiser's Captain.png" id="209_Itakura, Hellraisers Captain" data-flag="@X" onclick="openSidebar('209_Itakura, Hellraisers Captain',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\204_Hollow Pact.png" id="204_Hollow Pact" data-flag="@X" onclick="openSidebar('204_Hollow Pact',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\200_Hinotori-Blessed Tracker.png" id="200_Hinotori-Blessed Tracker" data-flag="@X" onclick="openSidebar('200_Hinotori-Blessed Tracker',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\229_Senzao Peak Skythresher.png" id="229_Senzao Peak Skythresher" data-flag="@X" onclick="openSidebar('229_Senzao Peak Skythresher',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\186_Briskwind Dancer.png" id="186_Briskwind Dancer" data-flag="@X" onclick="openSidebar('186_Briskwind Dancer',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\181_Alissa, Rogue Element.png" id="181_Alissa, Rogue Element" data-flag="@X" onclick="openSidebar('181_Alissa, Rogue Element',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\246_War-Stage Idol.png" id="246_War-Stage Idol" data-flag="@X" onclick="openSidebar('246_War-Stage Idol',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\225_Sakiko, Taraikyo Sage.png" id="225_Sakiko, Taraikyo Sage" data-flag="@X" onclick="openSidebar('225_Sakiko, Taraikyo Sage',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\191_Embrace the Day.png" id="191_Embrace the Day" data-flag="@X" onclick="openSidebar('191_Embrace the Day',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\189_Curiosities of Life.png" id="189_Curiosities of Life" data-flag="@X" onclick="openSidebar('189_Curiosities of Life',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\199_Hidden Histories.png" id="199_Hidden Histories" data-flag="@X" onclick="openSidebar('199_Hidden Histories',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\234_Shrine Celebrant.png" id="234_Shrine Celebrant" data-flag="@X" onclick="openSidebar('234_Shrine Celebrant',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\244_Void-Touched Archangel.png" id="244_Void-Touched Archangel" data-flag="@X" onclick="openSidebar('244_Void-Touched Archangel',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\214_Manifold Technique.png" id="214_Manifold Technique" data-flag="@X" onclick="openSidebar('214_Manifold Technique',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\228_Senbiki, Myriad Ancient.png" id="228_Senbiki, Myriad Ancient" data-flag="@X" onclick="openSidebar('228_Senbiki, Myriad Ancient',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\183_Ameret, Clad in Shining Glory.png" id="183_Ameret, Clad in Shining Glory" data-flag="@X" onclick="openSidebar('183_Ameret, Clad in Shining Glory',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\217_Nightmares In Reality.png" id="217_Nightmares In Reality" data-flag="@X" onclick="openSidebar('217_Nightmares In Reality',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\212_Kuro, Bitter Shadow.png" id="212_Kuro, Bitter Shadow" data-flag="@X" onclick="openSidebar('212_Kuro, Bitter Shadow',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\187_Casualty Control.png" id="187_Casualty Control" data-flag="@X" onclick="openSidebar('187_Casualty Control',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\206_Indomitable Clash.png" id="206_Indomitable Clash" data-flag="@X" onclick="openSidebar('206_Indomitable Clash',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\226_Sakura-Tail Blademaster.png" id="226_Sakura-Tail Blademaster" data-flag="@X" onclick="openSidebar('226_Sakura-Tail Blademaster',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\233_Shiroyuki, Once and Nothing.png" id="233_Shiroyuki, Once and Nothing" data-flag="@X" onclick="openSidebar('233_Shiroyuki, Once and Nothing',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\237_Student Council Enforcer.png" id="237_Student Council Enforcer" data-flag="@X" onclick="openSidebar('237_Student Council Enforcer',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\223_Rie, Top of Class.png" id="223_Rie, Top of Class" data-flag="@X" onclick="openSidebar('223_Rie, Top of Class',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\219_Omukade, Void Feaster.png" id="219_Omukade, Void Feaster" data-flag="@X" onclick="openSidebar('219_Omukade, Void Feaster',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\180_Akigara Freewheeler.png" id="180_Akigara Freewheeler" data-flag="@X" onclick="openSidebar('180_Akigara Freewheeler',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\243_Void-Augmented Colossus.png" id="243_Void-Augmented Colossus" data-flag="@X" onclick="openSidebar('243_Void-Augmented Colossus',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\197_Helios Ignition.png" id="197_Helios Ignition" data-flag="@X" onclick="openSidebar('197_Helios Ignition',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\247_Whispers of the Watcher.png" id="247_Whispers of the Watcher" data-flag="@X" onclick="openSidebar('247_Whispers of the Watcher',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\193_Forma, Seijuku System.png" id="193_Forma, Seijuku System" data-flag="@X" onclick="openSidebar('193_Forma, Seijuku System',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\202_Hitori, Hidanko Duelist.png" id="202_Hitori, Hidanko Duelist" data-flag="@X" onclick="openSidebar('202_Hitori, Hidanko Duelist',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\201_Hishoki, Apex Nightmare.png" id="201_Hishoki, Apex Nightmare" data-flag="@X" onclick="openSidebar('201_Hishoki, Apex Nightmare',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\222_Reiko, Battle Choreographer.png" id="222_Reiko, Battle Choreographer" data-flag="@X" onclick="openSidebar('222_Reiko, Battle Choreographer',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\215_Masami, Tenkami Exemplar.png" id="215_Masami, Tenkami Exemplar" data-flag="@X" onclick="openSidebar('215_Masami, Tenkami Exemplar',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\224_Sakaya, Seijuku Dean.png" id="224_Sakaya, Seijuku Dean" data-flag="@X" onclick="openSidebar('224_Sakaya, Seijuku Dean',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\194_Hajime, Hidanko Dean.png" id="194_Hajime, Hidanko Dean" data-flag="@X" onclick="openSidebar('194_Hajime, Hidanko Dean',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\218_Ogaki, Contracted Vengeant.png" id="218_Ogaki, Contracted Vengeant" data-flag="@X" onclick="openSidebar('218_Ogaki, Contracted Vengeant',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\182_All Eyes Onstage.png" id="182_All Eyes Onstage" data-flag="@X" onclick="openSidebar('182_All Eyes Onstage',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\210_Kami-Blessed Spiritualist.png" id="210_Kami-Blessed Spiritualist" data-flag="@X" onclick="openSidebar('210_Kami-Blessed Spiritualist',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\216_Naoko, the Hopestruck.png" id="216_Naoko, the Hopestruck" data-flag="@X" onclick="openSidebar('216_Naoko, the Hopestruck',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\192_Enma, Hellraisers Sukeban.png" id="192_Enma, Hellraisers Sukeban" data-flag="@X" onclick="openSidebar('192_Enma, Hellraisers Sukeban',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\185_Bitter Return.png" id="185_Bitter Return" data-flag="@X" onclick="openSidebar('185_Bitter Return',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\205_Inami, Taraikyo Star.png" id="205_Inami, Taraikyo Star" data-flag="@X" onclick="openSidebar('205_Inami, Taraikyo Star',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\240_Tenkami Tactician.png" id="240_Tenkami Tactician" data-flag="@X" onclick="openSidebar('240_Tenkami Tactician',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\213_Maki, Star Above All.png" id="213_Maki, Star Above All" data-flag="@X" onclick="openSidebar('213_Maki, Star Above All',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\245_Voidflame Researcher.png" id="245_Voidflame Researcher" data-flag="@X" onclick="openSidebar('245_Voidflame Researcher',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ONI-files\img\211_Kisaragi Kasen, the Vessel_back.png" alt="/sets\ONI-files\img\211_Kisaragi Kasen, the Vessel_front.png" id="211_Kisaragi Kasen, the Vessel" data-flag="@XD" onclick="openSidebar('211_Kisaragi Kasen, the Vessel',false)"><button class="flip-btn" onclick="imgFlip('211_Kisaragi Kasen, the Vessel')"></button></div>
+			<div class="container"><img alt="/sets\ONI-files\img\231_Setsuko, the Sightseeker.png" id="231_Setsuko, the Sightseeker" data-flag="@X" onclick="openSidebar('231_Setsuko, the Sightseeker',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\238_Tama, Kami's Legacy.png" id="238_Tama, Kamis Legacy" data-flag="@X" onclick="openSidebar('238_Tama, Kamis Legacy',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\203_Hollow Confluence.png" id="203_Hollow Confluence" data-flag="@X" onclick="openSidebar('203_Hollow Confluence',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\235_Shrine-Lurker Ogama.png" id="235_Shrine-Lurker Ogama" data-flag="@X" onclick="openSidebar('235_Shrine-Lurker Ogama',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\208_Iron-Will Delinquent.png" id="208_Iron-Will Delinquent" data-flag="@X" onclick="openSidebar('208_Iron-Will Delinquent',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\195_Harsh Lesson.png" id="195_Harsh Lesson" data-flag="@X" onclick="openSidebar('195_Harsh Lesson',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\188_Consuming Adoration.png" id="188_Consuming Adoration" data-flag="@X" onclick="openSidebar('188_Consuming Adoration',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\207_Into the Fray.png" id="207_Into the Fray" data-flag="@X" onclick="openSidebar('207_Into the Fray',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\190_Dream Big Dreams.png" id="190_Dream Big Dreams" data-flag="@X" onclick="openSidebar('190_Dream Big Dreams',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\221_Orochi Ancient.png" id="221_Orochi Ancient" data-flag="@X" onclick="openSidebar('221_Orochi Ancient',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\184_Backstage Film Crew.png" id="184_Backstage Film Crew" data-flag="@X" onclick="openSidebar('184_Backstage Film Crew',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\196_Haruko, Lady of Ceremonies.png" id="196_Haruko, Lady of Ceremonies" data-flag="@X" onclick="openSidebar('196_Haruko, Lady of Ceremonies',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\220_The Once Wayfinder.png" id="220_The Once Wayfinder" data-flag="@X" onclick="openSidebar('220_The Once Wayfinder',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\242_Urenkal, Profane Deity.png" id="242_Urenkal, Profane Deity" data-flag="@X" onclick="openSidebar('242_Urenkal, Profane Deity',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\241_Ultimate Convergence.png" id="241_Ultimate Convergence" data-flag="@X" onclick="openSidebar('241_Ultimate Convergence',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\248_The Antinomy Project.png" id="248_The Antinomy Project" data-flag="@X" onclick="openSidebar('248_The Antinomy Project',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\1_Urenkal, Void Recurrence.png" id="1_Urenkal, Void Recurrence" data-flag="@X" onclick="openSidebar('1_Urenkal, Void Recurrence',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\249_Derailed Metrowurm.png" id="249_Derailed Metrowurm" data-flag="@X" onclick="openSidebar('249_Derailed Metrowurm',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\251_Lost Identification.png" id="251_Lost Identification" data-flag="@X" onclick="openSidebar('251_Lost Identification',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\250_Gates of Mist.png" id="250_Gates of Mist" data-flag="@X" onclick="openSidebar('250_Gates of Mist',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\252_Mysterious Notebook.png" id="252_Mysterious Notebook" data-flag="@X" onclick="openSidebar('252_Mysterious Notebook',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\253_Power Source.png" id="253_Power Source" data-flag="@X" onclick="openSidebar('253_Power Source',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\254_Rail Lines Constructor.png" id="254_Rail Lines Constructor" data-flag="@X" onclick="openSidebar('254_Rail Lines Constructor',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\255_Security Proxy.png" id="255_Security Proxy" data-flag="@X" onclick="openSidebar('255_Security Proxy',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\256_Station Ticket-Taker.png" id="256_Station Ticket-Taker" data-flag="@X" onclick="openSidebar('256_Station Ticket-Taker',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\286_Fatigue.png" id="286_Fatigue" data-flag="@X" onclick="openSidebar('286_Fatigue',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\281_Plains.png" id="281_Plains" data-flag="@X" onclick="openSidebar('281_Plains',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\282_Island.png" id="282_Island" data-flag="@X" onclick="openSidebar('282_Island',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\284_Mountain.png" id="284_Mountain" data-flag="@X" onclick="openSidebar('284_Mountain',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\285_Forest.png" id="285_Forest" data-flag="@X" onclick="openSidebar('285_Forest',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\283_Swamp.png" id="283_Swamp" data-flag="@X" onclick="openSidebar('283_Swamp',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\1t_Fan.png" id="1t_Fan" data-flag="@X" onclick="openSidebar('1t_Fan',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\2t_Void Nightmare.png" id="2t_Void Nightmare" data-flag="@X" onclick="openSidebar('2t_Void Nightmare',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\16t_Spirit Nightmare.png" id="16t_Spirit Nightmare" data-flag="@X" onclick="openSidebar('16t_Spirit Nightmare',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\21t_Artifact Soldier.png" id="21t_Artifact Soldier" data-flag="@X" onclick="openSidebar('21t_Artifact Soldier',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\22t_Treasure.png" id="22t_Treasure" data-flag="@X" onclick="openSidebar('22t_Treasure',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\23t_Station Robot.png" id="23t_Station Robot" data-flag="@X" onclick="openSidebar('23t_Station Robot',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\3t_Dragon Spirit.png" id="3t_Dragon Spirit" data-flag="@X" onclick="openSidebar('3t_Dragon Spirit',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\4t_Spirit Samurai.png" id="4t_Spirit Samurai" data-flag="@X" onclick="openSidebar('4t_Spirit Samurai',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\5t_Cat Spirit.png" id="5t_Cat Spirit" data-flag="@X" onclick="openSidebar('5t_Cat Spirit',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\6t_Demon Horror.png" id="6t_Demon Horror" data-flag="@X" onclick="openSidebar('6t_Demon Horror',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\7t_Shark Spirit.png" id="7t_Shark Spirit" data-flag="@X" onclick="openSidebar('7t_Shark Spirit',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\8t_Soldier.png" id="8t_Soldier" data-flag="@X" onclick="openSidebar('8t_Soldier',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\9t_Elemental Bird.png" id="9t_Elemental Bird" data-flag="@X" onclick="openSidebar('9t_Elemental Bird',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\10t_Elk Spirit.png" id="10t_Elk Spirit" data-flag="@X" onclick="openSidebar('10t_Elk Spirit',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\11t_Goggles.png" id="11t_Goggles" data-flag="@X" onclick="openSidebar('11t_Goggles',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\19t_Weird.png" id="19t_Weird" data-flag="@X" onclick="openSidebar('19t_Weird',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\12t_Dragon.png" id="12t_Dragon" data-flag="@X" onclick="openSidebar('12t_Dragon',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\13t_Human Illusion.png" id="13t_Human Illusion" data-flag="@X" onclick="openSidebar('13t_Human Illusion',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\14t_Rebel.png" id="14t_Rebel" data-flag="@X" onclick="openSidebar('14t_Rebel',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\15t_Spirit Beast.png" id="15t_Spirit Beast" data-flag="@X" onclick="openSidebar('15t_Spirit Beast',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\17t_Student.png" id="17t_Student" data-flag="@X" onclick="openSidebar('17t_Student',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\18t_Student Advisor.png" id="18t_Student Advisor" data-flag="@X" onclick="openSidebar('18t_Student Advisor',false)"></div>
+			<div class="container"><img alt="/sets\ONI-files\img\20t_Wolf Spirit.png" id="20t_Wolf Spirit" data-flag="@X" onclick="openSidebar('20t_Wolf Spirit',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
