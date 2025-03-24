@@ -24,7 +24,7 @@
 			"name": "Taraikyo Thunder Artist",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Human Student Bard ",
+			"type": "Creature — Human Student Performer ",
 			"collector_number": "143",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/143_Taraikyo Thunder Artist.png"
@@ -374,7 +374,7 @@
 			"name": "Kitakui Star Aspirant",
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
-			"type": "Creature — Spirit Cat Bard ",
+			"type": "Creature — Spirit Cat Performer ",
 			"collector_number": "21",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/21_Kitakui Star Aspirant.png"
@@ -395,9 +395,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Artifact Creature — Soldier ",
-			"collector_number": "21",
+			"collector_number": "24",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/21_Artifact Soldier.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/24_Artifact Soldier.png"
 			}
 		},
 		{
@@ -912,9 +912,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Spirit Beast ",
-			"collector_number": "15",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/15_Spirit Beast.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/18_Spirit Beast.png"
 			}
 		},
 		{
@@ -961,7 +961,7 @@
 			"name": "Diva Sensation",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
-			"type": "Artifact Creature — Bard Avatar ",
+			"type": "Artifact Creature — Performer Avatar ",
 			"collector_number": "47",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/47_Diva Sensation.png"
@@ -971,7 +971,7 @@
 			"name": "Story-Scroll Archiver",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
-			"type": "Creature — Human Student Bard ",
+			"type": "Creature — Human Student Advisor ",
 			"collector_number": "142",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/142_Story-Scroll Archiver.png"
@@ -1002,9 +1002,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Elemental Bird ",
-			"collector_number": "9",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/9_Elemental Bird.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/12_Elemental Bird.png"
 			}
 		},
 		{
@@ -1332,9 +1332,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Student ",
-			"collector_number": "17",
+			"collector_number": "20",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/17_Student.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/20_Student.png"
 			}
 		},
 		{
@@ -1548,7 +1548,7 @@
 			"name": "Kazue, Hiruya's Beat",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
-			"type": "Legendary Creature — Cyborg Bard ",
+			"type": "Legendary Creature — Cyborg Performer ",
 			"collector_number": "129",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/129_Kazue, Hiruya's Beat.png"
@@ -1599,9 +1599,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Legendary Token Creature — Elemental Dragon ",
-			"collector_number": "11",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/11_Goggles.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/14_Goggles.png"
 			}
 		},
 		{
@@ -1698,7 +1698,7 @@
 			"name": "Inami, Taraikyo Star",
 			"rarity": "uncommon",
 			"mana_cost": "{R}{G}{W}",
-			"type": "Legendary Creture — Cat Spirit Bard",
+			"type": "Legendary Creture — Cat Spirit Performer",
 			"collector_number": "205",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/205_Inami, Taraikyo Star.png"
@@ -1896,9 +1896,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Soldier ",
-			"collector_number": "8",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/8_Soldier.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/10_Soldier.png"
 			}
 		},
 		{
@@ -1946,9 +1946,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Shark Spirit ",
-			"collector_number": "7",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/7_Shark Spirit.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/8_Shark Spirit.png"
 			}
 		},
 		{
@@ -1965,7 +1965,7 @@
 			"name": "Star of Reckless Joy",
 			"rarity": "uncommon",
 			"mana_cost": "{5}{R}{R}",
-			"type": "Creature — Human Bard ",
+			"type": "Creature — Human Performer ",
 			"collector_number": "141",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/141_Star of Reckless Joy.png"
@@ -1986,9 +1986,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Elk Spirit ",
-			"collector_number": "10",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/10_Elk Spirit.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/13_Elk Spirit.png"
 			}
 		},
 		{
@@ -2830,13 +2830,13 @@
 			}
 		},
 		{
-			"name": "Cat Spirit",
+			"name": "Cat",
 			"rarity": "special",
 			"mana_cost": "",
-			"type": "Token Creature — Cat Spirit ",
-			"collector_number": "5",
+			"type": "Token Creature — Cat  ",
+			"collector_number": "6",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/5_Cat Spirit.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/6_Cat.png"
 			}
 		},
 		{
@@ -2844,9 +2844,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Wolf Spirit ",
-			"collector_number": "20",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/20_Wolf Spirit.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/23_Wolf Spirit.png"
 			}
 		},
 		{
@@ -2854,9 +2854,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Human Ilusion ",
-			"collector_number": "13",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/13_Human Illusion.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/16_Human Illusion.png"
 			}
 		},
 		{
@@ -2864,9 +2864,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Artifact — Treasure ",
-			"collector_number": "22",
+			"collector_number": "25",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/22_Treasure.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/25_Treasure.png"
 			}
 		},
 		{
@@ -2874,9 +2874,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Rebel ",
-			"collector_number": "14",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/14_Rebel.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/17_Rebel.png"
 			}
 		},
 		{
@@ -2884,9 +2884,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Student Advisor ",
-			"collector_number": "18",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/18_Student Advisor.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/21_Student Advisor.png"
 			}
 		},
 		{
@@ -2894,9 +2894,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Demon Horror ",
-			"collector_number": "6",
+			"collector_number": "7",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/6_Demon Horror.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/7_Demon Horror.png"
 			}
 		},
 		{
@@ -2904,9 +2904,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Dragon  ",
-			"collector_number": "12",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/12_Dragon.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/15_Dragon.png"
 			}
 		},
 		{
@@ -2914,9 +2914,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Spirit Nightmare ",
-			"collector_number": "16",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/16_Spirit Nightmare.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/19_Spirit Nightmare.png"
 			}
 		},
 		{
@@ -2924,9 +2924,9 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Weird ",
-			"collector_number": "19",
+			"collector_number": "22",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/19_Weird.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/22_Weird.png"
 			}
 		},
 		{
@@ -3097,10 +3097,10 @@
 			"name": "Station Robot",
 			"rarity": "special",
 			"mana_cost": "",
-			"type": "Land Creature — Station Robot ",
-			"collector_number": "23",
+			"type": "Token Land Creature — Station Robot ",
+			"collector_number": "26",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/23_Station Robot.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/26_Station Robot.png"
 			}
 		},
 		{
@@ -3161,6 +3161,36 @@
 			"collector_number": "124",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/124_Hidanko Instructor.png"
+			}
+		},
+		{
+			"name": "Wolf Nightmare",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Creature — Wolf Nightmare ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/11_Wolf Nightmare.png"
+			}
+		},
+		{
+			"name": "Vehicle",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Artifact — Vehicle ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/5_Vehicle.png"
+			}
+		},
+		{
+			"name": "Skeleton",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Creature — Skeleton ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/9_Skeleton.png"
 			}
 		}
 	]
