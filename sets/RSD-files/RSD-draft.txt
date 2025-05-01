@@ -7,7 +7,7 @@
 			"type": "Creature — Cat Citizen ",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/1_CW01 Guild Aspirant.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/1_CW01 Guild Aspirant.png"
 			}
 		},
 		{
@@ -17,7 +17,7 @@
 			"type": "Creature — Angel Archer ",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/2_CW02 Sanctum Sureshot.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/2_CW02 Sanctum Sureshot.png"
 			}
 		},
 		{
@@ -27,7 +27,7 @@
 			"type": "Creature — Human Rogue ",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/3_CW03 Snowsteppe Adventurer.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/3_CW03 Snowsteppe Adventurer.png"
 			}
 		},
 		{
@@ -37,7 +37,7 @@
 			"type": "Instant",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/12_CW12 Lightsear Barrage.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/12_CW12 Lightsear Barrage.png"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/13_CW13 Blessed Bow.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/13_CW13 Blessed Bow.png"
 			}
 		},
 		{
@@ -57,7 +57,7 @@
 			"type": "Sorcery",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/14_CW14 Reach for the Divine.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/14_CW14 Reach for the Divine.png"
 			}
 		},
 		{
@@ -67,7 +67,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/11_CW11 Fettered Decree.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/11_CW11 Fettered Decree.png"
 			}
 		},
 		{
@@ -77,7 +77,7 @@
 			"type": "Instant",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/10_CW10 Rapid Reload.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/10_CW10 Rapid Reload.png"
 			}
 		},
 		{
@@ -87,7 +87,7 @@
 			"type": "Creature — Human Mercenary ",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/9_CW09 Hired Gun.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/9_CW09 Hired Gun.png"
 			}
 		},
 		{
@@ -97,7 +97,7 @@
 			"type": "Creature — Minotaur Warrior ",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/8_CW08 [NAME] Militia.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/8_CW08 [NAME] Militia.png"
 			}
 		},
 		{
@@ -107,7 +107,7 @@
 			"type": "Creature — Human Peasant ",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/6_CW06 Highland Shepherd.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/6_CW06 Highland Shepherd.png"
 			}
 		},
 		{
@@ -117,7 +117,7 @@
 			"type": "Creature — Elemental Drake ",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/7_CW07 Nimbus Drake.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/7_CW07 Nimbus Drake.png"
 			}
 		},
 		{
@@ -127,7 +127,7 @@
 			"type": "Creature — Azra Soldier ",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/5_CW05 Armament Appraiser.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/5_CW05 Armament Appraiser.png"
 			}
 		},
 		{
@@ -137,7 +137,7 @@
 			"type": "Creature — Centaur Soldier ",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/4_CW04 Guild Courser.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/4_CW04 Guild Courser.png"
 			}
 		},
 		{
@@ -147,7 +147,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "71",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/71_CC0B Blightround Musket.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/71_CC0B Blightround Musket.png"
 			}
 		},
 		{
@@ -157,7 +157,7 @@
 			"type": "Instant",
 			"collector_number": "28",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/28_CU14 Decree of Dissolution.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/28_CU14 Decree of Dissolution.png"
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 			"type": "Instant",
 			"collector_number": "27",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/27_CU13 Bounty Collection.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/27_CU13 Bounty Collection.png"
 			}
 		},
 		{
@@ -177,7 +177,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "26",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/26_CU12 Strip Identity.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/26_CU12 Strip Identity.png"
 			}
 		},
 		{
@@ -187,7 +187,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "25",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/25_CU11 Posessed Wingspan.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/25_CU11 Posessed Wingspan.png"
 			}
 		},
 		{
@@ -197,7 +197,7 @@
 			"type": "Instant",
 			"collector_number": "24",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/24_CU10 Precise Denial.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/24_CU10 Precise Denial.png"
 			}
 		},
 		{
@@ -207,7 +207,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "23",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/23_CU09 Trainee's Tome.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/23_CU09 Trainee's Tome.png"
 			}
 		},
 		{
@@ -217,7 +217,7 @@
 			"type": "Creature — Beast ",
 			"collector_number": "22",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/22_CU08 [NAME] Apex.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/22_CU08 [NAME] Apex.png"
 			}
 		},
 		{
@@ -227,7 +227,7 @@
 			"type": "Creature — Dragon ",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/21_CU07 Frolicking Yearling.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/21_CU07 Frolicking Yearling.png"
 			}
 		},
 		{
@@ -237,7 +237,7 @@
 			"type": "Creature — Human Warlock ",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/20_CU06 Soulblast Arcanist.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/20_CU06 Soulblast Arcanist.png"
 			}
 		},
 		{
@@ -247,7 +247,7 @@
 			"type": "Artifact Creature — Thopter ",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/19_CU05 Forgesmith's Eye.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/19_CU05 Forgesmith's Eye.png"
 			}
 		},
 		{
@@ -257,7 +257,7 @@
 			"type": "Creature — Azra Ranger ",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/17_CU03 Battlefield Specialist.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/17_CU03 Battlefield Specialist.png"
 			}
 		},
 		{
@@ -267,7 +267,7 @@
 			"type": "Creature — Crab Insect ",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/18_CU04 Beginner's Bane.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/18_CU04 Beginner's Bane.png"
 			}
 		},
 		{
@@ -277,7 +277,7 @@
 			"type": "Creature — Fox Rogue ",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/16_CU02 [NAME] Ambusher.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/16_CU02 [NAME] Ambusher.png"
 			}
 		},
 		{
@@ -287,7 +287,7 @@
 			"type": "Artifact Creature — Shapeshifter Horror ",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/15_CU01 Disarming Mimic.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/15_CU01 Disarming Mimic.png"
 			}
 		},
 		{
@@ -297,7 +297,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "74",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/74_CC0U Crafted Wings.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/74_CC0U Crafted Wings.png"
 			}
 		},
 		{
@@ -307,7 +307,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "73",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/73_CC0R Twin Stilettos.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/73_CC0R Twin Stilettos.png"
 			}
 		},
 		{
@@ -317,7 +317,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "72",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/72_CC0G Groveforce Sword.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/72_CC0G Groveforce Sword.png"
 			}
 		},
 		{
@@ -327,7 +327,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "75",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/75_CC0W Rousing Harp.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/75_CC0W Rousing Harp.png"
 			}
 		},
 		{
@@ -337,7 +337,7 @@
 			"type": "Creature — Human Ranger ",
 			"collector_number": "30",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/30_CB02 Callous Huntress.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/30_CB02 Callous Huntress.png"
 			}
 		},
 		{
@@ -347,7 +347,7 @@
 			"type": "Creature — Elemental Skeleton ",
 			"collector_number": "31",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/31_CB03 Farsight Familiar.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/31_CB03 Farsight Familiar.png"
 			}
 		},
 		{
@@ -357,7 +357,7 @@
 			"type": "Creature — Cat Advisor ",
 			"collector_number": "33",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/33_CB05 [NAME] Consultant.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/33_CB05 [NAME] Consultant.png"
 			}
 		},
 		{
@@ -367,7 +367,7 @@
 			"type": "Creature — Halfling Artificer ",
 			"collector_number": "34",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/34_CB06 Dreadsmith.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/34_CB06 Dreadsmith.png"
 			}
 		},
 		{
@@ -377,7 +377,7 @@
 			"type": "Creature — Human Assassuin ",
 			"collector_number": "35",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/35_CB07 Dashing Heavyshot.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/35_CB07 Dashing Heavyshot.png"
 			}
 		},
 		{
@@ -387,7 +387,7 @@
 			"type": "Creature — Goblin Horror ",
 			"collector_number": "36",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/36_CB08 Darktouched Devourer.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/36_CB08 Darktouched Devourer.png"
 			}
 		},
 		{
@@ -397,7 +397,7 @@
 			"type": "Artifact",
 			"collector_number": "37",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/37_CB09 Poisoned Rounds.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/37_CB09 Poisoned Rounds.png"
 			}
 		},
 		{
@@ -407,7 +407,7 @@
 			"type": "Creature — Elk Horror ",
 			"collector_number": "32",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/32_CB04 Miasmic Stag.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/32_CB04 Miasmic Stag.png"
 			}
 		},
 		{
@@ -417,7 +417,7 @@
 			"type": "Instant",
 			"collector_number": "39",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/39_CB11 Corrupted Oath.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/39_CB11 Corrupted Oath.png"
 			}
 		},
 		{
@@ -427,7 +427,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "38",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/38_CB10 Crystal-Carved Blade.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/38_CB10 Crystal-Carved Blade.png"
 			}
 		},
 		{
@@ -437,7 +437,7 @@
 			"type": "Sorcery",
 			"collector_number": "40",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/40_CB12 Extract Determination.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/40_CB12 Extract Determination.png"
 			}
 		},
 		{
@@ -447,7 +447,7 @@
 			"type": "Instant",
 			"collector_number": "41",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/41_CB13 Take by Surprise.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/41_CB13 Take by Surprise.png"
 			}
 		},
 		{
@@ -457,7 +457,7 @@
 			"type": "Instant",
 			"collector_number": "42",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/42_CB14 Back for More.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/42_CB14 Back for More.png"
 			}
 		},
 		{
@@ -467,7 +467,7 @@
 			"type": "Creature — Cat Rogue ",
 			"collector_number": "29",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/29_CB01 Spark Hunter's Hire.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/29_CB01 Spark Hunter's Hire.png"
 			}
 		},
 		{
@@ -477,7 +477,7 @@
 			"type": "Creature — Elf Archer ",
 			"collector_number": "43",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/43_CR01 Wildbond Hunter.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/43_CR01 Wildbond Hunter.png"
 			}
 		},
 		{
@@ -487,7 +487,7 @@
 			"type": "Creature — Cat Rogue ",
 			"collector_number": "44",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/44_CR02 Chakram Pitcher.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/44_CR02 Chakram Pitcher.png"
 			}
 		},
 		{
@@ -497,7 +497,7 @@
 			"type": "Creature — Goblin Horror ",
 			"collector_number": "45",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/45_CR03 Hemogoblins.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/45_CR03 Hemogoblins.png"
 			}
 		},
 		{
@@ -507,7 +507,7 @@
 			"type": "Creature — Cat Ranger ",
 			"collector_number": "46",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/46_CR04 Wild-Ways Huntress.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/46_CR04 Wild-Ways Huntress.png"
 			}
 		},
 		{
@@ -517,7 +517,7 @@
 			"type": "Creature — Elf Druid ",
 			"collector_number": "47",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/47_CR05 Wild-Ways Ritualist.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/47_CR05 Wild-Ways Ritualist.png"
 			}
 		},
 		{
@@ -527,7 +527,7 @@
 			"type": "Creature — Cat  Warrior ",
 			"collector_number": "48",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/48_CR06 Lotusfire Dancer.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/48_CR06 Lotusfire Dancer.png"
 			}
 		},
 		{
@@ -537,7 +537,7 @@
 			"type": "Creature — Dragon Knight ",
 			"collector_number": "49",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/49_CR07 Dragonflame Paladin.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/49_CR07 Dragonflame Paladin.png"
 			}
 		},
 		{
@@ -547,7 +547,7 @@
 			"type": "Instant",
 			"collector_number": "51",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/51_CR09 Take the Shot.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/51_CR09 Take the Shot.png"
 			}
 		},
 		{
@@ -557,7 +557,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "52",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/52_CR10 Flametouch Gauntlet.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/52_CR10 Flametouch Gauntlet.png"
 			}
 		},
 		{
@@ -567,7 +567,7 @@
 			"type": "Instant",
 			"collector_number": "53",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/53_CR11 Guns Blazing.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/53_CR11 Guns Blazing.png"
 			}
 		},
 		{
@@ -577,7 +577,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "54",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/54_CR12 Lightning Spear.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/54_CR12 Lightning Spear.png"
 			}
 		},
 		{
@@ -587,7 +587,7 @@
 			"type": "Sorcery",
 			"collector_number": "55",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/55_CR13 Provoke Conflict.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/55_CR13 Provoke Conflict.png"
 			}
 		},
 		{
@@ -597,7 +597,7 @@
 			"type": "Instant",
 			"collector_number": "56",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/56_CR14 Erupting Roar.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/56_CR14 Erupting Roar.png"
 			}
 		},
 		{
@@ -607,7 +607,7 @@
 			"type": "Creature — Elemental Dinosaur ",
 			"collector_number": "50",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/50_CR08 Molten Cragstomper.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/50_CR08 Molten Cragstomper.png"
 			}
 		},
 		{
@@ -617,7 +617,7 @@
 			"type": "Creature — Goblin Warrior ",
 			"collector_number": "57",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/57_CG01 Venturing Goblin.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/57_CG01 Venturing Goblin.png"
 			}
 		},
 		{
@@ -627,7 +627,7 @@
 			"type": "Creature — Human Monk ",
 			"collector_number": "58",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/58_CG02 Blast-Fist Brawler.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/58_CG02 Blast-Fist Brawler.png"
 			}
 		},
 		{
@@ -637,7 +637,7 @@
 			"type": "Creature — Merfolk Cleric ",
 			"collector_number": "59",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/59_CG03 Primeval Muse.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/59_CG03 Primeval Muse.png"
 			}
 		},
 		{
@@ -647,7 +647,7 @@
 			"type": "Artifact Creature — Golem ",
 			"collector_number": "60",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/60_CG04 Rumbling Gladewalker.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/60_CG04 Rumbling Gladewalker.png"
 			}
 		},
 		{
@@ -657,7 +657,7 @@
 			"type": "Creature — Plant Horror ",
 			"collector_number": "63",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/63_CG07 Steeleater Flora.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/63_CG07 Steeleater Flora.png"
 			}
 		},
 		{
@@ -667,7 +667,7 @@
 			"type": "Creature — Elk Rabbit Ranger ",
 			"collector_number": "65",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/65_CG09 Hinterwoods Sage.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/65_CG09 Hinterwoods Sage.png"
 			}
 		},
 		{
@@ -677,7 +677,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "66",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/66_CG10 Gathering Pan.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/66_CG10 Gathering Pan.png"
 			}
 		},
 		{
@@ -687,7 +687,7 @@
 			"type": "Instant",
 			"collector_number": "67",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/67_CG11 Canopy Prowling.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/67_CG11 Canopy Prowling.png"
 			}
 		},
 		{
@@ -697,7 +697,7 @@
 			"type": "Creature — Jackal Ranger ",
 			"collector_number": "61",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/61_CG05 Wild-Ways Ranger.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/61_CG05 Wild-Ways Ranger.png"
 			}
 		},
 		{
@@ -707,7 +707,7 @@
 			"type": "Instant",
 			"collector_number": "68",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/68_CG12 Clear Shot.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/68_CG12 Clear Shot.png"
 			}
 		},
 		{
@@ -717,7 +717,7 @@
 			"type": "Instant",
 			"collector_number": "69",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/69_CG13 Armament Rejection.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/69_CG13 Armament Rejection.png"
 			}
 		},
 		{
@@ -727,7 +727,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "70",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/70_CG14 Titanhunter Arms.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/70_CG14 Titanhunter Arms.png"
 			}
 		},
 		{
@@ -737,7 +737,7 @@
 			"type": "Creature — Centaur Archer ",
 			"collector_number": "62",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/62_CG06 Wild-Ways Courser.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/62_CG06 Wild-Ways Courser.png"
 			}
 		},
 		{
@@ -747,7 +747,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "77",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/77_CC02 Single-Use Explosive.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/77_CC02 Single-Use Explosive.png"
 			}
 		},
 		{
@@ -757,7 +757,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "78",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/78_CC03 Big-Bore Cannon.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/78_CC03 Big-Bore Cannon.png"
 			}
 		},
 		{
@@ -767,7 +767,7 @@
 			"type": "Artifact",
 			"collector_number": "79",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/79_CC04 Weaponsmith's Anvil.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/79_CC04 Weaponsmith's Anvil.png"
 			}
 		},
 		{
@@ -777,7 +777,7 @@
 			"type": "Artifact",
 			"collector_number": "76",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/76_CC01 Ammo Belt.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/76_CC01 Ammo Belt.png"
 			}
 		},
 		{
@@ -787,7 +787,7 @@
 			"type": "Land",
 			"collector_number": "80",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/80_CL01 Nimbus Maze.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/80_CL01 Nimbus Maze.png"
 			}
 		},
 		{
@@ -797,7 +797,7 @@
 			"type": "Land",
 			"collector_number": "81",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/81_CL02 Foreboding Ruins.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/81_CL02 Foreboding Ruins.png"
 			}
 		},
 		{
@@ -807,7 +807,7 @@
 			"type": "Land",
 			"collector_number": "82",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/82_CL03 Ancient Battleground.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/82_CL03 Ancient Battleground.png"
 			}
 		},
 		{
@@ -817,7 +817,7 @@
 			"type": "Land",
 			"collector_number": "83",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/83_CL04 Mountaintop Monument.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/83_CL04 Mountaintop Monument.png"
 			}
 		},
 		{
@@ -827,7 +827,7 @@
 			"type": "Land",
 			"collector_number": "84",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/84_CL05 Guarded Citadel.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/84_CL05 Guarded Citadel.png"
 			}
 		},
 		{
@@ -837,7 +837,7 @@
 			"type": "Land",
 			"collector_number": "86",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/86_CL07 Hollowmire Township.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/86_CL07 Hollowmire Township.png"
 			}
 		},
 		{
@@ -847,7 +847,7 @@
 			"type": "Land",
 			"collector_number": "87",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/87_CL08 Shorecarved Cliffs.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/87_CL08 Shorecarved Cliffs.png"
 			}
 		},
 		{
@@ -857,7 +857,7 @@
 			"type": "Land",
 			"collector_number": "88",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/88_CL09 Skyward Port.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/88_CL09 Skyward Port.png"
 			}
 		},
 		{
@@ -867,7 +867,7 @@
 			"type": "Land",
 			"collector_number": "89",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/89_CL10 Sanctified Ground.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/89_CL10 Sanctified Ground.png"
 			}
 		},
 		{
@@ -877,7 +877,7 @@
 			"type": "Land",
 			"collector_number": "90",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/90_CL11 Redeveloped Cityscape.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/90_CL11 Redeveloped Cityscape.png"
 			}
 		},
 		{
@@ -887,7 +887,7 @@
 			"type": "Land",
 			"collector_number": "85",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/85_CL06 Inverted Spires.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/85_CL06 Inverted Spires.png"
 			}
 		},
 		{
@@ -897,7 +897,7 @@
 			"type": "Creature",
 			"collector_number": "64",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/-files/img/64_CG08 Hollowmire Veteran.png"
+				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/64_CG08 Hollowmire Veteran.png"
 			}
 		}
 	]
