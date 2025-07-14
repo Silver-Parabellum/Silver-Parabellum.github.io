@@ -1,1 +1,630 @@
-﻿[{"card_name": "CW01 Guild Aspirant", "number": 1, "shape": "normal"}, {"card_name": "CU01 Disarming Mimic", "number": 15, "shape": "normal"}, {"card_name": "CB01 Spark Hunter's Hire", "number": 29, "shape": "normal"}, {"card_name": "CR01 Wildbond Hunter", "number": 43, "shape": "normal"}, {"card_name": "CG01 Venturing Goblin", "number": 57, "shape": "normal"}, {"card_name": "CW02 Sanctum Sureshot", "number": 2, "shape": "adventure"}, {"card_name": "CU02 [NAME] Ambusher", "number": 16, "shape": "normal"}, {"card_name": "CB02 Callous Huntress", "number": 30, "shape": "normal"}, {"card_name": "CR02 Chakram Pitcher", "number": 44, "shape": "normal"}, {"card_name": "CG02 Blast-Fist Brawler", "number": 58, "shape": "normal"}, {"card_name": "CW03 Snowsteppe Adventurer", "number": 3, "shape": "normal"}, {"card_name": "CU03 Battlefield Specialist", "number": 17, "shape": "adventure"}, {"card_name": "CB03 Farsight Familiar", "number": 31, "shape": "normal"}, {"card_name": "CR03 Hemogoblins", "number": 45, "shape": "normal"}, {"card_name": "CG03 Primeval Muse", "number": 59, "shape": "normal"}, {"card_name": "CW04 Guild Courser", "number": 4, "shape": "normal"}, {"card_name": "CU04 Beginner's Bane", "number": 18, "shape": "normal"}, {"card_name": "CB04 Miasmic Stag", "number": 32, "shape": "normal"}, {"card_name": "CR04 Wild-Ways Huntress", "number": 46, "shape": "normal"}, {"card_name": "CG04 Rumbling Gladewalker", "number": 60, "shape": "normal"}, {"card_name": "CW05 Armament Appraiser", "number": 5, "shape": "normal"}, {"card_name": "CU05 Forgesmith's Eye", "number": 19, "shape": "normal"}, {"card_name": "CB05 [NAME] Consultant", "number": 33, "shape": "adventure"}, {"card_name": "CR05 Wild-Ways Ritualist", "number": 47, "shape": "adventure"}, {"card_name": "CG05 Wild-Ways Ranger", "number": 61, "shape": "normal"}, {"card_name": "CW06 Highland Shepherd", "number": 6, "shape": "normal"}, {"card_name": "CU06 Soulblast Arcanist", "number": 20, "shape": "adventure"}, {"card_name": "CB06 Dreadsmith", "number": 34, "shape": "normal"}, {"card_name": "CR06 Lotusfire Dancer", "number": 48, "shape": "adventure"}, {"card_name": "CG06 Wild-Ways Courser", "number": 62, "shape": "adventure"}, {"card_name": "CW07 Nimbus Drake", "number": 7, "shape": "normal"}, {"card_name": "CU07 Frolicking Yearling", "number": 21, "shape": "normal"}, {"card_name": "CB07 Dashing Heavyshot", "number": 35, "shape": "normal"}, {"card_name": "CR07 Dragonflame Paladin", "number": 49, "shape": "normal"}, {"card_name": "CG07 Steeleater Flora", "number": 63, "shape": "normal"}, {"card_name": "CW08 [NAME] Militia", "number": 8, "shape": "adventure"}, {"card_name": "CU08 [NAME] Apex", "number": 22, "shape": "normal"}, {"card_name": "CB08 Darktouched Devourer", "number": 36, "shape": "adventure"}, {"card_name": "CR08 Molten Cragstomper", "number": 50, "shape": "normal"}, {"card_name": "CG08 Hollowmire Veteran", "number": 64, "shape": "normal"}, {"card_name": "CW09 Hired Gun", "number": 9, "shape": "normal"}, {"card_name": "CU09 Trainee's Tome", "number": 23, "shape": "normal"}, {"card_name": "CB09 Poisoned Rounds", "number": 37, "shape": "normal"}, {"card_name": "CR09 Take the Shot", "number": 51, "shape": "normal"}, {"card_name": "CG09 Hinterwoods Sage", "number": 65, "shape": "adventure"}, {"card_name": "CW10 Rapid Reload", "number": 10, "shape": "normal"}, {"card_name": "CU10 Precise Denial", "number": 24, "shape": "normal"}, {"card_name": "CB10 Crystal-Carved Blade", "number": 38, "shape": "normal"}, {"card_name": "CR10 Flametouch Gauntlet", "number": 52, "shape": "normal"}, {"card_name": "CG10 Gathering Pan", "number": 66, "shape": "normal"}, {"card_name": "CW11 Fettered Decree", "number": 11, "shape": "normal"}, {"card_name": "CU11 Posessed Wingspan", "number": 25, "shape": "normal"}, {"card_name": "CB11 Corrupted Oath", "number": 39, "shape": "normal"}, {"card_name": "CR11 Guns Blazing", "number": 53, "shape": "normal"}, {"card_name": "CG11 Canopy Prowling", "number": 67, "shape": "normal"}, {"card_name": "CW12 Lightsear Barrage", "number": 12, "shape": "normal"}, {"card_name": "CU12 Strip Identity", "number": 26, "shape": "normal"}, {"card_name": "CB12 Extract Determination", "number": 40, "shape": "normal"}, {"card_name": "CR12 Lightning Spear", "number": 54, "shape": "normal"}, {"card_name": "CG12 Clear Shot", "number": 68, "shape": "normal"}, {"card_name": "CW13 Blessed Bow", "number": 13, "shape": "normal"}, {"card_name": "CU13 Bounty Collection", "number": 27, "shape": "normal"}, {"card_name": "CB13 Take by Surprise", "number": 41, "shape": "normal"}, {"card_name": "CR13 Provoke Conflict", "number": 55, "shape": "normal"}, {"card_name": "CG13 Armament Rejection", "number": 69, "shape": "normal"}, {"card_name": "CW14 Reach for the Divine", "number": 14, "shape": "normal"}, {"card_name": "CU14 Decree of Dissolution", "number": 28, "shape": "normal"}, {"card_name": "CB14 Back for More", "number": 42, "shape": "normal"}, {"card_name": "CR14 Erupting Roar", "number": 56, "shape": "normal"}, {"card_name": "CG14 Titanhunter Arms", "number": 70, "shape": "normal"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "CC0B Blightround Musket", "number": 71, "shape": "adventure"}, {"card_name": "CC0G Groveforce Sword", "number": 72, "shape": "adventure"}, {"card_name": "CC0R Twin Stilettos", "number": 73, "shape": "adventure"}, {"card_name": "CC0U Crafted Wings", "number": 74, "shape": "adventure"}, {"card_name": "CC0W Rousing Harp", "number": 75, "shape": "adventure"}, {"card_name": "CC01 Ammo Belt", "number": 76, "shape": "normal"}, {"card_name": "CC02 Single-Use Explosive", "number": 77, "shape": "normal"}, {"card_name": "CC03 Big-Bore Cannon", "number": 78, "shape": "normal"}, {"card_name": "CC04 Weaponsmith's Anvil", "number": 79, "shape": "normal"}, {"card_name": "e"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "CL01 Nimbus Maze", "number": 80, "shape": "normal"}, {"card_name": "CL02 Foreboding Ruins", "number": 81, "shape": "normal"}, {"card_name": "CL03 Ancient Battleground", "number": 82, "shape": "normal"}, {"card_name": "CL04 Mountaintop Monument", "number": 83, "shape": "normal"}, {"card_name": "CL05 Guarded Citadel", "number": 84, "shape": "normal"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "CL06 Inverted Spires", "number": 85, "shape": "normal"}, {"card_name": "CL09 Skyward Port", "number": 88, "shape": "normal"}, {"card_name": "CL07 Hollowmire Township", "number": 86, "shape": "normal"}, {"card_name": "CL10 Sanctified Ground", "number": 89, "shape": "normal"}, {"card_name": "CL08 Shorecarved Cliffs", "number": 87, "shape": "normal"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}, {"card_name": "er"}]
+﻿[
+    {
+        "card_name": "CW01 Guild Aspirant",
+        "number": 1,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CU01 Disarming Mimic",
+        "number": 15,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CB01 Spark Hunter's Hire",
+        "number": 29,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CR01 Wildbond Hunter",
+        "number": 43,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CG01 Venturing Goblin",
+        "number": 57,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CW02 Sanctum Sureshot",
+        "number": 2,
+        "shape": "adventure",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CU02 [NAME] Ambusher",
+        "number": 16,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CB02 Callous Huntress",
+        "number": 30,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CR02 Chakram Pitcher",
+        "number": 44,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CG02 Blast-Fist Brawler",
+        "number": 58,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CW03 Snowsteppe Adventurer",
+        "number": 3,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CU03 Battlefield Specialist",
+        "number": 17,
+        "shape": "adventure",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CB03 Farsight Familiar",
+        "number": 31,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CR03 Hemogoblins",
+        "number": 45,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CG03 Primeval Muse",
+        "number": 59,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CW04 Guild Courser",
+        "number": 4,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CU04 Beginner's Bane",
+        "number": 18,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CB04 Miasmic Stag",
+        "number": 32,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CR04 Wild-Ways Huntress",
+        "number": 46,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CG04 Rumbling Gladewalker",
+        "number": 60,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CW05 Armament Appraiser",
+        "number": 5,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CU05 Forgesmith's Eye",
+        "number": 19,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CB05 [NAME] Consultant",
+        "number": 33,
+        "shape": "adventure",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CR05 Wild-Ways Ritualist",
+        "number": 47,
+        "shape": "adventure",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CG05 Wild-Ways Ranger",
+        "number": 61,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CW06 Highland Shepherd",
+        "number": 6,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CU06 Soulblast Arcanist",
+        "number": 20,
+        "shape": "adventure",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CB06 Dreadsmith",
+        "number": 34,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CR06 Lotusfire Dancer",
+        "number": 48,
+        "shape": "adventure",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CG06 Wild-Ways Courser",
+        "number": 62,
+        "shape": "adventure",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CW07 Nimbus Drake",
+        "number": 7,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CU07 Frolicking Yearling",
+        "number": 21,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CB07 Dashing Heavyshot",
+        "number": 35,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CR07 Dragonflame Paladin",
+        "number": 49,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CG07 Steeleater Flora",
+        "number": 63,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CW08 [NAME] Militia",
+        "number": 8,
+        "shape": "adventure",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CU08 [NAME] Apex",
+        "number": 22,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CB08 Darktouched Devourer",
+        "number": 36,
+        "shape": "adventure",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CR08 Molten Cragstomper",
+        "number": 50,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CG08 Hollowmire Veteran",
+        "number": 64,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CW09 Hired Gun",
+        "number": 9,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CU09 Trainee's Tome",
+        "number": 23,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CB09 Poisoned Rounds",
+        "number": 37,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CR09 Take the Shot",
+        "number": 51,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CG09 Hinterwoods Sage",
+        "number": 65,
+        "shape": "adventure",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CW10 Rapid Reload",
+        "number": 10,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CU10 Precise Denial",
+        "number": 24,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CB10 Crystal-Carved Blade",
+        "number": 38,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CR10 Flametouch Gauntlet",
+        "number": 52,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CG10 Gathering Pan",
+        "number": 66,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CW11 Fettered Decree",
+        "number": 11,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CU11 Posessed Wingspan",
+        "number": 25,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CB11 Corrupted Oath",
+        "number": 39,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CR11 Guns Blazing",
+        "number": 53,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CG11 Canopy Prowling",
+        "number": 67,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CW12 Lightsear Barrage",
+        "number": 12,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CU12 Strip Identity",
+        "number": 26,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CB12 Extract Determination",
+        "number": 40,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CR12 Lightning Spear",
+        "number": 54,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CG12 Clear Shot",
+        "number": 68,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CW13 Blessed Bow",
+        "number": 13,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CU13 Bounty Collection",
+        "number": 27,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CB13 Take by Surprise",
+        "number": 41,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CR13 Provoke Conflict",
+        "number": 55,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CG13 Armament Rejection",
+        "number": 69,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CW14 Reach for the Divine",
+        "number": 14,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CU14 Decree of Dissolution",
+        "number": 28,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CB14 Back for More",
+        "number": 42,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CR14 Erupting Roar",
+        "number": 56,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CG14 Titanhunter Arms",
+        "number": 70,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "CC0B Blightround Musket",
+        "number": 71,
+        "shape": "adventure",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CC0G Groveforce Sword",
+        "number": 72,
+        "shape": "adventure",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CC0R Twin Stilettos",
+        "number": 73,
+        "shape": "adventure",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CC0U Crafted Wings",
+        "number": 74,
+        "shape": "adventure",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CC0W Rousing Harp",
+        "number": 75,
+        "shape": "adventure",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CC01 Ammo Belt",
+        "number": 76,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CC02 Single-Use Explosive",
+        "number": 77,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CC03 Big-Bore Cannon",
+        "number": 78,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CC04 Weaponsmith's Anvil",
+        "number": 79,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "CL01 Nimbus Maze",
+        "number": 80,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CL02 Foreboding Ruins",
+        "number": 81,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CL03 Ancient Battleground",
+        "number": 82,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CL04 Mountaintop Monument",
+        "number": 83,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CL05 Guarded Citadel",
+        "number": 84,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "CL06 Inverted Spires",
+        "number": 85,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CL09 Skyward Port",
+        "number": 88,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CL07 Hollowmire Township",
+        "number": 86,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CL10 Sanctified Ground",
+        "number": 89,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "CL08 Shorecarved Cliffs",
+        "number": 87,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "CL11 Redeveloped Cityscape",
+        "number": 90,
+        "shape": "normal",
+        "set": "RSD"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

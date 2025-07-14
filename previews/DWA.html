@@ -5,6 +5,10 @@
 	<link rel="stylesheet" href="/resources/header.css">
 	<title>DWA visual preview</title>
 	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
 		body {
 			font-family: Arial, sans-serif;
 			margin: 0;
@@ -82,7 +86,7 @@
 		.banner {
 			width: 100%;
 			height: auto;
-			padding-top: 20px;
+			padding-top: 80px;
 			padding-bottom: 50px;
 		}
 		.logo {
@@ -118,36 +122,49 @@
 			background-size: contain;
 			background-position: center;
 		}
-		.icon-bar {
-			display: grid;
-			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
-			gap: 1px;
-			padding-left: 5%;
-			padding-right: 5%;
-			padding-top: 2%;
-			padding-bottom: 1%;
-			justify-items: center;
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 10%;
+			width: fit-content;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: flex;
+			flex-direction: column;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
 			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
 		}
-		.icon-bar .icon img {
-			width: 90%;
-			max-width: 80px;
-			height: auto;
-			display: block;
-			padding: 5%;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
 		}
-		.icon-bar .dot img {
-			width: 50%;
-			max-width: 65px;
-			height: auto;
-			display: block;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
 		}
 		.preload-hidden {
 			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
 		}
 		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
 		.footer {
@@ -172,371 +189,382 @@
 		</div>
 	</div>
 
-	<div class="icon-bar">
-			<div class="icon"><a href="DWA"><img src="/sets/DWA-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="ONI"><img src="/sets/ONI-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="RSD"><img src="/sets/RSD-files/icon.png"></img></a></div>
-
+	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="DWA"><img src="/sets/DWA-files/icon.png">Drauholm: Winter’s Approach</a>
+	
+		<a class="set-bar inactive" href="ONI"><img src="/sets/ONI-files/icon.png">Onigaiko: Future Past</a>
+	
+		<a class="set-bar inactive" href="RSD"><img src="/sets/RSD-files/icon.png">Risemara: Second Dawn</a>
+	
 		</div>
 		<div class="banner">
 		<img class="logo" src="/sets/DWA-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-				<div class="container"><img alt="/sets\DWA-files\img\16_Hammer of Ancestry.png" id="16_Hammer of Ancestry" data-flag="@X" onclick="openSidebar('16_Hammer of Ancestry',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\59_Kaldrbursti, the First Blizzard.png" id="59_Kaldrbursti, the First Blizzard" data-flag="@X" onclick="openSidebar('59_Kaldrbursti, the First Blizzard',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\100_Herald of Chilling Dusk.png" id="100_Herald of Chilling Dusk" data-flag="@X" onclick="openSidebar('100_Herald of Chilling Dusk',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\136_Hraungandr, The First Eruption.png" id="136_Hraungandr, The First Eruption" data-flag="@X" onclick="openSidebar('136_Hraungandr, The First Eruption',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\165_Elof, Fabled Bulwark.png" id="165_Elof, Fabled Bulwark" data-flag="@X" onclick="openSidebar('165_Elof, Fabled Bulwark',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\18_Herald of Warming Dawn.png" id="18_Herald of Warming Dawn" data-flag="@X" onclick="openSidebar('18_Herald of Warming Dawn',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\61_Lostwoods Shapestealer.png" id="61_Lostwoods Shapestealer" data-flag="@X" onclick="openSidebar('61_Lostwoods Shapestealer',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\117_Winter's Tomb.png" id="117_Winters Tomb" data-flag="@X" onclick="openSidebar('117_Winters Tomb',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\143_Peak of Destruction.png" id="143_Peak of Destruction" data-flag="@X" onclick="openSidebar('143_Peak of Destruction',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\184_Skogdrengr, the First Apex.png" id="184_Skogdrengr, the First Apex" data-flag="@X" onclick="openSidebar('184_Skogdrengr, the First Apex',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\2_Ari, Adventure Seeker_back.png" alt="/sets\DWA-files\img\2_Ari, Adventure Seeker_front.png" id="2_Ari, Adventure Seeker" data-flag="@XD" onclick="openSidebar('2_Ari, Adventure Seeker',false)"><button class="flip-btn" onclick="imgFlip('2_Ari, Adventure Seeker')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\44_Crush of Frost.png" id="44_Crush of Frost" data-flag="@X" onclick="openSidebar('44_Crush of Frost',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\84_Brunhild, Raider Queen_back.png" alt="/sets\DWA-files\img\84_Brunhild, Raider Queen_front.png" id="84_Brunhild, Raider Queen" data-flag="@XD" onclick="openSidebar('84_Brunhild, Raider Queen',false)"><button class="flip-btn" onclick="imgFlip('84_Brunhild, Raider Queen')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\120_Armament Repurposer.png" id="120_Armament Repurposer" data-flag="@X" onclick="openSidebar('120_Armament Repurposer',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\158_Adaptive Scavenger.png" id="158_Adaptive Scavenger" data-flag="@X" onclick="openSidebar('158_Adaptive Scavenger',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\3_Assembled Procession.png" id="3_Assembled Procession" data-flag="@X" onclick="openSidebar('3_Assembled Procession',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\49_Ferros, Encased Thunder_back.png" alt="/sets\DWA-files\img\49_Ferros, Encased Thunder_front.png" id="49_Ferros, Encased Thunder" data-flag="@XD" onclick="openSidebar('49_Ferros, Encased Thunder',false)"><button class="flip-btn" onclick="imgFlip('49_Ferros, Encased Thunder')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\87_Consuming Matriarch.png" id="87_Consuming Matriarch" data-flag="@X" onclick="openSidebar('87_Consuming Matriarch',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\124_Blazing Retribution.png" id="124_Blazing Retribution" data-flag="@X" onclick="openSidebar('124_Blazing Retribution',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\162_Cojocar Huntress.png" id="162_Cojocar Huntress" data-flag="@X" onclick="openSidebar('162_Cojocar Huntress',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\6_Cage the Soul.png" id="6_Cage the Soul" data-flag="@X" onclick="openSidebar('6_Cage the Soul',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\56_Horrific Splintering.png" id="56_Horrific Splintering" data-flag="@X" onclick="openSidebar('56_Horrific Splintering',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\89_Dire Elimination.png" id="89_Dire Elimination" data-flag="@X" onclick="openSidebar('89_Dire Elimination',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\128_Crack the Shells.png" id="128_Crack the Shells" data-flag="@X" onclick="openSidebar('128_Crack the Shells',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\173_Mountainbreaker Colossus.png" id="173_Mountainbreaker Colossus" data-flag="@X" onclick="openSidebar('173_Mountainbreaker Colossus',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\9_Disciple of Devotion.png" id="9_Disciple of Devotion" data-flag="@X" onclick="openSidebar('9_Disciple of Devotion',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\58_Inherited Talents.png" id="58_Inherited Talents" data-flag="@X" onclick="openSidebar('58_Inherited Talents',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\92_Enevenomed Scribe.png" id="92_Enevenomed Scribe" data-flag="@X" onclick="openSidebar('92_Enevenomed Scribe',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\131_Firebaiting.png" id="131_Firebaiting" data-flag="@X" onclick="openSidebar('131_Firebaiting',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\174_Nanna, Small but Mighty_back.png" alt="/sets\DWA-files\img\174_Nanna, Small but Mighty_front.png" id="174_Nanna, Small but Mighty" data-flag="@XD" onclick="openSidebar('174_Nanna, Small but Mighty',false)"><button class="flip-btn" onclick="imgFlip('174_Nanna, Small but Mighty')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\15_Growing Starlight.png" id="15_Growing Starlight" data-flag="@X" onclick="openSidebar('15_Growing Starlight',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\62_Moonbird's Invocation.png" id="62_Moonbirds Invocation" data-flag="@X" onclick="openSidebar('62_Moonbirds Invocation',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\95_Gelid Vessel.png" id="95_Gelid Vessel" data-flag="@X" onclick="openSidebar('95_Gelid Vessel',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\142_Magni, the Unbreakable_back.png" alt="/sets\DWA-files\img\142_Magni, the Unbreakable_front.png" id="142_Magni, the Unbreakable" data-flag="@XD" onclick="openSidebar('142_Magni, the Unbreakable',false)"><button class="flip-btn" onclick="imgFlip('142_Magni, the Unbreakable')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\175_Overgrown Steelsheell.png" id="175_Overgrown Steelsheell" data-flag="@X" onclick="openSidebar('175_Overgrown Steelsheell',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\23_Lostwoods Skywarden.png" id="23_Lostwoods Skywarden" data-flag="@X" onclick="openSidebar('23_Lostwoods Skywarden',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\63_Mythweaver Sprite.png" id="63_Mythweaver Sprite" data-flag="@X" onclick="openSidebar('63_Mythweaver Sprite',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\97_Grave Reckoning.png" id="97_Grave Reckoning" data-flag="@X" onclick="openSidebar('97_Grave Reckoning',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\151_Smuggled Firebombs.png" id="151_Smuggled Firebombs" data-flag="@X" onclick="openSidebar('151_Smuggled Firebombs',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\178_Quickstep Wildcaller.png" id="178_Quickstep Wildcaller" data-flag="@X" onclick="openSidebar('178_Quickstep Wildcaller',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\29_Rolling Joysphere.png" id="29_Rolling Joysphere" data-flag="@X" onclick="openSidebar('29_Rolling Joysphere',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\67_Regurgitating Gorger.png" id="67_Regurgitating Gorger" data-flag="@X" onclick="openSidebar('67_Regurgitating Gorger',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\102_Lay the Seeds.png" id="102_Lay the Seeds" data-flag="@X" onclick="openSidebar('102_Lay the Seeds',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\153_Sunbird's Invocation.png" id="153_Sunbirds Invocation" data-flag="@X" onclick="openSidebar('153_Sunbirds Invocation',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\187_Spiritual Order.png" id="187_Spiritual Order" data-flag="@X" onclick="openSidebar('187_Spiritual Order',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\33_Star-Herd Ascender.png" id="33_Star-Herd Ascender" data-flag="@X" onclick="openSidebar('33_Star-Herd Ascender',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\73_Star-High Dreamer.png" id="73_Star-High Dreamer" data-flag="@X" onclick="openSidebar('73_Star-High Dreamer',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\110_Solace's Shadow.png" id="110_Solaces Shadow" data-flag="@X" onclick="openSidebar('110_Solaces Shadow',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\154_Sunfeather Ascetic.png" id="154_Sunfeather Ascetic" data-flag="@X" onclick="openSidebar('154_Sunfeather Ascetic',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\194_Wildform Reclaimer.png" id="194_Wildform Reclaimer" data-flag="@X" onclick="openSidebar('194_Wildform Reclaimer',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\39_Van Helsa's Paragon.png" id="39_Van Helsas Paragon" data-flag="@X" onclick="openSidebar('39_Van Helsas Paragon',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\75_Summit Guardians.png" id="75_Summit Guardians" data-flag="@X" onclick="openSidebar('75_Summit Guardians',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\112_Underbridge Takeover.png" id="112_Underbridge Takeover" data-flag="@X" onclick="openSidebar('112_Underbridge Takeover',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\155_Unrelenting Champion.png" id="155_Unrelenting Champion" data-flag="@X" onclick="openSidebar('155_Unrelenting Champion',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\196_Yeti's Call.png" id="196_Yetis Call" data-flag="@X" onclick="openSidebar('196_Yetis Call',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\4_Aurora Weaver.png" id="4_Aurora Weaver" data-flag="@X" onclick="openSidebar('4_Aurora Weaver',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\41_Caller of Nightmare.png" id="41_Caller of Nightmare" data-flag="@X" onclick="openSidebar('41_Caller of Nightmare',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\80_Aurora Strix.png" id="80_Aurora Strix" data-flag="@X" onclick="openSidebar('80_Aurora Strix',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\119_Adventurous Coercion.png" id="119_Adventurous Coercion" data-flag="@X" onclick="openSidebar('119_Adventurous Coercion',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\159_Centaur Omenreader.png" id="159_Centaur Omenreader" data-flag="@X" onclick="openSidebar('159_Centaur Omenreader',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\7_Content Furball.png" id="7_Content Furball" data-flag="@X" onclick="openSidebar('7_Content Furball',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\45_Curious Imitator.png" id="45_Curious Imitator" data-flag="@X" onclick="openSidebar('45_Curious Imitator',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\83_Blizzard Stalker.png" id="83_Blizzard Stalker" data-flag="@X" onclick="openSidebar('83_Blizzard Stalker',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\121_Artistic Invocator_back.png" alt="/sets\DWA-files\img\121_Artistic Invocator_front.png" id="121_Artistic Invocator" data-flag="@XD" onclick="openSidebar('121_Artistic Invocator',false)"><button class="flip-btn" onclick="imgFlip('121_Artistic Invocator')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\163_Dangerous Bloom.png" id="163_Dangerous Bloom" data-flag="@X" onclick="openSidebar('163_Dangerous Bloom',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\8_Dawnpeak Herdmaster.png" id="8_Dawnpeak Herdmaster" data-flag="@X" onclick="openSidebar('8_Dawnpeak Herdmaster',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\46_Direfloe Strix.png" id="46_Direfloe Strix" data-flag="@X" onclick="openSidebar('46_Direfloe Strix',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\85_Brunhild's Tactics.png" id="85_Brunhilds Tactics" data-flag="@X" onclick="openSidebar('85_Brunhilds Tactics',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\126_Calamitous Reading.png" id="126_Calamitous Reading" data-flag="@X" onclick="openSidebar('126_Calamitous Reading',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\164_Elder Protector.png" id="164_Elder Protector" data-flag="@X" onclick="openSidebar('164_Elder Protector',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\11_Frostmoon Pathleader.png" id="11_Frostmoon Pathleader" data-flag="@X" onclick="openSidebar('11_Frostmoon Pathleader',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\48_Expedition Leader_back.png" alt="/sets\DWA-files\img\48_Expedition Leader_front.png" id="48_Expedition Leader" data-flag="@XD" onclick="openSidebar('48_Expedition Leader',false)"><button class="flip-btn" onclick="imgFlip('48_Expedition Leader')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\86_Carve a Path.png" id="86_Carve a Path" data-flag="@X" onclick="openSidebar('86_Carve a Path',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\129_Dreamcatcher's Rod.png" id="129_Dreamcatchers Rod" data-flag="@X" onclick="openSidebar('129_Dreamcatchers Rod',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\166_Expand Horizons.png" id="166_Expand Horizons" data-flag="@X" onclick="openSidebar('166_Expand Horizons',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\17_Hammer of the Admired.png" id="17_Hammer of the Admired" data-flag="@X" onclick="openSidebar('17_Hammer of the Admired',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\51_Forbidden Insight.png" id="51_Forbidden Insight" data-flag="@X" onclick="openSidebar('51_Forbidden Insight',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\93_Enthralled Huntress_back.png" alt="/sets\DWA-files\img\93_Enthralled Huntress_front.png" id="93_Enthralled Huntress" data-flag="@XD" onclick="openSidebar('93_Enthralled Huntress',false)"><button class="flip-btn" onclick="imgFlip('93_Enthralled Huntress')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\132_Firehorn Crusher.png" id="132_Firehorn Crusher" data-flag="@X" onclick="openSidebar('132_Firehorn Crusher',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\167_Fabled Weaponsmith.png" id="167_Fabled Weaponsmith" data-flag="@X" onclick="openSidebar('167_Fabled Weaponsmith',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\19_Hopebringer Valkyria.png" id="19_Hopebringer Valkyria" data-flag="@X" onclick="openSidebar('19_Hopebringer Valkyria',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\52_Freeze Momentum.png" id="52_Freeze Momentum" data-flag="@X" onclick="openSidebar('52_Freeze Momentum',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\96_Glimpse of Winter.png" id="96_Glimpse of Winter" data-flag="@X" onclick="openSidebar('96_Glimpse of Winter',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\135_Forged in Duty.png" id="135_Forged in Duty" data-flag="@X" onclick="openSidebar('135_Forged in Duty',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\171_Learned Ascetic.png" id="171_Learned Ascetic" data-flag="@X" onclick="openSidebar('171_Learned Ascetic',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\26_Raider's Huntmaster.png" id="26_Raiders Huntmaster" data-flag="@X" onclick="openSidebar('26_Raiders Huntmaster',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\55_Horrific Reclamation.png" id="55_Horrific Reclamation" data-flag="@X" onclick="openSidebar('55_Horrific Reclamation',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\98_Grove Sentinel.png" id="98_Grove Sentinel" data-flag="@X" onclick="openSidebar('98_Grove Sentinel',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\138_Jarlorn's Blessed.png" id="138_Jarlorns Blessed" data-flag="@X" onclick="openSidebar('138_Jarlorns Blessed',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\180_Rimefield's Blessing.png" id="180_Rimefields Blessing" data-flag="@X" onclick="openSidebar('180_Rimefields Blessing',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\28_Risen Greatwyrm_back.png" alt="/sets\DWA-files\img\28_Risen Greatwyrm_front.png" id="28_Risen Greatwyrm" data-flag="@XD" onclick="openSidebar('28_Risen Greatwyrm',false)"><button class="flip-btn" onclick="imgFlip('28_Risen Greatwyrm')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\57_Iceshelf Crasher.png" id="57_Iceshelf Crasher" data-flag="@X" onclick="openSidebar('57_Iceshelf Crasher',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\101_Horrific Priest.png" id="101_Horrific Priest" data-flag="@X" onclick="openSidebar('101_Horrific Priest',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\141_Lead the Avalanche.png" id="141_Lead the Avalanche" data-flag="@X" onclick="openSidebar('141_Lead the Avalanche',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\181_Rotroot Hydra.png" id="181_Rotroot Hydra" data-flag="@X" onclick="openSidebar('181_Rotroot Hydra',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\30_Sacred Binding.png" id="30_Sacred Binding" data-flag="@X" onclick="openSidebar('30_Sacred Binding',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\64_Nurture the Lostwoods.png" id="64_Nurture the Lostwoods" data-flag="@X" onclick="openSidebar('64_Nurture the Lostwoods',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\105_Moonlit Summons.png" id="105_Moonlit Summons" data-flag="@X" onclick="openSidebar('105_Moonlit Summons',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\144_Raider's Intimidator.png" id="144_Raiders Intimidator" data-flag="@X" onclick="openSidebar('144_Raiders Intimidator',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\182_Selfless Guardianship.png" id="182_Selfless Guardianship" data-flag="@X" onclick="openSidebar('182_Selfless Guardianship',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\31_Snowfield Burdenbeast.png" id="31_Snowfield Burdenbeast" data-flag="@X" onclick="openSidebar('31_Snowfield Burdenbeast',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\70_Rimefield Teachings.png" id="70_Rimefield Teachings" data-flag="@X" onclick="openSidebar('70_Rimefield Teachings',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\106_Persistent Croaker.png" id="106_Persistent Croaker" data-flag="@X" onclick="openSidebar('106_Persistent Croaker',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\145_Raider's Sabotage.png" id="145_Raiders Sabotage" data-flag="@X" onclick="openSidebar('145_Raiders Sabotage',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\185_Snowslide Runner.png" id="185_Snowslide Runner" data-flag="@X" onclick="openSidebar('185_Snowslide Runner',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\32_Snowslide.png" id="32_Snowslide" data-flag="@X" onclick="openSidebar('32_Snowslide',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\71_Song of Winter.png" id="71_Song of Winter" data-flag="@X" onclick="openSidebar('71_Song of Winter',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\107_Shadowcleave.png" id="107_Shadowcleave" data-flag="@X" onclick="openSidebar('107_Shadowcleave',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\149_Smithing Instructor.png" id="149_Smithing Instructor" data-flag="@X" onclick="openSidebar('149_Smithing Instructor',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\189_Titanic Odds.png" id="189_Titanic Odds" data-flag="@X" onclick="openSidebar('189_Titanic Odds',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\34_Steppe Stampede.png" id="34_Steppe Stampede" data-flag="@X" onclick="openSidebar('34_Steppe Stampede',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\72_Star-Herd Apprentice_back.png" alt="/sets\DWA-files\img\72_Star-Herd Apprentice_front.png" id="72_Star-Herd Apprentice" data-flag="@XD" onclick="openSidebar('72_Star-Herd Apprentice',false)"><button class="flip-btn" onclick="imgFlip('72_Star-Herd Apprentice')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\108_Slumbering Warden.png" id="108_Slumbering Warden" data-flag="@X" onclick="openSidebar('108_Slumbering Warden',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\152_Star-Herd Blaze.png" id="152_Star-Herd Blaze" data-flag="@X" onclick="openSidebar('152_Star-Herd Blaze',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\190_Trapped Trail.png" id="190_Trapped Trail" data-flag="@X" onclick="openSidebar('190_Trapped Trail',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\35_Stoneskin.png" id="35_Stoneskin" data-flag="@X" onclick="openSidebar('35_Stoneskin',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\76_Those Who Thaw.png" id="76_Those Who Thaw" data-flag="@X" onclick="openSidebar('76_Those Who Thaw',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\109_Smithed Legacy.png" id="109_Smithed Legacy" data-flag="@X" onclick="openSidebar('109_Smithed Legacy',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\156_Varloch Troublemaker.png" id="156_Varloch Troublemaker" data-flag="@X" onclick="openSidebar('156_Varloch Troublemaker',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\193_Unstoppable Behemoth.png" id="193_Unstoppable Behemoth" data-flag="@X" onclick="openSidebar('193_Unstoppable Behemoth',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\40_Wild Reproach.png" id="40_Wild Reproach" data-flag="@X" onclick="openSidebar('40_Wild Reproach',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\79_Wandering Sprite.png" id="79_Wandering Sprite" data-flag="@X" onclick="openSidebar('79_Wandering Sprite',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\116_Wandering Gemcrafter.png" id="116_Wandering Gemcrafter" data-flag="@X" onclick="openSidebar('116_Wandering Gemcrafter',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\157_Walking Range_back.png" alt="/sets\DWA-files\img\157_Walking Range_front.png" id="157_Walking Range" data-flag="@XD" onclick="openSidebar('157_Walking Range',false)"><button class="flip-btn" onclick="imgFlip('157_Walking Range')"></button></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\195_Yearling Warrior_back.png" alt="/sets\DWA-files\img\195_Yearling Warrior_front.png" id="195_Yearling Warrior" data-flag="@XD" onclick="openSidebar('195_Yearling Warrior',false)"><button class="flip-btn" onclick="imgFlip('195_Yearling Warrior')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\5_Avalanche Charge.png" id="5_Avalanche Charge" data-flag="@X" onclick="openSidebar('5_Avalanche Charge',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\42_Cliffwalker Adept.png" id="42_Cliffwalker Adept" data-flag="@X" onclick="openSidebar('42_Cliffwalker Adept',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\81_Battle Brewer.png" id="81_Battle Brewer" data-flag="@X" onclick="openSidebar('81_Battle Brewer',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\122_Aspirant of the Hunt_back.png" alt="/sets\DWA-files\img\122_Aspirant of the Hunt_front.png" id="122_Aspirant of the Hunt" data-flag="@XD" onclick="openSidebar('122_Aspirant of the Hunt',false)"><button class="flip-btn" onclick="imgFlip('122_Aspirant of the Hunt')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\160_Charting Efforts.png" id="160_Charting Efforts" data-flag="@X" onclick="openSidebar('160_Charting Efforts',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\10_Fjord Raptor.png" id="10_Fjord Raptor" data-flag="@X" onclick="openSidebar('10_Fjord Raptor',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\43_Collective Repulse.png" id="43_Collective Repulse" data-flag="@X" onclick="openSidebar('43_Collective Repulse',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\82_Berserker's Will.png" id="82_Berserkers Will" data-flag="@X" onclick="openSidebar('82_Berserkers Will',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\123_Blaze Scryer.png" id="123_Blaze Scryer" data-flag="@X" onclick="openSidebar('123_Blaze Scryer',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\161_Chillbloom Spider.png" id="161_Chillbloom Spider" data-flag="@X" onclick="openSidebar('161_Chillbloom Spider',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\12_Frostmoon Priestess.png" id="12_Frostmoon Priestess" data-flag="@X" onclick="openSidebar('12_Frostmoon Priestess',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\47_Eager Geologist.png" id="47_Eager Geologist" data-flag="@X" onclick="openSidebar('47_Eager Geologist',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\88_Defiant Sacrifice.png" id="88_Defiant Sacrifice" data-flag="@X" onclick="openSidebar('88_Defiant Sacrifice',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\125_Bloodfang Wildcat.png" id="125_Bloodfang Wildcat" data-flag="@X" onclick="openSidebar('125_Bloodfang Wildcat',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\168_Fungal Storyteller.png" id="168_Fungal Storyteller" data-flag="@X" onclick="openSidebar('168_Fungal Storyteller',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\13_Gelid Entombing.png" id="13_Gelid Entombing" data-flag="@X" onclick="openSidebar('13_Gelid Entombing',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\50_Fjord Thrasher.png" id="50_Fjord Thrasher" data-flag="@X" onclick="openSidebar('50_Fjord Thrasher',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\90_Disturbed Orbweaver.png" id="90_Disturbed Orbweaver" data-flag="@X" onclick="openSidebar('90_Disturbed Orbweaver',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\127_Call Reinforcements.png" id="127_Call Reinforcements" data-flag="@X" onclick="openSidebar('127_Call Reinforcements',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\169_Iskari Pathleader.png" id="169_Iskari Pathleader" data-flag="@X" onclick="openSidebar('169_Iskari Pathleader',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\14_Gor-narg's Leadership.png" id="14_Gor-nargs Leadership" data-flag="@X" onclick="openSidebar('14_Gor-nargs Leadership',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\53_Haunt-Pass Charger.png" id="53_Haunt-Pass Charger" data-flag="@X" onclick="openSidebar('53_Haunt-Pass Charger',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\91_Dread Scavenger.png" id="91_Dread Scavenger" data-flag="@X" onclick="openSidebar('91_Dread Scavenger',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\130_Excited Artillerist.png" id="130_Excited Artillerist" data-flag="@X" onclick="openSidebar('130_Excited Artillerist',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\170_Learn From the Cold.png" id="170_Learn From the Cold" data-flag="@X" onclick="openSidebar('170_Learn From the Cold',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\20_Huntpack Ambush.png" id="20_Huntpack Ambush" data-flag="@X" onclick="openSidebar('20_Huntpack Ambush',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\54_Hilda's Dismissal.png" id="54_Hildas Dismissal" data-flag="@X" onclick="openSidebar('54_Hildas Dismissal',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\94_Foraging Raccoon.png" id="94_Foraging Raccoon" data-flag="@X" onclick="openSidebar('94_Foraging Raccoon',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\133_Firmament Channeler.png" id="133_Firmament Channeler" data-flag="@X" onclick="openSidebar('133_Firmament Channeler',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\172_Lostwoods Caretaker_back.png" alt="/sets\DWA-files\img\172_Lostwoods Caretaker_front.png" id="172_Lostwoods Caretaker" data-flag="@XD" onclick="openSidebar('172_Lostwoods Caretaker',false)"><button class="flip-btn" onclick="imgFlip('172_Lostwoods Caretaker')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\21_Iskari Floechanter.png" id="21_Iskari Floechanter" data-flag="@X" onclick="openSidebar('21_Iskari Floechanter',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\60_Lostwoods Corruption.png" id="60_Lostwoods Corruption" data-flag="@X" onclick="openSidebar('60_Lostwoods Corruption',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\99_Gunvald's Forerunner.png" id="99_Gunvalds Forerunner" data-flag="@X" onclick="openSidebar('99_Gunvalds Forerunner',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\134_Flamespitter Wyrm_back.png" alt="/sets\DWA-files\img\134_Flamespitter Wyrm_front.png" id="134_Flamespitter Wyrm" data-flag="@XD" onclick="openSidebar('134_Flamespitter Wyrm',false)"><button class="flip-btn" onclick="imgFlip('134_Flamespitter Wyrm')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\176_Peak Performance.png" id="176_Peak Performance" data-flag="@X" onclick="openSidebar('176_Peak Performance',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\22_Kindly Herder.png" id="22_Kindly Herder" data-flag="@X" onclick="openSidebar('22_Kindly Herder',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\65_Omenreading.png" id="65_Omenreading" data-flag="@X" onclick="openSidebar('65_Omenreading',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\103_Lethal Chill.png" id="103_Lethal Chill" data-flag="@X" onclick="openSidebar('103_Lethal Chill',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\137_Huntpack Guardian.png" id="137_Huntpack Guardian" data-flag="@X" onclick="openSidebar('137_Huntpack Guardian',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\177_Primal Rebuke.png" id="177_Primal Rebuke" data-flag="@X" onclick="openSidebar('177_Primal Rebuke',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\24_Martyr's Soul.png" id="24_Martyrs Soul" data-flag="@X" onclick="openSidebar('24_Martyrs Soul',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\66_Ranging Falcon.png" id="66_Ranging Falcon" data-flag="@X" onclick="openSidebar('66_Ranging Falcon',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\104_Maddenned Ramblings.png" id="104_Maddenned Ramblings" data-flag="@X" onclick="openSidebar('104_Maddenned Ramblings',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\139_Jarlorn's Fury.png" id="139_Jarlorns Fury" data-flag="@X" onclick="openSidebar('139_Jarlorns Fury',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\179_Reed-Crowned Flutist.png" id="179_Reed-Crowned Flutist" data-flag="@X" onclick="openSidebar('179_Reed-Crowned Flutist',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\25_Protective Hearthsmith.png" id="25_Protective Hearthsmith" data-flag="@X" onclick="openSidebar('25_Protective Hearthsmith',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\68_Release From Frost.png" id="68_Release From Frost" data-flag="@X" onclick="openSidebar('68_Release From Frost',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\111_Strait-Deep Lurker.png" id="111_Strait-Deep Lurker" data-flag="@X" onclick="openSidebar('111_Strait-Deep Lurker',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\140_Kindle Runner.png" id="140_Kindle Runner" data-flag="@X" onclick="openSidebar('140_Kindle Runner',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\183_Shamanic Leader.png" id="183_Shamanic Leader" data-flag="@X" onclick="openSidebar('183_Shamanic Leader',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\27_Raider's Initiate.png" id="27_Raiders Initiate" data-flag="@X" onclick="openSidebar('27_Raiders Initiate',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\69_Render Insignificant.png" id="69_Render Insignificant" data-flag="@X" onclick="openSidebar('69_Render Insignificant',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\113_Unformed Devourer_back.png" alt="/sets\DWA-files\img\113_Unformed Devourer_front.png" id="113_Unformed Devourer" data-flag="@XD" onclick="openSidebar('113_Unformed Devourer',false)"><button class="flip-btn" onclick="imgFlip('113_Unformed Devourer')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\146_Raze the Halls.png" id="146_Raze the Halls" data-flag="@X" onclick="openSidebar('146_Raze the Halls',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\186_Spikeback Hog.png" id="186_Spikeback Hog" data-flag="@X" onclick="openSidebar('186_Spikeback Hog',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\36_Take up Blades.png" id="36_Take up Blades" data-flag="@X" onclick="openSidebar('36_Take up Blades',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\74_Stormbane Strix_back.png" alt="/sets\DWA-files\img\74_Stormbane Strix_front.png" id="74_Stormbane Strix" data-flag="@XD" onclick="openSidebar('74_Stormbane Strix',false)"><button class="flip-btn" onclick="imgFlip('74_Stormbane Strix')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\114_Unhallowed Awakening.png" id="114_Unhallowed Awakening" data-flag="@X" onclick="openSidebar('114_Unhallowed Awakening',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\147_Skadi's Muster.png" id="147_Skadis Muster" data-flag="@X" onclick="openSidebar('147_Skadis Muster',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\188_Steadfast Ascetic.png" id="188_Steadfast Ascetic" data-flag="@X" onclick="openSidebar('188_Steadfast Ascetic',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\37_Treetop Hunter_back.png" alt="/sets\DWA-files\img\37_Treetop Hunter_front.png" id="37_Treetop Hunter" data-flag="@XD" onclick="openSidebar('37_Treetop Hunter',false)"><button class="flip-btn" onclick="imgFlip('37_Treetop Hunter')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\77_Totemic Visions.png" id="77_Totemic Visions" data-flag="@X" onclick="openSidebar('77_Totemic Visions',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\115_Unto Death.png" id="115_Unto Death" data-flag="@X" onclick="openSidebar('115_Unto Death',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\148_Skred.png" id="148_Skred" data-flag="@X" onclick="openSidebar('148_Skred',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\191_Trumpeting Rampager.png" id="191_Trumpeting Rampager" data-flag="@X" onclick="openSidebar('191_Trumpeting Rampager',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\38_Van Helsa's Blade.png" id="38_Van Helsas Blade" data-flag="@X" onclick="openSidebar('38_Van Helsas Blade',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\78_Tranquil Scryer_back.png" alt="/sets\DWA-files\img\78_Tranquil Scryer_front.png" id="78_Tranquil Scryer" data-flag="@XD" onclick="openSidebar('78_Tranquil Scryer',false)"><button class="flip-btn" onclick="imgFlip('78_Tranquil Scryer')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\118_Yeti Youngling.png" id="118_Yeti Youngling" data-flag="@X" onclick="openSidebar('118_Yeti Youngling',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\150_Smith's Resolve.png" id="150_Smiths Resolve" data-flag="@X" onclick="openSidebar('150_Smiths Resolve',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\192_Unexpected Breach.png" id="192_Unexpected Breach" data-flag="@X" onclick="openSidebar('192_Unexpected Breach',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\222_The Original Valkyria.png" id="222_The Original Valkyria" data-flag="@X" onclick="openSidebar('222_The Original Valkyria',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\225_Rind, Head Priestess_back.png" alt="/sets\DWA-files\img\225_Rind, Head Priestess_front.png" id="225_Rind, Head Priestess" data-flag="@XD" onclick="openSidebar('225_Rind, Head Priestess',false)"><button class="flip-btn" onclick="imgFlip('225_Rind, Head Priestess')"></button></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\232_Steinar, Molten Will_back.png" alt="/sets\DWA-files\img\232_Steinar, Molten Will_front.png" id="232_Steinar, Molten Will" data-flag="@XD" onclick="openSidebar('232_Steinar, Molten Will',false)"><button class="flip-btn" onclick="imgFlip('232_Steinar, Molten Will')"></button></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\215_Jarlorn, Storm-Roar_back.png" alt="/sets\DWA-files\img\215_Jarlorn, Storm-Roar_front.png" id="215_Jarlorn, Storm-Roar" data-flag="@XD" onclick="openSidebar('215_Jarlorn, Storm-Roar',false)"><button class="flip-btn" onclick="imgFlip('215_Jarlorn, Storm-Roar')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\211_Hodur, Varloch Elder.png" id="211_Hodur, Varloch Elder" data-flag="@X" onclick="openSidebar('211_Hodur, Varloch Elder',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\233_Sven, Fjord Cliffdancer.png" id="233_Sven, Fjord Cliffdancer" data-flag="@X" onclick="openSidebar('233_Sven, Fjord Cliffdancer',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\203_Blizzard Bulwark.png" id="203_Blizzard Bulwark" data-flag="@X" onclick="openSidebar('203_Blizzard Bulwark',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\219_Malignatus, Prison-Breaker.png" id="219_Malignatus, Prison-Breaker" data-flag="@X" onclick="openSidebar('219_Malignatus, Prison-Breaker',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\229_Skadi, Fierce Protectress.png" id="229_Skadi, Fierce Protectress" data-flag="@X" onclick="openSidebar('229_Skadi, Fierce Protectress',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\220_Mountainback Ox.png" id="220_Mountainback Ox" data-flag="@X" onclick="openSidebar('220_Mountainback Ox',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\206_Flash Freeze.png" id="206_Flash Freeze" data-flag="@X" onclick="openSidebar('206_Flash Freeze',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\231_Spinner of Souls.png" id="231_Spinner of Souls" data-flag="@X" onclick="openSidebar('231_Spinner of Souls',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\209_Gunvald, Unsparing Raider.png" id="209_Gunvald, Unsparing Raider" data-flag="@X" onclick="openSidebar('209_Gunvald, Unsparing Raider',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\199_Anaru Omenseer.png" id="199_Anaru Omenseer" data-flag="@X" onclick="openSidebar('199_Anaru Omenseer',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\235_Twisted-horn Flockhand.png" id="235_Twisted-horn Flockhand" data-flag="@X" onclick="openSidebar('235_Twisted-horn Flockhand',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\210_Hilda, the Oneiromancer.png" id="210_Hilda, the Oneiromancer" data-flag="@X" onclick="openSidebar('210_Hilda, the Oneiromancer',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\226_Runed Headcarver.png" id="226_Runed Headcarver" data-flag="@X" onclick="openSidebar('226_Runed Headcarver',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\204_Defiant Trapbreaker.png" id="204_Defiant Trapbreaker" data-flag="@X" onclick="openSidebar('204_Defiant Trapbreaker',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\205_Dritta, Shadewrought.png" id="205_Dritta, Shadewrought" data-flag="@X" onclick="openSidebar('205_Dritta, Shadewrought',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\216_Keiko, Travelling Trickster_back.png" alt="/sets\DWA-files\img\216_Keiko, Travelling Trickster_front.png" id="216_Keiko, Travelling Trickster" data-flag="@XD" onclick="openSidebar('216_Keiko, Travelling Trickster',false)"><button class="flip-btn" onclick="imgFlip('216_Keiko, Travelling Trickster')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\197_Agnar, Winter's Wrath.png" id="197_Agnar, Winters Wrath" data-flag="@X" onclick="openSidebar('197_Agnar, Winters Wrath',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\227_Sara Van Helsa, Nightchaser.png" id="227_Sara Van Helsa, Nightchaser" data-flag="@X" onclick="openSidebar('227_Sara Van Helsa, Nightchaser',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\212_Hoenir, Reclaimed Might.png" id="212_Hoenir, Reclaimed Might" data-flag="@X" onclick="openSidebar('212_Hoenir, Reclaimed Might',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\207_Frostmoon Vindicator.png" id="207_Frostmoon Vindicator" data-flag="@X" onclick="openSidebar('207_Frostmoon Vindicator',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\217_Keiko's Distraction.png" id="217_Keikos Distraction" data-flag="@X" onclick="openSidebar('217_Keikos Distraction',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\198_Agnar's Meditation.png" id="198_Agnars Meditation" data-flag="@X" onclick="openSidebar('198_Agnars Meditation',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\200_Arnfinn & Sif, Aerscouts.png" id="200_Arnfinn & Sif, Aerscouts" data-flag="@X" onclick="openSidebar('200_Arnfinn & Sif, Aerscouts',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\213_Iceshelf Screecher.png" id="213_Iceshelf Screecher" data-flag="@X" onclick="openSidebar('213_Iceshelf Screecher',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\224_Raider's Spirit.png" id="224_Raiders Spirit" data-flag="@X" onclick="openSidebar('224_Raiders Spirit',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\236_Urdie, Inquisite Scholar_back.png" alt="/sets\DWA-files\img\236_Urdie, Inquisite Scholar_front.png" id="236_Urdie, Inquisite Scholar" data-flag="@XD" onclick="openSidebar('236_Urdie, Inquisite Scholar',false)"><button class="flip-btn" onclick="imgFlip('236_Urdie, Inquisite Scholar')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\208_Gor-Narg, Iskari Prince.png" id="208_Gor-Narg, Iskari Prince" data-flag="@X" onclick="openSidebar('208_Gor-Narg, Iskari Prince',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\237_Van Helsa's Aptitude.png" id="237_Van Helsas Aptitude" data-flag="@X" onclick="openSidebar('237_Van Helsas Aptitude',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\230_Slumbering Snowtoad.png" id="230_Slumbering Snowtoad" data-flag="@X" onclick="openSidebar('230_Slumbering Snowtoad',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\214_Invoke the Stars.png" id="214_Invoke the Stars" data-flag="@X" onclick="openSidebar('214_Invoke the Stars',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\201_Awoken Sapling.png" id="201_Awoken Sapling" data-flag="@X" onclick="openSidebar('201_Awoken Sapling',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\202_Blazing Valkyria.png" id="202_Blazing Valkyria" data-flag="@X" onclick="openSidebar('202_Blazing Valkyria',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\218_Lostwoods Soulherder_back.png" alt="/sets\DWA-files\img\218_Lostwoods Soulherder_front.png" id="218_Lostwoods Soulherder" data-flag="@XD" onclick="openSidebar('218_Lostwoods Soulherder',false)"><button class="flip-btn" onclick="imgFlip('218_Lostwoods Soulherder')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\223_Posessed Deadwood.png" id="223_Posessed Deadwood" data-flag="@X" onclick="openSidebar('223_Posessed Deadwood',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\238_Varloch Flamewright.png" id="238_Varloch Flamewright" data-flag="@X" onclick="openSidebar('238_Varloch Flamewright',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\228_Sivfrida, Life-Warden_back.png" alt="/sets\DWA-files\img\228_Sivfrida, Life-Warden_front.png" id="228_Sivfrida, Life-Warden" data-flag="@XD" onclick="openSidebar('228_Sivfrida, Life-Warden',false)"><button class="flip-btn" onclick="imgFlip('228_Sivfrida, Life-Warden')"></button></div>
-			<div class="container"><img data-alt_src="/sets\DWA-files\img\234_Tungskul, Gelid Moon_back.png" alt="/sets\DWA-files\img\234_Tungskul, Gelid Moon_front.png" id="234_Tungskul, Gelid Moon" data-flag="@XD" onclick="openSidebar('234_Tungskul, Gelid Moon',false)"><button class="flip-btn" onclick="imgFlip('234_Tungskul, Gelid Moon')"></button></div>
-			<div class="container"><img alt="/sets\DWA-files\img\221_One With the Aurora.png" id="221_One With the Aurora" data-flag="@X" onclick="openSidebar('221_One With the Aurora',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\1_Intrepidity.png" id="1_Intrepidity" data-flag="@X" onclick="openSidebar('1_Intrepidity',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\249_Temple to True Ice.png" id="249_Temple to True Ice" data-flag="@X" onclick="openSidebar('249_Temple to True Ice',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\241_Forgesteppe Barrier.png" id="241_Forgesteppe Barrier" data-flag="@X" onclick="openSidebar('241_Forgesteppe Barrier',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\243_Improvised Juggernaut.png" id="243_Improvised Juggernaut" data-flag="@X" onclick="openSidebar('243_Improvised Juggernaut',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\244_Invoked Protector.png" id="244_Invoked Protector" data-flag="@X" onclick="openSidebar('244_Invoked Protector',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\239_Blessed Workshop.png" id="239_Blessed Workshop" data-flag="@X" onclick="openSidebar('239_Blessed Workshop',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\240_Explorers Raft.png" id="240_Explorers Raft" data-flag="@X" onclick="openSidebar('240_Explorers Raft',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\242_Icicle Snare.png" id="242_Icicle Snare" data-flag="@X" onclick="openSidebar('242_Icicle Snare',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\245_Iron Giant.png" id="245_Iron Giant" data-flag="@X" onclick="openSidebar('245_Iron Giant',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\246_Iskari Totem.png" id="246_Iskari Totem" data-flag="@X" onclick="openSidebar('246_Iskari Totem',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\247_Malleable Fae.png" id="247_Malleable Fae" data-flag="@X" onclick="openSidebar('247_Malleable Fae',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\248_Rockspine Drake.png" id="248_Rockspine Drake" data-flag="@X" onclick="openSidebar('248_Rockspine Drake',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\258_Frosted Village.png" id="258_Frosted Village" data-flag="@X" onclick="openSidebar('258_Frosted Village',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\256_Frosted River.png" id="256_Frosted River" data-flag="@X" onclick="openSidebar('256_Frosted River',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\254_Frosted Bastion.png" id="254_Frosted Bastion" data-flag="@X" onclick="openSidebar('254_Frosted Bastion',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\257_Frosted Steppe.png" id="257_Frosted Steppe" data-flag="@X" onclick="openSidebar('257_Frosted Steppe',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\255_Frosted Grotto.png" id="255_Frosted Grotto" data-flag="@X" onclick="openSidebar('255_Frosted Grotto',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\260_Glacial Floodplain.png" id="260_Glacial Floodplain" data-flag="@X" onclick="openSidebar('260_Glacial Floodplain',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\262_Ice Tunnel.png" id="262_Ice Tunnel" data-flag="@X" onclick="openSidebar('262_Ice Tunnel',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\267_Sulfurous Mire.png" id="267_Sulfurous Mire" data-flag="@X" onclick="openSidebar('267_Sulfurous Mire',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\261_Highland Forest.png" id="261_Highland Forest" data-flag="@X" onclick="openSidebar('261_Highland Forest',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\251_Arctic Treeline.png" id="251_Arctic Treeline" data-flag="@X" onclick="openSidebar('251_Arctic Treeline',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\265_Snowfield Sinkhole.png" id="265_Snowfield Sinkhole" data-flag="@X" onclick="openSidebar('265_Snowfield Sinkhole',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\268_Volatile Fjord.png" id="268_Volatile Fjord" data-flag="@X" onclick="openSidebar('268_Volatile Fjord',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\269_Woodland Chasm.png" id="269_Woodland Chasm" data-flag="@X" onclick="openSidebar('269_Woodland Chasm',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\250_Alpine Meadow.png" id="250_Alpine Meadow" data-flag="@X" onclick="openSidebar('250_Alpine Meadow',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\264_Rimewood Falls.png" id="264_Rimewood Falls" data-flag="@X" onclick="openSidebar('264_Rimewood Falls',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\270_Snow-Covered Plains.png" id="270_Snow-Covered Plains" data-flag="@X" onclick="openSidebar('270_Snow-Covered Plains',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\271_Snow-Covered Island.png" id="271_Snow-Covered Island" data-flag="@X" onclick="openSidebar('271_Snow-Covered Island',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\272_Snow-Covered Swamp.png" id="272_Snow-Covered Swamp" data-flag="@X" onclick="openSidebar('272_Snow-Covered Swamp',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\273_Snow-Covered Mountain.png" id="273_Snow-Covered Mountain" data-flag="@X" onclick="openSidebar('273_Snow-Covered Mountain',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\274_Snow-Covered Forest.png" id="274_Snow-Covered Forest" data-flag="@X" onclick="openSidebar('274_Snow-Covered Forest',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\275_Snow-Covered Wastes.png" id="275_Snow-Covered Wastes" data-flag="@X" onclick="openSidebar('275_Snow-Covered Wastes',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\1t_Enlightened.png" id="1t_Enlightened" data-flag="@X" onclick="openSidebar('1t_Enlightened',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\13t_Equipment.png" id="13t_Equipment" data-flag="@X" onclick="openSidebar('13t_Equipment',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\2t_Goat.png" id="2t_Goat" data-flag="@X" onclick="openSidebar('2t_Goat',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\3t_Gremlin.png" id="3t_Gremlin" data-flag="@X" onclick="openSidebar('3t_Gremlin',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\4t_Magnus.png" id="4t_Magnus" data-flag="@X" onclick="openSidebar('4t_Magnus',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\5t_Goat Spirit.png" id="5t_Goat Spirit" data-flag="@X" onclick="openSidebar('5t_Goat Spirit',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\6t_Berserker.png" id="6t_Berserker" data-flag="@X" onclick="openSidebar('6t_Berserker',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\7t_Treefolk.png" id="7t_Treefolk" data-flag="@X" onclick="openSidebar('7t_Treefolk',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\8t_Demon.png" id="8t_Demon" data-flag="@X" onclick="openSidebar('8t_Demon',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\9t_Aurochs.png" id="9t_Aurochs" data-flag="@X" onclick="openSidebar('9t_Aurochs',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\10t_Dwarf Warrior.png" id="10t_Dwarf Warrior" data-flag="@X" onclick="openSidebar('10t_Dwarf Warrior',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\11t_Shaman.png" id="11t_Shaman" data-flag="@X" onclick="openSidebar('11t_Shaman',false)"></div>
-			<div class="container"><img alt="/sets\DWA-files\img\12t_Yeti Horror.png" id="12t_Yeti Horror" data-flag="@X" onclick="openSidebar('12t_Yeti Horror',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img alt="/sets\DWA-files\img\16_Hammer of Ancestry.png" id="16_Hammer of Ancestry" data-flag="@X" onclick="openSidebar('16_Hammer of Ancestry',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\59_Kaldrbursti, the First Blizzard.png" id="59_Kaldrbursti, the First Blizzard" data-flag="@X" onclick="openSidebar('59_Kaldrbursti, the First Blizzard',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\100_Herald of Chilling Dusk.png" id="100_Herald of Chilling Dusk" data-flag="@X" onclick="openSidebar('100_Herald of Chilling Dusk',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\136_Hraungandr, The First Eruption.png" id="136_Hraungandr, The First Eruption" data-flag="@X" onclick="openSidebar('136_Hraungandr, The First Eruption',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\165_Elof, Fabled Bulwark.png" id="165_Elof, Fabled Bulwark" data-flag="@X" onclick="openSidebar('165_Elof, Fabled Bulwark',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\18_Herald of Warming Dawn.png" id="18_Herald of Warming Dawn" data-flag="@X" onclick="openSidebar('18_Herald of Warming Dawn',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\61_Lostwoods Shapestealer.png" id="61_Lostwoods Shapestealer" data-flag="@X" onclick="openSidebar('61_Lostwoods Shapestealer',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\117_Winter's Tomb.png" id="117_Winters Tomb" data-flag="@X" onclick="openSidebar('117_Winters Tomb',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\143_Peak of Destruction.png" id="143_Peak of Destruction" data-flag="@X" onclick="openSidebar('143_Peak of Destruction',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\184_Skogdrengr, the First Apex.png" id="184_Skogdrengr, the First Apex" data-flag="@X" onclick="openSidebar('184_Skogdrengr, the First Apex',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\2_Ari, Adventure Seeker_back.png" alt="/sets\DWA-files\img\2_Ari, Adventure Seeker_front.png" id="2_Ari, Adventure Seeker" data-flag="@XD" onclick="openSidebar('2_Ari, Adventure Seeker',false)"><button class="flip-btn" onclick="imgFlip('2_Ari, Adventure Seeker')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\44_Crush of Frost.png" id="44_Crush of Frost" data-flag="@X" onclick="openSidebar('44_Crush of Frost',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\84_Brunhild, Raider Queen_back.png" alt="/sets\DWA-files\img\84_Brunhild, Raider Queen_front.png" id="84_Brunhild, Raider Queen" data-flag="@XD" onclick="openSidebar('84_Brunhild, Raider Queen',false)"><button class="flip-btn" onclick="imgFlip('84_Brunhild, Raider Queen')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\120_Armament Repurposer.png" id="120_Armament Repurposer" data-flag="@X" onclick="openSidebar('120_Armament Repurposer',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\158_Adaptive Scavenger.png" id="158_Adaptive Scavenger" data-flag="@X" onclick="openSidebar('158_Adaptive Scavenger',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\3_Assembled Procession.png" id="3_Assembled Procession" data-flag="@X" onclick="openSidebar('3_Assembled Procession',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\49_Ferros, Encased Thunder_back.png" alt="/sets\DWA-files\img\49_Ferros, Encased Thunder_front.png" id="49_Ferros, Encased Thunder" data-flag="@XD" onclick="openSidebar('49_Ferros, Encased Thunder',false)"><button class="flip-btn" onclick="imgFlip('49_Ferros, Encased Thunder')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\87_Consuming Matriarch.png" id="87_Consuming Matriarch" data-flag="@X" onclick="openSidebar('87_Consuming Matriarch',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\124_Blazing Retribution.png" id="124_Blazing Retribution" data-flag="@X" onclick="openSidebar('124_Blazing Retribution',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\162_Cojocar Huntress.png" id="162_Cojocar Huntress" data-flag="@X" onclick="openSidebar('162_Cojocar Huntress',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\6_Cage the Soul.png" id="6_Cage the Soul" data-flag="@X" onclick="openSidebar('6_Cage the Soul',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\56_Horrific Splintering.png" id="56_Horrific Splintering" data-flag="@X" onclick="openSidebar('56_Horrific Splintering',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\89_Dire Elimination.png" id="89_Dire Elimination" data-flag="@X" onclick="openSidebar('89_Dire Elimination',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\128_Crack the Shells.png" id="128_Crack the Shells" data-flag="@X" onclick="openSidebar('128_Crack the Shells',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\173_Mountainbreaker Colossus.png" id="173_Mountainbreaker Colossus" data-flag="@X" onclick="openSidebar('173_Mountainbreaker Colossus',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\9_Disciple of Devotion.png" id="9_Disciple of Devotion" data-flag="@X" onclick="openSidebar('9_Disciple of Devotion',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\58_Inherited Talents.png" id="58_Inherited Talents" data-flag="@X" onclick="openSidebar('58_Inherited Talents',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\92_Enevenomed Scribe.png" id="92_Enevenomed Scribe" data-flag="@X" onclick="openSidebar('92_Enevenomed Scribe',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\131_Firebaiting.png" id="131_Firebaiting" data-flag="@X" onclick="openSidebar('131_Firebaiting',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\174_Nanna, Small but Mighty_back.png" alt="/sets\DWA-files\img\174_Nanna, Small but Mighty_front.png" id="174_Nanna, Small but Mighty" data-flag="@XD" onclick="openSidebar('174_Nanna, Small but Mighty',false)"><button class="flip-btn" onclick="imgFlip('174_Nanna, Small but Mighty')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\15_Growing Starlight.png" id="15_Growing Starlight" data-flag="@X" onclick="openSidebar('15_Growing Starlight',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\62_Moonbird's Invocation.png" id="62_Moonbirds Invocation" data-flag="@X" onclick="openSidebar('62_Moonbirds Invocation',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\95_Gelid Vessel.png" id="95_Gelid Vessel" data-flag="@X" onclick="openSidebar('95_Gelid Vessel',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\142_Magni, the Unbreakable_back.png" alt="/sets\DWA-files\img\142_Magni, the Unbreakable_front.png" id="142_Magni, the Unbreakable" data-flag="@XD" onclick="openSidebar('142_Magni, the Unbreakable',false)"><button class="flip-btn" onclick="imgFlip('142_Magni, the Unbreakable')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\175_Overgrown Steelsheell.png" id="175_Overgrown Steelsheell" data-flag="@X" onclick="openSidebar('175_Overgrown Steelsheell',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\23_Lostwoods Skywarden.png" id="23_Lostwoods Skywarden" data-flag="@X" onclick="openSidebar('23_Lostwoods Skywarden',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\63_Mythweaver Sprite.png" id="63_Mythweaver Sprite" data-flag="@X" onclick="openSidebar('63_Mythweaver Sprite',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\97_Grave Reckoning.png" id="97_Grave Reckoning" data-flag="@X" onclick="openSidebar('97_Grave Reckoning',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\151_Smuggled Firebombs.png" id="151_Smuggled Firebombs" data-flag="@X" onclick="openSidebar('151_Smuggled Firebombs',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\178_Quickstep Wildcaller.png" id="178_Quickstep Wildcaller" data-flag="@X" onclick="openSidebar('178_Quickstep Wildcaller',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\29_Rolling Joysphere.png" id="29_Rolling Joysphere" data-flag="@X" onclick="openSidebar('29_Rolling Joysphere',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\67_Regurgitating Gorger.png" id="67_Regurgitating Gorger" data-flag="@X" onclick="openSidebar('67_Regurgitating Gorger',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\102_Lay the Seeds.png" id="102_Lay the Seeds" data-flag="@X" onclick="openSidebar('102_Lay the Seeds',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\153_Sunbird's Invocation.png" id="153_Sunbirds Invocation" data-flag="@X" onclick="openSidebar('153_Sunbirds Invocation',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\187_Spiritual Order.png" id="187_Spiritual Order" data-flag="@X" onclick="openSidebar('187_Spiritual Order',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\33_Star-Herd Ascender.png" id="33_Star-Herd Ascender" data-flag="@X" onclick="openSidebar('33_Star-Herd Ascender',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\73_Star-High Dreamer.png" id="73_Star-High Dreamer" data-flag="@X" onclick="openSidebar('73_Star-High Dreamer',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\110_Solace's Shadow.png" id="110_Solaces Shadow" data-flag="@X" onclick="openSidebar('110_Solaces Shadow',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\154_Sunfeather Ascetic.png" id="154_Sunfeather Ascetic" data-flag="@X" onclick="openSidebar('154_Sunfeather Ascetic',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\194_Wildform Reclaimer.png" id="194_Wildform Reclaimer" data-flag="@X" onclick="openSidebar('194_Wildform Reclaimer',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\39_Van Helsa's Paragon.png" id="39_Van Helsas Paragon" data-flag="@X" onclick="openSidebar('39_Van Helsas Paragon',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\75_Summit Guardians.png" id="75_Summit Guardians" data-flag="@X" onclick="openSidebar('75_Summit Guardians',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\112_Underbridge Takeover.png" id="112_Underbridge Takeover" data-flag="@X" onclick="openSidebar('112_Underbridge Takeover',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\155_Unrelenting Champion.png" id="155_Unrelenting Champion" data-flag="@X" onclick="openSidebar('155_Unrelenting Champion',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\196_Yeti's Call.png" id="196_Yetis Call" data-flag="@X" onclick="openSidebar('196_Yetis Call',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\4_Aurora Weaver.png" id="4_Aurora Weaver" data-flag="@X" onclick="openSidebar('4_Aurora Weaver',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\41_Caller of Nightmare.png" id="41_Caller of Nightmare" data-flag="@X" onclick="openSidebar('41_Caller of Nightmare',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\80_Aurora Strix.png" id="80_Aurora Strix" data-flag="@X" onclick="openSidebar('80_Aurora Strix',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\119_Adventurous Coercion.png" id="119_Adventurous Coercion" data-flag="@X" onclick="openSidebar('119_Adventurous Coercion',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\159_Centaur Omenreader.png" id="159_Centaur Omenreader" data-flag="@X" onclick="openSidebar('159_Centaur Omenreader',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\7_Content Furball.png" id="7_Content Furball" data-flag="@X" onclick="openSidebar('7_Content Furball',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\45_Curious Imitator.png" id="45_Curious Imitator" data-flag="@X" onclick="openSidebar('45_Curious Imitator',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\83_Blizzard Stalker.png" id="83_Blizzard Stalker" data-flag="@X" onclick="openSidebar('83_Blizzard Stalker',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\121_Artistic Invocator_back.png" alt="/sets\DWA-files\img\121_Artistic Invocator_front.png" id="121_Artistic Invocator" data-flag="@XD" onclick="openSidebar('121_Artistic Invocator',false)"><button class="flip-btn" onclick="imgFlip('121_Artistic Invocator')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\163_Dangerous Bloom.png" id="163_Dangerous Bloom" data-flag="@X" onclick="openSidebar('163_Dangerous Bloom',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\8_Dawnpeak Herdmaster.png" id="8_Dawnpeak Herdmaster" data-flag="@X" onclick="openSidebar('8_Dawnpeak Herdmaster',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\46_Direfloe Strix.png" id="46_Direfloe Strix" data-flag="@X" onclick="openSidebar('46_Direfloe Strix',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\85_Brunhild's Tactics.png" id="85_Brunhilds Tactics" data-flag="@X" onclick="openSidebar('85_Brunhilds Tactics',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\126_Calamitous Reading.png" id="126_Calamitous Reading" data-flag="@X" onclick="openSidebar('126_Calamitous Reading',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\164_Elder Protector.png" id="164_Elder Protector" data-flag="@X" onclick="openSidebar('164_Elder Protector',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\11_Frostmoon Pathleader.png" id="11_Frostmoon Pathleader" data-flag="@X" onclick="openSidebar('11_Frostmoon Pathleader',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\48_Expedition Leader_back.png" alt="/sets\DWA-files\img\48_Expedition Leader_front.png" id="48_Expedition Leader" data-flag="@XD" onclick="openSidebar('48_Expedition Leader',false)"><button class="flip-btn" onclick="imgFlip('48_Expedition Leader')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\86_Carve a Path.png" id="86_Carve a Path" data-flag="@X" onclick="openSidebar('86_Carve a Path',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\129_Dreamcatcher's Rod.png" id="129_Dreamcatchers Rod" data-flag="@X" onclick="openSidebar('129_Dreamcatchers Rod',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\166_Expand Horizons.png" id="166_Expand Horizons" data-flag="@X" onclick="openSidebar('166_Expand Horizons',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\17_Hammer of the Admired.png" id="17_Hammer of the Admired" data-flag="@X" onclick="openSidebar('17_Hammer of the Admired',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\51_Forbidden Insight.png" id="51_Forbidden Insight" data-flag="@X" onclick="openSidebar('51_Forbidden Insight',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\93_Enthralled Huntress_back.png" alt="/sets\DWA-files\img\93_Enthralled Huntress_front.png" id="93_Enthralled Huntress" data-flag="@XD" onclick="openSidebar('93_Enthralled Huntress',false)"><button class="flip-btn" onclick="imgFlip('93_Enthralled Huntress')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\132_Firehorn Crusher.png" id="132_Firehorn Crusher" data-flag="@X" onclick="openSidebar('132_Firehorn Crusher',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\167_Fabled Weaponsmith.png" id="167_Fabled Weaponsmith" data-flag="@X" onclick="openSidebar('167_Fabled Weaponsmith',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\19_Hopebringer Valkyria.png" id="19_Hopebringer Valkyria" data-flag="@X" onclick="openSidebar('19_Hopebringer Valkyria',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\52_Freeze Momentum.png" id="52_Freeze Momentum" data-flag="@X" onclick="openSidebar('52_Freeze Momentum',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\96_Glimpse of Winter.png" id="96_Glimpse of Winter" data-flag="@X" onclick="openSidebar('96_Glimpse of Winter',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\135_Forged in Duty.png" id="135_Forged in Duty" data-flag="@X" onclick="openSidebar('135_Forged in Duty',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\171_Learned Ascetic.png" id="171_Learned Ascetic" data-flag="@X" onclick="openSidebar('171_Learned Ascetic',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\26_Raider's Huntmaster.png" id="26_Raiders Huntmaster" data-flag="@X" onclick="openSidebar('26_Raiders Huntmaster',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\55_Horrific Reclamation.png" id="55_Horrific Reclamation" data-flag="@X" onclick="openSidebar('55_Horrific Reclamation',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\98_Grove Sentinel.png" id="98_Grove Sentinel" data-flag="@X" onclick="openSidebar('98_Grove Sentinel',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\138_Jarlorn's Blessed.png" id="138_Jarlorns Blessed" data-flag="@X" onclick="openSidebar('138_Jarlorns Blessed',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\180_Rimefield's Blessing.png" id="180_Rimefields Blessing" data-flag="@X" onclick="openSidebar('180_Rimefields Blessing',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\28_Risen Greatwyrm_back.png" alt="/sets\DWA-files\img\28_Risen Greatwyrm_front.png" id="28_Risen Greatwyrm" data-flag="@XD" onclick="openSidebar('28_Risen Greatwyrm',false)"><button class="flip-btn" onclick="imgFlip('28_Risen Greatwyrm')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\57_Iceshelf Crasher.png" id="57_Iceshelf Crasher" data-flag="@X" onclick="openSidebar('57_Iceshelf Crasher',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\101_Horrific Priest.png" id="101_Horrific Priest" data-flag="@X" onclick="openSidebar('101_Horrific Priest',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\141_Lead the Avalanche.png" id="141_Lead the Avalanche" data-flag="@X" onclick="openSidebar('141_Lead the Avalanche',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\181_Rotroot Hydra.png" id="181_Rotroot Hydra" data-flag="@X" onclick="openSidebar('181_Rotroot Hydra',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\30_Sacred Binding.png" id="30_Sacred Binding" data-flag="@X" onclick="openSidebar('30_Sacred Binding',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\64_Nurture the Lostwoods.png" id="64_Nurture the Lostwoods" data-flag="@X" onclick="openSidebar('64_Nurture the Lostwoods',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\105_Moonlit Summons.png" id="105_Moonlit Summons" data-flag="@X" onclick="openSidebar('105_Moonlit Summons',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\144_Raider's Intimidator.png" id="144_Raiders Intimidator" data-flag="@X" onclick="openSidebar('144_Raiders Intimidator',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\182_Selfless Guardianship.png" id="182_Selfless Guardianship" data-flag="@X" onclick="openSidebar('182_Selfless Guardianship',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\31_Snowfield Burdenbeast.png" id="31_Snowfield Burdenbeast" data-flag="@X" onclick="openSidebar('31_Snowfield Burdenbeast',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\70_Rimefield Teachings.png" id="70_Rimefield Teachings" data-flag="@X" onclick="openSidebar('70_Rimefield Teachings',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\106_Persistent Croaker.png" id="106_Persistent Croaker" data-flag="@X" onclick="openSidebar('106_Persistent Croaker',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\145_Raider's Sabotage.png" id="145_Raiders Sabotage" data-flag="@X" onclick="openSidebar('145_Raiders Sabotage',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\185_Snowslide Runner.png" id="185_Snowslide Runner" data-flag="@X" onclick="openSidebar('185_Snowslide Runner',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\32_Snowslide.png" id="32_Snowslide" data-flag="@X" onclick="openSidebar('32_Snowslide',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\71_Song of Winter.png" id="71_Song of Winter" data-flag="@X" onclick="openSidebar('71_Song of Winter',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\107_Shadowcleave.png" id="107_Shadowcleave" data-flag="@X" onclick="openSidebar('107_Shadowcleave',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\149_Smithing Instructor.png" id="149_Smithing Instructor" data-flag="@X" onclick="openSidebar('149_Smithing Instructor',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\189_Titanic Odds.png" id="189_Titanic Odds" data-flag="@X" onclick="openSidebar('189_Titanic Odds',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\34_Steppe Stampede.png" id="34_Steppe Stampede" data-flag="@X" onclick="openSidebar('34_Steppe Stampede',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\72_Star-Herd Apprentice_back.png" alt="/sets\DWA-files\img\72_Star-Herd Apprentice_front.png" id="72_Star-Herd Apprentice" data-flag="@XD" onclick="openSidebar('72_Star-Herd Apprentice',false)"><button class="flip-btn" onclick="imgFlip('72_Star-Herd Apprentice')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\108_Slumbering Warden.png" id="108_Slumbering Warden" data-flag="@X" onclick="openSidebar('108_Slumbering Warden',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\152_Star-Herd Blaze.png" id="152_Star-Herd Blaze" data-flag="@X" onclick="openSidebar('152_Star-Herd Blaze',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\190_Trapped Trail.png" id="190_Trapped Trail" data-flag="@X" onclick="openSidebar('190_Trapped Trail',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\35_Stoneskin.png" id="35_Stoneskin" data-flag="@X" onclick="openSidebar('35_Stoneskin',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\76_Those Who Thaw.png" id="76_Those Who Thaw" data-flag="@X" onclick="openSidebar('76_Those Who Thaw',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\109_Smithed Legacy.png" id="109_Smithed Legacy" data-flag="@X" onclick="openSidebar('109_Smithed Legacy',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\156_Varloch Troublemaker.png" id="156_Varloch Troublemaker" data-flag="@X" onclick="openSidebar('156_Varloch Troublemaker',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\193_Unstoppable Behemoth.png" id="193_Unstoppable Behemoth" data-flag="@X" onclick="openSidebar('193_Unstoppable Behemoth',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\40_Wild Reproach.png" id="40_Wild Reproach" data-flag="@X" onclick="openSidebar('40_Wild Reproach',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\79_Wandering Sprite.png" id="79_Wandering Sprite" data-flag="@X" onclick="openSidebar('79_Wandering Sprite',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\116_Wandering Gemcrafter.png" id="116_Wandering Gemcrafter" data-flag="@X" onclick="openSidebar('116_Wandering Gemcrafter',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\157_Walking Range_back.png" alt="/sets\DWA-files\img\157_Walking Range_front.png" id="157_Walking Range" data-flag="@XD" onclick="openSidebar('157_Walking Range',false)"><button class="flip-btn" onclick="imgFlip('157_Walking Range')"></button></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\195_Yearling Warrior_back.png" alt="/sets\DWA-files\img\195_Yearling Warrior_front.png" id="195_Yearling Warrior" data-flag="@XD" onclick="openSidebar('195_Yearling Warrior',false)"><button class="flip-btn" onclick="imgFlip('195_Yearling Warrior')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\5_Avalanche Charge.png" id="5_Avalanche Charge" data-flag="@X" onclick="openSidebar('5_Avalanche Charge',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\42_Cliffwalker Adept.png" id="42_Cliffwalker Adept" data-flag="@X" onclick="openSidebar('42_Cliffwalker Adept',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\81_Battle Brewer.png" id="81_Battle Brewer" data-flag="@X" onclick="openSidebar('81_Battle Brewer',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\122_Aspirant of the Hunt_back.png" alt="/sets\DWA-files\img\122_Aspirant of the Hunt_front.png" id="122_Aspirant of the Hunt" data-flag="@XD" onclick="openSidebar('122_Aspirant of the Hunt',false)"><button class="flip-btn" onclick="imgFlip('122_Aspirant of the Hunt')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\160_Charting Efforts.png" id="160_Charting Efforts" data-flag="@X" onclick="openSidebar('160_Charting Efforts',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\10_Fjord Raptor.png" id="10_Fjord Raptor" data-flag="@X" onclick="openSidebar('10_Fjord Raptor',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\43_Collective Repulse.png" id="43_Collective Repulse" data-flag="@X" onclick="openSidebar('43_Collective Repulse',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\82_Berserker's Will.png" id="82_Berserkers Will" data-flag="@X" onclick="openSidebar('82_Berserkers Will',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\123_Blaze Scryer.png" id="123_Blaze Scryer" data-flag="@X" onclick="openSidebar('123_Blaze Scryer',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\161_Chillbloom Spider.png" id="161_Chillbloom Spider" data-flag="@X" onclick="openSidebar('161_Chillbloom Spider',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\12_Frostmoon Priestess.png" id="12_Frostmoon Priestess" data-flag="@X" onclick="openSidebar('12_Frostmoon Priestess',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\47_Eager Geologist.png" id="47_Eager Geologist" data-flag="@X" onclick="openSidebar('47_Eager Geologist',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\88_Defiant Sacrifice.png" id="88_Defiant Sacrifice" data-flag="@X" onclick="openSidebar('88_Defiant Sacrifice',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\125_Bloodfang Wildcat.png" id="125_Bloodfang Wildcat" data-flag="@X" onclick="openSidebar('125_Bloodfang Wildcat',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\168_Fungal Storyteller.png" id="168_Fungal Storyteller" data-flag="@X" onclick="openSidebar('168_Fungal Storyteller',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\13_Gelid Entombing.png" id="13_Gelid Entombing" data-flag="@X" onclick="openSidebar('13_Gelid Entombing',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\50_Fjord Thrasher.png" id="50_Fjord Thrasher" data-flag="@X" onclick="openSidebar('50_Fjord Thrasher',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\90_Disturbed Orbweaver.png" id="90_Disturbed Orbweaver" data-flag="@X" onclick="openSidebar('90_Disturbed Orbweaver',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\127_Call Reinforcements.png" id="127_Call Reinforcements" data-flag="@X" onclick="openSidebar('127_Call Reinforcements',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\169_Iskari Pathleader.png" id="169_Iskari Pathleader" data-flag="@X" onclick="openSidebar('169_Iskari Pathleader',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\14_Gor-narg's Leadership.png" id="14_Gor-nargs Leadership" data-flag="@X" onclick="openSidebar('14_Gor-nargs Leadership',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\53_Haunt-Pass Charger.png" id="53_Haunt-Pass Charger" data-flag="@X" onclick="openSidebar('53_Haunt-Pass Charger',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\91_Dread Scavenger.png" id="91_Dread Scavenger" data-flag="@X" onclick="openSidebar('91_Dread Scavenger',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\130_Excited Artillerist.png" id="130_Excited Artillerist" data-flag="@X" onclick="openSidebar('130_Excited Artillerist',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\170_Learn From the Cold.png" id="170_Learn From the Cold" data-flag="@X" onclick="openSidebar('170_Learn From the Cold',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\20_Huntpack Ambush.png" id="20_Huntpack Ambush" data-flag="@X" onclick="openSidebar('20_Huntpack Ambush',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\54_Hilda's Dismissal.png" id="54_Hildas Dismissal" data-flag="@X" onclick="openSidebar('54_Hildas Dismissal',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\94_Foraging Raccoon.png" id="94_Foraging Raccoon" data-flag="@X" onclick="openSidebar('94_Foraging Raccoon',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\133_Firmament Channeler.png" id="133_Firmament Channeler" data-flag="@X" onclick="openSidebar('133_Firmament Channeler',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\172_Lostwoods Caretaker_back.png" alt="/sets\DWA-files\img\172_Lostwoods Caretaker_front.png" id="172_Lostwoods Caretaker" data-flag="@XD" onclick="openSidebar('172_Lostwoods Caretaker',false)"><button class="flip-btn" onclick="imgFlip('172_Lostwoods Caretaker')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\21_Iskari Floechanter.png" id="21_Iskari Floechanter" data-flag="@X" onclick="openSidebar('21_Iskari Floechanter',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\60_Lostwoods Corruption.png" id="60_Lostwoods Corruption" data-flag="@X" onclick="openSidebar('60_Lostwoods Corruption',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\99_Gunvald's Forerunner.png" id="99_Gunvalds Forerunner" data-flag="@X" onclick="openSidebar('99_Gunvalds Forerunner',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\134_Flamespitter Wyrm_back.png" alt="/sets\DWA-files\img\134_Flamespitter Wyrm_front.png" id="134_Flamespitter Wyrm" data-flag="@XD" onclick="openSidebar('134_Flamespitter Wyrm',false)"><button class="flip-btn" onclick="imgFlip('134_Flamespitter Wyrm')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\176_Peak Performance.png" id="176_Peak Performance" data-flag="@X" onclick="openSidebar('176_Peak Performance',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\22_Kindly Herder.png" id="22_Kindly Herder" data-flag="@X" onclick="openSidebar('22_Kindly Herder',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\65_Omenreading.png" id="65_Omenreading" data-flag="@X" onclick="openSidebar('65_Omenreading',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\103_Lethal Chill.png" id="103_Lethal Chill" data-flag="@X" onclick="openSidebar('103_Lethal Chill',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\137_Huntpack Guardian.png" id="137_Huntpack Guardian" data-flag="@X" onclick="openSidebar('137_Huntpack Guardian',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\177_Primal Rebuke.png" id="177_Primal Rebuke" data-flag="@X" onclick="openSidebar('177_Primal Rebuke',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\24_Martyr's Soul.png" id="24_Martyrs Soul" data-flag="@X" onclick="openSidebar('24_Martyrs Soul',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\66_Ranging Falcon.png" id="66_Ranging Falcon" data-flag="@X" onclick="openSidebar('66_Ranging Falcon',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\104_Maddenned Ramblings.png" id="104_Maddenned Ramblings" data-flag="@X" onclick="openSidebar('104_Maddenned Ramblings',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\139_Jarlorn's Fury.png" id="139_Jarlorns Fury" data-flag="@X" onclick="openSidebar('139_Jarlorns Fury',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\179_Reed-Crowned Flutist.png" id="179_Reed-Crowned Flutist" data-flag="@X" onclick="openSidebar('179_Reed-Crowned Flutist',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\25_Protective Hearthsmith.png" id="25_Protective Hearthsmith" data-flag="@X" onclick="openSidebar('25_Protective Hearthsmith',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\68_Release From Frost.png" id="68_Release From Frost" data-flag="@X" onclick="openSidebar('68_Release From Frost',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\111_Strait-Deep Lurker.png" id="111_Strait-Deep Lurker" data-flag="@X" onclick="openSidebar('111_Strait-Deep Lurker',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\140_Kindle Runner.png" id="140_Kindle Runner" data-flag="@X" onclick="openSidebar('140_Kindle Runner',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\183_Shamanic Leader.png" id="183_Shamanic Leader" data-flag="@X" onclick="openSidebar('183_Shamanic Leader',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\27_Raider's Initiate.png" id="27_Raiders Initiate" data-flag="@X" onclick="openSidebar('27_Raiders Initiate',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\69_Render Insignificant.png" id="69_Render Insignificant" data-flag="@X" onclick="openSidebar('69_Render Insignificant',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\113_Unformed Devourer_back.png" alt="/sets\DWA-files\img\113_Unformed Devourer_front.png" id="113_Unformed Devourer" data-flag="@XD" onclick="openSidebar('113_Unformed Devourer',false)"><button class="flip-btn" onclick="imgFlip('113_Unformed Devourer')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\146_Raze the Halls.png" id="146_Raze the Halls" data-flag="@X" onclick="openSidebar('146_Raze the Halls',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\186_Spikeback Hog.png" id="186_Spikeback Hog" data-flag="@X" onclick="openSidebar('186_Spikeback Hog',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\36_Take up Blades.png" id="36_Take up Blades" data-flag="@X" onclick="openSidebar('36_Take up Blades',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\74_Stormbane Strix_back.png" alt="/sets\DWA-files\img\74_Stormbane Strix_front.png" id="74_Stormbane Strix" data-flag="@XD" onclick="openSidebar('74_Stormbane Strix',false)"><button class="flip-btn" onclick="imgFlip('74_Stormbane Strix')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\114_Unhallowed Awakening.png" id="114_Unhallowed Awakening" data-flag="@X" onclick="openSidebar('114_Unhallowed Awakening',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\147_Skadi's Muster.png" id="147_Skadis Muster" data-flag="@X" onclick="openSidebar('147_Skadis Muster',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\188_Steadfast Ascetic.png" id="188_Steadfast Ascetic" data-flag="@X" onclick="openSidebar('188_Steadfast Ascetic',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\37_Treetop Hunter_back.png" alt="/sets\DWA-files\img\37_Treetop Hunter_front.png" id="37_Treetop Hunter" data-flag="@XD" onclick="openSidebar('37_Treetop Hunter',false)"><button class="flip-btn" onclick="imgFlip('37_Treetop Hunter')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\77_Totemic Visions.png" id="77_Totemic Visions" data-flag="@X" onclick="openSidebar('77_Totemic Visions',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\115_Unto Death.png" id="115_Unto Death" data-flag="@X" onclick="openSidebar('115_Unto Death',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\148_Skred.png" id="148_Skred" data-flag="@X" onclick="openSidebar('148_Skred',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\191_Trumpeting Rampager.png" id="191_Trumpeting Rampager" data-flag="@X" onclick="openSidebar('191_Trumpeting Rampager',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\38_Van Helsa's Blade.png" id="38_Van Helsas Blade" data-flag="@X" onclick="openSidebar('38_Van Helsas Blade',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\78_Tranquil Scryer_back.png" alt="/sets\DWA-files\img\78_Tranquil Scryer_front.png" id="78_Tranquil Scryer" data-flag="@XD" onclick="openSidebar('78_Tranquil Scryer',false)"><button class="flip-btn" onclick="imgFlip('78_Tranquil Scryer')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\118_Yeti Youngling.png" id="118_Yeti Youngling" data-flag="@X" onclick="openSidebar('118_Yeti Youngling',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\150_Smith's Resolve.png" id="150_Smiths Resolve" data-flag="@X" onclick="openSidebar('150_Smiths Resolve',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\192_Unexpected Breach.png" id="192_Unexpected Breach" data-flag="@X" onclick="openSidebar('192_Unexpected Breach',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\222_The Original Valkyria.png" id="222_The Original Valkyria" data-flag="@X" onclick="openSidebar('222_The Original Valkyria',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\225_Rind, Head Priestess_back.png" alt="/sets\DWA-files\img\225_Rind, Head Priestess_front.png" id="225_Rind, Head Priestess" data-flag="@XD" onclick="openSidebar('225_Rind, Head Priestess',false)"><button class="flip-btn" onclick="imgFlip('225_Rind, Head Priestess')"></button></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\232_Steinar, Molten Will_back.png" alt="/sets\DWA-files\img\232_Steinar, Molten Will_front.png" id="232_Steinar, Molten Will" data-flag="@XD" onclick="openSidebar('232_Steinar, Molten Will',false)"><button class="flip-btn" onclick="imgFlip('232_Steinar, Molten Will')"></button></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\215_Jarlorn, Storm-Roar_back.png" alt="/sets\DWA-files\img\215_Jarlorn, Storm-Roar_front.png" id="215_Jarlorn, Storm-Roar" data-flag="@XD" onclick="openSidebar('215_Jarlorn, Storm-Roar',false)"><button class="flip-btn" onclick="imgFlip('215_Jarlorn, Storm-Roar')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\211_Hodur, Varloch Elder.png" id="211_Hodur, Varloch Elder" data-flag="@X" onclick="openSidebar('211_Hodur, Varloch Elder',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\233_Sven, Fjord Cliffdancer.png" id="233_Sven, Fjord Cliffdancer" data-flag="@X" onclick="openSidebar('233_Sven, Fjord Cliffdancer',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\203_Blizzard Bulwark.png" id="203_Blizzard Bulwark" data-flag="@X" onclick="openSidebar('203_Blizzard Bulwark',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\219_Malignatus, Prison-Breaker.png" id="219_Malignatus, Prison-Breaker" data-flag="@X" onclick="openSidebar('219_Malignatus, Prison-Breaker',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\229_Skadi, Fierce Protectress.png" id="229_Skadi, Fierce Protectress" data-flag="@X" onclick="openSidebar('229_Skadi, Fierce Protectress',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\220_Mountainback Ox.png" id="220_Mountainback Ox" data-flag="@X" onclick="openSidebar('220_Mountainback Ox',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\206_Flash Freeze.png" id="206_Flash Freeze" data-flag="@X" onclick="openSidebar('206_Flash Freeze',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\231_Spinner of Souls.png" id="231_Spinner of Souls" data-flag="@X" onclick="openSidebar('231_Spinner of Souls',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\209_Gunvald, Unsparing Raider.png" id="209_Gunvald, Unsparing Raider" data-flag="@X" onclick="openSidebar('209_Gunvald, Unsparing Raider',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\199_Anaru Omenseer.png" id="199_Anaru Omenseer" data-flag="@X" onclick="openSidebar('199_Anaru Omenseer',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\235_Twisted-horn Flockhand.png" id="235_Twisted-horn Flockhand" data-flag="@X" onclick="openSidebar('235_Twisted-horn Flockhand',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\210_Hilda, the Oneiromancer.png" id="210_Hilda, the Oneiromancer" data-flag="@X" onclick="openSidebar('210_Hilda, the Oneiromancer',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\226_Runed Headcarver.png" id="226_Runed Headcarver" data-flag="@X" onclick="openSidebar('226_Runed Headcarver',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\204_Defiant Trapbreaker.png" id="204_Defiant Trapbreaker" data-flag="@X" onclick="openSidebar('204_Defiant Trapbreaker',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\205_Dritta, Shadewrought.png" id="205_Dritta, Shadewrought" data-flag="@X" onclick="openSidebar('205_Dritta, Shadewrought',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\216_Keiko, Travelling Trickster_back.png" alt="/sets\DWA-files\img\216_Keiko, Travelling Trickster_front.png" id="216_Keiko, Travelling Trickster" data-flag="@XD" onclick="openSidebar('216_Keiko, Travelling Trickster',false)"><button class="flip-btn" onclick="imgFlip('216_Keiko, Travelling Trickster')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\197_Agnar, Winter's Wrath.png" id="197_Agnar, Winters Wrath" data-flag="@X" onclick="openSidebar('197_Agnar, Winters Wrath',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\227_Sara Van Helsa, Nightchaser.png" id="227_Sara Van Helsa, Nightchaser" data-flag="@X" onclick="openSidebar('227_Sara Van Helsa, Nightchaser',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\212_Hoenir, Reclaimed Might.png" id="212_Hoenir, Reclaimed Might" data-flag="@X" onclick="openSidebar('212_Hoenir, Reclaimed Might',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\207_Frostmoon Vindicator.png" id="207_Frostmoon Vindicator" data-flag="@X" onclick="openSidebar('207_Frostmoon Vindicator',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\217_Keiko's Distraction.png" id="217_Keikos Distraction" data-flag="@X" onclick="openSidebar('217_Keikos Distraction',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\198_Agnar's Meditation.png" id="198_Agnars Meditation" data-flag="@X" onclick="openSidebar('198_Agnars Meditation',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\200_Arnfinn & Sif, Aerscouts.png" id="200_Arnfinn & Sif, Aerscouts" data-flag="@X" onclick="openSidebar('200_Arnfinn & Sif, Aerscouts',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\213_Iceshelf Screecher.png" id="213_Iceshelf Screecher" data-flag="@X" onclick="openSidebar('213_Iceshelf Screecher',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\224_Raider's Spirit.png" id="224_Raiders Spirit" data-flag="@X" onclick="openSidebar('224_Raiders Spirit',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\236_Urdie, Inquisite Scholar_back.png" alt="/sets\DWA-files\img\236_Urdie, Inquisite Scholar_front.png" id="236_Urdie, Inquisite Scholar" data-flag="@XD" onclick="openSidebar('236_Urdie, Inquisite Scholar',false)"><button class="flip-btn" onclick="imgFlip('236_Urdie, Inquisite Scholar')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\208_Gor-Narg, Iskari Prince.png" id="208_Gor-Narg, Iskari Prince" data-flag="@X" onclick="openSidebar('208_Gor-Narg, Iskari Prince',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\237_Van Helsa's Aptitude.png" id="237_Van Helsas Aptitude" data-flag="@X" onclick="openSidebar('237_Van Helsas Aptitude',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\230_Slumbering Snowtoad.png" id="230_Slumbering Snowtoad" data-flag="@X" onclick="openSidebar('230_Slumbering Snowtoad',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\214_Invoke the Stars.png" id="214_Invoke the Stars" data-flag="@X" onclick="openSidebar('214_Invoke the Stars',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\201_Awoken Sapling.png" id="201_Awoken Sapling" data-flag="@X" onclick="openSidebar('201_Awoken Sapling',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\202_Blazing Valkyria.png" id="202_Blazing Valkyria" data-flag="@X" onclick="openSidebar('202_Blazing Valkyria',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\218_Lostwoods Soulherder_back.png" alt="/sets\DWA-files\img\218_Lostwoods Soulherder_front.png" id="218_Lostwoods Soulherder" data-flag="@XD" onclick="openSidebar('218_Lostwoods Soulherder',false)"><button class="flip-btn" onclick="imgFlip('218_Lostwoods Soulherder')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\223_Posessed Deadwood.png" id="223_Posessed Deadwood" data-flag="@X" onclick="openSidebar('223_Posessed Deadwood',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\238_Varloch Flamewright.png" id="238_Varloch Flamewright" data-flag="@X" onclick="openSidebar('238_Varloch Flamewright',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\228_Sivfrida, Life-Warden_back.png" alt="/sets\DWA-files\img\228_Sivfrida, Life-Warden_front.png" id="228_Sivfrida, Life-Warden" data-flag="@XD" onclick="openSidebar('228_Sivfrida, Life-Warden',false)"><button class="flip-btn" onclick="imgFlip('228_Sivfrida, Life-Warden')"></button></div>
+				<div class="container"><img data-alt_src="/sets\DWA-files\img\234_Tungskul, Gelid Moon_back.png" alt="/sets\DWA-files\img\234_Tungskul, Gelid Moon_front.png" id="234_Tungskul, Gelid Moon" data-flag="@XD" onclick="openSidebar('234_Tungskul, Gelid Moon',false)"><button class="flip-btn" onclick="imgFlip('234_Tungskul, Gelid Moon')"></button></div>
+				<div class="container"><img alt="/sets\DWA-files\img\221_One With the Aurora.png" id="221_One With the Aurora" data-flag="@X" onclick="openSidebar('221_One With the Aurora',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\1_Intrepidity.png" id="1_Intrepidity" data-flag="@X" onclick="openSidebar('1_Intrepidity',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\249_Temple to True Ice.png" id="249_Temple to True Ice" data-flag="@X" onclick="openSidebar('249_Temple to True Ice',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\241_Forgesteppe Barrier.png" id="241_Forgesteppe Barrier" data-flag="@X" onclick="openSidebar('241_Forgesteppe Barrier',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\243_Improvised Juggernaut.png" id="243_Improvised Juggernaut" data-flag="@X" onclick="openSidebar('243_Improvised Juggernaut',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\244_Invoked Protector.png" id="244_Invoked Protector" data-flag="@X" onclick="openSidebar('244_Invoked Protector',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\239_Blessed Workshop.png" id="239_Blessed Workshop" data-flag="@X" onclick="openSidebar('239_Blessed Workshop',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\240_Explorers Raft.png" id="240_Explorers Raft" data-flag="@X" onclick="openSidebar('240_Explorers Raft',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\242_Icicle Snare.png" id="242_Icicle Snare" data-flag="@X" onclick="openSidebar('242_Icicle Snare',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\245_Iron Giant.png" id="245_Iron Giant" data-flag="@X" onclick="openSidebar('245_Iron Giant',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\246_Iskari Totem.png" id="246_Iskari Totem" data-flag="@X" onclick="openSidebar('246_Iskari Totem',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\247_Malleable Fae.png" id="247_Malleable Fae" data-flag="@X" onclick="openSidebar('247_Malleable Fae',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\248_Rockspine Drake.png" id="248_Rockspine Drake" data-flag="@X" onclick="openSidebar('248_Rockspine Drake',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\258_Frosted Village.png" id="258_Frosted Village" data-flag="@X" onclick="openSidebar('258_Frosted Village',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\256_Frosted River.png" id="256_Frosted River" data-flag="@X" onclick="openSidebar('256_Frosted River',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\254_Frosted Bastion.png" id="254_Frosted Bastion" data-flag="@X" onclick="openSidebar('254_Frosted Bastion',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\257_Frosted Steppe.png" id="257_Frosted Steppe" data-flag="@X" onclick="openSidebar('257_Frosted Steppe',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\255_Frosted Grotto.png" id="255_Frosted Grotto" data-flag="@X" onclick="openSidebar('255_Frosted Grotto',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\260_Glacial Floodplain.png" id="260_Glacial Floodplain" data-flag="@X" onclick="openSidebar('260_Glacial Floodplain',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\262_Ice Tunnel.png" id="262_Ice Tunnel" data-flag="@X" onclick="openSidebar('262_Ice Tunnel',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\267_Sulfurous Mire.png" id="267_Sulfurous Mire" data-flag="@X" onclick="openSidebar('267_Sulfurous Mire',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\261_Highland Forest.png" id="261_Highland Forest" data-flag="@X" onclick="openSidebar('261_Highland Forest',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\251_Arctic Treeline.png" id="251_Arctic Treeline" data-flag="@X" onclick="openSidebar('251_Arctic Treeline',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\265_Snowfield Sinkhole.png" id="265_Snowfield Sinkhole" data-flag="@X" onclick="openSidebar('265_Snowfield Sinkhole',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\268_Volatile Fjord.png" id="268_Volatile Fjord" data-flag="@X" onclick="openSidebar('268_Volatile Fjord',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\269_Woodland Chasm.png" id="269_Woodland Chasm" data-flag="@X" onclick="openSidebar('269_Woodland Chasm',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\250_Alpine Meadow.png" id="250_Alpine Meadow" data-flag="@X" onclick="openSidebar('250_Alpine Meadow',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\264_Rimewood Falls.png" id="264_Rimewood Falls" data-flag="@X" onclick="openSidebar('264_Rimewood Falls',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\253_Cavern of Souls.png" id="253_Cavern of Souls" data-flag="@X" onclick="openSidebar('253_Cavern of Souls',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\263_Prismatic Chasm.png" id="263_Prismatic Chasm" data-flag="@X" onclick="openSidebar('263_Prismatic Chasm',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\266_Steinar's Crucible.png" id="266_Steinars Crucible" data-flag="@X" onclick="openSidebar('266_Steinars Crucible',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\252_Auroric Landscape.png" id="252_Auroric Landscape" data-flag="@X" onclick="openSidebar('252_Auroric Landscape',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\259_Frostmoon Temple.png" id="259_Frostmoon Temple" data-flag="@X" onclick="openSidebar('259_Frostmoon Temple',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\270_Snow-Covered Plains.png" id="270_Snow-Covered Plains" data-flag="@X" onclick="openSidebar('270_Snow-Covered Plains',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\271_Snow-Covered Island.png" id="271_Snow-Covered Island" data-flag="@X" onclick="openSidebar('271_Snow-Covered Island',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\272_Snow-Covered Swamp.png" id="272_Snow-Covered Swamp" data-flag="@X" onclick="openSidebar('272_Snow-Covered Swamp',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\273_Snow-Covered Mountain.png" id="273_Snow-Covered Mountain" data-flag="@X" onclick="openSidebar('273_Snow-Covered Mountain',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\274_Snow-Covered Forest.png" id="274_Snow-Covered Forest" data-flag="@X" onclick="openSidebar('274_Snow-Covered Forest',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\275_Snow-Covered Wastes.png" id="275_Snow-Covered Wastes" data-flag="@X" onclick="openSidebar('275_Snow-Covered Wastes',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\1t_Enlightened.png" id="1t_Enlightened" data-flag="@X" onclick="openSidebar('1t_Enlightened',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\13t_Equipment.png" id="13t_Equipment" data-flag="@X" onclick="openSidebar('13t_Equipment',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\2t_Goat.png" id="2t_Goat" data-flag="@X" onclick="openSidebar('2t_Goat',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\3t_Gremlin.png" id="3t_Gremlin" data-flag="@X" onclick="openSidebar('3t_Gremlin',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\4t_Magnus.png" id="4t_Magnus" data-flag="@X" onclick="openSidebar('4t_Magnus',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\5t_Goat Spirit.png" id="5t_Goat Spirit" data-flag="@X" onclick="openSidebar('5t_Goat Spirit',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\6t_Berserker.png" id="6t_Berserker" data-flag="@X" onclick="openSidebar('6t_Berserker',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\7t_Treefolk.png" id="7t_Treefolk" data-flag="@X" onclick="openSidebar('7t_Treefolk',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\8t_Demon.png" id="8t_Demon" data-flag="@X" onclick="openSidebar('8t_Demon',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\9t_Aurochs.png" id="9t_Aurochs" data-flag="@X" onclick="openSidebar('9t_Aurochs',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\10t_Dwarf Warrior.png" id="10t_Dwarf Warrior" data-flag="@X" onclick="openSidebar('10t_Dwarf Warrior',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\11t_Shaman.png" id="11t_Shaman" data-flag="@X" onclick="openSidebar('11t_Shaman',false)"></div>
+				<div class="container"><img alt="/sets\DWA-files\img\12t_Yeti Horror.png" id="12t_Yeti Horror" data-flag="@X" onclick="openSidebar('12t_Yeti Horror',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 	</div>
-</div>
+	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
 			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
@@ -567,7 +595,7 @@
 				card_list_arrayified = card_list.cards;
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
-		
+
 		let images_loaded = [];
 
 		do {
@@ -657,7 +685,7 @@
 	function openSidebar(id, h = false) {
 		horizontal = h;
 		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
-		
+
 		document.getElementById('sidebar').style.display = 'grid';
 
 		const rotated_img = document.getElementById('sidebar_h_img');
@@ -688,7 +716,7 @@
 			document.getElementById('sidebar-flip-btn').style.display = 'none';
 		}
 		document.getElementById('main-content').style.width = '60%';
-		
+
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
 		setSidebarTop();
@@ -699,10 +727,28 @@
 
 		document.getElementById('sidebar').style.display = 'none';
 		document.getElementById('main-content').style.width = '100%';
-		
+
 
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
 	}
 
 	document.getElementById("search").addEventListener("keypress", function(event) {
