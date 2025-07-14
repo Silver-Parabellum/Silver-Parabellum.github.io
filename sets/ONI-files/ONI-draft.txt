@@ -1916,7 +1916,7 @@
 		},
 		{
 			"name": "Nightmares In Reality",
-			"rarity": "mythic",
+			"rarity": "rare",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Enchantment",
 			"collector_number": "234",
@@ -3345,6 +3345,7 @@
 2 Chieko, Untamed Rover
 2 Disruptor Suit Pilot
 2 Chika, Mild-Mannered
+2 Nightmares In Reality
 2 Shrine-Lurker Ogama
 2 Challenging Lesson
 2 Izanami, Storied Empress
@@ -3405,7 +3406,6 @@
 1 Reiko, Battle Choreographer
 1 Korra, Wayward Explorer
 1 End of the Line
-1 Nightmares In Reality
 1 Voidflame Researcher
 1 Setsuko, the Sightseeker
 1 Kisaragi Kasen, the Vessel
