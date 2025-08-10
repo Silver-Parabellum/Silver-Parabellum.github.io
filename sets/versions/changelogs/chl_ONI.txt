@@ -1,4 +1,25 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Hidanko Voidshaper added.
+Rooftreader Inari added.
+
+Hidanko Cursebinder removed.
+Seijuku Voidshaper removed.
+
+Hidanko Swordmaster
+
+Seijuku Star Pilot
+
+Ryujin of Night's Sorrow
+
+Stern Shrinehead
+
+Azure Gust Descendant
+type: Creature — Bird Spirit Student => Creature — Bird Student
+
+
+VERSION 2 CHANGELOG
 ====================
 
 

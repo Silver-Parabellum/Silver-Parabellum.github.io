@@ -193,7 +193,7 @@
     },
     {
         "card_name": "Ryujin of Night's Sorrow",
-        "number": 103,
+        "number": 104,
         "shape": "normal",
         "set": "ONI"
     },
@@ -462,8 +462,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Live and Learn",
-        "number": 96,
+        "card_name": "Hidanko Voidshaper",
+        "number": 90,
         "shape": "normal",
         "set": "ONI"
     },
@@ -492,8 +492,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Memorial Miasma",
-        "number": 99,
+        "card_name": "Live and Learn",
+        "number": 96,
         "shape": "normal",
         "set": "ONI"
     },
@@ -522,8 +522,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Only the Best",
-        "number": 102,
+        "card_name": "Memorial Miasma",
+        "number": 99,
         "shape": "normal",
         "set": "ONI"
     },
@@ -552,8 +552,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Seijuku Star Pilot",
-        "number": 104,
+        "card_name": "Only the Best",
+        "number": 102,
         "shape": "normal",
         "set": "ONI"
     },
@@ -582,7 +582,7 @@
         "set": "ONI"
     },
     {
-        "card_name": "Seijuku Voidshaper",
+        "card_name": "Seijuku Star Pilot",
         "number": 105,
         "shape": "normal",
         "set": "ONI"
@@ -852,7 +852,7 @@
         "set": "ONI"
     },
     {
-        "card_name": "Hidanko Cursebinder",
+        "card_name": "Hidanko Swordmaster",
         "number": 89,
         "shape": "normal",
         "set": "ONI"
@@ -882,8 +882,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Hidanko Swordmaster",
-        "number": 90,
+        "card_name": "Hollow Studies",
+        "number": 91,
         "shape": "normal",
         "set": "ONI"
     },
@@ -912,8 +912,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Hollow Studies",
-        "number": 91,
+        "card_name": "Late-Night Line Practice",
+        "number": 95,
         "shape": "normal",
         "set": "ONI"
     },
@@ -942,8 +942,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Late-Night Line Practice",
-        "number": 95,
+        "card_name": "Maddenning Exit",
+        "number": 97,
         "shape": "normal",
         "set": "ONI"
     },
@@ -972,8 +972,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Maddenning Exit",
-        "number": 97,
+        "card_name": "Night's Sorrow Soulherder",
+        "number": 100,
         "shape": "normal",
         "set": "ONI"
     },
@@ -1002,8 +1002,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Night's Sorrow Soulherder",
-        "number": 100,
+        "card_name": "One Last Time",
+        "number": 101,
         "shape": "normal",
         "set": "ONI"
     },
@@ -1032,8 +1032,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "One Last Time",
-        "number": 101,
+        "card_name": "Rooftreader Inari",
+        "number": 103,
         "shape": "normal",
         "set": "ONI"
     },
