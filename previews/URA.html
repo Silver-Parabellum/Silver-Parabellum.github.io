@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/URA-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>URA visual preview</title>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 10%;
+			width: fit-content;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: flex;
+			flex-direction: column;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/URA-files/logo.png" />
+	<img class="preload-hidden" src="/sets/DWA-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ONI-files/icon.png" />
+		<img class="preload-hidden" src="/sets/RSD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/URA-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="URA"><img src="/sets/URA-files/icon.png">Umamusume: Racer’s Advent</a>
+	
+		<a class="set-bar inactive" href="DWA"><img src="/sets/DWA-files/icon.png">Drauholm: Winter’s Approach</a>
+	
+		<a class="set-bar inactive" href="ONI"><img src="/sets/ONI-files/icon.png">Onigaiko: Future Past</a>
+	
+		<a class="set-bar inactive" href="RSD"><img src="/sets/RSD-files/icon.png">Risemara: Second Dawn</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/URA-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img alt="/sets\URA-files\img\2_W01-.png" id="2_W01-" data-flag="@X" onclick="openSidebar('2_W01-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\18_Matikanefukukitaru, Fortune's Smile.png" id="18_Matikanefukukitaru, Fortunes Smile" data-flag="@X" onclick="openSidebar('18_Matikanefukukitaru, Fortunes Smile',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\34_B01-.png" id="34_B01-" data-flag="@X" onclick="openSidebar('34_B01-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\50_R01-.png" id="50_R01-" data-flag="@X" onclick="openSidebar('50_R01-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\66_G01- Mysterious Assisstant.png" id="66_G01- Mysterious Assisstant" data-flag="@X" onclick="openSidebar('66_G01- Mysterious Assisstant',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\3_W02-.png" id="3_W02-" data-flag="@X" onclick="openSidebar('3_W02-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\19_U02- [LORD].png" id="19_U02- [LORD]" data-flag="@X" onclick="openSidebar('19_U02- [LORD]',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\35_B02-.png" id="35_B02-" data-flag="@X" onclick="openSidebar('35_B02-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\51_R02-.png" id="51_R02-" data-flag="@X" onclick="openSidebar('51_R02-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\67_G02- Champion of the Track.png" id="67_G02- Champion of the Track" data-flag="@X" onclick="openSidebar('67_G02- Champion of the Track',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\4_W03-.png" id="4_W03-" data-flag="@X" onclick="openSidebar('4_W03-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\20_U03-.png" id="20_U03-" data-flag="@X" onclick="openSidebar('20_U03-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\36_B03-.png" id="36_B03-" data-flag="@X" onclick="openSidebar('36_B03-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\52_R03-.png" id="52_R03-" data-flag="@X" onclick="openSidebar('52_R03-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\68_G03- [LORD].png" id="68_G03- [LORD]" data-flag="@X" onclick="openSidebar('68_G03- [LORD]',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\5_W04-.png" id="5_W04-" data-flag="@X" onclick="openSidebar('5_W04-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\21_U04-.png" id="21_U04-" data-flag="@X" onclick="openSidebar('21_U04-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\37_B04-.png" id="37_B04-" data-flag="@X" onclick="openSidebar('37_B04-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\53_R04- Twin Turbo, Blast Mode!.png" id="53_R04- Twin Turbo, Blast Mode!" data-flag="@X" onclick="openSidebar('53_R04- Twin Turbo, Blast Mode!',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\69_G04- El Condor Pasa, Phantom Bird.png" id="69_G04- El Condor Pasa, Phantom Bird" data-flag="@X" onclick="openSidebar('69_G04- El Condor Pasa, Phantom Bird',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\6_W05- Tokai Teio, Peak Joy.png" id="6_W05- Tokai Teio, Peak Joy" data-flag="@X" onclick="openSidebar('6_W05- Tokai Teio, Peak Joy',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\22_U05-.png" id="22_U05-" data-flag="@X" onclick="openSidebar('22_U05-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\38_B05-.png" id="38_B05-" data-flag="@X" onclick="openSidebar('38_B05-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\54_R05-.png" id="54_R05-" data-flag="@X" onclick="openSidebar('54_R05-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\70_G05- [Recursion Stick].png" id="70_G05- [Recursion Stick]" data-flag="@X" onclick="openSidebar('70_G05- [Recursion Stick]',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\7_W06-.png" id="7_W06-" data-flag="@X" onclick="openSidebar('7_W06-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\23_U06-.png" id="23_U06-" data-flag="@X" onclick="openSidebar('23_U06-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\39_B06- Calstone Light O, One True Path.png" id="39_B06- Calstone Light O, One True Path" data-flag="@X" onclick="openSidebar('39_B06- Calstone Light O, One True Path',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\55_R06-.png" id="55_R06-" data-flag="@X" onclick="openSidebar('55_R06-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\71_G06- [Grave hate].png" id="71_G06- [Grave hate]" data-flag="@X" onclick="openSidebar('71_G06- [Grave hate]',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\8_W07-.png" id="8_W07-" data-flag="@X" onclick="openSidebar('8_W07-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\24_U07- WIP — Accelerate Slot.png" id="24_U07- WIP — Accelerate Slot" data-flag="@X" onclick="openSidebar('24_U07- WIP — Accelerate Slot',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\40_B07-.png" id="40_B07-" data-flag="@X" onclick="openSidebar('40_B07-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\56_R07- Mayano Top Gun, Scramble ☆ Zone.png" id="56_R07- Mayano Top Gun, Scramble ☆ Zone" data-flag="@X" onclick="openSidebar('56_R07- Mayano Top Gun, Scramble ☆ Zone',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\72_G07-.png" id="72_G07-" data-flag="@X" onclick="openSidebar('72_G07-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\9_W08- Super Creek, Speedy Stayer.png" id="9_W08- Super Creek, Speedy Stayer" data-flag="@X" onclick="openSidebar('9_W08- Super Creek, Speedy Stayer',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\25_U08-.png" id="25_U08-" data-flag="@X" onclick="openSidebar('25_U08-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\41_B08-Manhattan Cafe, Creeping Black.png" id="41_B08-Manhattan Cafe, Creeping Black" data-flag="@X" onclick="openSidebar('41_B08-Manhattan Cafe, Creeping Black',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\57_R08-.png" id="57_R08-" data-flag="@X" onclick="openSidebar('57_R08-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\73_G08- Special Week, Special Dreamer.png" id="73_G08- Special Week, Special Dreamer" data-flag="@X" onclick="openSidebar('73_G08- Special Week, Special Dreamer',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\10_W09-.png" id="10_W09-" data-flag="@X" onclick="openSidebar('10_W09-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\26_U09-.png" id="26_U09-" data-flag="@X" onclick="openSidebar('26_U09-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\42_B09-.png" id="42_B09-" data-flag="@X" onclick="openSidebar('42_B09-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\58_R09-.png" id="58_R09-" data-flag="@X" onclick="openSidebar('58_R09-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\74_G09- [Value Body].png" id="74_G09- [Value Body]" data-flag="@X" onclick="openSidebar('74_G09- [Value Body]',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\11_W010- Crested Sunmare.png" id="11_W010- Crested Sunmare" data-flag="@X" onclick="openSidebar('11_W010- Crested Sunmare',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\27_U010- Admire Vega, Starry Nocturne.png" id="27_U010- Admire Vega, Starry Nocturne" data-flag="@X" onclick="openSidebar('27_U010- Admire Vega, Starry Nocturne',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\43_B010- Darkmoon Nightmare.png" id="43_B010- Darkmoon Nightmare" data-flag="@X" onclick="openSidebar('43_B010- Darkmoon Nightmare',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\59_R010- (reanim target).png" id="59_R010- (reanim target)" data-flag="@X" onclick="openSidebar('59_R010- (reanim target)',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\75_G010-.png" id="75_G010-" data-flag="@X" onclick="openSidebar('75_G010-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\12_W011- Stamina Training.png" id="12_W011- Stamina Training" data-flag="@X" onclick="openSidebar('12_W011- Stamina Training',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\28_U011- Wit Training.png" id="28_U011- Wit Training" data-flag="@X" onclick="openSidebar('28_U011- Wit Training',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\44_B011- Guts Training.png" id="44_B011- Guts Training" data-flag="@X" onclick="openSidebar('44_B011- Guts Training',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\60_R011- Speed Training.png" id="60_R011- Speed Training" data-flag="@X" onclick="openSidebar('60_R011- Speed Training',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\76_G011- Wildheart Charger.png" id="76_G011- Wildheart Charger" data-flag="@X" onclick="openSidebar('76_G011- Wildheart Charger',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\13_W012- Second Wind.png" id="13_W012- Second Wind" data-flag="@X" onclick="openSidebar('13_W012- Second Wind',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\29_U012-.png" id="29_U012-" data-flag="@X" onclick="openSidebar('29_U012-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\45_B012-.png" id="45_B012-" data-flag="@X" onclick="openSidebar('45_B012-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\61_R012-.png" id="61_R012-" data-flag="@X" onclick="openSidebar('61_R012-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\77_G012- Strength Training.png" id="77_G012- Strength Training" data-flag="@X" onclick="openSidebar('77_G012- Strength Training',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\14_W013- Bad Trip.png" id="14_W013- Bad Trip" data-flag="@X" onclick="openSidebar('14_W013- Bad Trip',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\30_U013-.png" id="30_U013-" data-flag="@X" onclick="openSidebar('30_U013-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\46_B013-.png" id="46_B013-" data-flag="@X" onclick="openSidebar('46_B013-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\62_R013- Full Tilt.png" id="62_R013- Full Tilt" data-flag="@X" onclick="openSidebar('62_R013- Full Tilt',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\78_G013- Survey the Track.png" id="78_G013- Survey the Track" data-flag="@X" onclick="openSidebar('78_G013- Survey the Track',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\15_W014- Borrowed Legacy.png" id="15_W014- Borrowed Legacy" data-flag="@X" onclick="openSidebar('15_W014- Borrowed Legacy',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\31_U014-.png" id="31_U014-" data-flag="@X" onclick="openSidebar('31_U014-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\47_B014- Perilous Overtake.png" id="47_B014- Perilous Overtake" data-flag="@X" onclick="openSidebar('47_B014- Perilous Overtake',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\63_R014- Celebrational Overdrive.png" id="63_R014- Celebrational Overdrive" data-flag="@X" onclick="openSidebar('63_R014- Celebrational Overdrive',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\79_G014- Victory Kick.png" id="79_G014- Victory Kick" data-flag="@X" onclick="openSidebar('79_G014- Victory Kick',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\16_W015- Hopeful Failure.png" id="16_W015- Hopeful Failure" data-flag="@X" onclick="openSidebar('16_W015- Hopeful Failure',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\32_U015-.png" id="32_U015-" data-flag="@X" onclick="openSidebar('32_U015-',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\48_B015- Return, the Fallen.png" id="48_B015- Return, the Fallen" data-flag="@X" onclick="openSidebar('48_B015- Return, the Fallen',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\64_R015- Take the Stage.png" id="64_R015- Take the Stage" data-flag="@X" onclick="openSidebar('64_R015- Take the Stage',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\80_G015- Trained Perseverance.png" id="80_G015- Trained Perseverance" data-flag="@X" onclick="openSidebar('80_G015- Trained Perseverance',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\17_WIP Hard-Trying Haru Urara.png" id="17_WIP Hard-Trying Haru Urara" data-flag="@X" onclick="openSidebar('17_WIP Hard-Trying Haru Urara',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\33_U016- Daiwa Scarlet, Miss Perfect.png" id="33_U016- Daiwa Scarlet, Miss Perfect" data-flag="@X" onclick="openSidebar('33_U016- Daiwa Scarlet, Miss Perfect',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\49_B016- Vodka, Extraordinary Empress.png" id="49_B016- Vodka, Extraordinary Empress" data-flag="@X" onclick="openSidebar('49_B016- Vodka, Extraordinary Empress',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\65_R016- Sakura Bakushin O, Bakushin King.png" id="65_R016- Sakura Bakushin O, Bakushin King" data-flag="@X" onclick="openSidebar('65_R016- Sakura Bakushin O, Bakushin King',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\81_Gold Ship, Unpredictable.png" id="81_Gold Ship, Unpredictable" data-flag="@X" onclick="openSidebar('81_Gold Ship, Unpredictable',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img alt="/sets\URA-files\img\95_M01- Mihono Bourbon, Incline Invicta.png" id="95_M01- Mihono Bourbon, Incline Invicta" data-flag="@X" onclick="openSidebar('95_M01- Mihono Bourbon, Incline Invicta',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\96_M02- Agnes Tachyon, Faster than Light.png" id="96_M02- Agnes Tachyon, Faster than Light" data-flag="@X" onclick="openSidebar('96_M02- Agnes Tachyon, Faster than Light',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\97_M03- Gentildonna, Regina dei Fiori.png" id="97_M03- Gentildonna, Regina dei Fiori" data-flag="@X" onclick="openSidebar('97_M03- Gentildonna, Regina dei Fiori',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\98_M04- Inari One, Yukari Edomurasaki.png" id="98_M04- Inari One, Yukari Edomurasaki" data-flag="@X" onclick="openSidebar('98_M04- Inari One, Yukari Edomurasaki',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\99_M05- Oguri Cap, Starlight Beat.png" id="99_M05- Oguri Cap, Starlight Beat" data-flag="@X" onclick="openSidebar('99_M05- Oguri Cap, Starlight Beat',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\100_M06- Narita Brian, Maverick.png" id="100_M06- Narita Brian, Maverick" data-flag="@X" onclick="openSidebar('100_M06- Narita Brian, Maverick',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\103_M09- Neo Universe, Universe-Naut.png" id="103_M09- Neo Universe, Universe-Naut" data-flag="@X" onclick="openSidebar('103_M09- Neo Universe, Universe-Naut',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\101_M07- Nice Nature, Supporting Star.png" id="101_M07- Nice Nature, Supporting Star" data-flag="@X" onclick="openSidebar('101_M07- Nice Nature, Supporting Star',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\104_M010- Kitasan Black, Crowning Ooban.png" id="104_M010- Kitasan Black, Crowning Ooban" data-flag="@X" onclick="openSidebar('104_M010- Kitasan Black, Crowning Ooban',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\102_M08- Zenno Rob Roy, Heroic Author.png" id="102_M08- Zenno Rob Roy, Heroic Author" data-flag="@X" onclick="openSidebar('102_M08- Zenno Rob Roy, Heroic Author',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\105_M011- Agnes Digital.png" id="105_M011- Agnes Digital" data-flag="@X" onclick="openSidebar('105_M011- Agnes Digital',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img alt="/sets\URA-files\img\1_C02 Hishi Akebono, Supersize Umamusume.png" id="1_C02 Hishi Akebono, Supersize Umamusume" data-flag="@X" onclick="openSidebar('1_C02 Hishi Akebono, Supersize Umamusume',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\82_C01- Automotive Assistant.png" id="82_C01- Automotive Assistant" data-flag="@X" onclick="openSidebar('82_C01- Automotive Assistant',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\83_C03- Signature Racewear.png" id="83_C03- Signature Racewear" data-flag="@X" onclick="openSidebar('83_C03- Signature Racewear',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\84_C04- Coveted Trophy.png" id="84_C04- Coveted Trophy" data-flag="@X" onclick="openSidebar('84_C04- Coveted Trophy',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\85_C05- Unpredictable Jukebox.png" id="85_C05- Unpredictable Jukebox" data-flag="@X" onclick="openSidebar('85_C05- Unpredictable Jukebox',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\86_C06- Treasured Carrot.png" id="86_C06- Treasured Carrot" data-flag="@X" onclick="openSidebar('86_C06- Treasured Carrot',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\87_L01- Starting Gate.png" id="87_L01- Starting Gate" data-flag="@X" onclick="openSidebar('87_L01- Starting Gate',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\88_L02- Tracen Academy.png" id="88_L02- Tracen Academy" data-flag="@X" onclick="openSidebar('88_L02- Tracen Academy',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\89_L03- Racer's Proving Grounds.png" id="89_L03- Racers Proving Grounds" data-flag="@X" onclick="openSidebar('89_L03- Racers Proving Grounds',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\90_Plains.png" id="90_Plains" data-flag="@X" onclick="openSidebar('90_Plains',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\91_Island.png" id="91_Island" data-flag="@X" onclick="openSidebar('91_Island',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\92_Swamp.png" id="92_Swamp" data-flag="@X" onclick="openSidebar('92_Swamp',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\93_Mountain.png" id="93_Mountain" data-flag="@X" onclick="openSidebar('93_Mountain',false)"></div>
+				<div class="container"><img alt="/sets\URA-files\img\94_Forest.png" id="94_Forest" data-flag="@X" onclick="openSidebar('94_Forest',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

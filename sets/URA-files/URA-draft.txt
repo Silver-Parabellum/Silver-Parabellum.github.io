@@ -1,0 +1,1326 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "W01-",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Horse",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/2_W01-.png"
+			}
+		},
+		{
+			"name": "U014-",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/31_U014-.png"
+			}
+		},
+		{
+			"name": "B02-",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Horse",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/35_B02-.png"
+			}
+		},
+		{
+			"name": "R03-",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Horse",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/52_R03-.png"
+			}
+		},
+		{
+			"name": "G011- Wildheart Charger",
+			"rarity": "rare",
+			"mana_cost": "{6}{G}",
+			"type": "Creature — Horse",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/76_G011- Wildheart Charger.png"
+			}
+		},
+		{
+			"name": "C02 Hishi Akebono, Supersize Umamusume",
+			"rarity": "rare",
+			"mana_cost": "{14}",
+			"type": "Legendary Creature — Horse Giant",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/1_C02 Hishi Akebono, Supersize Umamusume.png"
+			}
+		},
+		{
+			"name": "L02- Tracen Academy",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/88_L02- Tracen Academy.png"
+			}
+		},
+		{
+			"name": "M01- Mihono Bourbon, Incline Invicta",
+			"rarity": "special",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Creature — Horse Cyborg",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/95_M01- Mihono Bourbon, Incline Invicta.png"
+			}
+		},
+		{
+			"name": "M02- Agnes Tachyon, Faster than Light",
+			"rarity": "special",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Creature — Horse Scientist",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/96_M02- Agnes Tachyon, Faster than Light.png"
+			}
+		},
+		{
+			"name": "M03- Gentildonna, Regina dei Fiori",
+			"rarity": "special",
+			"mana_cost": "{B}{R}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/97_M03- Gentildonna, Regina dei Fiori.png"
+			}
+		},
+		{
+			"name": "M04- Inari One, Yukari Edomurasaki",
+			"rarity": "special",
+			"mana_cost": "{R}{G}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/98_M04- Inari One, Yukari Edomurasaki.png"
+			}
+		},
+		{
+			"name": "M05- Oguri Cap, Starlight Beat",
+			"rarity": "special",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/99_M05- Oguri Cap, Starlight Beat.png"
+			}
+		},
+		{
+			"name": "M06- Narita Brian, Maverick",
+			"rarity": "special",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/100_M06- Narita Brian, Maverick.png"
+			}
+		},
+		{
+			"name": "M07- Nice Nature, Supporting Star",
+			"rarity": "special",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/101_M07- Nice Nature, Supporting Star.png"
+			}
+		},
+		{
+			"name": "M08- Zenno Rob Roy, Heroic Author",
+			"rarity": "special",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/102_M08- Zenno Rob Roy, Heroic Author.png"
+			}
+		},
+		{
+			"name": "M09- Neo Universe, Universe-Naut",
+			"rarity": "special",
+			"mana_cost": "{U}{R}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/103_M09- Neo Universe, Universe-Naut.png"
+			}
+		},
+		{
+			"name": "M010- Kitasan Black, Crowning Ooban",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/104_M010- Kitasan Black, Crowning Ooban.png"
+			}
+		},
+		{
+			"name": "M011- Agnes Digital",
+			"rarity": "special",
+			"mana_cost": "{W}{U}{B}{R}{G}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/105_M011- Agnes Digital.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/90_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/91_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/92_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/93_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/94_Forest.png"
+			}
+		},
+		{
+			"name": "C03- Signature Racewear",
+			"rarity": "rare",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/83_C03- Signature Racewear.png"
+			}
+		},
+		{
+			"name": "C04- Coveted Trophy",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/84_C04- Coveted Trophy.png"
+			}
+		},
+		{
+			"name": "C05- Unpredictable Jukebox",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/85_C05- Unpredictable Jukebox.png"
+			}
+		},
+		{
+			"name": "C06- Treasured Carrot",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact — Food Treasure",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/86_C06- Treasured Carrot.png"
+			}
+		},
+		{
+			"name": "C01- Automotive Assistant",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Horse Robot",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/82_C01- Automotive Assistant.png"
+			}
+		},
+		{
+			"name": "L03- Racer's Proving Grounds",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/89_L03- Racer's Proving Grounds.png"
+			}
+		},
+		{
+			"name": "L01- Starting Gate",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/87_L01- Starting Gate.png"
+			}
+		},
+		{
+			"name": "W010- Crested Sunmare",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Horse",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/11_W010- Crested Sunmare.png"
+			}
+		},
+		{
+			"name": "W09-",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Horse",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/10_W09-.png"
+			}
+		},
+		{
+			"name": "W08- Super Creek, Speedy Stayer",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/9_W08- Super Creek, Speedy Stayer.png"
+			}
+		},
+		{
+			"name": "W07-",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Horse",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/8_W07-.png"
+			}
+		},
+		{
+			"name": "W06-",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Horse",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/7_W06-.png"
+			}
+		},
+		{
+			"name": "W03-",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Horse",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/4_W03-.png"
+			}
+		},
+		{
+			"name": "W02-",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Horse",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/3_W02-.png"
+			}
+		},
+		{
+			"name": "W04-",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Horse",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/5_W04-.png"
+			}
+		},
+		{
+			"name": "WIP Hard-Trying Haru Urara",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Planeswalker — Haru Urara",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/17_WIP Hard-Trying Haru Urara.png"
+			}
+		},
+		{
+			"name": "W015- Hopeful Failure",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/16_W015- Hopeful Failure.png"
+			}
+		},
+		{
+			"name": "W014- Borrowed Legacy",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/15_W014- Borrowed Legacy.png"
+			}
+		},
+		{
+			"name": "W013- Bad Trip",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/14_W013- Bad Trip.png"
+			}
+		},
+		{
+			"name": "W012- Second Wind",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/13_W012- Second Wind.png"
+			}
+		},
+		{
+			"name": "W011- Stamina Training",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/12_W011- Stamina Training.png"
+			}
+		},
+		{
+			"name": "W05- Tokai Teio, Peak Joy",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/6_W05- Tokai Teio, Peak Joy.png"
+			}
+		},
+		{
+			"name": "U013-",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/30_U013-.png"
+			}
+		},
+		{
+			"name": "U012-",
+			"rarity": "rare",
+			"mana_cost": "{X}{U}",
+			"type": "Instant",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/29_U012-.png"
+			}
+		},
+		{
+			"name": "U011- Wit Training",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/28_U011- Wit Training.png"
+			}
+		},
+		{
+			"name": "U016- Daiwa Scarlet, Miss Perfect",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Planeswalker — Daiwa Scarlet",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/33_U016- Daiwa Scarlet, Miss Perfect.png"
+			}
+		},
+		{
+			"name": "U015-",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/32_U015-.png"
+			}
+		},
+		{
+			"name": "U04-",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Horse",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/21_U04-.png"
+			}
+		},
+		{
+			"name": "Matikanefukukitaru, Fortune's Smile",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Creature — Horse Mystic",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/18_Matikanefukukitaru, Fortune's Smile.png"
+			}
+		},
+		{
+			"name": "U02- [LORD]",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Horse",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/19_U02- [LORD].png"
+			}
+		},
+		{
+			"name": "U03-",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Horse",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/20_U03-.png"
+			}
+		},
+		{
+			"name": "U06-",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Horse",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/23_U06-.png"
+			}
+		},
+		{
+			"name": "U07- WIP — Accelerate Slot",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Horse",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/24_U07- WIP — Accelerate Slot.png"
+			}
+		},
+		{
+			"name": "U010- Admire Vega, Starry Nocturne",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/27_U010- Admire Vega, Starry Nocturne.png"
+			}
+		},
+		{
+			"name": "U09-",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Horse",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/26_U09-.png"
+			}
+		},
+		{
+			"name": "U08-",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Horse",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/25_U08-.png"
+			}
+		},
+		{
+			"name": "U05-",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Horse Illusion",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/22_U05-.png"
+			}
+		},
+		{
+			"name": "B01-",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Horse",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/34_B01-.png"
+			}
+		},
+		{
+			"name": "B08-Manhattan Cafe, Creeping Black",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/41_B08-Manhattan Cafe, Creeping Black.png"
+			}
+		},
+		{
+			"name": "B07-",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Horse",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/40_B07-.png"
+			}
+		},
+		{
+			"name": "B06- Calstone Light O, One True Path",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/39_B06- Calstone Light O, One True Path.png"
+			}
+		},
+		{
+			"name": "B05-",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Horse",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/38_B05-.png"
+			}
+		},
+		{
+			"name": "B011- Guts Training",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/44_B011- Guts Training.png"
+			}
+		},
+		{
+			"name": "B04-",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Horse",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/37_B04-.png"
+			}
+		},
+		{
+			"name": "B03-",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Horse",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/36_B03-.png"
+			}
+		},
+		{
+			"name": "B010- Darkmoon Nightmare",
+			"rarity": "rare",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Creature — Horse Nightmare",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/43_B010- Darkmoon Nightmare.png"
+			}
+		},
+		{
+			"name": "B014- Perilous Overtake",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/47_B014- Perilous Overtake.png"
+			}
+		},
+		{
+			"name": "B016- Vodka, Extraordinary Empress",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Planeswalker — Vodka",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/49_B016- Vodka, Extraordinary Empress.png"
+			}
+		},
+		{
+			"name": "B013-",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/46_B013-.png"
+			}
+		},
+		{
+			"name": "B012-",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/45_B012-.png"
+			}
+		},
+		{
+			"name": "B09-",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Horse",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/42_B09-.png"
+			}
+		},
+		{
+			"name": "B015- Return, the Fallen",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/48_B015- Return, the Fallen.png"
+			}
+		},
+		{
+			"name": "R04- Twin Turbo, Blast Mode!",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/53_R04- Twin Turbo, Blast Mode!.png"
+			}
+		},
+		{
+			"name": "R05-",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Horse",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/54_R05-.png"
+			}
+		},
+		{
+			"name": "R08-",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Horse",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/57_R08-.png"
+			}
+		},
+		{
+			"name": "R01-",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Horse",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/50_R01-.png"
+			}
+		},
+		{
+			"name": "R07- Mayano Top Gun, Scramble ☆ Zone",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/56_R07- Mayano Top Gun, Scramble ☆ Zone.png"
+			}
+		},
+		{
+			"name": "R06-",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Horse Samurai",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/55_R06-.png"
+			}
+		},
+		{
+			"name": "R09-",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Horse",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/58_R09-.png"
+			}
+		},
+		{
+			"name": "R012-",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/61_R012-.png"
+			}
+		},
+		{
+			"name": "R011- Speed Training",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/60_R011- Speed Training.png"
+			}
+		},
+		{
+			"name": "R010- (reanim target)",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Creature — Horse",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/59_R010- (reanim target).png"
+			}
+		},
+		{
+			"name": "R013- Full Tilt",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/62_R013- Full Tilt.png"
+			}
+		},
+		{
+			"name": "R014- Celebrational Overdrive",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/63_R014- Celebrational Overdrive.png"
+			}
+		},
+		{
+			"name": "R015- Take the Stage",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/64_R015- Take the Stage.png"
+			}
+		},
+		{
+			"name": "R016- Sakura Bakushin O, Bakushin King",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Planeswalker — Bakushin O",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/65_R016- Sakura Bakushin O, Bakushin King.png"
+			}
+		},
+		{
+			"name": "R02-",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Horse",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/51_R02-.png"
+			}
+		},
+		{
+			"name": "G02- Champion of the Track",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Creature — Horse",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/67_G02- Champion of the Track.png"
+			}
+		},
+		{
+			"name": "G06- [Grave hate]",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Horse",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/71_G06- [Grave hate].png"
+			}
+		},
+		{
+			"name": "G03- [LORD]",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Horse Flagbearer",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/68_G03- [LORD].png"
+			}
+		},
+		{
+			"name": "G04- El Condor Pasa, Phantom Bird",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Horse",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/69_G04- El Condor Pasa, Phantom Bird.png"
+			}
+		},
+		{
+			"name": "G05- [Recursion Stick]",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Horse",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/70_G05- [Recursion Stick].png"
+			}
+		},
+		{
+			"name": "G07-",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Horse",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/72_G07-.png"
+			}
+		},
+		{
+			"name": "G09- [Value Body]",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Horse Advisor",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/74_G09- [Value Body].png"
+			}
+		},
+		{
+			"name": "G08- Special Week, Special Dreamer",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Legendary creature — Horse",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/73_G08- Special Week, Special Dreamer.png"
+			}
+		},
+		{
+			"name": "G010-",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Horse",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/75_G010-.png"
+			}
+		},
+		{
+			"name": "Gold Ship, Unpredictable",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Legendary Planeswalker — Gold Ship",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/81_Gold Ship, Unpredictable.png"
+			}
+		},
+		{
+			"name": "G013- Survey the Track",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/78_G013- Survey the Track.png"
+			}
+		},
+		{
+			"name": "G015- Trained Perseverance",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/80_G015- Trained Perseverance.png"
+			}
+		},
+		{
+			"name": "G014- Victory Kick",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/79_G014- Victory Kick.png"
+			}
+		},
+		{
+			"name": "G01- Mysterious Assisstant",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Creature — Advisor",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/66_G01- Mysterious Assisstant.png"
+			}
+		},
+		{
+			"name": "G012- Strength Training",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/URA-files/img/77_G012- Strength Training.png"
+			}
+		}
+	]
+
+[rare(1)]
+	2 W01-
+	2 U014-
+	2 B02-
+	2 R03-
+	2 G011- Wildheart Charger
+	2 C02 Hishi Akebono, Supersize Umamusume
+	2 L02- Tracen Academy
+	2 C03- Signature Racewear
+	2 C04- Coveted Trophy
+	2 C05- Unpredictable Jukebox
+	2 C06- Treasured Carrot
+	2 C01- Automotive Assistant
+	2 L03- Racer's Proving Grounds
+	2 L01- Starting Gate
+	2 W010- Crested Sunmare
+	2 W09-
+	2 W08- Super Creek, Speedy Stayer
+	2 W07-
+	2 W06-
+	2 W03-
+	2 W02-
+	2 W04-
+	2 WIP Hard-Trying Haru Urara
+	2 W015- Hopeful Failure
+	2 W014- Borrowed Legacy
+	2 W013- Bad Trip
+	2 W012- Second Wind
+	2 W011- Stamina Training
+	2 W05- Tokai Teio, Peak Joy
+	2 U013-
+	2 U012-
+	2 U011- Wit Training
+	2 U016- Daiwa Scarlet, Miss Perfect
+	2 U015-
+	2 U04-
+	2 Matikanefukukitaru, Fortune's Smile
+	2 U02- [LORD]
+	2 U03-
+	2 U06-
+	2 U07- WIP — Accelerate Slot
+	2 U010- Admire Vega, Starry Nocturne
+	2 U09-
+	2 U08-
+	2 U05-
+	2 B01-
+	2 B08-Manhattan Cafe, Creeping Black
+	2 B07-
+	2 B06- Calstone Light O, One True Path
+	2 B05-
+	2 B011- Guts Training
+	2 B04-
+	2 B03-
+	2 B010- Darkmoon Nightmare
+	2 B014- Perilous Overtake
+	2 B016- Vodka, Extraordinary Empress
+	2 B013-
+	2 B012-
+	2 B09-
+	2 B015- Return, the Fallen
+	2 R04- Twin Turbo, Blast Mode!
+	2 R05-
+	2 R08-
+	2 R01-
+	2 R07- Mayano Top Gun, Scramble ☆ Zone
+	2 R06-
+	2 R09-
+	2 R012-
+	2 R011- Speed Training
+	2 R010- (reanim target)
+	2 R013- Full Tilt
+	2 R014- Celebrational Overdrive
+	2 R015- Take the Stage
+	2 R016- Sakura Bakushin O, Bakushin King
+	2 R02-
+	2 G02- Champion of the Track
+	2 G06- [Grave hate]
+	2 G03- [LORD]
+	2 G04- El Condor Pasa, Phantom Bird
+	2 G05- [Recursion Stick]
+	2 G07-
+	2 G09- [Value Body]
+	2 G08- Special Week, Special Dreamer
+	2 G010-
+	2 Gold Ship, Unpredictable
+	2 G013- Survey the Track
+	2 G015- Trained Perseverance
+	2 G014- Victory Kick
+	2 G01- Mysterious Assisstant
+	2 G012- Strength Training
+[uncommon(3)]
+[common(7)]
+[foil(1)]
+	2 W01-
+	2 U014-
+	2 B02-
+	2 R03-
+	2 G011- Wildheart Charger
+	2 C02 Hishi Akebono, Supersize Umamusume
+	2 L02- Tracen Academy
+	2 C03- Signature Racewear
+	2 C04- Coveted Trophy
+	2 C05- Unpredictable Jukebox
+	2 C06- Treasured Carrot
+	2 C01- Automotive Assistant
+	2 L03- Racer's Proving Grounds
+	2 L01- Starting Gate
+	2 W010- Crested Sunmare
+	2 W09-
+	2 W08- Super Creek, Speedy Stayer
+	2 W07-
+	2 W06-
+	2 W03-
+	2 W02-
+	2 W04-
+	2 WIP Hard-Trying Haru Urara
+	2 W015- Hopeful Failure
+	2 W014- Borrowed Legacy
+	2 W013- Bad Trip
+	2 W012- Second Wind
+	2 W011- Stamina Training
+	2 W05- Tokai Teio, Peak Joy
+	2 U013-
+	2 U012-
+	2 U011- Wit Training
+	2 U016- Daiwa Scarlet, Miss Perfect
+	2 U015-
+	2 U04-
+	2 Matikanefukukitaru, Fortune's Smile
+	2 U02- [LORD]
+	2 U03-
+	2 U06-
+	2 U07- WIP — Accelerate Slot
+	2 U010- Admire Vega, Starry Nocturne
+	2 U09-
+	2 U08-
+	2 U05-
+	2 B01-
+	2 B08-Manhattan Cafe, Creeping Black
+	2 B07-
+	2 B06- Calstone Light O, One True Path
+	2 B05-
+	2 B011- Guts Training
+	2 B04-
+	2 B03-
+	2 B010- Darkmoon Nightmare
+	2 B014- Perilous Overtake
+	2 B016- Vodka, Extraordinary Empress
+	2 B013-
+	2 B012-
+	2 B09-
+	2 B015- Return, the Fallen
+	2 R04- Twin Turbo, Blast Mode!
+	2 R05-
+	2 R08-
+	2 R01-
+	2 R07- Mayano Top Gun, Scramble ☆ Zone
+	2 R06-
+	2 R09-
+	2 R012-
+	2 R011- Speed Training
+	2 R010- (reanim target)
+	2 R013- Full Tilt
+	2 R014- Celebrational Overdrive
+	2 R015- Take the Stage
+	2 R016- Sakura Bakushin O, Bakushin King
+	2 R02-
+	2 G02- Champion of the Track
+	2 G06- [Grave hate]
+	2 G03- [LORD]
+	2 G04- El Condor Pasa, Phantom Bird
+	2 G05- [Recursion Stick]
+	2 G07-
+	2 G09- [Value Body]
+	2 G08- Special Week, Special Dreamer
+	2 G010-
+	2 Gold Ship, Unpredictable
+	2 G013- Survey the Track
+	2 G015- Trained Perseverance
+	2 G014- Victory Kick
+	2 G01- Mysterious Assisstant
+	2 G012- Strength Training
+[wildcard(1)]
+	7 W01-
+	7 U014-
+	7 B02-
+	7 R03-
+	7 G011- Wildheart Charger
+	7 C02 Hishi Akebono, Supersize Umamusume
+	7 L02- Tracen Academy
+	7 C03- Signature Racewear
+	7 C04- Coveted Trophy
+	7 C05- Unpredictable Jukebox
+	7 C06- Treasured Carrot
+	7 C01- Automotive Assistant
+	7 L03- Racer's Proving Grounds
+	7 L01- Starting Gate
+	7 W010- Crested Sunmare
+	7 W09-
+	7 W08- Super Creek, Speedy Stayer
+	7 W07-
+	7 W06-
+	7 W03-
+	7 W02-
+	7 W04-
+	7 WIP Hard-Trying Haru Urara
+	7 W015- Hopeful Failure
+	7 W014- Borrowed Legacy
+	7 W013- Bad Trip
+	7 W012- Second Wind
+	7 W011- Stamina Training
+	7 W05- Tokai Teio, Peak Joy
+	7 U013-
+	7 U012-
+	7 U011- Wit Training
+	7 U016- Daiwa Scarlet, Miss Perfect
+	7 U015-
+	7 U04-
+	7 Matikanefukukitaru, Fortune's Smile
+	7 U02- [LORD]
+	7 U03-
+	7 U06-
+	7 U07- WIP — Accelerate Slot
+	7 U010- Admire Vega, Starry Nocturne
+	7 U09-
+	7 U08-
+	7 U05-
+	7 B01-
+	7 B08-Manhattan Cafe, Creeping Black
+	7 B07-
+	7 B06- Calstone Light O, One True Path
+	7 B05-
+	7 B011- Guts Training
+	7 B04-
+	7 B03-
+	7 B010- Darkmoon Nightmare
+	7 B014- Perilous Overtake
+	7 B016- Vodka, Extraordinary Empress
+	7 B013-
+	7 B012-
+	7 B09-
+	7 B015- Return, the Fallen
+	7 R04- Twin Turbo, Blast Mode!
+	7 R05-
+	7 R08-
+	7 R01-
+	7 R07- Mayano Top Gun, Scramble ☆ Zone
+	7 R06-
+	7 R09-
+	7 R012-
+	7 R011- Speed Training
+	7 R010- (reanim target)
+	7 R013- Full Tilt
+	7 R014- Celebrational Overdrive
+	7 R015- Take the Stage
+	7 R016- Sakura Bakushin O, Bakushin King
+	7 R02-
+	7 G02- Champion of the Track
+	7 G06- [Grave hate]
+	7 G03- [LORD]
+	7 G04- El Condor Pasa, Phantom Bird
+	7 G05- [Recursion Stick]
+	7 G07-
+	7 G09- [Value Body]
+	7 G08- Special Week, Special Dreamer
+	7 G010-
+	7 Gold Ship, Unpredictable
+	7 G013- Survey the Track
+	7 G015- Trained Perseverance
+	7 G014- Victory Kick
+	7 G01- Mysterious Assisstant
+	7 G012- Strength Training
