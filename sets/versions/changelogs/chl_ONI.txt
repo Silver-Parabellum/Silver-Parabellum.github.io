@@ -1,4 +1,1078 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+Savage Familiar added.
+Taraikyo Dramatist added.
+Undaunted Instructor added.
+Zoology Professor added.
+Scholarly Witness added.
+Raging Sarugami added.
+Ebon Moon Descendant added.
+Contracted Aberrant added.
+Last Stop to Oblivion added.
+Mezu Dreadbearer added.
+Night's Sorrow Ascetic added.
+Soldier added.
+Inspiring Senior added.
+Hellraisers Intimidator added.
+Soul Agency Sleuth added.
+Skilled Cursebinder added.
+Reality Collapse added.
+Sanctified District added.
+Soul Agency Street Patrol added.
+Majima Rin, Obstructive Exorcist added.
+Tidehollow Sanctum Terminal added.
+Approach the Contract added.
+Detention added.
+Attended Prefect added.
+Imposing Strix added.
+Wall of Sorrows added.
+Rebellious District added.
+Otherworldly District added.
+Optimistic Miko added.
+Peak Hours added.
+Collateral Damage added.
+Stunning Soundweaver added.
+Reinforced Responders added.
+Ryujin's Expulsion added.
+Subsumed Self added.
+Exorcist's Rejection added.
+Rapid-Trigger Prototype added.
+Entertainment District added.
+Academic District added.
+Shrinebound Sentinels added.
+Sheltered Youth added.
+On Patrol added.
+Obsessive Stalker added.
+Tandem Defiance added.
+Academic Archivist added.
+Hateflame Revenant added.
+Enter the Spirit Realm added.
+Lazing Tanuki added.
+Night's Bargain added.
+Voidstring Puppeteer added.
+Sarugami Titan added.
+Fervent Coach added.
+Ushi-Oni Ascetic added.
+Tsumugi, the Pactbinder added.
+Endless Nuisance added.
+Masterful Gekisakka added.
+Sanctioning Gateway added.
+Horror Ooze added.
+Commuter's Clash added.
+Hollowed Vanguard added.
+Territory Lookout added.
+Impairing Oarfish added.
+Bioluminary Researcher added.
+Whispering Maw added.
+Oni Gate-Guard added.
+Part-Time Staff added.
+Voidless Teachings added.
+Battle-Rage Komainus added.
+Shrinebound Inari added.
+The Soul Agent added.
+Recollection's Consumption added.
+Teachings Past added.
+Future Past added.
+Sink into History added.
+Voidshot Breacher added.
+Flowshaper Trainee added.
+Unbreakable Pact added.
+Smitten Duskwing added.
+Hollowed Fury added.
+Reigniting Hinotori added.
+Chameleonic Soul added.
+Nightpack Contractor added.
+Gate Guardians Fury added.
+Enspirited Spring added.
+Taraikyo Dance Teacher added.
+Exhausting Exorcism added.
+Kitakui Commute added.
+Consuming Sorrow added.
+Uplifting Instructor added.
+Nursing Mentor added.
+Hiruya Commute added.
+Unruly Diva added.
+Tokuhime, Torn Revenant added.
+Source of the Endless added.
+Aoyama Commute added.
+Shrinebound Aberrant added.
+Soul Agency Coroner added.
+Deflecting Byakko added.
+Rousing Shrineguard added.
+Alpha Forerunner added.
+Tenkami Commute added.
+Flourish added.
+Supercharged Colossus added.
+Furious Kotobuki added.
+Hellraisers Tagger added.
+Iterative Playwright added.
+Rooted Gravegorger added.
+Serene Sentinel added.
+Learned Shrinehead added.
+Ryu-Blood Yearling added.
+Senzao Commute added.
+Seijuku Support Drone added.
+Rageform Shambler added.
+Puppeteered Contract added.
+Hidanko Training Blade added.
+Taraikyo Acting Aide added.
+Note added.
+Bird added.
+Robot Horror added.
+Spirit added.
+Spirit added.
+Forsaken Return added.
+Kaoru, Voidshaper Mentor added.
+
+Battle-Frenzy Oni removed.
+Soul Spite removed.
+Taraikyo Novelist removed.
+Rescuer Prototype removed.
+Slip on the Mask removed.
+Ferocious Instructor removed.
+Biology Professor removed.
+Charmbreaker Serpent removed.
+Personal Communicator removed.
+Aoyama Prowler removed.
+Toraiga Ascetic removed.
+Maddenning Exit removed.
+Night's Sorrow Soulherder removed.
+Hidanko Swordmaster removed.
+Indomitable Clash removed.
+Artifact Soldier removed.
+Dramatic Immersion removed.
+Chromatic Friendships removed.
+Haiden Sanctifier removed.
+Aoyama Strongarm removed.
+Hollow Exhumer removed.
+Hollow Studies removed.
+Hellraisers Cursebinder removed.
+Exert Reality removed.
+Tenured Trainer removed.
+Ryu-Born Responder removed.
+Nightmarish Vista removed.
+Cityscape Vista removed.
+Encroaching Vista removed.
+Theatric Vista removed.
+Innovative Vista removed.
+Voidless Barrens removed.
+Spirited Champion removed.
+Imaginative Playwright removed.
+M.D.D Street Patrol removed.
+Uemura Akemi, Former Authority removed.
+Tatsuya, Ai's Second removed.
+Tidepool Sanctum Terminal removed.
+Quiet Classroom removed.
+Disciplinary Guard removed.
+Hellraisers Road Captain removed.
+Unending Logistics removed.
+Consign to Nowhere removed.
+Guided Instructor removed.
+Calculating Strix removed.
+Delaying Deluge removed.
+Contracted Nightmare removed.
+Warped Horizon removed.
+Volatile Gashadokuro removed.
+Herald of Life's Tenacity removed.
+Overgrown Vista removed.
+Rebellious Vista removed.
+Phantasmagoric Vista removed.
+Voidwrought Hellkite removed.
+Stern Shrinehead removed.
+Determined Yumihiki removed.
+Safe Crossing removed.
+Rejected Confession removed.
+Shot Through the Heart removed.
+After-Class Club removed.
+Hiruya Soundweaver removed.
+Dreambound Skyswimmers removed.
+Ryu's Descendant removed.
+Nature's Hold removed.
+Council Roll Call removed.
+Aegis Nurse removed.
+Foreboding Fracture removed.
+Trigger Discipline removed.
+Unassuming Staff removed.
+Lock of Memory removed.
+Live and Learn removed.
+Kaoru, Voidflame Researcher removed.
+Idolized Vista removed.
+Administrative Vista removed.
+Kisaragi Kasen, the Vessel removed.
+Izanami, Storied Empress removed.
+Arcanist Coach removed.
+Territory Tagger removed.
+Skeleton removed.
+Wall of Recollections removed.
+Grave Subsumer removed.
+Heroic Calling removed.
+Tama, Kami's Legacy removed.
+Elk Spirit removed.
+Monk removed.
+Angel removed.
+Shrinebound Apparition removed.
+Work in Tandem removed.
+Command Center Analyst removed.
+Return the Past removed.
+Hidanko Instructor removed.
+Seize the Spotlight removed.
+Overpowering Pulse removed.
+Dragon Spirit removed.
+Peaceful Tanuki removed.
+Hard-Learnt Lesson removed.
+Contemplate Countless Futures removed.
+Scour the Past removed.
+Dragonshaper Apprentice removed.
+Spring Cleaning removed.
+Senzao Herdmaster removed.
+Form a Clique removed.
+Study Partners removed.
+Contracted Byakko removed.
+Spirited Photographer removed.
+Battleground Bulwark removed.
+Stare Into the Void removed.
+Corrupted Delinquent removed.
+Flamescroll Vanguard removed.
+Guardian Ushi-Oni removed.
+Playwright's Scroll removed.
+Izumi, Untiring Leader removed.
+Voidless Navigation removed.
+Head Nurse Tsumugi removed.
+Rooftreader Inari removed.
+Skyline Vanguard removed.
+Casualty Surveyor removed.
+Fallen Gekisakka removed.
+Unflinching Disciplinary removed.
+A Moment Apart removed.
+Overflowing Impulse removed.
+Shrineguard Entrancer removed.
+Soul Sanction removed.
+Hollowed March removed.
+Inspiring Shrinehead removed.
+Strung Along removed.
+Perfect the Models removed.
+Even Confrontation removed.
+Demon Horror removed.
+Horror Giant removed.
+Unexpected Travels removed.
+
+Seiran, Thundering Star
+cost: {U}{R} => {1}{U}{R}
+rules_text: Prowess
+Whenever one or more creatures you control become untapped, surveil 1. Seiran, Thundering Star deals 2 damage to each opponent. => Whenever you cast a spell, Seiran, Thundering Star deals 1 damage to any nonplayer target.
+At the beginning of your end step, if the number of cards in your hand is less than the number of spells you've cast this turn, draw cards equal to the difference.
+pt: 1/2 => 3/3
+
+Hellraisers Recruit
+rules_text: Prowess
+When Hellraisers Recruit enters, [b][it deals 2 damage to any target.][/b]
+Flash paradigm {R} [i](You may cast this as a {R} instant spell with only the text in square brackets.)[/i] => Paradigm shift {R} — Instant [i](You may cast this as a {R} Instant with only bracketed text.)[/i]
+Prowess
+When Hellraisers Recruit enters, [b][it deals 2 damage to any target.][/b]
+special_text:  => Paradigm shift {R} — Instant [i](You may cast this as a {R} Instant with only bracketed text.)[/i]
+Prowess
+When Hellraisers Recruit enters, [b][it deals 2 damage to any target.][/b]
+
+Off the Rails
+
+Rebellious Maiko
+rules_text: [i]Valiant[/i] — Whenever Rebellious Maiko becomes the target of a spell or ability you control for the first time each turn, creatures you control get +1/+0 until end of turn. => [i]Valiant[/i] — Whenever Rebellious Maiko becomes the target of a spell or ability you control for the first time each turn, untap it. gains flying and lifelink until end of turn.
+
+Hellraisers Seraph
+cost: {1}{W} => {2}{W}
+rules_text: As an additional cost to cast this spell, pay {2} or conjure Fatigue on top of your library. [i](It's a {2} sorcery with “Draw a card.”)[/i]
+Flying => Paradigm shift {B} — Instant [i](You may cast this as a {B} Instant with only bracketed text.)[/i]
+Flying
+When Hellraisers Seraph enters, you may [b][return target creature card from your graveyard to your hand][/b] if its mana value is 2 or less or a creature died this turn.
+pt: 3/2 => 2/2
+special_text:  => Paradigm shift {B} — Instant [i](You may cast this as a {B} Instant with only bracketed text.)[/i]
+Flying
+When Hellraisers Seraph enters, you may [b][return target creature card from your graveyard to your hand][/b] if its mana value is 2 or less or a creature died this turn.
+
+Disastrous Derailment
+
+Perfect-Form Exorcist
+type: Creature — Human Monk => Creature — Human Monk Warlock
+rules_text: Whenever you cast a noncreature spell, up to one [b][target creature you control has base power and toughness 4/4 until end of turn.][/b]
+Flash paradigm {1}{U} [i](You may cast this as a {1}{U} instant spell with only the text in square brackets.)[/i] => Paradigm shift {1}{U} — Instant [i](You may cast this as a {1}{U} Instant with only bracketed text.)[/i]
+Whenever you cast a noncreature spell, up to one [b][target creature you control has base power and toughness 4/4 until end of turn.][/b]
+special_text:  => Paradigm shift {1}{U} — Instant [i](You may cast this as a {1}{U} Instant with only bracketed text.)[/i]
+Whenever you cast a noncreature spell, up to one [b][target creature you control has base power and toughness 4/4 until end of turn.][/b]
+
+Railworks Security
+cost: {4}{G}{G} => {5}{G}{G}
+rules_text: Trample
+When Railworks Security enters, you gain life equal to the number of differently named lands you control.
+Terminalcycling {2} [i]({2}, Discard this card: Search your library for a Terminal card, reveal it, put it into your hand, then shuffle.)[/i] => Reach, ward {3}
+Terminalcycling {2} [i]({2}, Discard this card: Search your library for a Terminal card, reveal it, put it into your hand, then shuffle.)[/i]
+pt: 6/6 => 8/7
+
+Light-Hearted Goading
+rules_text: As an additional cost to cast this spell, pay or conjure Fatigue on top of your library. [i](It's a {2} sorcery with “Draw a card.”)[/i]
+Put a +1/+1 counter on target creature you control. It fights up to one target creature you don't control. => As an additional cost to cast this spell, pay {2} or conjure Fatigue on top of your library. [i](It's a {2} sorcery with “Draw a card.”)[/i]
+Put a +1/+1 counter on target creature you control. It fights up to one target creature you don't control.
+
+High-Spirits Break
+
+Run the Rails
+
+Seek the Nightmares
+
+Taraikyo Egotist
+cost: {1}{B} => {2}{B}
+rules_text: Whenever you gain life, each opponent loses 1 life. => Menace, prowess
+At the beginning of each end step, if you've cast a creature and a noncreature spell this turn, put a +1/+1 counter on Taraikyo Egotist.
+pt: 1/3 => 2/2
+
+Late-Night Line Practice
+cost: {B} => {1}{B}
+rules_text: Return target creature card from your graveyard to your hand. If this spell's flashback cost was paid, you gain life equal to that creature's power.
+Flashback {2}{B} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => As an additional cost to cast this spell, you may sacrifice a creature.
+Surveil 1, then draw two cards. If this spell's additional cost wasn't paid, you lose 2 life and conjure Fatigue on top of your library. [i](It's a {2} sorcery with “Draw a card.”)[/i]
+
+Haruko, Lady of Ceremonies
+
+Hiruya Star Aspirant
+
+Seijuku Star Pilot
+type: Creature — Human Student Pilot => Artifact Creature — Human Student Pilot
+rules_text: Whenever you gain life, put a +1/+1 counter on Seijuku Star Pilot.
+Whenever Seijuku Star Pilot dies, up to one [b][target creature gets -X/-X until end of turn][/b] where X is its power.
+Flash paradigm {X}{B} [i](You may cast this as a {X}{B} instant spell with only the text in square brackets.)[/i] => Paradigm shift {1}{B} — Instant [i](You may cast this as a {1}{B} Instant with only bracketed text.)[/i]
+At the beginning of each end step, if you've cast a creature and a noncreature spell this turn, [b][Seijuku Star Pilot deals 2 damage to any target and you gain 2 life.][/b]
+pt: 3/3 => 4/4
+special_text:  => Paradigm shift {1}{B} — Instant [i](You may cast this as a {1}{B} Instant with only bracketed text.)[/i]
+At the beginning of each end step, if you've cast a creature and a noncreature spell this turn, [b][Seijuku Star Pilot deals 2 damage to any target and you gain 2 life.][/b]
+
+Titanicoil Uwabami
+rules_text: Trample
+Whenever Titanicoil Uwabami enters or dies, you may [b][return to your hand all other permanent cards in your graveyard that were put there from the battlefield this turn.][/b]
+Flash paradigm {2}{B} [i](You may cast this as a {2}{B} instant spell with only the text in square brackets.)[/i] => Paradigm shift {2}{B} — Instant [i](You may cast this as a {2}{B} Instant with only bracketed text.)[/i]
+Trample
+Whenever Titanicoil Uwabami enters or dies, you may [b][return to your hand all other permanent cards in your graveyard that were put there from the battlefield this turn.][/b]
+special_text:  => Paradigm shift {2}{B} — Instant [i](You may cast this as a {2}{B} Instant with only bracketed text.)[/i]
+Trample
+Whenever Titanicoil Uwabami enters or dies, you may [b][return to your hand all other permanent cards in your graveyard that were put there from the battlefield this turn.][/b]
+
+One Last Time
+
+Kajiwara Ai, on the Prowl
+rules_text: [+2]: Create a 2/2 colorless Soldier artifact creature token with “When this creature dies, each opponent discards a card.”
+[-1]: You may sacrifice a creature. If you do, return target creature card in your graveyard to the battlefield. Otherwise, return it to your hand.
+[-3]: [b][Each player sacrifices two creatures.][/b]
+Flash paradigm {2}{B}{B} [i](You may cast this as a {2}{B}{B} instant spell with only the text in square brackets.)[/i] => Paradigm shift {2}{B}{B} — Sorcery [i](You may cast this as a {2}{B}{B} Sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {2}{B}{B} Sorcery with only bracketed text.)[/i]
+[+2]: You draw X cards and each opponent loses X life, where X is one plus the number of creatures that have died this turn.
+[+1]: Create two 2/2 black Soldier artifact creature tokens.
+[-3]: [b][Each player sacrifices two creatures.][/b]
+special_text: [+2]: Create a 2/2 colorless Soldier artifact creature token with “When this creature dies, each opponent discards a card.”
+[-1]: You may sacrifice a creature. If you do, return target creature card in your graveyard to the battlefield. Otherwise, return it to your hand.
+[-3]: [b][Each player sacrifices two creatures.][/b]
+Flash paradigm {2}{B}{B} [i](You may cast this as a {2}{B}{B} instant spell with only the text in square brackets.)[/i] => Paradigm shift {2}{B}{B} — Sorcery [i](You may cast this as a {2}{B}{B} Sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {2}{B}{B} Sorcery with only bracketed text.)[/i]
+[+2]: You draw X cards and each opponent loses X life, where X is one plus the number of creatures that have died this turn.
+[+1]: Create two 2/2 black Soldier artifact creature tokens.
+[-3]: [b][Each player sacrifices two creatures.][/b]
+
+Bladework Teacher
+cost: {1}{W} => {2}{W}
+rules_text: Instruct [i](Whenever this creature attacks, up to one other target attacking creature gains the following abilities until end of turn.)[/i]
+During your turn, this creature gets +0/+2. => Whenever Bladework Teacher or another Advisor you control enters, tap up to one target creature.
+pt: 2/1 => 3/2
+
+Hollow Pact
+rules_text: Put up to two target creature cards from a single graveyard onto the battlefield under your control. They gain haste until end of turn. Sacrifice them at the beginning of the next end step.
+{1}{B}{R}, Discard Hollow Pact: It deals 3 damage to any target. You gain 3 life. => Put up to two target creature cards from a single graveyard onto the battlefield under your control. They gain haste until end of turn. Sacrifice them at the beginning of the next end step.
+
+Mine, Haiden Celebrant
+rules_text: Whenever Mine, Haiden Celebrant or a token you control enters, surveil 1. You gain 1 life.
+Tap ten untapped tokens you control: Target creature you control has base power and toughness 20/20 until end of turn. Activate only as a sorcery. => Whenever a land you control enters, you may put a +1/+1 counter on each creature you control.
+Whenever you attack with exactly two creatures, create a tapped colorless land token named Everywhere that is every basic land type.
+pt: 4/3 => 2/2
+
+Shiori, the Unbridled
+pt: 4/3 => 4/4
+
+Painter of Dreams
+
+Augmented Proctor
+rules_text: This spell costs {1} less to cast for each instant, sorcery and card with paradigm in your graveyard.
+Flash
+Augmented Proctor enters tapped if it's not your turn. => This spell costs {1} less to cast for each instant, sorcery and card with paradigm shift in your graveyard.
+Flash
+Augmented Proctor enters tapped if it's not your turn.
+
+Hajime, Hidanko Dean
+rules_text: Menace, prowess
+Whenever you cast a spell for its paradigm cost, exile it as it resolves. You may cast that card for its mana cost for as long as it remains exiled. => Menace, prowess
+Whenever you cast a spell for its paradigm shift cost, exile it as it resolves. You may cast that card for its mana cost for as long as it remains exiled.
+
+Hishoki, Apex Nightmare
+
+Ryujin of Life's Tenacity
+rules_text: Flying, trample
+Whenever Ryujin of Life's Tenacity attacks, up to one [b][target creature you control gets +4/+4 and gains trample until end of turn.] [/b]Then if it's another creature, it fights up to one target creature you don't control.
+Flash paradigm {1}{G} [i](You may cast this as a {1}{G} instant spell with only the text in square brackets.)[/i] => Paradigm shift {1}{G} — Instant [i](You may cast this as a {1}{G} Instant with only bracketed text.)[/i]
+Flying, trample
+Whenever Ryujin of Life's Tenacity attacks, up to one [b][target creature you control gets +4/+4 and gains trample until end of turn.] [/b]Then if it's another creature, it fights up to one target creature you don't control.
+special_text:  => Paradigm shift {1}{G} — Instant [i](You may cast this as a {1}{G} Instant with only bracketed text.)[/i]
+Flying, trample
+Whenever Ryujin of Life's Tenacity attacks, up to one [b][target creature you control gets +4/+4 and gains trample until end of turn.] [/b]Then if it's another creature, it fights up to one target creature you don't control.
+
+Ryujin of Memory's Flow
+rules_text: Flying, vigilance
+Whenever Ryujin of Memory's Flow attacks, surveil 2. [b][The owner of up to one target nonland permanent puts it into their library second from the top or on the bottom.][/b]
+Flash paradigm {3}{U} [i](You may cast this as a {3}{U} instant spell with only the text in square brackets.)[/i] => Paradigm shift {3}{U} — Instant [i](You may cast this as a {3}{U} Instant with only bracketed text.)[/i]
+Flying, vigilance
+Whenever Ryujin of Memory's Flow attacks, surveil 2. Then, [b][the owner of up to one target nonland permanent puts it into their library second from the top or on the bottom.] [/b]
+special_text:  => Paradigm shift {3}{U} — Instant [i](You may cast this as a {3}{U} Instant with only bracketed text.)[/i]
+Flying, vigilance
+Whenever Ryujin of Memory's Flow attacks, surveil 2. Then, [b][the owner of up to one target nonland permanent puts it into their library second from the top or on the bottom.] [/b]
+
+Ryujin of Unfettered Joy
+rules_text: Flying, first strike
+Whenever Ryujin of Unfettered Joy attacks, you may [b][discard two cards. If you do, draw three cards.] [/b]Add {R}{R}{R}. Until end of turn, you don't lose this mana as steps and phases end.
+Flash paradigm {2}{R} [i](You may cast this as a {2}{R} instant spell with only the text in square brackets.)[/i] => Paradigm shift {2}{R}{R} — Sorcery [i](You may cast this as a {2}{R}{R} Sorcery with only bracketed text.)[/i]
+Flying, first strike
+Whenever Ryujin of Unfettered Joy attacks for the first time each turn, [[b]untap all creatures that attacked this turn. After this phase, there is an additional combat phase.] [/b]Then other creatures you control get +2/+0 until end of turn.
+special_text:  => Paradigm shift {2}{R}{R} — Sorcery [i](You may cast this as a {2}{R}{R} Sorcery with only bracketed text.)[/i]
+Flying, first strike
+Whenever Ryujin of Unfettered Joy attacks for the first time each turn, [[b]untap all creatures that attacked this turn. After this phase, there is an additional combat phase.] [/b]Then other creatures you control get +2/+0 until end of turn.
+
+Ryujin of Divine Justice
+rules_text: Flying, lifelink
+Whenever Ryujin of Divine Justice attacks, [b][create two 2/1 white Spirit Samurai creature tokens][/b], then put a +1/+1 counter on each creature you control.
+Flash paradigm {3}{W} [i](You may cast this as a {3}{W} instant spell with only the text in square brackets.)[/i] => Paradigm shift {3}{W} — Instant [i](You may cast this as a {3}{W} Instant with only bracketed text.)[/i]
+Flying, lifelink
+Whenever Ryujin of Divine Justice attacks, [b][create two 2/1 white Spirit Samurai creature tokens][/b], then put a +1/+1 counter on each creature you control.
+special_text:  => Paradigm shift {3}{W} — Instant [i](You may cast this as a {3}{W} Instant with only bracketed text.)[/i]
+Flying, lifelink
+Whenever Ryujin of Divine Justice attacks, [b][create two 2/1 white Spirit Samurai creature tokens][/b], then put a +1/+1 counter on each creature you control.
+
+Ryujin of Night's Sorrow
+rules_text: Flying, menace
+Whenever Ryujin of Night's Sorrow attacks,[b] [each opponent sacrifices a creature.][/b] Put each creature with mana value 3 or less sacrificed this way onto the battlefield under your control tapped and attacking.
+Flash paradigm {1}{B} [i](You may cast this as a {1}{B} instant spell with only the text in square brackets.)[/i] => Paradigm shift {1}{B} — Instant [i](You may cast this as a {1}{B} Instant with only bracketed text.)[/i]
+Flying, menace
+Whenever Ryujin of Night's Sorrow attacks,[b] [each opponent sacrifices a creature.][/b] For each creature with mana value 3 or less sacrificed this way, put it onto the battlefield under your control. It enters tapped and attacking.
+special_text:  => Paradigm shift {1}{B} — Instant [i](You may cast this as a {1}{B} Instant with only bracketed text.)[/i]
+Flying, menace
+Whenever Ryujin of Night's Sorrow attacks,[b] [each opponent sacrifices a creature.][/b] For each creature with mana value 3 or less sacrificed this way, put it onto the battlefield under your control. It enters tapped and attacking.
+
+Inaba Sparkcaster
+
+Possessed Mech
+cost: {5}{R}{R} => {3}{R}
+rules_text: When Possessed Mech enters, you may exile two instant, sorcery and/or cards with paradigm from your graveyard. If you do, up to one [b][target creature gets +4/-4 until end of turn.][/b]
+Flash paradigm {2}{B} [i](You may cast this as a {2}{B} instant spell with only the text in square brackets.)[/i] => Reach
+Whenever Possessed Mech attacks, you may conjure Fatigue on top of your library. If you do, target creature can't block this turn. [i](It's a {2} sorcery with “Draw a card.”)[/i]
+pt: 8/6 => 4/3
+
+Sakura-Tail Blademaster
+
+Rail Lines Constructor
+
+Spirit
+pt: 3/3 => 2/2
+
+Memorial Miasma
+
+Eavesdrop
+
+Senzao Border Patrol
+rules_text: Reach
+When Senzao Border Patrol enters, [b][you gain 7 life.]
+[/b]Paradigm {1}{G} [i](You may cast this as a {1}{G} sorcery spell with only the text in square brackets.)[/i] => Paradigm shift {1}{G} — Sorcery [i](You may cast this as a {1}{G} Sorcery with only bracketed text.)[/i]
+Reach
+When Senzao Border Patrol enters, [b][you gain 6 life.][/b]
+special_text:  => Paradigm shift {1}{G} — Sorcery [i](You may cast this as a {1}{G} Sorcery with only bracketed text.)[/i]
+Reach
+When Senzao Border Patrol enters, [b][you gain 6 life.][/b]
+
+Test of Talents
+
+Watcher's Prelude
+
+Enma, Hellraisers Sukeban
+
+Graffittied Train Yard
+
+Pier Line Aquarium
+
+Private Convoy Line
+
+Miyakawa Central Station
+
+Tranquil Seas Line
+
+Hebika Terminal Ruins
+
+Academy Rail Line
+
+Ogaki, Contracted Vengeant
+rules_text: When Ogaki enters, starting with you, each player may put a creature card not named Ogaki, Contracted Vengeant from their graveyard onto the battlefield. Repeat this process until no one puts a card onto the battlefield. => When Ogaki enters, starting with you, each player may put a creature card not named Ogaki, Contracted Vengeant from their graveyard onto the battlefield. Repeat this process until a player chooses not put a card onto the battlefield.
+
+Sakamoto Akira, Hidanko's Blade
+rules_text: [+1]: Up to one target creature you control gets +1/+0 and gains first strike until end of turn.
+[0]: Until end of turn, Sakamoto Akira, Hidanko's Blade becomes a 1/1 Human Student Samurai with double strike that's still a planeswalker. Prevent all damage that would be dealt to her this turn.
+[-3]: [[b]Create a red enchantment token with “Creatures you control get +1/+0 and have haste.”][/b]
+Paradigm {3}{R} [i](You may cast this as a {3}{R} sorcery spell with only the text in square brackets.)[/i] => Paradigm shift {2}{R}{R} — Sorcery [i](You may cast this as a {2}{R}{R} Sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {2}{R}{R} Sorcery with only bracketed text.)[/i]
+[+1]: Up to one target creature you control gets +1/+0 and gains first strike until end of turn.
+[0]: Until end of turn, Sakamoto Akira becomes a 1/1 Human Student Samurai with double strike that's still a planeswalker. Prevent all damage that would be dealt to her this turn.
+[-3]: [b][Create a red enchantment token with “Creatures you control get +1/+0 and have haste.”][/b]
+special_text: [+1]: Up to one target creature you control gets +1/+0 and gains first strike until end of turn.
+[0]: Until end of turn, Sakamoto Akira, Hidanko's Blade becomes a 1/1 Human Student Samurai with double strike that's still a planeswalker. Prevent all damage that would be dealt to her this turn.
+[-3]: [[b]Create a red enchantment token with “Creatures you control get +1/+0 and have haste.”][/b]
+Paradigm {3}{R} [i](You may cast this as a {3}{R} sorcery spell with only the text in square brackets.)[/i] => Paradigm shift {2}{R}{R} — Sorcery [i](You may cast this as a {2}{R}{R} Sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {2}{R}{R} Sorcery with only bracketed text.)[/i]
+[+1]: Up to one target creature you control gets +1/+0 and gains first strike until end of turn.
+[0]: Until end of turn, Sakamoto Akira becomes a 1/1 Human Student Samurai with double strike that's still a planeswalker. Prevent all damage that would be dealt to her this turn.
+[-3]: [b][Create a red enchantment token with “Creatures you control get +1/+0 and have haste.”][/b]
+
+Student
+
+Swordsmanship Club Clique
+rules_text: When Swordsmanship Club Clique enters, [b][create two 1/1 white and black Student creature tokens.][/b]
+Flash paradigm {1}{W} [i](You may cast this as a {1}{W} instant spell with only the text in square brackets.)[/i] => Paradigm shift {1}{W} — Instant [i](You may cast this as a {1}{W} Instant with only bracketed text.)[/i]
+When Swordsmanship Club Clique enters, [b][create two 1/1 white and black Student creature tokens.][/b]
+special_text:  => Paradigm shift {1}{W} — Instant [i](You may cast this as a {1}{W} Instant with only bracketed text.)[/i]
+When Swordsmanship Club Clique enters, [b][create two 1/1 white and black Student creature tokens.][/b]
+
+Delinquent Oni
+
+Thirst for Inspiration
+
+Okirumi Heartbreaker
+cost: {4}{R} => {3}{R}{R}
+rules_text: When Okirumi Heartbreaker enters, you may [b][gain control of target creature or planeswalker until end of turn. Untap it. It gains haste until end of turn.]
+[/b]Paradigm {2}{R} [i](You may cast this as a {2}{R} sorcery spell with only the text in square brackets.)[/i] => Paradigm shift {3}{U}{U} — Sorcery [i](You may cast this as a {3}{U}{U} Sorcery with only bracketed text.)[/i]
+Haste
+When Okirumi Heartbreaker enters, you may [b][gain control of target creature or planeswalker] [/b]until end of turn. Untap it. It gains haste until end of turn.
+pt: 4/3 => 3/3
+special_text:  => Paradigm shift {3}{U}{U} — Sorcery [i](You may cast this as a {3}{U}{U} Sorcery with only bracketed text.)[/i]
+Haste
+When Okirumi Heartbreaker enters, you may [b][gain control of target creature or planeswalker] [/b]until end of turn. Untap it. It gains haste until end of turn.
+
+Reckless Rage
+
+Goggles
+pt: 5/5 => 4/4
+
+Helios Ignition
+
+Student Council Enforcer
+rules_text: Vigilance
+Whenever another creature you control enters, each opponent loses 1 life and you gain 1 life. => Vigilance
+Whenever a nontoken creature you control dies, create a 1/1 white and black Student creature token.
+
+All Eyes Onstage
+
+Inami, Taraikyo Star
+
+Yumi, Last-Year Exemplar
+
+Forma, Seijuku System
+
+Maki, Star Above All
+
+Inugami Twins
+
+Lost Identification
+
+Old Ways Hellraiser
+rules_text: Trample
+When Old Ways Hellraiser enters, [b][Old Ways Hellraiser deals 4 damage to up to one nonplayer target.][/b]
+Flash paradigm {2}{R} [i](You may cast this as a {2}{R} instant spell with only the text in square brackets.)[/i] => Paradigm shift {2}{R} — Instant [i](You may cast this as a {2}{R} Instant with only bracketed text.)[/i]
+Trample
+When Old Ways Hellraiser enters, [b][Old Ways Hellraiser deals 4 damage to up to one nonplayer target.][/b]
+special_text:  => Paradigm shift {2}{R} — Instant [i](You may cast this as a {2}{R} Instant with only bracketed text.)[/i]
+Trample
+When Old Ways Hellraiser enters, [b][Old Ways Hellraiser deals 4 damage to up to one nonplayer target.][/b]
+
+Junko, Tenkami's Favored
+rules_text: Noncreature spells you cast cost {1} less to cast.
+{T}:[b][Create X 1/1 white and black Student creature tokens.] [/b]X is the number of instant and sorcery spells you have cast this turn.
+Flash paradigm {X}{G}{W} [i](You may cast this as a {X}{G}{W} instant spell with only the text in square brackets.)[/i] => Paradigm shift {X}{G}{W} — Instant [i](You may cast this as a {X}{G}{W} Instant with only bracketed text.)[/i]
+Noncreature spells you cast cost {1} less to cast.
+{T}:[b][Create X 1/1 white and black Student creature tokens][/b], where[b] [/b]X is the number of noncreature spells you have cast this turn.
+special_text:  => Paradigm shift {X}{G}{W} — Instant [i](You may cast this as a {X}{G}{W} Instant with only bracketed text.)[/i]
+Noncreature spells you cast cost {1} less to cast.
+{T}:[b][Create X 1/1 white and black Student creature tokens][/b], where[b] [/b]X is the number of noncreature spells you have cast this turn.
+
+Urenkal, Profane Deity
+
+Consuming Adoration
+
+Soul's Mediator
+cost: {5}{B} => {5}{B}{B}
+rules_text: Whenever you cast a noncreature spell during your turn, up to one [b][target creature you control gains deathtouch and indestructible until end of turn.]
+[/b]Paradigm {1}{G} [i](You may cast this as a {1}{G} sorcery spell with only the text in square brackets.)[/i] => Paradigm shift {1}{G} — Instant [i](You may cast this as a {1}{G} Instant with only bracketed text.)[/i]
+Ward—Discard a card
+Whenever you cast a noncreature spell, up to one [b][target creature you control gains deathtouch and indestructible until end of turn.][/b]
+pt: 6/5 => 7/6
+special_text:  => Paradigm shift {1}{G} — Instant [i](You may cast this as a {1}{G} Instant with only bracketed text.)[/i]
+Ward—Discard a card
+Whenever you cast a noncreature spell, up to one [b][target creature you control gains deathtouch and indestructible until end of turn.][/b]
+
+Reiko, Battle Choreographer
+
+Gladewaker Seishin
+rules_text: Whenever you cast a noncreature spell, you may pay {2}. If you do, [b][target land you control becomes a 4/4 Spirit creature with hexproof and haste until end of turn. It's still a land.][/b]
+Flash paradigm {1}{G} [i](You may cast this as a {1}{G} instant spell with only the text in square brackets.)[/i] => Paradigm shift {1}{G} — Instant [i](You may cast this as a {1}{G} Instant with only bracketed text.)[/i]
+Whenever you cast a noncreature spell, you may pay {2}. If you do, [b][target land you control becomes a 4/4 Spirit creature with hexproof and haste until end of turn. It's still a land.][/b]
+special_text:  => Paradigm shift {1}{G} — Instant [i](You may cast this as a {1}{G} Instant with only bracketed text.)[/i]
+Whenever you cast a noncreature spell, you may pay {2}. If you do, [b][target land you control becomes a 4/4 Spirit creature with hexproof and haste until end of turn. It's still a land.][/b]
+
+Korra, Wayward Explorer
+rules_text: [+2]: Mill three cards. Return a land card from your graveyard to the battlefield tapped.
+[-2]: [b][Return target non-Korra permanent card from your graveyard to your hand.][/b]
+[-3]: Create Goggles, a legendary 5/5 green Elemental Dragon creature token with flying, trample and “Whenever a land you control enters, untap target creature or land.”
+Flash paradigm {G}{G} [i](You may cast this as a {G}{G} instant spell with only the text in square brackets.)[/i] => Paradigm shift {1}{G}{G} — Sorcery [i](You may cast this as a {1}{G}{G} Sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {1}{G}{G} Sorcery with only bracketed text.)[/i]
+[+2]: Mill three cards. Return a land card from your graveyard to the battlefield tapped.
+[-2]: [b][Return target non-Korra card from your graveyard to your hand.][/b]
+[-3]: Create Goggles, a legendary 4/4 green Elemental Dragon creature token with flying, trample and “Whenever a land you control enters, untap target creature or land.”
+special_text: [+2]: Mill three cards. Return a land card from your graveyard to the battlefield tapped.
+[-2]: [b][Return target non-Korra permanent card from your graveyard to your hand.][/b]
+[-3]: Create Goggles, a legendary 5/5 green Elemental Dragon creature token with flying, trample and “Whenever a land you control enters, untap target creature or land.”
+Flash paradigm {G}{G} [i](You may cast this as a {G}{G} instant spell with only the text in square brackets.)[/i] => Paradigm shift {1}{G}{G} — Sorcery [i](You may cast this as a {1}{G}{G} Sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {1}{G}{G} Sorcery with only bracketed text.)[/i]
+[+2]: Mill three cards. Return a land card from your graveyard to the battlefield tapped.
+[-2]: [b][Return target non-Korra card from your graveyard to your hand.][/b]
+[-3]: Create Goggles, a legendary 4/4 green Elemental Dragon creature token with flying, trample and “Whenever a land you control enters, untap target creature or land.”
+
+War-Stage Idol
+rules_text: Whenever War-Stage Idol enters or attacks, you may sacrifice another artifact or creature. If you do, you [b][draw two cards and create a Treasure token.][/b]
+Paradigm {2}{R}, Discard a card. [i](You may cast this as a {2}{R} sorcery spell with only the text in square brackets.)[/i] => Paradigm shift {2}{R} — Instant [i](You may cast this as a {2}{R} Instant with only bracketed text.)[/i]
+Whenever War-Stage Idol enters or attacks, you may sacrifice another creature or [b][discard a card, then draw two cards and create a treasure token][/b] if you do.
+pt: 8/7 => 8/8
+special_text:  => Paradigm shift {2}{R} — Instant [i](You may cast this as a {2}{R} Instant with only bracketed text.)[/i]
+Whenever War-Stage Idol enters or attacks, you may sacrifice another creature or [b][discard a card, then draw two cards and create a treasure token][/b] if you do.
+
+Masborg, Lethal Protector
+rules_text: Whenever Masborg, Lethal Protector attacks, each opponent loses 3 life unless they discard a card or sacrifice a creature.
+At the beginning of your end step, if an opponent lost 3 or more life this turn, [b][you draw a card and gain 3 life.]
+[/b]Flash paradigm {W}{U} [i](You may cast this as a {W}{U} instant spell with only the text in square brackets.)[/i] => Paradigm shift {W}{U} — Instant [i](You may cast this as a {W}{U} Instant with only bracketed text.)[/i]
+Whenever Masborg, Lethal Protector attacks, each opponent loses 3 life unless they discard a card or sacrifice a creature.
+At the beginning of your end step, if an opponent lost 3 or more life this turn, [b][you draw a card and gain 3 life.][/b]
+special_text:  => Paradigm shift {W}{U} — Instant [i](You may cast this as a {W}{U} Instant with only bracketed text.)[/i]
+Whenever Masborg, Lethal Protector attacks, each opponent loses 3 life unless they discard a card or sacrifice a creature.
+At the beginning of your end step, if an opponent lost 3 or more life this turn, [b][you draw a card and gain 3 life.][/b]
+
+Chieko, Untamed Rover
+rules_text: Hexproof from instants
+Whenever Chieko, Untamed Rover attacks, you may [b][cast target instant or sorcery card from a graveyard with mana value X or less[/b] [b]without paying it's mana cost][/b], where X is its power.
+Flash paradigm {X}{U}{B} [i](You may cast this as a {X}{U}{B} instant spell with only the text in square brackets.)[/i] => Paradigm shift {X}{U}{B} — Instant [i](You may cast this as a {X}{U}{B} Instant with only bracketed text.)[/i]
+Hexproof from instants
+Whenever Chieko, Untamed Rover attacks, you may [b][cast target instant or sorcery card from a graveyard with mana value X or less[/b] [b]without paying it's mana cost][/b], where X is its power.
+special_text:  => Paradigm shift {X}{U}{B} — Instant [i](You may cast this as a {X}{U}{B} Instant with only bracketed text.)[/i]
+Hexproof from instants
+Whenever Chieko, Untamed Rover attacks, you may [b][cast target instant or sorcery card from a graveyard with mana value X or less[/b] [b]without paying it's mana cost][/b], where X is its power.
+
+Senzao Peak Skythresher
+rules_text: Flying
+When Senzao Peak Skythresher attacks, another[b] [target creature you control gets +1/+1 and gains flying until end of turn.][/b]
+Flash paradigm {W} [i](You may cast this as a {W} instant spell with only the text in square brackets.)[/i] => Paradigm shift {1}{W} — Sorcery [i](You may cast this as a {1}{W} Sorcery with only bracketed text.)[/i]
+Flying
+Whenever you attack with exactly two creatures, [b][Look at the top four cards of your library. You may reveal a plains card or creature card with power 3 or less from among them and put it into your hand, then shuffle.][/b]
+pt: 4/3 => 4/4
+special_text:  => Paradigm shift {1}{W} — Sorcery [i](You may cast this as a {1}{W} Sorcery with only bracketed text.)[/i]
+Flying
+Whenever you attack with exactly two creatures, [b][Look at the top four cards of your library. You may reveal a plains card or creature card with power 3 or less from among them and put it into your hand, then shuffle.][/b]
+
+Retrofitted Artillery
+
+Lost Soulherder
+cost: {G} => {1}{G}
+rules_text: Trample, ward {1}
+Whenever you cast your second spell each turn, put a +1/+1 counter on Lost Soulherder. => {T}: Untap target land.
+{3}, {T}: Create a tapped colorless land token named Everywhere that is every basic land type.
+pt: 1/1 => 1/3
+
+Void Central Junction
+
+Disruptor Suit Pilot
+type: Creature — Human Student Pilot => Artifact Creature — Human Student Pilot
+rules_text: Flash
+When Disruptor Suit Pilot enters, you may [b][counter target spell.] [/b]Put X +1/+1 counters on Disruptor Suit Pilot, where X is that spell's mana value.
+Flash paradigm {1}{U}{U} [i](You may cast this as a {1}{U}{U} instant spell with only the text in square brackets.)[/i] => Paradigm shift {1}{U}{U} — Instant [i](You may cast this as a {1}{U}{U} Instant with only bracketed text.)[/i]
+Flash
+When Disruptor Suit Pilot enters, you may [b][counter target spell.] [/b]Put X +1/+1 counters on Disruptor Suit Pilot, where X is the difference between its mana value and that spell's.
+special_text:  => Paradigm shift {1}{U}{U} — Instant [i](You may cast this as a {1}{U}{U} Instant with only bracketed text.)[/i]
+Flash
+When Disruptor Suit Pilot enters, you may [b][counter target spell.] [/b]Put X +1/+1 counters on Disruptor Suit Pilot, where X is the difference between its mana value and that spell's.
+
+Everywhere
+
+Disaster Site Surveyor
+type: Creature — Cat Scout => Creature — Cat Scout Advisor
+cost: {2}{U} => {3}{U}
+rules_text: When Disaster Site Surveyor enters, you may conjure Fatigue on top of your library. If you do, return an instant, sorcery or card with paradigm from your graveyard to your hand. [i](It's a {2} sorcery with “Draw a card.”)[/i] => Paradigm shift {2}{R} — Sorcery [i](You may cast this as a {2}{R} Sorcery with only bracketed text.)[/i]
+When Disaster Site Surveyor dies, you may [b][return target instant, sorcery or card with paradigm shift from your graveyard to your hand.][/b]
+pt: 3/2 => 3/3
+special_text:  => Paradigm shift {2}{R} — Sorcery [i](You may cast this as a {2}{R} Sorcery with only bracketed text.)[/i]
+When Disaster Site Surveyor dies, you may [b][return target instant, sorcery or card with paradigm shift from your graveyard to your hand.][/b]
+
+Highblood Sophomore
+rules_text: At the beginning of combat on your turn, up to one [b][target creature you control gets +1/+0 and gains first strike until end of turn.]
+[/b]Flash paradigm {W} [i](You may cast this as a {W} instant spell with only the text in square brackets.)[/i] => Paradigm shift {W} — Instant [i](You may cast this as a {W} Instant with only bracketed text.)[/i]
+At the beginning of combat on your turn, up to one [b][target creature you control gets +1/+0 and gains first strike until end of turn.][/b]
+special_text:  => Paradigm shift {W} — Instant [i](You may cast this as a {W} Instant with only bracketed text.)[/i]
+At the beginning of combat on your turn, up to one [b][target creature you control gets +1/+0 and gains first strike until end of turn.][/b]
+
+Rainfall Companion
+cost: {2}{G} => {G}
+rules_text: Vigilance
+Whenever Rainfall Companion attacks, put a +1/+1 counter on target creature token you control. => Whenever Rainfall Companion attacks, it gets +1/+1 until end of turn. If exactly two creatures are attacking, put a +1/+1 counter on it instead.
+pt: 3/3 => 1/1
+
+Greater Toad Sage
+cost: {5}{G}{G} => {3}{G}{G}
+rules_text: When Greater Toad Sage enters, create a 1/1 white and black Student creature token, then up to one [b][Target creature you control gets +X/+X until end of turn, where X is the number of tokens you control.]
+P[/b]aradigm {G} [i](You may cast this as a {G} sorcery spell with only the text in square brackets.)[/i] => When Greater Toad Sage enters, put a +1/+1 counter on target creature you control, then you may conjure Fatigue on top of your library. If you do, double the number of each kind of counter on that creature. [i](It's a {2} sorcery with “Draw a card.”)[/i]
+pt: 6/5 => 3/3
+
+Battleshaping Coordinator
+rules_text: Other Advisors you control get +1/+1.
+{2}{W}{U}, {T}, Discard a card: Create a 2/2 white and blue Student Advisor creature token. => Other Advisors you control get +1/+1.
+{2}{W}{U}, {T}: Create a 2/2 white and blue Student Advisor creature token.
+
+Kuro, Bitter Shadow
+rules_text: Lifelink, deathouch.
+If you would gain life, you gain that much life plus 1 instead.
+If an opponent would lose life, they lose that much life plus 1 instead. => Sacrifice an artifact or creature: Each opponent loses 1 life and you gain 1 life. If this is the third time this ability has resolved this turn, you may draw a card and put a +1/+1 counter on Kuro, Bitter Shadow.
+pt: 2/3 => 2/2
+
+Omukade, Void Feaster
+cost: {2}{B}{G} => {3}{B}{G}
+rules_text: When Omukade, Void Feaster enters, mill four cards.
+Whenever you cast your second spell each turn, you may return a permanent card from your graveyard to your hand. => At the beginning of each end step, if you've cast a creature and a noncreature spell this turn, choose a nonland permanent type. Each opponent sacrifices a permanent they control of that type.
+pt: 4/2 => 6/4
+
+Twintuft Duelists
+
+Flamejaw Apex
+type: Creature — Beast Horror => Creature — Beast Spirit
+rules_text: When Flamejaw Apex enters, [b][target creature you control gets +1/+1 until end of turn. It fights up to one target creature you don't control.][/b]
+Flash paradigm {1}{G} [i](You may cast this as a {1}{G} instant spell with only the text in square brackets.)[/i] => Paradigm shift {1}{G} — Instant [i](You may cast this as a {1}{G} Instant with only bracketed text.)[/i]
+Prowess
+When Flamejaw Apex enters, [b][target creature you control gets +1/+1 until end of turn. It fights up to one target creature you don't control.][/b]
+special_text:  => Paradigm shift {1}{G} — Instant [i](You may cast this as a {1}{G} Instant with only bracketed text.)[/i]
+Prowess
+When Flamejaw Apex enters, [b][target creature you control gets +1/+1 until end of turn. It fights up to one target creature you don't control.][/b]
+
+End of the Line
+type: Land => Legendary Land
+rules_text: End of the Line enters tapped.
+{T}: Add {C}.
+Lands you control have “{T}: Add one mana of any color a land you control could produce.”
+{W}{W}{U}{U}{B}{B}{R}{R}{G}{G}: End of the Line becomes a 10/10 Horror creature with hexproof until end of turn. => {T}: Add {C}.
+Other lands you control have “{T}: Add one mana of any color a land you control could produce.”
+{W}{W}{U}{U}{B}{B}{R}{R}{G}{G}: End of the Line becomes a 10/10 Horror creature with protection from everything until end of turn.
+
+Misfit Bonds
+
+Manifold Technique
+cost: {1}{U}{R} => {U}{R}
+rules_text: Choose one — 
+• Draw two cards, then discard a card.
+• Manifold Technique deals 3 damage to any target.
+• Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn. Untap it. => Draw two cards, then discard a card.
+As long as you've cast two or more spells this turn, and Manifold Technique is in your graveyard, it has flashback {U}{R} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Nightmares In Reality
+
+Shrine-Lurker Ogama
+rules_text: Shrine-Lurker Ogama's power and toughness are each equal to the number of lands you control.
+When Shrine-Lurker Ogama dies, if it was a creature, return it to the battlefield. It's an Aura enchantment with enchant land and gains “{2}{G}{U}{R}: Sacrifice enchanted land. If you do, this Aura becomes a creature.” => Paradigm shift {2}{G} — Sorcery [i](You may cast this as a {2}{G} Sorcery with only bracketed text.)[/i]
+Shrine-Lurker Ogama gets +X/+X, where X is twice the number of differently named lands you control.
+When Shrine-Lurker Ogama enters, [b][search your library for a basic land card, put it onto the battlefield tapped, then shuffle.][/b]
+pt: */* => 0/0
+special_text:  => Paradigm shift {2}{G} — Sorcery [i](You may cast this as a {2}{G} Sorcery with only bracketed text.)[/i]
+Shrine-Lurker Ogama gets +X/+X, where X is twice the number of differently named lands you control.
+When Shrine-Lurker Ogama enters, [b][search your library for a basic land card, put it onto the battlefield tapped, then shuffle.][/b]
+
+Challenging Lesson
+rules_text: When Challenging Lesson enters, choose up to one target creature you don't control. Each creature you control with base power 2 or less deals damage equal to its power to that creature.
+If an ability of a creature you control with base power 2 or less triggers, that ability triggers an additional time. => When Challenging Lesson enters, choose target creature you don't control. Each creature you control with base power 2 or less deals damage equal to its power to it.
+If an ability of a creature you control with base power 2 or less triggers, that ability triggers an additional time.
+
+Cat
+
+Wolf Spirit
+
+Treasure
+
+Student Advisor
+
+Spirit Horror
+
+Spirit Nightmare
+
+Dragon
+
+Setsuko, the Sightseeker
+
+Lost in Transit
+
+Halfblade Instigator
+
+Kazuma Jun, Ryu-Born
+cost: {1}{U}{U} => {2}{U}{U}
+rules_text: [+1]: Surveil 2, then draw a card if you control five or more Islands.
+[-1]: Create an X/X Blue Dragon creature token, where X is the number of Islands you control.
+[-2]: [b][Return two other target nonland permanents controlled by different players to their owner's hands.][/b]
+Paradigm {U} [i](You may cast this as an {U} sorcery spell with only the text in square brackets.)[/i] => Paradigm shift {1}{U} — Sorcery [i](You may cast this as a {1}{U} Sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {1}{U} Sorcery with only bracketed text.)[/i]
+[+1]: Surveil 2, then draw a card if you control five or more Islands.
+[-1]: [b][Return two other target nonland permanents controlled by different players to their owner's hands.][/b]
+[-2]: Create an X/X Blue Dragon creature token, where X is the number of Islands you control.
+special_text: [+1]: Surveil 2, then draw a card if you control five or more Islands.
+[-1]: Create an X/X Blue Dragon creature token, where X is the number of Islands you control.
+[-2]: [b][Return two other target nonland permanents controlled by different players to their owner's hands.][/b]
+Paradigm {U} [i](You may cast this as an {U} sorcery spell with only the text in square brackets.)[/i] => Paradigm shift {1}{U} — Sorcery [i](You may cast this as a {1}{U} Sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {1}{U} Sorcery with only bracketed text.)[/i]
+[+1]: Surveil 2, then draw a card if you control five or more Islands.
+[-1]: [b][Return two other target nonland permanents controlled by different players to their owner's hands.][/b]
+[-2]: Create an X/X Blue Dragon creature token, where X is the number of Islands you control.
+loyalty: 3 => 4
+
+Instructor's Talent
+
+The Once Wayfinder
+
+Terminal Robot
+
+Wildweaver Toraiga
+
+Shoji, Grounds Tender
+rules_text: Flash
+When Shoji, Grounds Tender enters, [b][create a 2/2 black Cat creature token with haste for each creature card in your graveyard][/b] that was put there from the battlefield this turn.
+Paradigm {4}{B}{R} [i](You may cast this as a {4}{B}{R} sorcery spell with only the text in square brackets.)[/i] => Paradigm shift {4}{B}{R} — Sorcery [i](You may cast this as a {4}{B}{R} Sorcery with only bracketed text.)[/i]
+Flash
+When Shoji, Grounds Tender enters, [b][create a 2/2 black Cat creature token with haste for each creature card in your graveyard][/b] that was put there from the battlefield this turn.
+special_text:  => Paradigm shift {4}{B}{R} — Sorcery [i](You may cast this as a {4}{B}{R} Sorcery with only bracketed text.)[/i]
+Flash
+When Shoji, Grounds Tender enters, [b][create a 2/2 black Cat creature token with haste for each creature card in your graveyard][/b] that was put there from the battlefield this turn.
+
+Pigeon Parks
+rules_text: Once each turn, whenever you cast a noncreature spell, create a 1/1 green and white Bird creature token with flying and vigilance.
+Whenever three or more creatures you control deal combat damage to a player, create a token that's a copy of target token you control. => Once each turn, whenever you cast a noncreature spell, create a 1/1 green and white Bird creature token with flying and vigilance.
+Whenever you attack with exactly two creatures, create a token that's a copy of target token you control.
+
+Academic Orrery
+rules_text: Academic Orrery enters tapped.
+You may spend mana of any type to cast instant and sorcery spells, and to activate abilities of instant and sorcery cards.
+{T}: Add {C}{C}. => Academic Orrery enters tapped.
+You may spend mana of any type to cast instant and sorcery spells.
+{T}: Add {C}{C}.
+
+Ayaka, Rebellious Arcanist
+
+Masami, Tenkami Exemplar
+
+Academy Paragon
+rules_text: Instruct [i](Whenever this creature attacks, up to one other target attacking creature gains the following abilities until end of turn.)[/i]
+Lifelink
+Whenever this creature is dealt damage, it deals that much damage to any target. => Instruct [i](Whenever this creature attacks, up to one other target attacking creature gains the following abilities until end of turn.)[/i]
+Lifelink
+Whenever this creature is dealt damage, it deals that much damage to any other target you don't control.
+
+Ebonwing Proctor
+rules_text: Flying
+Triggered abilities of noncreature, nonland permanents don't trigger. => Flying
+Triggered abilities of noncreature permanents don't trigger.
+
+Experienced Prefect
+cost: {1}{W} => {3}{W}{W}
+rules_text: Whenever you gain life, put a +1/+1 counter on Experienced Prefect. If it's the second time this ability has resolved this turn, you draw a card. => Vigilance
+Whenever you attack, choose one —
+• Put X +1/+1 counters on up to one other target creature, where X is the number of Advisors you control.
+• Put a +1/+1 counter on each Advisor you control.
+pt: 2/1 => 5/5
+
+Kaede, Drama Head
+rules_text: Whenever Kaede, Drama Head attacks, [b][look at the top six cards of your library. You may put up to two creature cards with mana value X or less from among them onto the battlefield, then shuffle][/b] where X is the number of attacking creatures.
+Paradigm {X}{R}{G} [i](You may cast this as a {X}{R}{G} sorcery spell with only the text in square brackets.)[/i] => Paradigm shift {R}{G} — Sorcery [i](You may cast this as a {R}{G} Sorcery with only bracketed text.)[/i]
+Whenever Kaede, Drama Head enters or attacks [b][look at the top six cards of your library. You may put a creature card with mana value 2 or less from among them onto the battlefield, then shuffle.][/b]
+special_text:  => Paradigm shift {R}{G} — Sorcery [i](You may cast this as a {R}{G} Sorcery with only bracketed text.)[/i]
+Whenever Kaede, Drama Head enters or attacks [b][look at the top six cards of your library. You may put a creature card with mana value 2 or less from among them onto the battlefield, then shuffle.][/b]
+
+Track Stars
+rules_text: Track Stars' power and toughness are each equal to the number of creatures you control.
+[i]Valiant[/i] — Whenever Track Stars becomes the target of a spell or ability you control for the first time each turn, create a 1/1 white and black Student creature token. => Track Stars gets +1/+1 for each creature you control.
+[i]Valiant[/i] — Whenever Track Stars becomes the target of a spell or ability you control for the first time each turn, create a 1/1 white and black Student creature token.
+pt: */* => 0/0
+
+Exorcist Prodigy
+
+Voidless Dreamer
+
+Ultima Channeling
+
+Rie, Top of Class
+cost: {2}{U}{R} => {G}{U}
+rules_text: Prowess, ward — Pay 3 life
+Whenever one or more creatures you control become untapped, return up to one target instant or sorcery card from your graveyard to your hand. => Whenever you cast a spell named Fatigue, choose one —
+• Draw a card, then discard a card.
+• Create a 1/1 white and black Student creature token.
+• Put a +1/+1 counter on target creature you control.
+pt: 3/4 => 2/3
+
+Battle Data Tracking
+
+Bonecaller Diva
+rules_text: Whenever you cast your second spell each turn, create a 1/1 black and green Skeleton Horror creature token with trample and “This token gets +1/+1 for each other Skeleton you control”. => At the beginning of each end step, if you've cast a creature and a noncreature spell this turn, create a 1/1 black and green Skeleton Horror creature token with trample and “This token gets +1/+1 for each other Skeleton you control”.
+pt: 1/1 => 2/2
+
+Daemthine, Dread Influencer
+
+Hollow Reckoning
+
+Kami-Blessed Spiritualist
+rules_text: When Kami-Blessed Spiritualist enters or you cast a spell, you may[b] [exile target nonland permanent with mana value X or less][/b] where X is the number of colors you've spent to cast spells this turn. Do this only once each turn.
+Paradigm {X}{W} [i](You may cast this as a {X}{W} sorcery spell with only the text in square brackets.)[/i] => Paradigm shift {X}{W} — Instant [i](You may cast this as a {X}{W} Instant with only bracketed text.)[/i]
+When Kami-Blessed Spiritualist enters or you cast a spell, you may[b] [exile target nonland permanent with mana value X or less][/b] where X is the number of colors you've spent to cast spells this turn. Do this only once each turn.
+special_text:  => Paradigm shift {X}{W} — Instant [i](You may cast this as a {X}{W} Instant with only bracketed text.)[/i]
+When Kami-Blessed Spiritualist enters or you cast a spell, you may[b] [exile target nonland permanent with mana value X or less][/b] where X is the number of colors you've spent to cast spells this turn. Do this only once each turn.
+
+Mezu's Forerunner
+rules_text: You can't cast this spell unless an opponent has 10 or less life or you have 25 or more life.
+Whenever Mezu's Forerunner attacks, [b][You gain 3 life and each opponent loses 3 life.][/b]
+Paradigm {1}{B} [i](You may cast this as a {1}{B} sorcery spell with only the text in square brackets.)[/i] => Paradigm shift {W}{B}{G} — Instant [i](You may cast this as a {W}{B}{G} Instant with only bracketed text.)[/i]
+Lifelink, deathtouch
+When Mezu's Forerunner enters, you may [b][destroy target nonland permanent] [/b]if you've gained life this turn and an opponent lost life this turn.
+pt: 3/4 => 4/3
+special_text:  => Paradigm shift {W}{B}{G} — Instant [i](You may cast this as a {W}{B}{G} Instant with only bracketed text.)[/i]
+Lifelink, deathtouch
+When Mezu's Forerunner enters, you may [b][destroy target nonland permanent] [/b]if you've gained life this turn and an opponent lost life this turn.
+
+Ryo & Oda, Unlikely Duo
+
+Satsuki, Council Vice
+
+Haiden Pactbreaker
+
+Class-Cutting Exorcist
+
+Graduation
+
+Skeleton Horror
+
+Horror
+
+Secluded Courtyard
+
+Stir the Pot
+
+Unwavering Challenge
+
+Rebuke the Unnatural
+cost: {1}{W} => {W}
+rules_text: Choose one or three — 
+• Return target spell to its owner's hand.
+• Until your next turn, noncreature spells cost {2} more to cast.
+• Conjure a card named Fatigue on top of your library. [i](It's a {2} sorcery with “Draw a card.”)[/i] => Choose one or three — 
+• Target creature gets +2/+2 until end of turn.
+• Destroy target creature if it has toughness 4 or greater.
+• Conjure a card named Fatigue on top of your library. [i](It's a {2} sorcery with “Draw a card.”)[/i]
+
+Burning Resolve
+rules_text: Choose one or three —
+• Discard up to two cards, then draw that many cards.
+• Until end of turn, target creature gets +1/+0, plus an additional +1/+0 for each card you have drawn this turn.
+• Conjure a card named Fatigue on top of your library. [i](It's a {2} sorcery with “Draw a card.”)[/i] => Choose one or three —
+• Discard your hand, then draw two cards.
+• Burning Resolve deals damage to any nonplayer target equal to the number of cards in your hand.
+• Conjure a card named Fatigue on top of your library. [i](It's a {2} sorcery with “Draw a card.”)[/i]
+
+Iterative Teachings
+rules_text: Choose one or three — 
+• Return target instant, sorcery or card with paradigm from your graveyard to your hand.
+• When you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.
+• Conjure a card named Fatigue on top of your library. [i](It's a {2} sorcery with “Draw a card.”)[/i] => Choose one or three — 
+• Return target instant, sorcery or card with paradigm shift from your graveyard to your hand.
+• When you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.
+• Conjure a card named Fatigue on top of your library. [i](It's a {2} sorcery with “Draw a card.”)[/i]
+
+Ensouled Railcar
+type: Artifact — Vehicle => Artifact
+cost: {3} => {2}
+rules_text: When Ensouled Railcar enters, you may search your library for a basic land or Terminal card. Put it into your hand, then shuffle.
+As long as you control seven or more lands, Ensouled Railcar is an artifact creature.
+Crew 5 => When Ensouled Railcar enters, you may search your library for a basic land or Terminal card. Put it into your hand, then shuffle.
+{5}, {T}, Sacrifice Ensouled Railcar: Destroy target nonland permanent.
+pt: 7/7 => 
+
+Spiritstealer Herd
+
+Naoko, the Hopestruck
+
+Fatigue
+
+Tireless Archiver
+
+Colossal Derailer
+type: Creature — Lizard Giant Horror => Creature — Lizard Spirit Horror
+cost: {6}{G}{G} => {5}{G}{G}{G}
+rules_text: Trample
+Whenever Colossal Derailer enters or attacks, look at the top eight cards of your library. You may put a non-Giant permanent card with mana value X or less from among them onto the battlefield, where X is the number of Terminals you control. Put the rest on the bottom of your library in a random order. => Trample, haste
+When Colossal Derailer enters, other creatures you control get +X/+X and gain trample until end of turn, where X is the number of Terminals you control.
+pt: 8/8 => 7/7
+
+Gate-Guard Komainu
+
+The One who Watches
+rules_text: Affinity for Horrors [i](This spell costs {1} less to cast for each Horror you control.)[/i]
+At the beginning of combat on your turn you may sacrifice another creature. If you do, create a 5/5 blue and black Horror Giant creature token. Otherwise, create a 1/1 green Human Horror creature token. => Affinity for Horrors [i](This spell costs {1} less to cast for each Horror you control.)[/i]
+At the beginning of combat on your turn you may sacrifice another creature. If you do, create a 5/5 blue and black Horror Ooze creature token. Otherwise, create a 1/1 black and red Human Horror creature token.
+
+Itakura, Hellraiser's Captain
+rules_text: Menace
+At the beginning of your end step, if the number of cards in your hand is less than the number of cards in your graveyard minus seven, draw cards equal to the difference. => Prowess, ward — Sacrifice a creature
+Once during each of your turns, you may cast a noncreature spell from your graveyard if it has mana value less than or equal to the greatest power among creatures you control with prowess.
+pt: 4/5 => 3/3
+
+Dreamfall Ascender
+
+Battleground Bully
+rules_text: Trample
+At the beginning of each combat, any opponent may put a +1/+1 counter on Battleground Bully. If a player does, tap Battleground Bully and that player conjures Fatigue on top of their library. [i](It's a {2} sorcery with “Draw a card.”)[/i] => Lifelink
+At the beginning of each end step, if you've cast a creature and a noncreature spell this turn, each opponent exiles cards from the top of their library until they exile a nonland card. You may cast a card exiled this way by paying life equal to the spell's mana value rather than paying its mana cost.
+pt: 6/6 => 4/4
+
+Bloodbound Evocation
+
+Daemthine's Diabolist
+cost: {4}{B} => {1}{B}
+rules_text: Prowess
+Whenever an opponent loses life, you gain X life, where X is Daemthine's Diabolist's power. => Whenever you cast your first noncreature spell each turn, create a tapped 1/1 black Robot Horror artifact creature token.
+Sacrifice an artifact or creature: Surveil 1.
+pt: 4/4 => 1/1
+
+Exorcist Trainee
+rules_text: When Exorcist Trainee enters, if it wasn't cast from your hand, exile it. If you do, [b][create a 5/5 black Spirit Horror creature token with menace.]
+[/b]Paradigm 4{R} [i](You may cast this as a {4}{R} sorcery spell with only the text in square brackets.)[/i] => Paradigm shift {4}{R} — Sorcery [i](You may cast this as a {4}{R} Sorcery with only bracketed text.)[/i]
+When Exorcist Trainee enters, if it wasn't cast from your hand, exile it. If you do, [b][create a 5/5 black Spirit Horror creature token with menace.][/b]
+special_text:  => Paradigm shift {4}{R} — Sorcery [i](You may cast this as a {4}{R} Sorcery with only bracketed text.)[/i]
+When Exorcist Trainee enters, if it wasn't cast from your hand, exile it. If you do, [b][create a 5/5 black Spirit Horror creature token with menace.][/b]
+
+Show of Passion
+
+Academic Discussions
+cost: {2}{W}{U} => {4}{W}{U}
+rules_text: Affinity for Advisors [i](This spell costs {1} less to cast for each Advisor you control.)[/i]
+You gain 2 life and draw two cards. => Affinity for Advisors [i](This spell costs {1} less to cast for each Advisor you control.)[/i]
+You gain 3 life and draw three cards.
+
+Human Horror
+pt: 3/3 => 1/1
+
+Hydra Horror
+
+Hidanko Voidshaper
+type: Creature — Wolf Warlock Advisor => Creature — Human Student
+cost: {1}{B} => {B}
+rules_text: Prowess
+Whenever Hidanko Voidshaper deals combat damage to a player or noncreature permanent, you may search your library for a card, put it into your graveyard, then shuffle. => Prowess, prowess
+pt: 3/1 => 0/1
+
+
+VERSION 4 CHANGELOG
 ====================
 
 Mine, Haiden Celebrant added.
