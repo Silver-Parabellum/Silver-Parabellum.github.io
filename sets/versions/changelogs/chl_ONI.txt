@@ -1,4 +1,64 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+Incandescent Seal added.
+Voidbreacher added.
+
+Collateral Damage removed.
+Rapid-Trigger Prototype removed.
+
+Hellraisers Recruit
+
+Savage Familiar
+
+Ryujin of Unfettered Joy
+
+Inaba Sparkcaster
+
+Sakamoto Akira, Hidanko's Blade
+
+Delinquent Oni
+
+Reckless Rage
+
+Highblood Sophomore
+
+Flamejaw Apex
+
+Halfblade Instigator
+
+Ultima Channeling
+
+Hateflame Revenant
+
+Enter the Spirit Realm
+
+Sarugami Titan
+
+Fervent Coach
+
+Ushi-Oni Ascetic
+
+Dreamfall Ascender
+
+Commuter's Clash
+
+Reigniting Hinotori
+
+Gate Guardians Fury
+
+Tenkami Commute
+
+Flourish
+
+Supercharged Colossus
+
+Furious Kotobuki
+
+Hellraisers Tagger
+
+
+VERSION 5 CHANGELOG
 ====================
 
 Savage Familiar added.

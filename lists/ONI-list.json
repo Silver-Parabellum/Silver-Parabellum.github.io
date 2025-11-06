@@ -19,7 +19,7 @@
     },
     {
         "card_name": "Sakamoto Akira, Hidanko's Blade",
-        "number": 139,
+        "number": 138,
         "shape": "planeswalker",
         "set": "ONI"
     },
@@ -79,7 +79,7 @@
     },
     {
         "card_name": "Dreamfall Ascender",
-        "number": 117,
+        "number": 116,
         "shape": "normal",
         "set": "ONI"
     },
@@ -109,7 +109,7 @@
     },
     {
         "card_name": "Gate Guardians Fury",
-        "number": 123,
+        "number": 122,
         "shape": "normal",
         "set": "ONI"
     },
@@ -139,7 +139,7 @@
     },
     {
         "card_name": "Halfblade Instigator",
-        "number": 124,
+        "number": 123,
         "shape": "normal",
         "set": "ONI"
     },
@@ -199,7 +199,7 @@
     },
     {
         "card_name": "Reigniting Hinotori",
-        "number": 137,
+        "number": 136,
         "shape": "normal",
         "set": "ONI"
     },
@@ -229,7 +229,7 @@
     },
     {
         "card_name": "Ryujin of Unfettered Joy",
-        "number": 138,
+        "number": 137,
         "shape": "normal",
         "set": "ONI"
     },
@@ -259,7 +259,7 @@
     },
     {
         "card_name": "Ultima Channeling",
-        "number": 144,
+        "number": 143,
         "shape": "normal",
         "set": "ONI"
     },
@@ -349,7 +349,7 @@
     },
     {
         "card_name": "Delinquent Oni",
-        "number": 116,
+        "number": 115,
         "shape": "normal",
         "set": "ONI"
     },
@@ -379,7 +379,7 @@
     },
     {
         "card_name": "Flamejaw Apex",
-        "number": 120,
+        "number": 119,
         "shape": "normal",
         "set": "ONI"
     },
@@ -409,7 +409,7 @@
     },
     {
         "card_name": "Flourish",
-        "number": 121,
+        "number": 120,
         "shape": "normal",
         "set": "ONI"
     },
@@ -439,7 +439,7 @@
     },
     {
         "card_name": "Furious Kotobuki",
-        "number": 122,
+        "number": 121,
         "shape": "normal",
         "set": "ONI"
     },
@@ -469,7 +469,7 @@
     },
     {
         "card_name": "Hellraisers Tagger",
-        "number": 127,
+        "number": 126,
         "shape": "normal",
         "set": "ONI"
     },
@@ -559,7 +559,7 @@
     },
     {
         "card_name": "Reckless Rage",
-        "number": 136,
+        "number": 135,
         "shape": "normal",
         "set": "ONI"
     },
@@ -589,7 +589,7 @@
     },
     {
         "card_name": "Supercharged Colossus",
-        "number": 142,
+        "number": 141,
         "shape": "normal",
         "set": "ONI"
     },
@@ -619,7 +619,7 @@
     },
     {
         "card_name": "Tenkami Commute",
-        "number": 143,
+        "number": 142,
         "shape": "normal",
         "set": "ONI"
     },
@@ -678,7 +678,7 @@
         "set": "ONI"
     },
     {
-        "card_name": "Collateral Damage",
+        "card_name": "Commuter's Clash",
         "number": 114,
         "shape": "normal",
         "set": "ONI"
@@ -708,8 +708,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Commuter's Clash",
-        "number": 115,
+        "card_name": "Enter the Spirit Realm",
+        "number": 117,
         "shape": "normal",
         "set": "ONI"
     },
@@ -738,7 +738,7 @@
         "set": "ONI"
     },
     {
-        "card_name": "Enter the Spirit Realm",
+        "card_name": "Fervent Coach",
         "number": 118,
         "shape": "normal",
         "set": "ONI"
@@ -768,8 +768,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Fervent Coach",
-        "number": 119,
+        "card_name": "Hateflame Revenant",
+        "number": 124,
         "shape": "normal",
         "set": "ONI"
     },
@@ -798,7 +798,7 @@
         "set": "ONI"
     },
     {
-        "card_name": "Hateflame Revenant",
+        "card_name": "Hellraisers Recruit",
         "number": 125,
         "shape": "normal",
         "set": "ONI"
@@ -828,8 +828,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Hellraisers Recruit",
-        "number": 126,
+        "card_name": "Highblood Sophomore",
+        "number": 127,
         "shape": "normal",
         "set": "ONI"
     },
@@ -858,7 +858,7 @@
         "set": "ONI"
     },
     {
-        "card_name": "Highblood Sophomore",
+        "card_name": "Inaba Sparkcaster",
         "number": 128,
         "shape": "normal",
         "set": "ONI"
@@ -888,7 +888,7 @@
         "set": "ONI"
     },
     {
-        "card_name": "Inaba Sparkcaster",
+        "card_name": "Incandescent Seal",
         "number": 129,
         "shape": "normal",
         "set": "ONI"
@@ -978,8 +978,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Rapid-Trigger Prototype",
-        "number": 135,
+        "card_name": "Sarugami Titan",
+        "number": 139,
         "shape": "normal",
         "set": "ONI"
     },
@@ -1008,7 +1008,7 @@
         "set": "ONI"
     },
     {
-        "card_name": "Sarugami Titan",
+        "card_name": "Savage Familiar",
         "number": 140,
         "shape": "normal",
         "set": "ONI"
@@ -1038,8 +1038,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Savage Familiar",
-        "number": 141,
+        "card_name": "Ushi-Oni Ascetic",
+        "number": 144,
         "shape": "normal",
         "set": "ONI"
     },
@@ -1068,7 +1068,7 @@
         "set": "ONI"
     },
     {
-        "card_name": "Ushi-Oni Ascetic",
+        "card_name": "Voidbreacher",
         "number": 145,
         "shape": "normal",
         "set": "ONI"

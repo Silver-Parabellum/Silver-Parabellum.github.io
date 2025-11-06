@@ -15,9 +15,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Human Rebel Student",
-			"collector_number": "126",
+			"collector_number": "125",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/126_Hellraisers Recruit.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/125_Hellraisers Recruit.png"
 			}
 		},
 		{
@@ -25,9 +25,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Cat Beast Spirit",
-			"collector_number": "141",
+			"collector_number": "140",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/141_Savage Familiar.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/140_Savage Familiar.png"
 			}
 		},
 		{
@@ -505,9 +505,9 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{R}{R}",
 			"type": "Legendary Creature — Dragon Spirit",
-			"collector_number": "138",
+			"collector_number": "137",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/138_Ryujin of Unfettered Joy.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/137_Ryujin of Unfettered Joy.png"
 			}
 		},
 		{
@@ -545,9 +545,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Rabbit Student",
-			"collector_number": "129",
+			"collector_number": "128",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/129_Inaba Sparkcaster.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/128_Inaba Sparkcaster.png"
 			}
 		},
 		{
@@ -815,9 +815,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{R}{R}",
 			"type": "Legendary Planeswalker — Akira",
-			"collector_number": "139",
+			"collector_number": "138",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/139_Sakamoto Akira, Hidanko's Blade.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/138_Sakamoto Akira, Hidanko's Blade.png"
 			}
 		},
 		{
@@ -845,9 +845,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Creature — Demon Rebel Student",
-			"collector_number": "116",
+			"collector_number": "115",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/116_Delinquent Oni.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/115_Delinquent Oni.png"
 			}
 		},
 		{
@@ -925,9 +925,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "136",
+			"collector_number": "135",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/136_Reckless Rage.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/135_Reckless Rage.png"
 			}
 		},
 		{
@@ -1161,13 +1161,13 @@
 			}
 		},
 		{
-			"name": "Collateral Damage",
+			"name": "Incandescent Seal",
 			"rarity": "common",
-			"mana_cost": "{2}{R}",
+			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "114",
+			"collector_number": "129",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/114_Collateral Damage.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/129_Incandescent Seal.png"
 			}
 		},
 		{
@@ -1331,13 +1331,13 @@
 			}
 		},
 		{
-			"name": "Rapid-Trigger Prototype",
+			"name": "Voidbreacher",
 			"rarity": "common",
-			"mana_cost": "{R}",
+			"mana_cost": "{1}{R}",
 			"type": "Artifact — Equipment",
-			"collector_number": "135",
+			"collector_number": "145",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/135_Rapid-Trigger Prototype.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/145_Voidbreacher.png"
 			}
 		},
 		{
@@ -1345,9 +1345,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Student Noble",
-			"collector_number": "128",
+			"collector_number": "127",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/128_Highblood Sophomore.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/127_Highblood Sophomore.png"
 			}
 		},
 		{
@@ -1415,9 +1415,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Creature — Beast Spirit",
-			"collector_number": "120",
+			"collector_number": "119",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/120_Flamejaw Apex.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/119_Flamejaw Apex.png"
 			}
 		},
 		{
@@ -1595,9 +1595,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Rebel Student",
-			"collector_number": "124",
+			"collector_number": "123",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/124_Halfblade Instigator.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/123_Halfblade Instigator.png"
 			}
 		},
 		{
@@ -1805,9 +1805,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Instant",
-			"collector_number": "144",
+			"collector_number": "143",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/144_Ultima Channeling.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/143_Ultima Channeling.png"
 			}
 		},
 		{
@@ -1975,9 +1975,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Creature — Fox Spirit Horror",
-			"collector_number": "125",
+			"collector_number": "124",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/125_Hateflame Revenant.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/124_Hateflame Revenant.png"
 			}
 		},
 		{
@@ -1985,9 +1985,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment",
-			"collector_number": "118",
+			"collector_number": "117",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/118_Enter the Spirit Realm.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/117_Enter the Spirit Realm.png"
 			}
 		},
 		{
@@ -2125,9 +2125,9 @@
 			"rarity": "common",
 			"mana_cost": "{5}{R}{R}",
 			"type": "Creature — Monkey Spirit Giant",
-			"collector_number": "140",
+			"collector_number": "139",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/140_Sarugami Titan.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/139_Sarugami Titan.png"
 			}
 		},
 		{
@@ -2135,9 +2135,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Drake Advisor",
-			"collector_number": "119",
+			"collector_number": "118",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/119_Fervent Coach.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/118_Fervent Coach.png"
 			}
 		},
 		{
@@ -2145,9 +2145,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Ox Demon Monk",
-			"collector_number": "145",
+			"collector_number": "144",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/145_Ushi-Oni Ascetic.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/144_Ushi-Oni Ascetic.png"
 			}
 		},
 		{
@@ -2275,9 +2275,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Drake Fish Warrior",
-			"collector_number": "117",
+			"collector_number": "116",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/117_Dreamfall Ascender.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/116_Dreamfall Ascender.png"
 			}
 		},
 		{
@@ -2385,9 +2385,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Instant",
-			"collector_number": "115",
+			"collector_number": "114",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/115_Commuter's Clash.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/114_Commuter's Clash.png"
 			}
 		},
 		{
@@ -2595,9 +2595,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Phoenix Student",
-			"collector_number": "137",
+			"collector_number": "136",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/137_Reigniting Hinotori.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/136_Reigniting Hinotori.png"
 			}
 		},
 		{
@@ -2625,9 +2625,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Enchantment",
-			"collector_number": "123",
+			"collector_number": "122",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/123_Gate Guardians Fury.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/122_Gate Guardians Fury.png"
 			}
 		},
 		{
@@ -2815,9 +2815,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}",
 			"type": "Enchantment",
-			"collector_number": "143",
+			"collector_number": "142",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/143_Tenkami Commute.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/142_Tenkami Commute.png"
 			}
 		},
 		{
@@ -2825,9 +2825,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "121",
+			"collector_number": "120",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/121_Flourish.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/120_Flourish.png"
 			}
 		},
 		{
@@ -2835,9 +2835,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Dinosaur Spirit",
-			"collector_number": "142",
+			"collector_number": "141",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/142_Supercharged Colossus.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/141_Supercharged Colossus.png"
 			}
 		},
 		{
@@ -2845,9 +2845,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Chimera Horror Spirit",
-			"collector_number": "122",
+			"collector_number": "121",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/122_Furious Kotobuki.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/121_Furious Kotobuki.png"
 			}
 		},
 		{
@@ -2855,9 +2855,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Raccoon Rebel Student",
-			"collector_number": "127",
+			"collector_number": "126",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/127_Hellraisers Tagger.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/126_Hellraisers Tagger.png"
 			}
 		},
 		{
@@ -3277,7 +3277,7 @@
 	8 Optimistic Miko
 	8 Soul's Mediator
 	8 Peak Hours
-	8 Collateral Damage
+	8 Incandescent Seal
 	8 Retrofitted Artillery
 	8 Void Central Junction
 	8 Reinforced Responders
@@ -3285,7 +3285,7 @@
 	8 Subsumed Self
 	8 Disaster Site Surveyor
 	8 Exorcist's Rejection
-	8 Rapid-Trigger Prototype
+	8 Voidbreacher
 	8 Highblood Sophomore
 	8 Rainfall Companion
 	8 Greater Toad Sage
@@ -3424,7 +3424,7 @@
 	12 Peak Hours
 	1 Reiko, Battle Choreographer
 	6 Gladewaker Seishin
-	12 Collateral Damage
+	12 Incandescent Seal
 	1 Korra, Wayward Explorer
 	6 War-Stage Idol
 	2 Masborg, Lethal Protector
@@ -3440,7 +3440,7 @@
 	12 Subsumed Self
 	12 Disaster Site Surveyor
 	12 Exorcist's Rejection
-	12 Rapid-Trigger Prototype
+	12 Voidbreacher
 	12 Highblood Sophomore
 	12 Rainfall Companion
 	12 Greater Toad Sage
@@ -3698,7 +3698,7 @@
 	6 Peak Hours
 	4 Reiko, Battle Choreographer
 	15 Gladewaker Seishin
-	6 Collateral Damage
+	6 Incandescent Seal
 	4 Korra, Wayward Explorer
 	15 War-Stage Idol
 	7 Masborg, Lethal Protector
@@ -3714,7 +3714,7 @@
 	6 Subsumed Self
 	6 Disaster Site Surveyor
 	6 Exorcist's Rejection
-	6 Rapid-Trigger Prototype
+	6 Voidbreacher
 	6 Highblood Sophomore
 	6 Rainfall Companion
 	6 Greater Toad Sage
