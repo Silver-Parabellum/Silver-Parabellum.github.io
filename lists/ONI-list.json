@@ -13,7 +13,7 @@
     },
     {
         "card_name": "Kajiwara Ai, on the Prowl",
-        "number": 86,
+        "number": 85,
         "shape": "planeswalker",
         "set": "ONI"
     },
@@ -43,7 +43,7 @@
     },
     {
         "card_name": "Battleground Bully",
-        "number": 75,
+        "number": 74,
         "shape": "normal",
         "set": "ONI"
     },
@@ -73,13 +73,13 @@
     },
     {
         "card_name": "Daemthine's Diabolist",
-        "number": 78,
+        "number": 77,
         "shape": "normal",
         "set": "ONI"
     },
     {
         "card_name": "Dreamfall Ascender",
-        "number": 116,
+        "number": 115,
         "shape": "normal",
         "set": "ONI"
     },
@@ -102,8 +102,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Hollowed Fury",
-        "number": 85,
+        "card_name": "Masborg, Lethal Protector",
+        "number": 88,
         "shape": "normal",
         "set": "ONI"
     },
@@ -132,8 +132,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Masborg, Lethal Protector",
-        "number": 89,
+        "card_name": "Realm Rejection",
+        "number": 94,
         "shape": "normal",
         "set": "ONI"
     },
@@ -168,8 +168,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Old Ways Hellraiser",
-        "number": 132,
+        "card_name": "Hinotori Delinquent",
+        "number": 128,
         "shape": "normal",
         "set": "ONI"
     },
@@ -198,8 +198,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Reigniting Hinotori",
-        "number": 136,
+        "card_name": "Old Ways Hellraiser",
+        "number": 133,
         "shape": "normal",
         "set": "ONI"
     },
@@ -259,7 +259,7 @@
     },
     {
         "card_name": "Ultima Channeling",
-        "number": 143,
+        "number": 144,
         "shape": "normal",
         "set": "ONI"
     },
@@ -282,8 +282,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Aoyama Commute",
-        "number": 74,
+        "card_name": "Exorcist Trainee",
+        "number": 80,
         "shape": "normal",
         "set": "ONI"
     },
@@ -312,8 +312,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Exorcist Trainee",
-        "number": 81,
+        "card_name": "Guretani Commute",
+        "number": 82,
         "shape": "normal",
         "set": "ONI"
     },
@@ -349,7 +349,7 @@
     },
     {
         "card_name": "Delinquent Oni",
-        "number": 115,
+        "number": 114,
         "shape": "normal",
         "set": "ONI"
     },
@@ -403,7 +403,7 @@
     },
     {
         "card_name": "Memorial Miasma",
-        "number": 90,
+        "number": 89,
         "shape": "normal",
         "set": "ONI"
     },
@@ -433,7 +433,7 @@
     },
     {
         "card_name": "Night's Bargain",
-        "number": 92,
+        "number": 91,
         "shape": "normal",
         "set": "ONI"
     },
@@ -499,7 +499,7 @@
     },
     {
         "card_name": "Off the Rails",
-        "number": 130,
+        "number": 131,
         "shape": "normal",
         "set": "ONI"
     },
@@ -529,7 +529,7 @@
     },
     {
         "card_name": "Okirumi Heartbreaker",
-        "number": 131,
+        "number": 132,
         "shape": "normal",
         "set": "ONI"
     },
@@ -559,7 +559,7 @@
     },
     {
         "card_name": "Reckless Rage",
-        "number": 135,
+        "number": 136,
         "shape": "normal",
         "set": "ONI"
     },
@@ -643,12 +643,12 @@
     },
     {
         "card_name": "Class-Cutting Exorcist",
-        "number": 76,
+        "number": 75,
         "shape": "normal",
         "set": "ONI"
     },
     {
-        "card_name": "Aoyama Grifter",
+        "card_name": "Aokigara Grifter",
         "number": 111,
         "shape": "normal",
         "set": "ONI"
@@ -673,13 +673,13 @@
     },
     {
         "card_name": "Contracted Aberrant",
-        "number": 77,
+        "number": 76,
         "shape": "normal",
         "set": "ONI"
     },
     {
-        "card_name": "Commuter's Clash",
-        "number": 114,
+        "card_name": "EMP Striker",
+        "number": 116,
         "shape": "normal",
         "set": "ONI"
     },
@@ -703,12 +703,12 @@
     },
     {
         "card_name": "Ebon Moon Descendant",
-        "number": 79,
+        "number": 78,
         "shape": "normal",
         "set": "ONI"
     },
     {
-        "card_name": "Enter the Spirit Realm",
+        "card_name": "Enheartened Proposal",
         "number": 117,
         "shape": "normal",
         "set": "ONI"
@@ -733,7 +733,7 @@
     },
     {
         "card_name": "Endless Nuisance",
-        "number": 80,
+        "number": 79,
         "shape": "normal",
         "set": "ONI"
     },
@@ -763,7 +763,7 @@
     },
     {
         "card_name": "Exorcist's Rejection",
-        "number": 82,
+        "number": 81,
         "shape": "normal",
         "set": "ONI"
     },
@@ -793,7 +793,7 @@
     },
     {
         "card_name": "Last Stop to Oblivion",
-        "number": 87,
+        "number": 86,
         "shape": "normal",
         "set": "ONI"
     },
@@ -823,7 +823,7 @@
     },
     {
         "card_name": "Late-Night Line Practice",
-        "number": 88,
+        "number": 87,
         "shape": "normal",
         "set": "ONI"
     },
@@ -853,13 +853,13 @@
     },
     {
         "card_name": "Mezu Dreadbearer",
-        "number": 91,
+        "number": 90,
         "shape": "normal",
         "set": "ONI"
     },
     {
         "card_name": "Inaba Sparkcaster",
-        "number": 128,
+        "number": 129,
         "shape": "normal",
         "set": "ONI"
     },
@@ -883,13 +883,13 @@
     },
     {
         "card_name": "Night's Sorrow Ascetic",
-        "number": 93,
+        "number": 92,
         "shape": "normal",
         "set": "ONI"
     },
     {
         "card_name": "Incandescent Seal",
-        "number": 129,
+        "number": 130,
         "shape": "normal",
         "set": "ONI"
     },
@@ -913,13 +913,13 @@
     },
     {
         "card_name": "One Last Time",
-        "number": 94,
+        "number": 93,
         "shape": "normal",
         "set": "ONI"
     },
     {
         "card_name": "Oni Gate-Guard",
-        "number": 133,
+        "number": 134,
         "shape": "normal",
         "set": "ONI"
     },
@@ -949,7 +949,7 @@
     },
     {
         "card_name": "Possessed Mech",
-        "number": 134,
+        "number": 135,
         "shape": "normal",
         "set": "ONI"
     },
@@ -1038,8 +1038,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Ushi-Oni Ascetic",
-        "number": 144,
+        "card_name": "Travel Outburst",
+        "number": 143,
         "shape": "normal",
         "set": "ONI"
     },
@@ -1068,7 +1068,7 @@
         "set": "ONI"
     },
     {
-        "card_name": "Voidbreacher",
+        "card_name": "Ushi-Oni Ascetic",
         "number": 145,
         "shape": "normal",
         "set": "ONI"
@@ -1112,7 +1112,7 @@
     "a->gold",
     {
         "card_name": "Satsuki, Council Vice",
-        "number": 229,
+        "number": 230,
         "shape": "normal",
         "set": "ONI"
     },
@@ -1241,7 +1241,7 @@
     },
     {
         "card_name": "Seiran, Thundering Star",
-        "number": 230,
+        "number": 231,
         "shape": "normal",
         "set": "ONI"
     },
@@ -1253,7 +1253,7 @@
     },
     {
         "card_name": "Sakura-Tail Blademaster",
-        "number": 228,
+        "number": 229,
         "shape": "normal",
         "set": "ONI"
     },
@@ -1480,8 +1480,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Setsuko, the Sightseeker",
-        "number": 231,
+        "card_name": "Sae, the Sightseeker",
+        "number": 228,
         "shape": "normal",
         "set": "ONI"
     },
@@ -1680,7 +1680,7 @@
     },
     {
         "card_name": "End of the Line",
-        "number": 260,
+        "number": 259,
         "shape": "normal",
         "set": "ONI"
     },
@@ -1692,31 +1692,31 @@
     },
     {
         "card_name": "Entertainment District",
-        "number": 261,
+        "number": 260,
         "shape": "normal",
         "set": "ONI"
     },
     {
         "card_name": "Otherworldly District",
-        "number": 265,
+        "number": 264,
         "shape": "normal",
         "set": "ONI"
     },
     {
         "card_name": "Rebellious District",
-        "number": 268,
+        "number": 267,
         "shape": "normal",
         "set": "ONI"
     },
     {
         "card_name": "Sanctified District",
-        "number": 269,
+        "number": 268,
         "shape": "normal",
         "set": "ONI"
     },
     {
         "card_name": "Secluded Courtyard",
-        "number": 270,
+        "number": 269,
         "shape": "normal",
         "set": "ONI"
     },
@@ -1727,32 +1727,32 @@
         "set": "ONI"
     },
     {
-        "card_name": "Back-Alley Station",
+        "card_name": "Central Subway System",
         "number": 258,
         "shape": "adventure",
         "set": "ONI"
     },
     {
-        "card_name": "Central Subway System",
-        "number": 259,
-        "shape": "adventure",
-        "set": "ONI"
-    },
-    {
-        "card_name": "Graffittied Train Yard",
-        "number": 262,
-        "shape": "adventure",
-        "set": "ONI"
-    },
-    {
         "card_name": "Hebika Terminal Ruins",
-        "number": 263,
+        "number": 261,
         "shape": "adventure",
         "set": "ONI"
     },
     {
         "card_name": "Miyakawa Central Station",
-        "number": 264,
+        "number": 262,
+        "shape": "adventure",
+        "set": "ONI"
+    },
+    {
+        "card_name": "Night-Hours Subway",
+        "number": 263,
+        "shape": "adventure",
+        "set": "ONI"
+    },
+    {
+        "card_name": "Outskirts Train Yard",
+        "number": 265,
         "shape": "adventure",
         "set": "ONI"
     },
@@ -1763,8 +1763,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Private Convoy Line",
-        "number": 267,
+        "card_name": "Soul Border Rail",
+        "number": 270,
         "shape": "adventure",
         "set": "ONI"
     },
@@ -1775,7 +1775,7 @@
         "set": "ONI"
     },
     {
-        "card_name": "Tranquil Seas Line",
+        "card_name": "Tranquil Skies Aerport",
         "number": 272,
         "shape": "adventure",
         "set": "ONI"
@@ -1908,7 +1908,7 @@
         "set": "ONI"
     },
     {
-        "card_name": "Robot Horror",
+        "card_name": "Demon Horror",
         "number": 6,
         "shape": "token",
         "set": "ONI"

@@ -5,9 +5,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Legendary Creature — Human Performer",
-			"collector_number": "230",
+			"collector_number": "231",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/230_Seiran, Thundering Star.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/231_Seiran, Thundering Star.png"
 			}
 		},
 		{
@@ -35,9 +35,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "130",
+			"collector_number": "131",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/130_Off the Rails.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/131_Off the Rails.png"
 			}
 		},
 		{
@@ -195,9 +195,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{B}",
 			"type": "Creature — Bird Student",
-			"collector_number": "79",
+			"collector_number": "78",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/79_Ebon Moon Descendant.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/78_Ebon Moon Descendant.png"
 			}
 		},
 		{
@@ -205,9 +205,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Creature — Chimera Horror",
-			"collector_number": "77",
+			"collector_number": "76",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/77_Contracted Aberrant.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/76_Contracted Aberrant.png"
 			}
 		},
 		{
@@ -215,9 +215,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "88",
+			"collector_number": "87",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/88_Late-Night Line Practice.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/87_Late-Night Line Practice.png"
 			}
 		},
 		{
@@ -225,9 +225,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Enchantment",
-			"collector_number": "87",
+			"collector_number": "86",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/87_Last Stop to Oblivion.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/86_Last Stop to Oblivion.png"
 			}
 		},
 		{
@@ -235,9 +235,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Creature — Horse Spirit Horror",
-			"collector_number": "91",
+			"collector_number": "90",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/91_Mezu Dreadbearer.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/90_Mezu Dreadbearer.png"
 			}
 		},
 		{
@@ -245,19 +245,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Creature — Cat Monk Advisor",
-			"collector_number": "93",
+			"collector_number": "92",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/93_Night's Sorrow Ascetic.png"
-			}
-		},
-		{
-			"name": "Haruko, Lady of Ceremonies",
-			"rarity": "uncommon",
-			"mana_cost": "{B}{G}{U}",
-			"type": "Legendary Creature — Fox Monk",
-			"collector_number": "199",
-			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/199_Haruko, Lady of Ceremonies.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/92_Night's Sorrow Ascetic.png"
 			}
 		},
 		{
@@ -305,9 +295,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{B}",
 			"type": "Instant",
-			"collector_number": "94",
+			"collector_number": "93",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/94_One Last Time.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/93_One Last Time.png"
 			}
 		},
 		{
@@ -315,9 +305,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Legendary Planeswalker — Ai",
-			"collector_number": "86",
+			"collector_number": "85",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/86_Kajiwara Ai, on the Prowl.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/85_Kajiwara Ai, on the Prowl.png"
 			}
 		},
 		{
@@ -545,9 +535,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Rabbit Student",
-			"collector_number": "128",
+			"collector_number": "129",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/128_Inaba Sparkcaster.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/129_Inaba Sparkcaster.png"
 			}
 		},
 		{
@@ -555,9 +545,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Artifact Creature — Robot Horror",
-			"collector_number": "134",
+			"collector_number": "135",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/134_Possessed Mech.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/135_Possessed Mech.png"
 			}
 		},
 		{
@@ -565,9 +555,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Creature — Fox Samurai",
-			"collector_number": "228",
+			"collector_number": "229",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/228_Sakura-Tail Blademaster.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/229_Sakura-Tail Blademaster.png"
 			}
 		},
 		{
@@ -595,9 +585,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "269",
+			"collector_number": "268",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/269_Sanctified District.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/268_Sanctified District.png"
 			}
 		},
 		{
@@ -625,9 +615,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "90",
+			"collector_number": "89",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/90_Memorial Miasma.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/89_Memorial Miasma.png"
 			}
 		},
 		{
@@ -701,13 +691,13 @@
 			}
 		},
 		{
-			"name": "Graffittied Train Yard",
+			"name": "Soul Border Rail",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Terminal",
-			"collector_number": "262",
+			"collector_number": "270",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/262_Graffittied Train Yard.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/270_Soul Border Rail.png"
 			}
 		},
 		{
@@ -731,13 +721,13 @@
 			}
 		},
 		{
-			"name": "Private Convoy Line",
+			"name": "Night-Hours Subway",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Terminal",
-			"collector_number": "267",
+			"collector_number": "263",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/267_Private Convoy Line.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/263_Night-Hours Subway.png"
 			}
 		},
 		{
@@ -745,19 +735,19 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Terminal",
-			"collector_number": "264",
+			"collector_number": "262",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/264_Miyakawa Central Station.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/262_Miyakawa Central Station.png"
 			}
 		},
 		{
-			"name": "Tranquil Seas Line",
+			"name": "Tranquil Skies Aerport",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Terminal",
 			"collector_number": "272",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/272_Tranquil Seas Line.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/272_Tranquil Skies Aerport.png"
 			}
 		},
 		{
@@ -765,19 +755,19 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Terminal",
-			"collector_number": "263",
+			"collector_number": "261",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/263_Hebika Terminal Ruins.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/261_Hebika Terminal Ruins.png"
 			}
 		},
 		{
-			"name": "Back-Alley Station",
+			"name": "Outskirts Train Yard",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Terminal",
-			"collector_number": "258",
+			"collector_number": "265",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/258_Back-Alley Station.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/265_Outskirts Train Yard.png"
 			}
 		},
 		{
@@ -785,9 +775,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Terminal",
-			"collector_number": "259",
+			"collector_number": "258",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/259_Central Subway System.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/258_Central Subway System.png"
 			}
 		},
 		{
@@ -845,9 +835,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Creature — Demon Rebel Student",
-			"collector_number": "115",
+			"collector_number": "114",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/115_Delinquent Oni.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/114_Delinquent Oni.png"
 			}
 		},
 		{
@@ -915,9 +905,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Human Student",
-			"collector_number": "131",
+			"collector_number": "132",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/131_Okirumi Heartbreaker.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/132_Okirumi Heartbreaker.png"
 			}
 		},
 		{
@@ -925,9 +915,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "135",
+			"collector_number": "136",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/135_Reckless Rage.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/136_Reckless Rage.png"
 			}
 		},
 		{
@@ -995,9 +985,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "268",
+			"collector_number": "267",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/268_Rebellious District.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/267_Rebellious District.png"
 			}
 		},
 		{
@@ -1005,9 +995,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "265",
+			"collector_number": "264",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/265_Otherworldly District.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/264_Otherworldly District.png"
 			}
 		},
 		{
@@ -1055,9 +1045,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Dinosaur Spirit Rebel",
-			"collector_number": "132",
+			"collector_number": "133",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/132_Old Ways Hellraiser.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/133_Old Ways Hellraiser.png"
 			}
 		},
 		{
@@ -1161,16 +1151,6 @@
 			}
 		},
 		{
-			"name": "Incandescent Seal",
-			"rarity": "common",
-			"mana_cost": "{R}",
-			"type": "Sorcery",
-			"collector_number": "129",
-			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/129_Incandescent Seal.png"
-			}
-		},
-		{
 			"name": "Korra, Wayward Explorer",
 			"rarity": "mythic",
 			"mana_cost": "{3}{G}{G}",
@@ -1195,9 +1175,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{B}",
 			"type": "Legendary Artifact Creature — Mutant Dinosaur",
-			"collector_number": "89",
+			"collector_number": "88",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/89_Masborg, Lethal Protector.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/88_Masborg, Lethal Protector.png"
 			}
 		},
 		{
@@ -1325,19 +1305,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Enchantment — Aura",
-			"collector_number": "82",
+			"collector_number": "81",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/82_Exorcist's Rejection.png"
-			}
-		},
-		{
-			"name": "Voidbreacher",
-			"rarity": "common",
-			"mana_cost": "{1}{R}",
-			"type": "Artifact — Equipment",
-			"collector_number": "145",
-			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/145_Voidbreacher.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/81_Exorcist's Rejection.png"
 			}
 		},
 		{
@@ -1425,9 +1395,9 @@
 			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "260",
+			"collector_number": "259",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/260_End of the Line.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/259_End of the Line.png"
 			}
 		},
 		{
@@ -1485,9 +1455,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "261",
+			"collector_number": "260",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/261_Entertainment District.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/260_Entertainment District.png"
 			}
 		},
 		{
@@ -1518,16 +1488,6 @@
 			"collector_number": "21",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/21_Wolf Spirit.png"
-			}
-		},
-		{
-			"name": "Treasure",
-			"rarity": "special",
-			"mana_cost": "",
-			"type": "Token Artifact — Treasure",
-			"collector_number": "23",
-			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/23_Treasure.png"
 			}
 		},
 		{
@@ -1571,13 +1531,13 @@
 			}
 		},
 		{
-			"name": "Setsuko, the Sightseeker",
+			"name": "Sae, the Sightseeker",
 			"rarity": "mythic",
 			"mana_cost": "{1}{U}{R}{W}",
 			"type": "Legendary Creature — Bird Scout",
-			"collector_number": "231",
+			"collector_number": "228",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/231_Setsuko, the Sightseeker.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/228_Sae, the Sightseeker.png"
 			}
 		},
 		{
@@ -1671,13 +1631,13 @@
 			}
 		},
 		{
-			"name": "Aoyama Grifter",
+			"name": "Aokigara Grifter",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Rebel Student",
 			"collector_number": "111",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/111_Aoyama Grifter.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/111_Aokigara Grifter.png"
 			}
 		},
 		{
@@ -1805,9 +1765,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Instant",
-			"collector_number": "143",
+			"collector_number": "144",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/143_Ultima Channeling.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/144_Ultima Channeling.png"
 			}
 		},
 		{
@@ -1905,9 +1865,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Legendary Creature — Drake Student Advisor",
-			"collector_number": "229",
+			"collector_number": "230",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/229_Satsuki, Council Vice.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/230_Satsuki, Council Vice.png"
 			}
 		},
 		{
@@ -1955,9 +1915,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Cat Warlock Student",
-			"collector_number": "76",
+			"collector_number": "75",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/76_Class-Cutting Exorcist.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/75_Class-Cutting Exorcist.png"
 			}
 		},
 		{
@@ -1981,13 +1941,13 @@
 			}
 		},
 		{
-			"name": "Enter the Spirit Realm",
+			"name": "Enheartened Proposal",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment",
 			"collector_number": "117",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/117_Enter the Spirit Realm.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/117_Enheartened Proposal.png"
 			}
 		},
 		{
@@ -2005,9 +1965,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "92",
+			"collector_number": "91",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/92_Night's Bargain.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/91_Night's Bargain.png"
 			}
 		},
 		{
@@ -2045,9 +2005,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "270",
+			"collector_number": "269",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/270_Secluded Courtyard.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/269_Secluded Courtyard.png"
 			}
 		},
 		{
@@ -2145,9 +2105,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Ox Demon Monk",
-			"collector_number": "144",
+			"collector_number": "145",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/144_Ushi-Oni Ascetic.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/145_Ushi-Oni Ascetic.png"
 			}
 		},
 		{
@@ -2225,9 +2185,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Minion Horror",
-			"collector_number": "80",
+			"collector_number": "79",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/80_Endless Nuisance.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/79_Endless Nuisance.png"
 			}
 		},
 		{
@@ -2275,19 +2235,19 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Drake Fish Warrior",
-			"collector_number": "116",
+			"collector_number": "115",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/116_Dreamfall Ascender.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/115_Dreamfall Ascender.png"
 			}
 		},
 		{
 			"name": "Battleground Bully",
 			"rarity": "rare",
-			"mana_cost": "{2}{B}{B}",
+			"mana_cost": "{2}{B}",
 			"type": "Creature — Wolf Rebel Student",
-			"collector_number": "75",
+			"collector_number": "74",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/75_Battleground Bully.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/74_Battleground Bully.png"
 			}
 		},
 		{
@@ -2315,9 +2275,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Human Student Warlock",
-			"collector_number": "78",
+			"collector_number": "77",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/78_Daemthine's Diabolist.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/77_Daemthine's Diabolist.png"
 			}
 		},
 		{
@@ -2325,9 +2285,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Creature — Human Student Warlock",
-			"collector_number": "81",
+			"collector_number": "80",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/81_Exorcist Trainee.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/80_Exorcist Trainee.png"
 			}
 		},
 		{
@@ -2381,13 +2341,13 @@
 			}
 		},
 		{
-			"name": "Commuter's Clash",
+			"name": "Travel Outburst",
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Instant",
-			"collector_number": "114",
+			"collector_number": "143",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/114_Commuter's Clash.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/143_Travel Outburst.png"
 			}
 		},
 		{
@@ -2445,9 +2405,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Demon Spirit",
-			"collector_number": "133",
+			"collector_number": "134",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/133_Oni Gate-Guard.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/134_Oni Gate-Guard.png"
 			}
 		},
 		{
@@ -2581,23 +2541,23 @@
 			}
 		},
 		{
-			"name": "Hollowed Fury",
+			"name": "Realm Rejection",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "85",
+			"collector_number": "94",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/85_Hollowed Fury.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/94_Realm Rejection.png"
 			}
 		},
 		{
-			"name": "Reigniting Hinotori",
+			"name": "Hinotori Delinquent",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
-			"type": "Creature — Phoenix Student",
-			"collector_number": "136",
+			"type": "Creature — Phoenix Rebel Student",
+			"collector_number": "128",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/136_Reigniting Hinotori.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/128_Hinotori Delinquent.png"
 			}
 		},
 		{
@@ -2741,13 +2701,13 @@
 			}
 		},
 		{
-			"name": "Aoyama Commute",
+			"name": "Guretani Commute",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Enchantment",
-			"collector_number": "74",
+			"collector_number": "82",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/74_Aoyama Commute.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/82_Guretani Commute.png"
 			}
 		},
 		{
@@ -2991,13 +2951,13 @@
 			}
 		},
 		{
-			"name": "Robot Horror",
+			"name": "Demon Horror",
 			"rarity": "special",
 			"mana_cost": "",
-			"type": "Token Artifact Creature — Robot Horror",
+			"type": "Token Artifact Creature — Demon Horror",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/6_Robot Horror.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/6_Demon Horror.png"
 			}
 		},
 		{
@@ -3023,8 +2983,8 @@
 		{
 			"name": "Forsaken Return",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{B}{R}{G}",
-			"type": "Sorcery",
+			"mana_cost": "{1}{B}{R}{G}",
+			"type": "Instant",
 			"collector_number": "196",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/196_Forsaken Return.png"
@@ -3038,6 +2998,46 @@
 			"collector_number": "207",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/207_Kaoru, Voidshaper Mentor.png"
+			}
+		},
+		{
+			"name": "Haruko, Lady of Ceremonies",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}{U}",
+			"type": "Legendary Creature — Fox Monk",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/199_Haruko, Lady of Ceremonies.png"
+			}
+		},
+		{
+			"name": "EMP Striker",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/116_EMP Striker.png"
+			}
+		},
+		{
+			"name": "Incandescent Seal",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/130_Incandescent Seal.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/23_Treasure.png"
 			}
 		}
 	]
@@ -3073,7 +3073,7 @@
 	1 Nightmares In Reality
 	2 Shrine-Lurker Ogama
 	2 Challenging Lesson
-	1 Setsuko, the Sightseeker
+	1 Sae, the Sightseeker
 	2 Halfblade Instigator
 	1 Kazuma Jun, Ryu-Born
 	1 The Once Wayfinder
@@ -3117,8 +3117,8 @@
 	2 Flowshaper Trainee
 	2 Unbreakable Pact
 	2 Smitten Duskwing
-	2 Hollowed Fury
-	2 Reigniting Hinotori
+	2 Realm Rejection
+	2 Hinotori Delinquent
 	2 Chameleonic Soul
 	2 Nightpack Contractor
 	2 Gate Guardians Fury
@@ -3129,7 +3129,6 @@
 	4 Off the Rails
 	4 High-Spirits Break
 	4 Run the Rails
-	4 Haruko, Lady of Ceremonies
 	4 Hiruya Star Aspirant
 	4 Seijuku Star Pilot
 	4 Titanicoil Uwabami
@@ -3205,7 +3204,7 @@
 	4 Hiruya Commute
 	4 Unruly Diva
 	4 Source of the Endless
-	4 Aoyama Commute
+	4 Guretani Commute
 	4 Hidanko Voidshaper
 	4 Shrinebound Aberrant
 	4 Soul Agency Coroner
@@ -3226,6 +3225,7 @@
 	4 Seijuku Support Drone
 	4 Taraikyo Acting Aide
 	4 Forsaken Return
+	4 Haruko, Lady of Ceremonies
 [common(7)]
 	8 Hellraisers Recruit
 	8 Savage Familiar
@@ -3261,14 +3261,14 @@
 	8 Eavesdrop
 	8 Soul Agency Street Patrol
 	8 Watcher's Prelude
-	8 Graffittied Train Yard
+	8 Soul Border Rail
 	8 Pier Line Aquarium
 	8 Tidehollow Sanctum Terminal
-	8 Private Convoy Line
+	8 Night-Hours Subway
 	8 Miyakawa Central Station
-	8 Tranquil Seas Line
+	8 Tranquil Skies Aerport
 	8 Hebika Terminal Ruins
-	8 Back-Alley Station
+	8 Outskirts Train Yard
 	8 Central Subway System
 	8 Academy Rail Line
 	8 Swordsmanship Club Clique
@@ -3277,7 +3277,6 @@
 	8 Optimistic Miko
 	8 Soul's Mediator
 	8 Peak Hours
-	8 Incandescent Seal
 	8 Retrofitted Artillery
 	8 Void Central Junction
 	8 Reinforced Responders
@@ -3285,20 +3284,19 @@
 	8 Subsumed Self
 	8 Disaster Site Surveyor
 	8 Exorcist's Rejection
-	8 Voidbreacher
 	8 Highblood Sophomore
 	8 Rainfall Companion
 	8 Greater Toad Sage
 	8 Lost in Transit
 	8 Shrinebound Sentinels
-	8 Aoyama Grifter
+	8 Aokigara Grifter
 	8 Sheltered Youth
 	8 Obsessive Stalker
 	8 Tandem Defiance
 	8 Academic Archivist
 	8 Class-Cutting Exorcist
 	8 Hateflame Revenant
-	8 Enter the Spirit Realm
+	8 Enheartened Proposal
 	8 Lazing Tanuki
 	8 Azure Gust Descendant
 	8 Voidstring Puppeteer
@@ -3307,7 +3305,7 @@
 	8 Ushi-Oni Ascetic
 	8 Ensouled Railcar
 	8 Endless Nuisance
-	8 Commuter's Clash
+	8 Travel Outburst
 	8 Hollowed Vanguard
 	8 Territory Lookout
 	8 Impairing Oarfish
@@ -3318,6 +3316,8 @@
 	8 Rageform Shambler
 	8 Puppeteered Contract
 	8 Hidanko Training Blade
+	8 EMP Striker
+	8 Incandescent Seal
 [foil(1)]
 	2 Seiran, Thundering Star
 	12 Hellraisers Recruit
@@ -3344,7 +3344,6 @@
 	12 Last Stop to Oblivion
 	12 Mezu Dreadbearer
 	12 Night's Sorrow Ascetic
-	6 Haruko, Lady of Ceremonies
 	6 Hiruya Star Aspirant
 	6 Seijuku Star Pilot
 	6 Titanicoil Uwabami
@@ -3382,14 +3381,14 @@
 	12 Watcher's Prelude
 	6 Enma, Hellraisers Sukeban
 	1 Majima Rin, Obstructive Exorcist
-	12 Graffittied Train Yard
+	12 Soul Border Rail
 	12 Pier Line Aquarium
 	12 Tidehollow Sanctum Terminal
-	12 Private Convoy Line
+	12 Night-Hours Subway
 	12 Miyakawa Central Station
-	12 Tranquil Seas Line
+	12 Tranquil Skies Aerport
 	12 Hebika Terminal Ruins
-	12 Back-Alley Station
+	12 Outskirts Train Yard
 	12 Central Subway System
 	12 Academy Rail Line
 	2 Ogaki, Contracted Vengeant
@@ -3424,7 +3423,6 @@
 	12 Peak Hours
 	1 Reiko, Battle Choreographer
 	6 Gladewaker Seishin
-	12 Incandescent Seal
 	1 Korra, Wayward Explorer
 	6 War-Stage Idol
 	2 Masborg, Lethal Protector
@@ -3440,7 +3438,6 @@
 	12 Subsumed Self
 	12 Disaster Site Surveyor
 	12 Exorcist's Rejection
-	12 Voidbreacher
 	12 Highblood Sophomore
 	12 Rainfall Companion
 	12 Greater Toad Sage
@@ -3457,7 +3454,7 @@
 	2 Challenging Lesson
 	6 Entertainment District
 	6 Academic District
-	1 Setsuko, the Sightseeker
+	1 Sae, the Sightseeker
 	12 Lost in Transit
 	2 Halfblade Instigator
 	1 Kazuma Jun, Ryu-Born
@@ -3466,7 +3463,7 @@
 	1 The Once Wayfinder
 	6 Wildweaver Toraiga
 	2 Shoji, Grounds Tender
-	12 Aoyama Grifter
+	12 Aokigara Grifter
 	12 Sheltered Youth
 	2 Pigeon Parks
 	6 Academic Orrery
@@ -3497,7 +3494,7 @@
 	12 Class-Cutting Exorcist
 	2 Graduation
 	12 Hateflame Revenant
-	12 Enter the Spirit Realm
+	12 Enheartened Proposal
 	12 Lazing Tanuki
 	6 Night's Bargain
 	1 Freila, Council President
@@ -3531,7 +3528,7 @@
 	6 Exorcist Trainee
 	6 Show of Passion
 	6 Academic Discussions
-	12 Commuter's Clash
+	12 Travel Outburst
 	12 Hollowed Vanguard
 	12 Territory Lookout
 	12 Impairing Oarfish
@@ -3551,8 +3548,8 @@
 	2 Flowshaper Trainee
 	2 Unbreakable Pact
 	2 Smitten Duskwing
-	2 Hollowed Fury
-	2 Reigniting Hinotori
+	2 Realm Rejection
+	2 Hinotori Delinquent
 	2 Chameleonic Soul
 	2 Nightpack Contractor
 	2 Gate Guardians Fury
@@ -3567,7 +3564,7 @@
 	6 Unruly Diva
 	1 Tokuhime, Torn Revenant
 	6 Source of the Endless
-	6 Aoyama Commute
+	6 Guretani Commute
 	6 Hidanko Voidshaper
 	6 Shrinebound Aberrant
 	6 Soul Agency Coroner
@@ -3592,6 +3589,9 @@
 	6 Taraikyo Acting Aide
 	6 Forsaken Return
 	1 Kaoru, Voidshaper Mentor
+	6 Haruko, Lady of Ceremonies
+	12 EMP Striker
+	12 Incandescent Seal
 [wildcard(1)]
 	7 Seiran, Thundering Star
 	6 Hellraisers Recruit
@@ -3618,7 +3618,6 @@
 	6 Last Stop to Oblivion
 	6 Mezu Dreadbearer
 	6 Night's Sorrow Ascetic
-	15 Haruko, Lady of Ceremonies
 	15 Hiruya Star Aspirant
 	15 Seijuku Star Pilot
 	15 Titanicoil Uwabami
@@ -3656,14 +3655,14 @@
 	6 Watcher's Prelude
 	15 Enma, Hellraisers Sukeban
 	4 Majima Rin, Obstructive Exorcist
-	6 Graffittied Train Yard
+	6 Soul Border Rail
 	6 Pier Line Aquarium
 	6 Tidehollow Sanctum Terminal
-	6 Private Convoy Line
+	6 Night-Hours Subway
 	6 Miyakawa Central Station
-	6 Tranquil Seas Line
+	6 Tranquil Skies Aerport
 	6 Hebika Terminal Ruins
-	6 Back-Alley Station
+	6 Outskirts Train Yard
 	6 Central Subway System
 	6 Academy Rail Line
 	7 Ogaki, Contracted Vengeant
@@ -3698,7 +3697,6 @@
 	6 Peak Hours
 	4 Reiko, Battle Choreographer
 	15 Gladewaker Seishin
-	6 Incandescent Seal
 	4 Korra, Wayward Explorer
 	15 War-Stage Idol
 	7 Masborg, Lethal Protector
@@ -3714,7 +3712,6 @@
 	6 Subsumed Self
 	6 Disaster Site Surveyor
 	6 Exorcist's Rejection
-	6 Voidbreacher
 	6 Highblood Sophomore
 	6 Rainfall Companion
 	6 Greater Toad Sage
@@ -3731,7 +3728,7 @@
 	7 Challenging Lesson
 	15 Entertainment District
 	15 Academic District
-	4 Setsuko, the Sightseeker
+	4 Sae, the Sightseeker
 	6 Lost in Transit
 	7 Halfblade Instigator
 	4 Kazuma Jun, Ryu-Born
@@ -3740,7 +3737,7 @@
 	4 The Once Wayfinder
 	15 Wildweaver Toraiga
 	7 Shoji, Grounds Tender
-	6 Aoyama Grifter
+	6 Aokigara Grifter
 	6 Sheltered Youth
 	7 Pigeon Parks
 	15 Academic Orrery
@@ -3771,7 +3768,7 @@
 	6 Class-Cutting Exorcist
 	7 Graduation
 	6 Hateflame Revenant
-	6 Enter the Spirit Realm
+	6 Enheartened Proposal
 	6 Lazing Tanuki
 	15 Night's Bargain
 	4 Freila, Council President
@@ -3805,7 +3802,7 @@
 	15 Exorcist Trainee
 	15 Show of Passion
 	15 Academic Discussions
-	6 Commuter's Clash
+	6 Travel Outburst
 	6 Hollowed Vanguard
 	6 Territory Lookout
 	6 Impairing Oarfish
@@ -3825,8 +3822,8 @@
 	7 Flowshaper Trainee
 	7 Unbreakable Pact
 	7 Smitten Duskwing
-	7 Hollowed Fury
-	7 Reigniting Hinotori
+	7 Realm Rejection
+	7 Hinotori Delinquent
 	7 Chameleonic Soul
 	7 Nightpack Contractor
 	7 Gate Guardians Fury
@@ -3841,7 +3838,7 @@
 	15 Unruly Diva
 	4 Tokuhime, Torn Revenant
 	15 Source of the Endless
-	15 Aoyama Commute
+	15 Guretani Commute
 	15 Hidanko Voidshaper
 	15 Shrinebound Aberrant
 	15 Soul Agency Coroner
@@ -3866,3 +3863,6 @@
 	15 Taraikyo Acting Aide
 	15 Forsaken Return
 	4 Kaoru, Voidshaper Mentor
+	15 Haruko, Lady of Ceremonies
+	6 EMP Striker
+	6 Incandescent Seal

@@ -1,4 +1,177 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+Soul Border Rail added.
+Night-Hours Subway added.
+Tranquil Skies Aerport added.
+Outskirts Train Yard added.
+Sae, the Sightseeker added.
+Aokigara Grifter added.
+Enheartened Proposal added.
+Travel Outburst added.
+Realm Rejection added.
+Hinotori Delinquent added.
+Guretani Commute added.
+Demon Horror added.
+EMP Striker added.
+
+Graffittied Train Yard removed.
+Private Convoy Line removed.
+Tranquil Seas Line removed.
+Back-Alley Station removed.
+Voidbreacher removed.
+Setsuko, the Sightseeker removed.
+Aoyama Grifter removed.
+Enter the Spirit Realm removed.
+Commuter's Clash removed.
+Hollowed Fury removed.
+Reigniting Hinotori removed.
+Aoyama Commute removed.
+Robot Horror removed.
+
+Seiran, Thundering Star
+
+Off the Rails
+
+Taraikyo Dramatist
+
+Ebon Moon Descendant
+
+Contracted Aberrant
+
+Late-Night Line Practice
+
+Last Stop to Oblivion
+
+Mezu Dreadbearer
+
+Night's Sorrow Ascetic
+
+One Last Time
+
+Kajiwara Ai, on the Prowl
+
+Inaba Sparkcaster
+
+Possessed Mech
+
+Sakura-Tail Blademaster
+
+Sanctified District
+
+Memorial Miasma
+
+Soul Agency Street Patrol
+
+Enma, Hellraisers Sukeban
+rules_text: Prowess
+Whenever you cast a noncreature spell, Enma, Hellraisers Sukeban deals 2 damage to each opponent. If this is the second time this ability has resolved this turn, return up to one target creature card from your graveyard to your hand. => Prowess
+Whenever you cast a noncreature spell, look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in a random order.
+pt: 3/3 => 4/4
+
+Miyakawa Central Station
+
+Hebika Terminal Ruins
+
+Central Subway System
+
+Delinquent Oni
+
+Okirumi Heartbreaker
+
+Reckless Rage
+
+Rebellious District
+
+Otherworldly District
+
+Old Ways Hellraiser
+
+War-Stage Idol
+
+Masborg, Lethal Protector
+
+Exorcist's Rejection
+
+Twintuft Duelists
+pt: 2/2 => 1/2
+
+End of the Line
+
+Entertainment District
+
+Ayaka, Rebellious Arcanist
+rules_text: Flying, lifelink
+Whenever you cast your first instant or sorcery spell each turn, you may return a creature card from your graveyard to the battlefield with mana value less than or equal to that spell's. If you do, you lose life equal to that creature's mana value. => Flying, ward — Sacrifice a creature
+Whenever you cast a noncreature spell, gain control of target creature you don't control with equal or lesser mana value until Ayaka, Rebellious Arcanist leaves the battlefield.
+
+Ebonwing Proctor
+
+Ultima Channeling
+
+Hollow Reckoning
+rules_text: Destroy all creatures. At the beginning of your next end step, if three or more creatures died under your control this turn, create a 5/5 red, white and black Horror creature token with vigilance, menace and lifelink. => Destroy all creatures and planeswalkers.f three or more creatures died under your control this turn, create a 5/5 red, white and black Horror creature token with vigilance, menace and lifelink.
+
+Satsuki, Council Vice
+
+Class-Cutting Exorcist
+
+Night's Bargain
+
+Secluded Courtyard
+
+Stir the Pot
+
+Sarugami Titan
+rules_text: Paradigm shift {2}{B} — Instant [i](You may cast this as a {2}{B} Instant with only bracketed text.)[/i]
+When Sarugami Titan enters, you may exile an instant, sorcery or card with paradigm from your graveyard. If you do, [b][target creature gets +4/-4 until end of turn.][/b] => Paradigm shift {2}{B} — Instant [i](You may cast this as a {2}{B} Instant with only bracketed text.)[/i]
+When Sarugami Titan enters, you may exile an instant, sorcery or card with paradigm from your graveyard. If you do, up to one [b][target creature gets +4/-4 until end of turn.][/b]
+special_text: Paradigm shift {2}{B} — Instant [i](You may cast this as a {2}{B} Instant with only bracketed text.)[/i]
+When Sarugami Titan enters, you may exile an instant, sorcery or card with paradigm from your graveyard. If you do, [b][target creature gets +4/-4 until end of turn.][/b] => Paradigm shift {2}{B} — Instant [i](You may cast this as a {2}{B} Instant with only bracketed text.)[/i]
+When Sarugami Titan enters, you may exile an instant, sorcery or card with paradigm from your graveyard. If you do, up to one [b][target creature gets +4/-4 until end of turn.][/b]
+
+Ushi-Oni Ascetic
+
+Endless Nuisance
+
+Dreamfall Ascender
+
+Battleground Bully
+cost: {2}{B}{B} => {2}{B}
+rules_text: Lifelink
+At the beginning of each end step, if you've cast a creature and a noncreature spell this turn, each opponent exiles cards from the top of their library until they exile a nonland card. You may cast a card exiled this way by paying life equal to the spell's mana value rather than paying its mana cost. => Prowess
+At the beginning of each end step, if you've cast a creature and a noncreature spell this turn, each opponent loses half their life rounded up.
+pt: 4/4 => 3/3
+
+Daemthine's Diabolist
+rules_text: Whenever you cast your first noncreature spell each turn, create a tapped 1/1 black Robot Horror artifact creature token.
+Sacrifice an artifact or creature: Surveil 1. => Whenever you cast your first noncreature spell each turn, create a tapped 1/1 black Demon Horror artifact creature token.
+Sacrifice an artifact or creature: Surveil 1.
+
+Exorcist Trainee
+
+Territory Lookout
+
+Oni Gate-Guard
+
+Forsaken Return
+type: Sorcery => Instant
+cost: {2}{B}{R}{G} => {1}{B}{R}{G}
+rules_text: Return target permanent card from your graveyard to your hand. You gain X life and Forsaken Return deals X damage to any nonplayer target, where X is that permanent's mana value.
+Flashback {5}{B}{R}{G} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Return target card from your graveyard to your hand. Target player sacrifices a nonland permanent they control that shares a card type with that card.
+Exile Forsaken Return.
+
+Haruko, Lady of Ceremonies
+rules_text: Whenever you cast a spell with mana value 4 or greater, create a Treasure token. If that spell's mana value is 6 or greater, each opponent sacrifices a creature or planeswalker. If that spell's mana is 8 or greater, draw cards equal to the greatest power among creatures or creature spells you control. => Vigilance
+Whenever you cast a spell with mana value 4 or greater, put X +1/+1 counters on Haruko, Lady of Ceremonies, where X is that spell's mana value minus 3.
+pt: 3/4 => 2/2
+
+Incandescent Seal
+
+Treasure
+
+
+VERSION 6 CHANGELOG
 ====================
 
 Incandescent Seal added.
