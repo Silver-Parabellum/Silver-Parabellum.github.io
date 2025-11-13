@@ -19,7 +19,7 @@
     },
     {
         "card_name": "Sakamoto Akira, Hidanko's Blade",
-        "number": 138,
+        "number": 137,
         "shape": "planeswalker",
         "set": "ONI"
     },
@@ -169,7 +169,7 @@
     },
     {
         "card_name": "Hinotori Delinquent",
-        "number": 128,
+        "number": 127,
         "shape": "normal",
         "set": "ONI"
     },
@@ -199,7 +199,7 @@
     },
     {
         "card_name": "Old Ways Hellraiser",
-        "number": 133,
+        "number": 132,
         "shape": "normal",
         "set": "ONI"
     },
@@ -229,7 +229,7 @@
     },
     {
         "card_name": "Ryujin of Unfettered Joy",
-        "number": 137,
+        "number": 136,
         "shape": "normal",
         "set": "ONI"
     },
@@ -289,7 +289,7 @@
     },
     {
         "card_name": "Alpha Forerunner",
-        "number": 110,
+        "number": 111,
         "shape": "normal",
         "set": "ONI"
     },
@@ -468,8 +468,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Hellraisers Tagger",
-        "number": 126,
+        "card_name": "Off the Rails",
+        "number": 130,
         "shape": "normal",
         "set": "ONI"
     },
@@ -498,7 +498,7 @@
         "set": "ONI"
     },
     {
-        "card_name": "Off the Rails",
+        "card_name": "Okirumi Heartbreaker",
         "number": 131,
         "shape": "normal",
         "set": "ONI"
@@ -528,8 +528,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Okirumi Heartbreaker",
-        "number": 132,
+        "card_name": "Reckless Rage",
+        "number": 135,
         "shape": "normal",
         "set": "ONI"
     },
@@ -558,8 +558,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Reckless Rage",
-        "number": 136,
+        "card_name": "Supercharged Colossus",
+        "number": 140,
         "shape": "normal",
         "set": "ONI"
     },
@@ -588,7 +588,7 @@
         "set": "ONI"
     },
     {
-        "card_name": "Supercharged Colossus",
+        "card_name": "Tanuki Tagger",
         "number": 141,
         "shape": "normal",
         "set": "ONI"
@@ -648,8 +648,8 @@
         "set": "ONI"
     },
     {
-        "card_name": "Aokigara Grifter",
-        "number": 111,
+        "card_name": "Akigara Grifter",
+        "number": 110,
         "shape": "normal",
         "set": "ONI"
     },
@@ -829,7 +829,7 @@
     },
     {
         "card_name": "Highblood Sophomore",
-        "number": 127,
+        "number": 126,
         "shape": "normal",
         "set": "ONI"
     },
@@ -859,7 +859,7 @@
     },
     {
         "card_name": "Inaba Sparkcaster",
-        "number": 129,
+        "number": 128,
         "shape": "normal",
         "set": "ONI"
     },
@@ -889,7 +889,7 @@
     },
     {
         "card_name": "Incandescent Seal",
-        "number": 130,
+        "number": 129,
         "shape": "normal",
         "set": "ONI"
     },
@@ -919,7 +919,7 @@
     },
     {
         "card_name": "Oni Gate-Guard",
-        "number": 134,
+        "number": 133,
         "shape": "normal",
         "set": "ONI"
     },
@@ -949,7 +949,7 @@
     },
     {
         "card_name": "Possessed Mech",
-        "number": 135,
+        "number": 134,
         "shape": "normal",
         "set": "ONI"
     },
@@ -979,7 +979,7 @@
     },
     {
         "card_name": "Sarugami Titan",
-        "number": 139,
+        "number": 138,
         "shape": "normal",
         "set": "ONI"
     },
@@ -1009,7 +1009,7 @@
     },
     {
         "card_name": "Savage Familiar",
-        "number": 140,
+        "number": 139,
         "shape": "normal",
         "set": "ONI"
     },

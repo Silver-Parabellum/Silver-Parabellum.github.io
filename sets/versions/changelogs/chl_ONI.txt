@@ -1,4 +1,71 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+Akigara Grifter added.
+Tanuki Tagger added.
+
+Aokigara Grifter removed.
+Hellraisers Tagger removed.
+
+Savage Familiar
+
+Off the Rails
+
+Rebellious Maiko
+rules_text: [i]Valiant[/i] — Whenever Rebellious Maiko becomes the target of a spell or ability you control for the first time each turn, untap it. gains flying and lifelink until end of turn. => [i]Valiant[/i] — Whenever Rebellious Maiko becomes the target of a spell or ability you control for the first time each turn, untap it. It gains flying and lifelink until end of turn.
+
+Ryujin of Unfettered Joy
+
+Inaba Sparkcaster
+
+Possessed Mech
+
+Sakamoto Akira, Hidanko's Blade
+
+Okirumi Heartbreaker
+
+Reckless Rage
+
+Student Council Enforcer
+rules_text: Vigilance
+Whenever a nontoken creature you control dies, create a 1/1 white and black Student creature token. => Vigilance
+Whenever a non-Demon creature you control dies, create a 1/1 black Demon Horror artifact creature token.
+
+Old Ways Hellraiser
+
+Reiko, Battle Choreographer
+rules_text: Double strike
+Once each turn, you may cast a spell from your graveyard as long as it target a creature you control. Spells cast this way gain “If this card would be put into a graveyard, exile it instead.” => Double strike
+Once each turn, you may cast a spell from your graveyard as long as it targets a creature you control. Spells cast this way gain “If this card would be put into a graveyard, exile it instead.”
+
+Highblood Sophomore
+
+Battle Data Tracking
+rules_text: Draw two cards.
+Destroy up to one target creature if its power less than or equal to the number of cards in your hand. => Draw two cards.
+Destroy up to one target creature if its power is less than or equal to the number of cards in your hand.
+
+Sarugami Titan
+
+Oni Gate-Guard
+
+Future Past
+
+Hinotori Delinquent
+
+Tokuhime, Torn Revenant
+type: Legendary Creature — Chimera Horror => Legendary Creature — Angel Horror
+
+Alpha Forerunner
+
+Supercharged Colossus
+
+Furious Kotobuki
+
+Incandescent Seal
+
+
+VERSION 7 CHANGELOG
 ====================
 
 Soul Border Rail added.

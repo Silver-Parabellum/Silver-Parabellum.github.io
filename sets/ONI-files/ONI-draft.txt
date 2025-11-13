@@ -25,9 +25,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Cat Beast Spirit",
-			"collector_number": "140",
+			"collector_number": "139",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/140_Savage Familiar.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/139_Savage Familiar.png"
 			}
 		},
 		{
@@ -35,9 +35,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "131",
+			"collector_number": "130",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/131_Off the Rails.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/130_Off the Rails.png"
 			}
 		},
 		{
@@ -495,9 +495,9 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{R}{R}",
 			"type": "Legendary Creature — Dragon Spirit",
-			"collector_number": "137",
+			"collector_number": "136",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/137_Ryujin of Unfettered Joy.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/136_Ryujin of Unfettered Joy.png"
 			}
 		},
 		{
@@ -535,9 +535,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Rabbit Student",
-			"collector_number": "129",
+			"collector_number": "128",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/129_Inaba Sparkcaster.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/128_Inaba Sparkcaster.png"
 			}
 		},
 		{
@@ -545,9 +545,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Artifact Creature — Robot Horror",
-			"collector_number": "135",
+			"collector_number": "134",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/135_Possessed Mech.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/134_Possessed Mech.png"
 			}
 		},
 		{
@@ -805,9 +805,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{R}{R}",
 			"type": "Legendary Planeswalker — Akira",
-			"collector_number": "138",
+			"collector_number": "137",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/138_Sakamoto Akira, Hidanko's Blade.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/137_Sakamoto Akira, Hidanko's Blade.png"
 			}
 		},
 		{
@@ -905,9 +905,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Human Student",
-			"collector_number": "132",
+			"collector_number": "131",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/132_Okirumi Heartbreaker.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/131_Okirumi Heartbreaker.png"
 			}
 		},
 		{
@@ -915,9 +915,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "136",
+			"collector_number": "135",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/136_Reckless Rage.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/135_Reckless Rage.png"
 			}
 		},
 		{
@@ -1045,9 +1045,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Dinosaur Spirit Rebel",
-			"collector_number": "133",
+			"collector_number": "132",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/133_Old Ways Hellraiser.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/132_Old Ways Hellraiser.png"
 			}
 		},
 		{
@@ -1315,9 +1315,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Student Noble",
-			"collector_number": "127",
+			"collector_number": "126",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/127_Highblood Sophomore.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/126_Highblood Sophomore.png"
 			}
 		},
 		{
@@ -1631,13 +1631,13 @@
 			}
 		},
 		{
-			"name": "Aokigara Grifter",
+			"name": "Akigara Grifter",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Rebel Student",
-			"collector_number": "111",
+			"collector_number": "110",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/111_Aokigara Grifter.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/110_Akigara Grifter.png"
 			}
 		},
 		{
@@ -2085,9 +2085,9 @@
 			"rarity": "common",
 			"mana_cost": "{5}{R}{R}",
 			"type": "Creature — Monkey Spirit Giant",
-			"collector_number": "139",
+			"collector_number": "138",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/139_Sarugami Titan.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/138_Sarugami Titan.png"
 			}
 		},
 		{
@@ -2405,9 +2405,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Demon Spirit",
-			"collector_number": "134",
+			"collector_number": "133",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/134_Oni Gate-Guard.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/133_Oni Gate-Guard.png"
 			}
 		},
 		{
@@ -2555,9 +2555,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Phoenix Rebel Student",
-			"collector_number": "128",
+			"collector_number": "127",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/128_Hinotori Delinquent.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/127_Hinotori Delinquent.png"
 			}
 		},
 		{
@@ -2684,7 +2684,7 @@
 			"name": "Tokuhime, Torn Revenant",
 			"rarity": "mythic",
 			"mana_cost": "{1}{W}{B}{G}",
-			"type": "Legendary Creature — Chimera Horror",
+			"type": "Legendary Creature — Angel Horror",
 			"collector_number": "239",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/239_Tokuhime, Torn Revenant.png"
@@ -2765,9 +2765,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Wolf Flagbearer Advisor",
-			"collector_number": "110",
+			"collector_number": "111",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/110_Alpha Forerunner.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/111_Alpha Forerunner.png"
 			}
 		},
 		{
@@ -2795,9 +2795,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Dinosaur Spirit",
-			"collector_number": "141",
+			"collector_number": "140",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/141_Supercharged Colossus.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/140_Supercharged Colossus.png"
 			}
 		},
 		{
@@ -2811,13 +2811,13 @@
 			}
 		},
 		{
-			"name": "Hellraisers Tagger",
+			"name": "Tanuki Tagger",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Raccoon Rebel Student",
-			"collector_number": "126",
+			"type": "Creature — Dog Rebel Student",
+			"collector_number": "141",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/126_Hellraisers Tagger.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/141_Tanuki Tagger.png"
 			}
 		},
 		{
@@ -3025,9 +3025,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "130",
+			"collector_number": "129",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/130_Incandescent Seal.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/129_Incandescent Seal.png"
 			}
 		},
 		{
@@ -3215,7 +3215,7 @@
 	4 Flourish
 	4 Supercharged Colossus
 	4 Furious Kotobuki
-	4 Hellraisers Tagger
+	4 Tanuki Tagger
 	4 Iterative Playwright
 	4 Rooted Gravegorger
 	4 Serene Sentinel
@@ -3289,7 +3289,7 @@
 	8 Greater Toad Sage
 	8 Lost in Transit
 	8 Shrinebound Sentinels
-	8 Aokigara Grifter
+	8 Akigara Grifter
 	8 Sheltered Youth
 	8 Obsessive Stalker
 	8 Tandem Defiance
@@ -3463,7 +3463,7 @@
 	1 The Once Wayfinder
 	6 Wildweaver Toraiga
 	2 Shoji, Grounds Tender
-	12 Aokigara Grifter
+	12 Akigara Grifter
 	12 Sheltered Youth
 	2 Pigeon Parks
 	6 Academic Orrery
@@ -3575,7 +3575,7 @@
 	6 Flourish
 	6 Supercharged Colossus
 	6 Furious Kotobuki
-	6 Hellraisers Tagger
+	6 Tanuki Tagger
 	6 Iterative Playwright
 	6 Rooted Gravegorger
 	6 Serene Sentinel
@@ -3737,7 +3737,7 @@
 	4 The Once Wayfinder
 	15 Wildweaver Toraiga
 	7 Shoji, Grounds Tender
-	6 Aokigara Grifter
+	6 Akigara Grifter
 	6 Sheltered Youth
 	7 Pigeon Parks
 	15 Academic Orrery
@@ -3849,7 +3849,7 @@
 	15 Flourish
 	15 Supercharged Colossus
 	15 Furious Kotobuki
-	15 Hellraisers Tagger
+	15 Tanuki Tagger
 	15 Iterative Playwright
 	15 Rooted Gravegorger
 	15 Serene Sentinel
