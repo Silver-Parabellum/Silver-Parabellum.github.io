@@ -14,7 +14,7 @@
             "number": 231,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
-            "rules_text": "Whenever you cast a spell, Seiran, Thundering Star deals 1 damage to any nonplayer target.\nAt the beginning of your end step, if the number of cards in your hand is less than the number of spells you've cast this turn, draw cards equal to the difference.",
+            "rules_text": "Whenever you cast a spell, Seiran, Thundering Star deals 1 damage to any noncreature target.\nAt the beginning of your end step, if the number of cards in your hand is less than the number of spells you've cast this turn, draw cards equal to the difference.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
