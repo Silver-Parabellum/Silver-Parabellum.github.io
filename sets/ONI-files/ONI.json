@@ -109,7 +109,7 @@
             "number": 22,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "[i]Valiant[/i] \u2014 Whenever Rebellious Maiko becomes the target of a spell or ability you control for the first time each turn, untap it. It gains flying and lifelink until end of turn.",
+            "rules_text": "[i]Valiant[/i] \u2014 Whenever Rebellious Maiko becomes the target of a spell or ability you control for the first time each turn, surveil 1. It gets +1/+1 until end of turn.",
             "flavor_text": "[i]\u201cTheater is good, but the real drama happens in the streets!\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -489,8 +489,8 @@
             "number": 13,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "Vigilance\n[i]Valiant[/i] \u2014 Whenever Hiruya Star Aspirant becomes the target of a spell or ability you control for the first time each turn, put a +1/+1 counter on it and prevent all damage that would be dealt to it this turn.",
-            "flavor_text": "[i][/i]",
+            "rules_text": "[i]Valiant[/i] \u2014 Whenever Hiruya Star Aspirant becomes the target of a spell or ability you control for the first time each turn, put your choice of a +1/+1, flying, or lifelink counter on it.",
+            "flavor_text": "[i]Her ambitions reach sky-high[/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
@@ -5904,5 +5904,5 @@
             "notes": ""
         }
     ],
-    "version": 9
+    "version": 10
 }

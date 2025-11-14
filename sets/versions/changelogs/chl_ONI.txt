@@ -1,4 +1,17 @@
-﻿VERSION 9 CHANGELOG
+﻿VERSION 10 CHANGELOG
+====================
+
+
+
+Rebellious Maiko
+rules_text: [i]Valiant[/i] — Whenever Rebellious Maiko becomes the target of a spell or ability you control for the first time each turn, untap it. It gains flying and lifelink until end of turn. => [i]Valiant[/i] — Whenever Rebellious Maiko becomes the target of a spell or ability you control for the first time each turn, surveil 1. It gets +1/+1 until end of turn.
+
+Hiruya Star Aspirant
+rules_text: Vigilance
+[i]Valiant[/i] — Whenever Hiruya Star Aspirant becomes the target of a spell or ability you control for the first time each turn, put a +1/+1 counter on it and prevent all damage that would be dealt to it this turn. => [i]Valiant[/i] — Whenever Hiruya Star Aspirant becomes the target of a spell or ability you control for the first time each turn, put your choice of a +1/+1, flying, or lifelink counter on it.
+
+
+VERSION 9 CHANGELOG
 ====================
 
 
