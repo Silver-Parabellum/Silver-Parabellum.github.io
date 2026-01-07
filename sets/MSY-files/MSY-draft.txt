@@ -1,0 +1,613 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Upholder of Ancient Oath",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/6_Upholder of Ancient Oath.png"
+			}
+		},
+		{
+			"name": "Ingenious Mechsmith",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/10_Ingenious Mechsmith.png"
+			}
+		},
+		{
+			"name": "Witch-Apprentice Yarag",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Human Wizard",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/18_Witch-Apprentice Yarag.png"
+			}
+		},
+		{
+			"name": "Fervent Dramatist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Performer",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/21_Fervent Dramatist.png"
+			}
+		},
+		{
+			"name": "Magus of the Heart",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/28_Magus of the Heart.png"
+			}
+		},
+		{
+			"name": "Swift Retribution",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/5_Swift Retribution.png"
+			}
+		},
+		{
+			"name": "Undertow Meditations",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/12_Undertow Meditations.png"
+			}
+		},
+		{
+			"name": "Rite of Myriad Shapes",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/14_Rite of Myriad Shapes.png"
+			}
+		},
+		{
+			"name": "Rapid Overtake",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/22_Rapid Overtake.png"
+			}
+		},
+		{
+			"name": "Overharvest",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Instant",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/29_Overharvest.png"
+			}
+		},
+		{
+			"name": "Laleh, Maharan Commander",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Human Soldier",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/3_Laleh, Maharan Commander.png"
+			}
+		},
+		{
+			"name": "Coastal Channeler",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Merfolk Wizard",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/8_Coastal Channeler.png"
+			}
+		},
+		{
+			"name": "Undead Diva",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Noble",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/16_Undead Diva.png"
+			}
+		},
+		{
+			"name": "Skarvith Champion",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Knight",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/23_Skarvith Champion.png"
+			}
+		},
+		{
+			"name": "Radiant Commander",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Nephilim Soldier",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/4_Radiant Commander.png"
+			}
+		},
+		{
+			"name": "Lysandra's Accomplice",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Faerie Rogue",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/11_Lysandra's Accomplice.png"
+			}
+		},
+		{
+			"name": "Veil-Pierced Diabolist",
+			"rarity": "rare",
+			"mana_cost": "{6}{B}",
+			"type": "Creature — Demon Warlock",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/17_Veil-Pierced Diabolist.png"
+			}
+		},
+		{
+			"name": "Thundering Twins",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Elemental Mouse",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/24_Thundering Twins.png"
+			}
+		},
+		{
+			"name": "Reminiscent Waylighter",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Shaman",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/30_Reminiscent Waylighter.png"
+			}
+		},
+		{
+			"name": "Aiko, Silent Mourner",
+			"rarity": "mythic",
+			"mana_cost": "{W}{W}",
+			"type": "Legendary Planeswalker — Aiko",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/1_Aiko, Silent Mourner.png"
+			}
+		},
+		{
+			"name": "Bound by Possibility",
+			"rarity": "mythic",
+			"mana_cost": "{X}{U}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/7_Bound by Possibility.png"
+			}
+		},
+		{
+			"name": "Chromatic Impact",
+			"rarity": "rare",
+			"mana_cost": "{X}{R}",
+			"type": "Sorcery",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/20_Chromatic Impact.png"
+			}
+		},
+		{
+			"name": "Explorer's Potluck",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Enchantment",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/25_Explorer's Potluck.png"
+			}
+		},
+		{
+			"name": "Glorious Gathering",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Instant",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/2_Glorious Gathering.png"
+			}
+		},
+		{
+			"name": "Grip of the Watcher",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/9_Grip of the Watcher.png"
+			}
+		},
+		{
+			"name": "Twist Fate's Hand",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/15_Twist Fate's Hand.png"
+			}
+		},
+		{
+			"name": "Akira, Wayward Sophomore",
+			"rarity": "mythic",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Legendary Planeswalker — Akira",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/19_Akira, Wayward Sophomore.png"
+			}
+		},
+		{
+			"name": "Gruesome Emergence",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/26_Gruesome Emergence.png"
+			}
+		},
+		{
+			"name": "Decadent Gorger",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Vampire Warlock",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/31_Decadent Gorger.png"
+			}
+		},
+		{
+			"name": "Ogura's Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Instant",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/33_Ogura's Charm.png"
+			}
+		},
+		{
+			"name": "Council of Defense",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct Advisor",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/35_Council of Defense.png"
+			}
+		},
+		{
+			"name": "Mapwright's Prism",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/37_Mapwright's Prism.png"
+			}
+		},
+		{
+			"name": "Shining Apotheosis",
+			"rarity": "mythic",
+			"mana_cost": "{7}",
+			"type": "Artifact Creature — Angel Avatar",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/38_Shining Apotheosis.png"
+			}
+		},
+		{
+			"name": "Hosted Helm",
+			"rarity": "rare",
+			"mana_cost": "{5}",
+			"type": "Artifact",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/36_Hosted Helm.png"
+			}
+		},
+		{
+			"name": "Forgotten Citadel",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/39_Forgotten Citadel.png"
+			}
+		},
+		{
+			"name": "Kinken Shrine Steppe",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/40_Kinken Shrine Steppe.png"
+			}
+		},
+		{
+			"name": "Kyoko, City's Hope",
+			"rarity": "mythic",
+			"mana_cost": "{G}",
+			"type": "Legendary Creature — Human Rebel",
+			"collector_number": "27",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/27_Kyoko, City's Hope_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/27_Kyoko, City's Hope_front.png"
+			}
+		},
+		{
+			"name": "Sihari's Fury",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Legendary Enchantment",
+			"collector_number": "34",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/34_Sihari's Fury_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/34_Sihari's Fury_front.png"
+			}
+		},
+		{
+			"name": "Do and Die Again",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Enchantment",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/13_Do and Die Again.png"
+			}
+		},
+		{
+			"name": "Decay",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Enchantment — Aura Curse",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/3_Decay.png"
+			}
+		},
+		{
+			"name": "Naomi, Academic Authority",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}",
+			"type": "Legendary Creature — Human Advisor",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/32_Naomi, Academic Authority.png"
+			}
+		},
+		{
+			"name": "Plains Satrapy",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Land — Plains Satrapy",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/7_Plains Satrapy.png"
+			}
+		},
+		{
+			"name": "Spirit",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/4_Spirit.png"
+			}
+		},
+		{
+			"name": "Knight",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Creature — Knight",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/1_Knight.png"
+			}
+		},
+		{
+			"name": "Spirit",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/2_Spirit.png"
+			}
+		},
+		{
+			"name": "Idol",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Artifact — Idol",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/6_Idol.png"
+			}
+		},
+		{
+			"name": "Food",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Artifact — Food",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/5_Food.png"
+			}
+		}
+	]
+
+[rare(1)]
+	2 Laleh, Maharan Commander
+	2 Coastal Channeler
+	2 Undead Diva
+	2 Skarvith Champion
+	2 Radiant Commander
+	2 Lysandra's Accomplice
+	2 Veil-Pierced Diabolist
+	2 Thundering Twins
+	2 Reminiscent Waylighter
+	1 Aiko, Silent Mourner
+	1 Bound by Possibility
+	2 Chromatic Impact
+	2 Explorer's Potluck
+	2 Glorious Gathering
+	2 Grip of the Watcher
+	1 Twist Fate's Hand
+	1 Akira, Wayward Sophomore
+	2 Gruesome Emergence
+	1 Shining Apotheosis
+	2 Hosted Helm
+	2 Kinken Shrine Steppe
+	1 Kyoko, City's Hope
+	2 Sihari's Fury
+	2 Do and Die Again
+	2 Naomi, Academic Authority
+[uncommon(3)]
+	4 Upholder of Ancient Oath
+	4 Ingenious Mechsmith
+	4 Witch-Apprentice Yarag
+	4 Fervent Dramatist
+	4 Magus of the Heart
+	4 Swift Retribution
+	4 Undertow Meditations
+	4 Rite of Myriad Shapes
+	4 Rapid Overtake
+	4 Overharvest
+	4 Decadent Gorger
+	4 Ogura's Charm
+	4 Council of Defense
+	4 Mapwright's Prism
+	4 Forgotten Citadel
+[common(7)]
+[foil(1)]
+	6 Upholder of Ancient Oath
+	6 Ingenious Mechsmith
+	6 Witch-Apprentice Yarag
+	6 Fervent Dramatist
+	6 Magus of the Heart
+	6 Swift Retribution
+	6 Undertow Meditations
+	6 Rite of Myriad Shapes
+	6 Rapid Overtake
+	6 Overharvest
+	2 Laleh, Maharan Commander
+	2 Coastal Channeler
+	2 Undead Diva
+	2 Skarvith Champion
+	2 Radiant Commander
+	2 Lysandra's Accomplice
+	2 Veil-Pierced Diabolist
+	2 Thundering Twins
+	2 Reminiscent Waylighter
+	1 Aiko, Silent Mourner
+	1 Bound by Possibility
+	2 Chromatic Impact
+	2 Explorer's Potluck
+	2 Glorious Gathering
+	2 Grip of the Watcher
+	1 Twist Fate's Hand
+	1 Akira, Wayward Sophomore
+	2 Gruesome Emergence
+	6 Decadent Gorger
+	6 Ogura's Charm
+	6 Council of Defense
+	6 Mapwright's Prism
+	1 Shining Apotheosis
+	2 Hosted Helm
+	6 Forgotten Citadel
+	2 Kinken Shrine Steppe
+	1 Kyoko, City's Hope
+	2 Sihari's Fury
+	2 Do and Die Again
+	2 Naomi, Academic Authority
+[wildcard(1)]
+	15 Upholder of Ancient Oath
+	15 Ingenious Mechsmith
+	15 Witch-Apprentice Yarag
+	15 Fervent Dramatist
+	15 Magus of the Heart
+	15 Swift Retribution
+	15 Undertow Meditations
+	15 Rite of Myriad Shapes
+	15 Rapid Overtake
+	15 Overharvest
+	7 Laleh, Maharan Commander
+	7 Coastal Channeler
+	7 Undead Diva
+	7 Skarvith Champion
+	7 Radiant Commander
+	7 Lysandra's Accomplice
+	7 Veil-Pierced Diabolist
+	7 Thundering Twins
+	7 Reminiscent Waylighter
+	4 Aiko, Silent Mourner
+	4 Bound by Possibility
+	7 Chromatic Impact
+	7 Explorer's Potluck
+	7 Glorious Gathering
+	7 Grip of the Watcher
+	4 Twist Fate's Hand
+	4 Akira, Wayward Sophomore
+	7 Gruesome Emergence
+	15 Decadent Gorger
+	15 Ogura's Charm
+	15 Council of Defense
+	15 Mapwright's Prism
+	4 Shining Apotheosis
+	7 Hosted Helm
+	15 Forgotten Citadel
+	7 Kinken Shrine Steppe
+	4 Kyoko, City's Hope
+	7 Sihari's Fury
+	7 Do and Die Again
+	7 Naomi, Academic Authority
