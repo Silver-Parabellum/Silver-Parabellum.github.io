@@ -1,4 +1,57 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Radiant General added.
+
+Radiant Commander removed.
+
+Fervent Dramatist
+rules_text: This spell can't be countered
+Whenever an opponent casts a spell during a turn other than theirs, create a function token with “This spell deals 4 damage to each opponent.” [i](It's an enchantment. As you cast an instant or sorcery spell, sacrifice any number of Functions to add their effects to that spell.)[/i] => This spell can't be countered.
+Whenever an opponent casts a spell during a turn other than theirs, create a function token with “This spell deals 4 damage to each opponent.” [i](It's an enchantment. As you cast an instant or sorcery spell, sacrifice any number of Functions to add their effects to that spell.)[/i]
+
+Rapid Overtake
+rules_text: At the beginning of combat on your turn, up to one target creature gets +2/+1 and gains trample and haste until end of turn.
+Warp {R} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i] => At the beginning of combat on your turn, up to one target creature gets +2/+0 and gains trample and haste until end of turn.
+Warp {R} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+
+Overharvest
+rules_text: Primal {2}{G} [i](During your turn, you may cast this spell for {2}{G} instead of playing a land.)[/i]
+Return up to two target permanent cards from your graveyard to your hand. Exile Overharvest. => Primal {1}{G} [i](During your turn, you may cast this spell for {2}{G} instead of playing a land.)[/i]
+Return up to two target permanent cards from your graveyard to your hand. Exile Overharvest.
+
+Lysandra's Accomplice
+rules_text: Flying, prowess
+whenever Lysandra's Accomplice deals combat damage to a player, you may discard a card. If you do, search your library for an instant or sorcery card with mana value equal to its power, put it into your hand, then shuffle. => Flying, prowess
+Whenever Lysandra's Accomplice deals combat damage to a player, you may discard a card. If you do, search your library for an instant or sorcery card with mana value equal to Lysandra's Accomplice's power, put it into your hand, then shuffle.
+
+Aiko, Silent Mourner
+rules_text: Each player can't cast spells during turns other than theirs.
+[+1]: Create a 0/1 white Spirit creature token and an Idol token. [i](It's an artifact with “{1}, Sacrifice this artifact: Put a +1/+1 counter on target creature. Activate only as a sorcery.”)[/i]
+[-1]: For each player, exile up to one target nonland permanent they control. While each one is exiled, its owner may pay {2} as a sorcery to put it onto the battlefield. => If a nonland, nontoken permanent would enter and wasn't cast, exile it instead.
+[+1]: Create your choice of a 0/1 white Spirit creature token or an Idol token. [i](It's an artifact with “, Sacrifice this artifact: Put a +1/+1 counter on target creature. Activate only as a sorcery.”)[/i]
+[-2]: Exile target creature. For as long as it remains exiled, its controller may pay {2} as a sorcery to put it onto the battlefield.
+special_text: Each player can't cast spells during turns other than theirs.
+[+1]: Create a 0/1 white Spirit creature token and an Idol token. [i](It's an artifact with “{1}, Sacrifice this artifact: Put a +1/+1 counter on target creature. Activate only as a sorcery.”)[/i]
+[-1]: For each player, exile up to one target nonland permanent they control. While each one is exiled, its owner may pay {2} as a sorcery to put it onto the battlefield. => If a nonland, nontoken permanent would enter and wasn't cast, exile it instead.
+[+1]: Create your choice of a 0/1 white Spirit creature token or an Idol token. [i](It's an artifact with “, Sacrifice this artifact: Put a +1/+1 counter on target creature. Activate only as a sorcery.”)[/i]
+[-2]: Exile target creature. For as long as it remains exiled, its controller may pay {2} as a sorcery to put it onto the battlefield.
+
+Grip of the Watcher
+rules_text: Pressure {X}{U}{U} [i](You may cast this spell for its pressure cost if seven or more cards are in your graveyard.)[/i]
+Gain control of target creature with mana value less than the amount of mana spent to cast Grip of the Watcher. => Pressure {X}{U}{U} [i](You may cast this spell for its pressure cost if seven or more cards are in your graveyard.)[/i]
+Gain control of target creature with mana value less than or equal to the amount of mana spent to cast Grip of the Watcher.
+
+Council of Defense
+rules_text: Defender
+Each embattled creature you control may attack as though it did not have defender, and may assign combat damage using its toughness rather than its power. [i](A creature is embattled if it has a counter on it or a permanent you control attached to it.)[/i] => Defender
+Each embattled creature you control may attack as though it didn't have defender, and may assign combat damage using its toughness rather than its power. [i](A creature is embattled if it has a counter on it or a permanent you control attached to it.)[/i]
+
+Hosted Helm
+type: Artifact => Artifact — Equipment Implement
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

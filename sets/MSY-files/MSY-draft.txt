@@ -141,13 +141,13 @@
 			}
 		},
 		{
-			"name": "Radiant Commander",
+			"name": "Radiant General",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Creature — Nephilim Soldier",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/4_Radiant Commander.png"
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/4_Radiant General.png"
 			}
 		},
 		{
@@ -334,7 +334,7 @@
 			"name": "Hosted Helm",
 			"rarity": "rare",
 			"mana_cost": "{5}",
-			"type": "Artifact",
+			"type": "Artifact — Equipment Implement",
 			"collector_number": "36",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/36_Hosted Helm.png"
@@ -491,7 +491,7 @@
 	2 Coastal Channeler
 	2 Undead Diva
 	2 Skarvith Champion
-	2 Radiant Commander
+	2 Radiant General
 	2 Lysandra's Accomplice
 	2 Veil-Pierced Diabolist
 	2 Thundering Twins
@@ -544,7 +544,7 @@
 	2 Coastal Channeler
 	2 Undead Diva
 	2 Skarvith Champion
-	2 Radiant Commander
+	2 Radiant General
 	2 Lysandra's Accomplice
 	2 Veil-Pierced Diabolist
 	2 Thundering Twins
@@ -585,7 +585,7 @@
 	7 Coastal Channeler
 	7 Undead Diva
 	7 Skarvith Champion
-	7 Radiant Commander
+	7 Radiant General
 	7 Lysandra's Accomplice
 	7 Veil-Pierced Diabolist
 	7 Thundering Twins
