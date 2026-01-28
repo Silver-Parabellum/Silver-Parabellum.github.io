@@ -3,1171 +3,1561 @@
         "card_name": "Hammer of Ancestry",
         "number": 16,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Kaldrbursti, the First Blizzard",
         "number": 59,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Herald of Chilling Dusk",
         "number": 100,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Hraungandr, The First Eruption",
         "number": 136,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Elof, Fabled Bulwark",
         "number": 165,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Herald of Warming Dawn",
         "number": 18,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Lostwoods Shapestealer",
         "number": 61,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Winter's Tomb",
         "number": 117,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Peak of Destruction",
         "number": 143,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Skogdrengr, the First Apex",
         "number": 184,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Ari, Adventure Seeker",
         "number": 2,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Crush of Frost",
         "number": 44,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Brunhild, Raider Queen",
         "number": 84,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Armament Repurposer",
         "number": 120,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Adaptive Scavenger",
         "number": 158,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Assembled Procession",
         "number": 3,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Ferros, Encased Thunder",
         "number": 49,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Consuming Matriarch",
         "number": 87,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Blazing Retribution",
         "number": 124,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Cojocar Huntress",
         "number": 162,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Cage the Soul",
         "number": 6,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Horrific Splintering",
         "number": 56,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Dire Elimination",
         "number": 89,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Crack the Shells",
         "number": 128,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Mountainbreaker Colossus",
         "number": 173,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Disciple of Devotion",
         "number": 9,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Inherited Talents",
         "number": 58,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Enevenomed Scribe",
         "number": 92,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Firebaiting",
         "number": 131,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Nanna, Small but Mighty",
         "number": 174,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Growing Starlight",
         "number": 15,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Moonbird's Invocation",
         "number": 62,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Gelid Vessel",
         "number": 95,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Magni, the Unbreakable",
         "number": 142,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Overgrown Steelsheell",
         "number": 175,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Lostwoods Skywarden",
         "number": 23,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Mythweaver Sprite",
         "number": 63,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Grave Reckoning",
         "number": 97,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Smuggled Firebombs",
         "number": 151,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Quickstep Wildcaller",
         "number": 178,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Rolling Joysphere",
         "number": 29,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Regurgitating Gorger",
         "number": 67,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Lay the Seeds",
         "number": 102,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Sunbird's Invocation",
         "number": 153,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Spiritual Order",
         "number": 187,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Star-Herd Ascender",
         "number": 33,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Star-High Dreamer",
         "number": 73,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Solace's Shadow",
         "number": 110,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Sunfeather Ascetic",
         "number": 154,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Wildform Reclaimer",
         "number": 194,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Van Helsa's Paragon",
         "number": 39,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Summit Guardians",
         "number": 75,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Underbridge Takeover",
         "number": 112,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Unrelenting Champion",
         "number": 155,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Yeti's Call",
         "number": 196,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Aurora Weaver",
         "number": 4,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Caller of Nightmare",
         "number": 41,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Aurora Strix",
         "number": 80,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Adventurous Coercion",
         "number": 119,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Centaur Omenreader",
         "number": 159,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Content Furball",
         "number": 7,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Curious Imitator",
         "number": 45,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Blizzard Stalker",
         "number": 83,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Artistic Invocator",
         "number": 121,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Dangerous Bloom",
         "number": 163,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Dawnpeak Herdmaster",
         "number": 8,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Direfloe Strix",
         "number": 46,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Brunhild's Tactics",
         "number": 85,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Calamitous Reading",
         "number": 126,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Elder Protector",
         "number": 164,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Frostmoon Pathleader",
         "number": 11,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Expedition Leader",
         "number": 48,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Carve a Path",
         "number": 86,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Dreamcatcher's Rod",
         "number": 129,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Expand Horizons",
         "number": 166,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Hammer of the Admired",
         "number": 17,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Forbidden Insight",
         "number": 51,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Enthralled Huntress",
         "number": 93,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Firehorn Crusher",
         "number": 132,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Fabled Weaponsmith",
         "number": 167,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Hopebringer Valkyria",
         "number": 19,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Freeze Momentum",
         "number": 52,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Glimpse of Winter",
         "number": 96,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Forged in Duty",
         "number": 135,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Learned Ascetic",
         "number": 171,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Raider's Huntmaster",
         "number": 26,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Horrific Reclamation",
         "number": 55,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Grove Sentinel",
         "number": 98,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Jarlorn's Blessed",
         "number": 138,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Rimefield's Blessing",
         "number": 180,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Risen Greatwyrm",
         "number": 28,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Iceshelf Crasher",
         "number": 57,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Horrific Priest",
         "number": 101,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Lead the Avalanche",
         "number": 141,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Rotroot Hydra",
         "number": 181,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Sacred Binding",
         "number": 30,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Nurture the Lostwoods",
         "number": 64,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Moonlit Summons",
         "number": 105,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Raider's Intimidator",
         "number": 144,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Selfless Guardianship",
         "number": 182,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Snowfield Burdenbeast",
         "number": 31,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Rimefield Teachings",
         "number": 70,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Persistent Croaker",
         "number": 106,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Raider's Sabotage",
         "number": 145,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Snowslide Runner",
         "number": 185,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Snowslide",
         "number": 32,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Song of Winter",
         "number": 71,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Shadowcleave",
         "number": 107,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Smithing Instructor",
         "number": 149,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Titanic Odds",
         "number": 189,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Steppe Stampede",
         "number": 34,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Star-Herd Apprentice",
         "number": 72,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Slumbering Warden",
         "number": 108,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Star-Herd Blaze",
         "number": 152,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Trapped Trail",
         "number": 190,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Stoneskin",
         "number": 35,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Those Who Thaw",
         "number": 76,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Smithed Legacy",
         "number": 109,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Varloch Troublemaker",
         "number": 156,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Unstoppable Behemoth",
         "number": 193,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Wild Reproach",
         "number": 40,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Wandering Sprite",
         "number": 79,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Wandering Gemcrafter",
         "number": 116,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Walking Range",
         "number": 157,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Yearling Warrior",
         "number": 195,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Avalanche Charge",
         "number": 5,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Cliffwalker Adept",
         "number": 42,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Battle Brewer",
         "number": 81,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Aspirant of the Hunt",
         "number": 122,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Charting Efforts",
         "number": 160,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Fjord Raptor",
         "number": 10,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Collective Repulse",
         "number": 43,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Berserker's Will",
         "number": 82,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Blaze Scryer",
         "number": 123,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Chillbloom Spider",
         "number": 161,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Frostmoon Priestess",
         "number": 12,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Eager Geologist",
         "number": 47,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Defiant Sacrifice",
         "number": 88,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Bloodfang Wildcat",
         "number": 125,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Fungal Storyteller",
         "number": 168,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Gelid Entombing",
         "number": 13,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Fjord Thrasher",
         "number": 50,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Disturbed Orbweaver",
         "number": 90,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Call Reinforcements",
         "number": 127,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Iskari Pathleader",
         "number": 169,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Gor-narg's Leadership",
         "number": 14,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Haunt-Pass Charger",
         "number": 53,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Dread Scavenger",
         "number": 91,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Excited Artillerist",
         "number": 130,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Learn From the Cold",
         "number": 170,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Huntpack Ambush",
         "number": 20,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Hilda's Dismissal",
         "number": 54,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Foraging Raccoon",
         "number": 94,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Firmament Channeler",
         "number": 133,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Lostwoods Caretaker",
         "number": 172,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Iskari Floechanter",
         "number": 21,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Lostwoods Corruption",
         "number": 60,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Gunvald's Forerunner",
         "number": 99,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Flamespitter Wyrm",
         "number": 134,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Peak Performance",
         "number": 176,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Kindly Herder",
         "number": 22,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Omenreading",
         "number": 65,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Lethal Chill",
         "number": 103,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Huntpack Guardian",
         "number": 137,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Primal Rebuke",
         "number": 177,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Martyr's Soul",
         "number": 24,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Ranging Falcon",
         "number": 66,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Maddenned Ramblings",
         "number": 104,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Jarlorn's Fury",
         "number": 139,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Reed-Crowned Flutist",
         "number": 179,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Protective Hearthsmith",
         "number": 25,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Release From Frost",
         "number": 68,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Strait-Deep Lurker",
         "number": 111,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Kindle Runner",
         "number": 140,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Shamanic Leader",
         "number": 183,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Raider's Initiate",
         "number": 27,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Render Insignificant",
         "number": 69,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Unformed Devourer",
         "number": 113,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Raze the Halls",
         "number": 146,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Spikeback Hog",
         "number": 186,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Take up Blades",
         "number": 36,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Stormbane Strix",
         "number": 74,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Unhallowed Awakening",
         "number": 114,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Skadi's Muster",
         "number": 147,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Steadfast Ascetic",
         "number": 188,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Treetop Hunter",
         "number": 37,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Totemic Visions",
         "number": 77,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Unto Death",
         "number": 115,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Skred",
         "number": 148,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Trumpeting Rampager",
         "number": 191,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Van Helsa's Blade",
         "number": 38,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Tranquil Scryer",
         "number": 78,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Yeti Youngling",
         "number": 118,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Smith's Resolve",
         "number": 150,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Unexpected Breach",
         "number": 192,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "er"
@@ -1186,97 +1576,129 @@
         "card_name": "The Original Valkyria",
         "number": 222,
         "shape": "saga",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Rind, Head Priestess",
         "number": 225,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Steinar, Molten Will",
         "number": 232,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Jarlorn, Storm-Roar",
         "number": 215,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Hodur, Varloch Elder",
         "number": 211,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Sven, Fjord Cliffdancer",
         "number": 233,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Blizzard Bulwark",
         "number": 203,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Malignatus, Prison-Breaker",
         "number": 219,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Skadi, Fierce Protectress",
         "number": 229,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Mountainback Ox",
         "number": 220,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Flash Freeze",
         "number": 206,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Spinner of Souls",
         "number": 231,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Gunvald, Unsparing Raider",
         "number": 209,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Anaru Omenseer",
         "number": 199,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Twisted-horn Flockhand",
         "number": 235,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Hilda, the Oneiromancer",
         "number": 210,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -1285,13 +1707,17 @@
         "card_name": "Runed Headcarver",
         "number": 226,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Defiant Trapbreaker",
         "number": 204,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -1315,91 +1741,121 @@
         "card_name": "Dritta, Shadewrought",
         "number": 205,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Keiko, Travelling Trickster",
         "number": 216,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Agnar, Winter's Wrath",
         "number": 197,
         "shape": "planeswalker",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Sara Van Helsa, Nightchaser",
         "number": 227,
         "shape": "planeswalker",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Hoenir, Reclaimed Might",
         "number": 212,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Frostmoon Vindicator",
         "number": 207,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Keiko's Distraction",
         "number": 217,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Agnar's Meditation",
         "number": 198,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Arnfinn & Sif, Aerscouts",
         "number": 200,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Iceshelf Screecher",
         "number": 213,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Raider's Spirit",
         "number": 224,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Urdie, Inquisite Scholar",
         "number": 236,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Gor-Narg, Iskari Prince",
         "number": 208,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Van Helsa's Aptitude",
         "number": 237,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Slumbering Snowtoad",
         "number": 230,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -1408,19 +1864,25 @@
         "card_name": "Invoke the Stars",
         "number": 214,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Awoken Sapling",
         "number": 201,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Blazing Valkyria",
         "number": 202,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -1432,19 +1894,25 @@
         "card_name": "Lostwoods Soulherder",
         "number": 218,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Posessed Deadwood",
         "number": 223,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Varloch Flamewright",
         "number": 238,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -1468,19 +1936,25 @@
         "card_name": "Sivfrida, Life-Warden",
         "number": 228,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Tungskul, Gelid Moon",
         "number": 234,
         "shape": "modal double faced",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "One With the Aurora",
         "number": 221,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -1505,73 +1979,97 @@
         "card_name": "Intrepidity",
         "number": 1,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Temple to True Ice",
         "number": 249,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Forgesteppe Barrier",
         "number": 241,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Improvised Juggernaut",
         "number": 243,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Invoked Protector",
         "number": 244,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Blessed Workshop",
         "number": 239,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Explorers Raft",
         "number": 240,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Icicle Snare",
         "number": 242,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Iron Giant",
         "number": 245,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Iskari Totem",
         "number": 246,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Malleable Fae",
         "number": 247,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Rockspine Drake",
         "number": 248,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -1599,31 +2097,41 @@
         "card_name": "Frosted Village",
         "number": 258,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Frosted River",
         "number": 256,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Frosted Bastion",
         "number": 254,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Frosted Steppe",
         "number": 257,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Frosted Grotto",
         "number": 255,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "er"
@@ -1644,31 +2152,41 @@
         "card_name": "Glacial Floodplain",
         "number": 260,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Ice Tunnel",
         "number": 262,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Sulfurous Mire",
         "number": 267,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Highland Forest",
         "number": 261,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Arctic Treeline",
         "number": 251,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "er"
@@ -1689,31 +2207,41 @@
         "card_name": "Snowfield Sinkhole",
         "number": 265,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Volatile Fjord",
         "number": 268,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Woodland Chasm",
         "number": 269,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Alpine Meadow",
         "number": 250,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Rimewood Falls",
         "number": 264,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "er"
@@ -1734,31 +2262,41 @@
         "card_name": "Cavern of Souls",
         "number": 253,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Prismatic Chasm",
         "number": 263,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Steinar's Crucible",
         "number": 266,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Auroric Landscape",
         "number": 252,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Frostmoon Temple",
         "number": 259,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "er"
@@ -1779,37 +2317,49 @@
         "card_name": "Snow-Covered Plains",
         "number": 270,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Snow-Covered Island",
         "number": 271,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Snow-Covered Swamp",
         "number": 272,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Snow-Covered Mountain",
         "number": 273,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Snow-Covered Forest",
         "number": 274,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Snow-Covered Wastes",
         "number": 275,
         "shape": "normal",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -1840,79 +2390,105 @@
         "card_name": "Enlightened",
         "number": 1,
         "shape": "token",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Equipment",
         "number": 13,
         "shape": "token",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Goat",
         "number": 2,
         "shape": "token",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Gremlin",
         "number": 3,
         "shape": "token",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Magnus",
         "number": 4,
         "shape": "token",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Goat Spirit",
         "number": 5,
         "shape": "token",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Berserker",
         "number": 6,
         "shape": "token",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Treefolk",
         "number": 7,
         "shape": "token",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Demon",
         "number": 8,
         "shape": "token",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Aurochs",
         "number": 9,
         "shape": "token",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Dwarf Warrior",
         "number": 10,
         "shape": "token",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Shaman",
         "number": 11,
         "shape": "token",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Yeti Horror",
         "number": 12,
         "shape": "token",
-        "set": "DWA"
+        "set": "DWA",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"

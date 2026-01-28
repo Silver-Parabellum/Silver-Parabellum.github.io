@@ -1,0 +1,1870 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>URA</name>
+			<longname>Umamusume: Racer&apos;s Advent</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-01-28</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>W01-</name>
+			<text>Spirited (When this creature enters, you may activate one of its activated abilities without paying its costs.)
+{W}, {T}: Tap target creature.
+{1}{W}, {T}: Return another target permanent you control to its owner&apos;s hand.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/2_W01-.png" num="2">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>U014-</name>
+			<text>Choose target creature. Until your next turn, it becomes a copy of another target creature, except it&apos;s not legendary.
+Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/31_U014-.png" num="31">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>B02-</name>
+			<text>Menace
+Whenever you gain life for the first time each turn, put a +1/+1 counter on B02-, then if its power is 4 or greater, it accelerates (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+{V} — Whenever B02- dies, each opponent loses life equal to its power.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/35_B02-.png" num="35">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>R03-</name>
+			<text>Haste
+Other Horses you control get +1/+1 and have haste.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/52_R03-.png" num="52">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>G011- Wildheart Charger</name>
+			<text>This spell costs {X} less to cast, where X is the total power of creatures you control.
+Trample
+{2}{G}, Reveal G011- Wildheart Charger from your hand: Double target creature&apos;s power and toughness until end of turn. Shuffle G011- Wildheart Charger into your library.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/76_G011- Wildheart Charger.png" num="76">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>6G</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>C02 Hishi Akebono, Supersize Umamusume</name>
+			<text>Protection from mana value 3 or less.
+Whenever C02 Hishi Akebono, Supersize Umamusume enters or attacks, each opponent sacrifices three permanents.
+When C02 Hishi Akebono, Supersize Umamusume is put into a graveyard from anywhere, its owner shuffles their graveyard into their library.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/1_C02 Hishi Akebono, Supersize Umamusume.png" num="1">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse Giant</type>
+				<maintype>Creature</maintype>
+				<manacost>14</manacost>
+				<cmc>14</cmc>
+				<pt>14/14</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>L02- Tracen Academy</name>
+			<text>{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast Horse spells or activate abilities of Horse permanents you control.
+{3}, {T}, Sacrifice L02- Tracen Academy: Return target Horse card from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/88_L02- Tracen Academy.png" num="88">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>M01- Mihono Bourbon, Incline Invicta</name>
+			<text>Whenever you cast an artifact spell, you gain 1 life and draw a card. Then if you control three or more artifacts, M01- Mihono Bourbon, Incline Invicta accelerates. (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+{V} — M01- Mihono Bourbon, Incline Invicta gets +1/+1 for each artifact you control.</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/95_M01- Mihono Bourbon, Incline Invicta.png" num="95">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse Cyborg</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>M02- Agnes Tachyon, Faster than Light</name>
+			<text>Deathtouch
+Whenever you cast your first noncreature spell each turn, look at the top card of each player&apos;s library and exile one of them. You may play that card for as long as it remains exiled, and may spend mana as though it were mana of any color to cast it.</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/96_M02- Agnes Tachyon, Faster than Light.png" num="96">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse Scientist</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>M03- Gentildonna, Regina dei Fiori</name>
+			<text>Whenever you cast a spell, if you paid life, discarded a card or sacrificed a permanent to cast it, each opponent loses 3 life unless they discard a card or sacrifice a nonland permanent.</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/97_M03- Gentildonna, Regina dei Fiori.png" num="97">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>M04- Inari One, Yukari Edomurasaki</name>
+			<text>Trample
+Whenever a land you control enters, creatures you control get +1/+0 and gain haste until end of turn.</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/98_M04- Inari One, Yukari Edomurasaki.png" num="98">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>M05- Oguri Cap, Starlight Beat</name>
+			<text>At the beginning of combat on your turn, create a tapped food token. (It&apos;s an artifact with &quot;{2}, {T}, Sacrifice this artifact: You gain 3 life.&quot;)
+Whenever you gain life, M05- Oguri Cap, Starlight Beat gets +X/+X until end of turn, where X is the amount of life you gained.</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/99_M05- Oguri Cap, Starlight Beat.png" num="99">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>M06- Narita Brian, Maverick</name>
+			<text>Deathtouch, lifelink
+Whenever a creature you control attacks alone, it gets +X/+X until end of turn, where X is the number of card types among permanents you control and cards in your graveyard.</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/100_M06- Narita Brian, Maverick.png" num="100">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>M07- Nice Nature, Supporting Star</name>
+			<text>At the beginning of your upkeep, each player mills a card. Then if a player has seven or more cards in their graveyard, M07- Nice Nature, Supporting Star accelerates. (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+{V} — Whenever M07- Nice Nature, Supporting Star accelerates, put target permanent card from a graveyard onto the battlefield under your control.</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/101_M07- Nice Nature, Supporting Star.png" num="101">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>M08- Zenno Rob Roy, Heroic Author</name>
+			<text>Whenever a nontoken creature you control enters, create a token that&apos;s a copy of it if you control another creature with equal power, toughness or mana value to that creature.</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/102_M08- Zenno Rob Roy, Heroic Author.png" num="102">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>M09- Neo Universe, Universe-Naut</name>
+			<text>Prowess
+Whenever you attack, each instant and sorcery card in your graveyard with mana value equal to an attacking creature&apos;s power gains jump-start until end of turn. (You may cast it from your graveyard by discarding a card in addition to paying its other costs. Then exile that card.)</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/103_M09- Neo Universe, Universe-Naut.png" num="103">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>M010- Kitasan Black, Crowning Ooban</name>
+			<text>Double strike
+Whenever a creature you control with one or more counters on it dies, exile the top card of your library. You may play that card this turn. A spell cast this way costs {1} less to cast for each counter that creature had.</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/104_M010- Kitasan Black, Crowning Ooban.png" num="104">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>M011- Agnes Digital</name>
+			<text>You may look at the top card of your library any time.
+You may cast Horse spells from the top of your library.
+Horse spells you cast cost {W}{U}{B}{R}{G} less to cast. This reduces only the amount of colored mana you pay.</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/105_M011- Agnes Digital.png" num="105">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>WUBRG</manacost>
+				<cmc>5</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/90_Plains.png" num="90">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/91_Island.png" num="91">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/92_Swamp.png" num="92">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/93_Mountain.png" num="93">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/94_Forest.png" num="94">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>C03- Signature Racewear</name>
+			<text>Whenever equipped creature attacks, create a tapped and attacking X/X green Horse Spirit creature token with trample, where X is its power. Sacrifice it at the beginning of the next end step.
+Equip {3}
+Equip legendary Horse {1}</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/83_C03- Signature Racewear.png" num="83">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>C04- Coveted Trophy</name>
+			<text>Creatures you control get +1/+0.
+At the beginning of your end step, you may draw a card.
+Whenever one or more creatures deal combat damage to you, their controller gains control of C04- Coveted Trophy.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/84_C04- Coveted Trophy.png" num="84">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>C05- Unpredictable Jukebox</name>
+			<text>Spirited (When this artifact enters, you may activate one of its activated abilities without paying its costs.)
+{T}: Add one mana of any color.
+{T}, Discard a card: Draw a card.
+{T}: You gain 2 life.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/85_C05- Unpredictable Jukebox.png" num="85">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>C06- Treasured Carrot</name>
+			<text>When C06- Treasured Carrot enters, you draw a card.
+{T}, Sacrifice C06- Treasured Carrot: Add one mana of any color.
+{2}, {T}, Sacrifice C06- Treasured Carrot: You gain 3 life. If you control a Horse, you gain an additional 3 life.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/86_C06- Treasured Carrot.png" num="86">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Food Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>C01- Automotive Assistant</name>
+			<text>As C01- Automotive Assistant enters, choose a color.
+Creatures you control of the chosen color get +1/+0.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/82_C01- Automotive Assistant.png" num="82">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Horse Robot</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>L03- Racer&apos;s Proving Grounds</name>
+			<text>Whenever one or more creatures you control attack, put a running counter on L03- Racer&apos;s Proving Grounds.
+{T}: Add {C}.
+{T}, Remove X running counters from L03- Racer&apos;s Proving Grounds: Add X mana of any one color.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/89_L03- Racer&apos;s Proving Grounds.png" num="89">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>L01- Starting Gate</name>
+			<text>As L01- Starting Gate enters, choose a color.
+L01- Starting Gate enters tapped. When it does, scry 1. If it&apos;s your first turn of the game, you may untap L01- Starting Gate instead.
+{T}: Add one mana of the chosen color.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/87_L01- Starting Gate.png" num="87">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>W010- Crested Sunmare</name>
+			<text>Other Horses you control have indestructible.
+At the beginning of each end step, if you gained life this turn, create a 5/5 white Horse creature token.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/11_W010- Crested Sunmare.png" num="11">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>W09-</name>
+			<text>Horsemanship, lifelink
+If one or more counters would be put on a creature you control, you may instead put a +1/+1 counter on each creature you control.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/10_W09-.png" num="10">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>W08- Super Creek, Speedy Stayer</name>
+			<text>At the beginning of each end step, if you&apos;ve gained life this turn, return up to one target permanent card from your graveyard to the battlefield if its mana value is less than or equal to the amount of life you&apos;ve gained this turn.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/9_W08- Super Creek, Speedy Stayer.png" num="9">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>W07-</name>
+			<text>Vigilance
+When W07- enters, put a +1/+1 counter on target creature you control.
+If a creature you control with one or more counters on it would be dealt damage, prevent that damage and remove a counter from it.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/8_W07-.png" num="8">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>W06-</name>
+			<text>Other creatures you control get +1/+1.
+Tokens you control enter as copies of W06-.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/7_W06-.png" num="7">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>W03-</name>
+			<text>Other horses you control get +1/+1.
+Whenever another nontoken Horse you control enters, create a 1/1 green Horse creature token. This ability triggers only once each turn.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/4_W03-.png" num="4">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>W02-</name>
+			<text>Whenever another creature you control enters, you gain 1 life. Then if you have 25 or more life, W02- accelerates. (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+{V} — W02- gets +3/+3 and has horsemanship and vigilance.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/3_W02-.png" num="3">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>W04-</name>
+			<text>First strike
+When W04- enters, look at an opponent&apos;s hand, then choose a noncreature card name.
+Spells with the chosen name cost {2} more to cast.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/5_W04-.png" num="5">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>WIP Hard-Trying Haru Urara</name>
+			<text>At the beginning of your upkeep, if an opponent controls the creature with the greatest power, Haru Urara accelerates (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+[?]: Loyalty #1
+[-1]: {V} — You get an emblem with &quot;Creatures you control get +1/+1.&quot;
+[?]: Loyalty #3</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/17_WIP Hard-Trying Haru Urara.png" num="17">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Haru Urara</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>W015- Hopeful Failure</name>
+			<text>When W015- Hopeful Failure enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield
+If you would gain life, you gain that much life plus 1.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/16_W015- Hopeful Failure.png" num="16">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>W014- Borrowed Legacy</name>
+			<text>Return target permanent card with mana value 3 or less from your graveyard to the battlefield. If this spell wasn&apos;t cast from your hand, you may target a permanent with mana value 5 or less instead.
+Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/15_W014- Borrowed Legacy.png" num="15">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>W013- Bad Trip</name>
+			<text>Destroy target creature if it&apos;s tapped or you control a permanent with one or more counters on it.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/14_W013- Bad Trip.png" num="14">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>W012- Second Wind</name>
+			<text>Exile target nonland permanent you control, then return it to the battlefield under its owner&apos;s control.
+Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/13_W012- Second Wind.png" num="13">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>W011- Stamina Training</name>
+			<text>Enchant creature
+Enchanted creature gets +1/+1 and has vigilance.
+Whenever a creature you control accelerates, put two +1/+1 counters on enchanted creature.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/12_W011- Stamina Training.png" num="12">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>W05- Tokai Teio, Peak Joy</name>
+			<text>W05- Tokai Teio&apos;s power is equal to the number of creatures you control.
+At the beginning of combat on your turn, if you control three or more creatures, W05- Tokai Teio accelerates. (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+{V} — Whenever you attack, create a 1/1 green Horse creature token that&apos;s tapped and attacking.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/6_W05- Tokai Teio, Peak Joy.png" num="6">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>*/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>U013-</name>
+			<text>Tap target creature and put two stun counters on it. Scry 2.
+Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/30_U013-.png" num="30">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>U012-</name>
+			<text>This spell costs {X} less to cast, where X is the greatest power among creatures you control.
+Counter target spell unless its controller pays {X}.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/29_U012-.png" num="29">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XU</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>U011- Wit Training</name>
+			<text>Enchant creature
+Enchanted creature has &quot;Whenever this creature deals combat damage to a player, draw a card.&quot;
+Whenever a creature you control accelerates, enchanted creature can&apos;t be blocked this turn.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/28_U011- Wit Training.png" num="28">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>U016- Daiwa Scarlet, Miss Perfect</name>
+			<text>At the beginning of your upkeep, if you have seven or more cards in your hand, U016- Daiwa Scarlet accelerates (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+[+1]: Draw two cards, then shuffle a card from your hand into your library unless you have an opponent draw a card.
+[-2]: The owner of target creature puts it into their library third from the top or on the bottom.
+[-3]: You may cast a spell from your hand without paying its mana cost.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/33_U016- Daiwa Scarlet, Miss Perfect.png" num="33">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Daiwa Scarlet</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>U015-</name>
+			<text>Return target spell or nonland permanent to its owner&apos;s hand. If you control a permanent with mana value greater than or equal to that spell, you may cast a copy of that spell without paying its mana cost.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/32_U015-.png" num="32">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>U04-</name>
+			<text>{1}, {T}: Draw a card, then discard a card. When you discard a nonland card this way, U04- accelerates. (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+{V} — Whenever you discard a card, put a stun counter on up to one target creature.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/21_U04-.png" num="21">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Matikanefukukitaru, Fortune&apos;s Smile</name>
+			<text>As long as you&apos;ve scried this turn, you may pay {U} to cast this spell.
+Horsemanship
+Whenever you scry, you may put a card you have looked at this way into your hand.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/18_Matikanefukukitaru, Fortune&apos;s Smile.png" num="18">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>U02- [LORD]</name>
+			<text>Flash
+Other horses you control get +1/+1.
+Horse spells you cast may be cast as though they had flash.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/19_U02- [LORD].png" num="19">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>U03-</name>
+			<text>Spirited (When this creature enters, you may activate one of its activated abilities without paying its costs.)
+{1}{U}: Target player shuffles up to three cards from their graveyard into their library.
+{1}{U}: Scry 2.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/20_U03-.png" num="20">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>U06-</name>
+			<text>Whenever you scry, exile up to one target permanent you control. Return it to the battlefield under its owner&apos;s control at the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/23_U06-.png" num="23">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>U07- WIP — Accelerate Slot</name>
+			<text>Accelerates (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+{V} —</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/24_U07- WIP — Accelerate Slot.png" num="24">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>U010- Admire Vega, Starry Nocturne</name>
+			<text>Horsemanship
+Whenever you cast a Horse or noncreature spell, copy it. You may choose new targets for the copy.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/27_U010- Admire Vega, Starry Nocturne.png" num="27">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>U09-</name>
+			<text>Ward {2}
+When U09- enters, gain control of up to one target creature with mana value less than or equal to the greatest power among creatures you control for as long as you control U09-.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/26_U09-.png" num="26">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>U08-</name>
+			<text>Horsemanship, vigilance
+Whenever one or more creatures you control deal combat damage to a player or planeswalker, return up to one target instant or sorcery spell from your graveyard or that you own in exile to your hand.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/25_U08-.png" num="25">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>U05-</name>
+			<text>When U05- enters, return up to one other target nonland permanent to its owner&apos;s hand. If it had mana value 3 or less, you may have U05- become a copy of it.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/22_U05-.png" num="22">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>B01-</name>
+			<text>B01- enters tapped
+At the beginning of your end step, if you&apos;ve discarded a card this turn, return B01- from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/34_B01-.png" num="34">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>B08-Manhattan Cafe, Creeping Black</name>
+			<text>Flash
+Whenever a creature dies, look at the top card of its controller&apos;s library, then exile it face down. You may play that card for as long as it remains exiled, and mana of any type can be spent to cast that spell.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/41_B08-Manhattan Cafe, Creeping Black.png" num="41">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>B07-</name>
+			<text>Menace
+When B07- enters, each player discards a card. 
+Whenever a player discards one or more cards, you draw a card and gain 1 life.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/40_B07-.png" num="40">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>B06- Calstone Light O, One True Path</name>
+			<text>At the beginning of each combat, creatures you control gain first strike until end of turn if a creature card in your graveyard has first strike. The same is true for horsemanship, deathtouch, double strike, haste, hexproof, indestructible, lifelink, menace, reach, trample, vigilance and ward costs.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/39_B06- Calstone Light O, One True Path.png" num="39">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>B05-</name>
+			<text>Spirited (When this creature enters, you may activate one of its activated abilities without paying its costs.)
+{1}{B}, Sacrifice a permanent: Target creature gets -2/-2 until end of turn.
+{3}{B}: Return target creature card from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/38_B05-.png" num="38">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>B011- Guts Training</name>
+			<text>Enchant creature
+Enchanted creature gets +2/+1.
+Whenever a creature you control accelerates, each opponent loses 2 life. You gain that much life. (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/44_B011- Guts Training.png" num="44">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>B04-</name>
+			<text>{2}{B}{B}: Return B04- from your graveyard to the battlefield tapped with a finality counter. It accelerates (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+{V} — Each creature you control that entered from a graveyard or was cast from a graveyard gets +2/+2.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/37_B04-.png" num="37">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>B03-</name>
+			<text>Other Horses you control get +1/+1.
+Whenever a Horse you control attacks, each opponent loses 1 life and you gain 1 life.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/36_B03-.png" num="36">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>B010- Darkmoon Nightmare</name>
+			<text>Horsemanship
+Nonbasic lands are Swamps.
+B010- Darkmoon Nightmare&apos;s power and toughness are each equal to the number of Swamps on the battlefield.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/43_B010- Darkmoon Nightmare.png" num="43">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>5BB</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>B014- Perilous Overtake</name>
+			<text>This spell costs {1}{B} less to cast if it targets an attacking creature or a planeswalker that was activated this turn.
+Exile target creature or planeswalker.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/47_B014- Perilous Overtake.png" num="47">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>B016- Vodka, Extraordinary Empress</name>
+			<text>At the beginning of your upkeep, if a player has one or less cards in their hand, B016- Vodka accelerates (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+[+1]: Target player discards a card. If they can&apos;t, they lose 3 life.
+[-2]: Target creature gets -X/-X until end of turn, where X is 7 minus the number of cards in its controller&apos;s hand.
+[-3]: {V} — Put target permanent card from a graveyard onto the battlefield under your control.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/49_B016- Vodka, Extraordinary Empress.png" num="49">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Vodka</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>B013-</name>
+			<text>Target player sacrifices a creature or planeswalker.
+Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/46_B013-.png" num="46">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>B012-</name>
+			<text>Choose a nonland card name. Target player reveals their hand and discards all cards with that name.
+Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/45_B012-.png" num="45">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>B09-</name>
+			<text>Deathtouch, lifelink
+If you would draw a card, you may instead return a creature card from your graveyard to the battlefield with a finality counter.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/42_B09-.png" num="42">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>B015- Return, the Fallen</name>
+			<text>This spell costs {3} less to cast if it targets a creature put there from the battlefield this turn.
+Return target creature card from your graveyard to the battlefield tapped.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/48_B015- Return, the Fallen.png" num="48">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>R04- Twin Turbo, Blast Mode!</name>
+			<text>Haste, horsemanship (This creature can&apos;t be blocked except by creatures with horsemanship.)
+Whenever you discard a card, R04- Twin Turbo, Blast Mode! gets +2/+0 until end of turn.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/53_R04- Twin Turbo, Blast Mode!.png" num="53">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>R05-</name>
+			<text>Whenever an opponent activates an ability that isn&apos;t a mana ability, R05- deals 1 damage to them, then if that player has 10 or less life, it accelerates (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+{V} — If a source you control would deal damage to a permanent or player, it deals double that damage instead.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/54_R05-.png" num="54">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>R08-</name>
+			<text>Menace
+Whenever a creature or planeswalker you control is dealt damage, R08- deals that much damage to any other target.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/57_R08-.png" num="57">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>R01-</name>
+			<text>Haste
+At the beginning of your end step, return R01- to its owner&apos;s hand.
+{1}{R}, Discard R01-: It deals 2 damage to any target.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/50_R01-.png" num="50">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>R07- Mayano Top Gun, Scramble ☆ Zone</name>
+			<text>Whenever you discard a card, exile it. You may play it until the end of your next turn. If this is the second time this ability has resolved this turn, R07- Mayano Top Gun accelerates. (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+{V} — Spells you cast from anywhere other than you hand cost {2} less to cast.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/56_R07- Mayano Top Gun, Scramble ☆ Zone.png" num="56">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>R06-</name>
+			<text>Double strike
+Whenever one or more cards leave your graveyard, put a +1/+1 counter on R06- unless an opponent has it deal 3 damage to them.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/55_R06-.png" num="55">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse Samurai</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>R09-</name>
+			<text>Spirited (When this creature enters, you may activate one of its activated abilities without paying its costs.)
+{2}{R}: Target creature gains double strike until end of turn.
+{2}{R}{R}: Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/58_R09-.png" num="58">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>R012-</name>
+			<text>Discard up to two cards, then draw a card for each card you have discarded this turn.
+Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/61_R012-.png" num="61">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>R011- Speed Training</name>
+			<text>Enchant creature
+Enchanted creature gets +1/+1 and has haste.
+Whenever R011- Speed Training enters or a creature you control accelerates, up to one target creature can&apos;t block this turn. (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/60_R011- Speed Training.png" num="60">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>R010- (reanim target)</name>
+			<text>Whenever R010- (reanim target) attacks or you cycle it, create a token that&apos;s a copy of another target creature you control, except it has haste and enters tapped and attacking if R010- (reanim target) is attacking. Exile it at the beginning of the next end step.
+Cycling {3}{R}</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/59_R010- (reanim target).png" num="59">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>5RR</manacost>
+				<cmc>7</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>7/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>R013- Full Tilt</name>
+			<text>R013- Full Tilt deals 3 damage to target creature or planeswalker. If you control an accelerated creature, it deals 71 damage instead. (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/62_R013- Full Tilt.png" num="62">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>R014- Celebrational Overdrive</name>
+			<text>R014- Celebrational Overdrive deals 5 damage to any target.
+Whenever you cast an instant or sorcery spell, if R014- Celebrational Overdrive is in your graveyard, you may shuffle R014- Celebrational Overdrive and that spell into your library as it resolves.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/63_R014- Celebrational Overdrive.png" num="63">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>R015- Take the Stage</name>
+			<text>Shuffle your library, then reveal cards from the top of it until you reveal a nonland permanent card. Exile that card, then shuffle. You may cast the exiled card without paying its mana cost.
+Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/64_R015- Take the Stage.png" num="64">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>R016- Sakura Bakushin O, Bakushin King</name>
+			<text>At the beginning of your upkeep, if you control three or more creatures with haste, R016- Sakura Bakushin O accelerates (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+[+2]: Add {R}{R}. If this mana is spent to cast a creature spell, it gains haste.
+[0]: Create a 1/1 red Horse creature token with haste.
+[-2]: {V} — Untap all creatures you control. After this phase, there is an additional combat phase followed by an additional main phase.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/65_R016- Sakura Bakushin O, Bakushin King.png" num="65">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Bakushin O</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>R02-</name>
+			<text>{T}: Add {R}.
+{T}: Target creature you control gains trample and haste until end of turn. If it&apos;s a Horse, it also gets +1/+0 until end of turn.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/51_R02-.png" num="51">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>G02- Champion of the Track</name>
+			<text>Horsemanship (This creature can&apos;t be blocked except by creatures with horsemanship.)
+Whenever another Horse you control enters, put a +1/+1 counter on G02- Champion of the Track.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/67_G02- Champion of the Track.png" num="67">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>G06- [Grave hate]</name>
+			<text>{G}: Exile target card from a graveyard. You gain 1 life and scry 1. Then if there are four or more types among cards exiled with 
+G06- [Grave hate], it accelerates. (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+{V} — G06- [Grave hate] gets +X/+X, where X is the number of card types among cards exiled with it.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/71_G06- [Grave hate].png" num="71">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>G03- [LORD]</name>
+			<text>Other Horses you control get +1/+1.
+Whenever a Horse or Horse spell you control becomes the target of a spell or ability an opponent controls for the first time each turn, draw a card.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/68_G03- [LORD].png" num="68">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse Flagbearer</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>G04- El Condor Pasa, Phantom Bird</name>
+			<text>When G04- El Condor Pasa, Phantom Bird enters, target Horse you control fights up to one other target creature.
+Whenever a creature you control is dealt damage, put a +1/+1 counter on it. (It must survive.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/69_G04- El Condor Pasa, Phantom Bird.png" num="69">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>G05- [Recursion Stick]</name>
+			<text>When G05- [Recursion Stick] enters, choose one — 
+• Return target permanent card from your graveyard to your hand.
+• Destroy target noncreature, nonland permanent.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/70_G05- [Recursion Stick].png" num="70">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>G07-</name>
+			<text>{G}, {T}: When a creature with power 4 or greater next enters under your control this turn, create a token that&apos;s a copy of it.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/72_G07-.png" num="72">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>G09- [Value Body]</name>
+			<text>Spirited (When this creature enters, you may activate one of its activated abilities without paying its costs.)
+{3}{G}{G}: Create two 1/1 green Horse creature tokens.
+{4}{G}{G}: Put a +1/+1 counter on each creature you control.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/74_G09- [Value Body].png" num="74">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>G08- Special Week, Special Dreamer</name>
+			<text>At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. Then if you control three or more permanents with counters on them, G08- Special Week, Special Dreamer accelerates. (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+{V} — Whenever one or more counters are put on a permanent you control, draw a card.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/73_G08- Special Week, Special Dreamer.png" num="73">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary creature — Horse</type>
+				<maintype>creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>G010-</name>
+			<text>When G010- enters, put two +1/+1 counters on target creature you control. Then search your library for a creature card with mana value X or less, where X is the number of creatures you control with counters on them. Put that card onto the battlefield, then shuffle.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/75_G010-.png" num="75">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gold Ship, Unpredictable</name>
+			<text>At the beginning of your upkeep, roll a d4. If the result is 1, Gold Ship Accelerates (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)
+[+2]: Reveal the top three cards of your library. You may put up to one creature and/or land card from among the revealed cards into your hand, then shuffle.
+[0]: {V} — Until end of turn, Gold Ship becomes a 4/4 Horse creature with indestructible. Prevent all damage that would be dealt to her this turn.
+[-X]: Create an X/X green Horse Spirit creature token with trample.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/81_Gold Ship, Unpredictable.png" num="81">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Gold Ship</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>G013- Survey the Track</name>
+			<text>Put target card from your graveyard on top of your library. If this spell wasn&apos;t cast from your hand, you may return that card to your hand instead.
+Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/78_G013- Survey the Track.png" num="78">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>G015- Trained Perseverance</name>
+			<text>Choose one — 
+• Create a 2/2 green Horse creature token.
+• Create an X/X green Horse Spirit creature token with trample, where X is the greatest power among creatures you control.
+Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/80_G015- Trained Perseverance.png" num="80">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>G014- Victory Kick</name>
+			<text>Target creature you control deals damage equal to its power to target creature you don&apos;t control. At the beginning of your next end step, draw a card if a creature you control dealt combat damage to an opponent this turn.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/79_G014- Victory Kick.png" num="79">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>G01- Mysterious Assisstant</name>
+			<text>When G01- Mysterious Assisstant enters, choose a creature type. It gains that type.
+{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast a spell of the chosen type or activate an ability of a source of the chosen type.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/66_G01- Mysterious Assisstant.png" num="66">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>G012- Strength Training</name>
+			<text>Enchant creature
+Enchanted creature gets +2/+0 and has trample.
+Whenever a creature you control accelerates, you may return G012- Strength Training from your graveyard to the battlefield attached to that creature. (If it hasn&apos;t accelerated yet, it gains it&apos;s {V} ability.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/URA-files/img/77_G012- Strength Training.png" num="77">URA</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

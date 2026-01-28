@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/RSD-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/RSD-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>RSD visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
 		@font-face {
 			font-family: Beleren;
-			src: url('/resources/beleren.ttf');
+			src: url('../resources/beleren.ttf');
 		}
 		body {
 			font-family: Arial, sans-serif;
@@ -39,19 +42,21 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -62,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -82,6 +87,7 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
@@ -102,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -118,7 +125,7 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -126,12 +133,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -173,167 +181,183 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/RSD-files/logo.png" />
-	<img class="preload-hidden" src="/sets/DWA-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MSY-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ONI-files/icon.png" />
-		<img class="preload-hidden" src="/sets/RSD-files/icon.png" />
-		<img class="preload-hidden" src="/sets/URA-files/icon.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/RSD-files/logo.png" />
+	<img class="preload-hidden" src="../sets/DWA-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MSY-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ONI-files/icon.png" />
+		<img class="preload-hidden" src="../sets/RSD-files/icon.png" />
+		<img class="preload-hidden" src="../sets/URA-files/icon.png" />
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
-		<a class="set-bar" href="RSD"><img src="/sets/RSD-files/icon.png">Risemara: Second Dawn</a>
+		<a class="set-bar" href="../previews/RSD"><img src="../sets/RSD-files/icon.png">Risemara: Second Dawn</a>
 	
-		<a class="set-bar inactive" href="DWA"><img src="/sets/DWA-files/icon.png">Drauholm: Winter’s Approach</a>
+		<a class="set-bar inactive" href="../previews/DWA"><img src="../sets/DWA-files/icon.png">Drauholm: Winter’s Approach</a>
 	
-		<a class="set-bar inactive" href="MSY"><img src="/sets/MSY-files/icon.png">MSEM Mystery Community Slots</a>
+		<a class="set-bar inactive" href="../previews/MSY"><img src="../sets/MSY-files/icon.png">MSEM Mystery Community Slots</a>
 	
-		<a class="set-bar inactive" href="ONI"><img src="/sets/ONI-files/icon.png">Onigaiko: Future Past</a>
+		<a class="set-bar inactive" href="../previews/ONI"><img src="../sets/ONI-files/icon.png">Onigaiko: Future Past</a>
 	
-		<a class="set-bar inactive" href="URA"><img src="/sets/URA-files/icon.png">Umamusume: Racer’s Advent</a>
+		<a class="set-bar inactive" href="../previews/URA"><img src="../sets/URA-files/icon.png">Umamusume: Racer’s Advent</a>
 	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/RSD-files/logo.png">
+		<img class="logo" src="../sets/RSD-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\RSD-files\img\1_CW01 Guild Aspirant.png" id="1_CW01 Guild Aspirant" data-flag="@X" onclick="openSidebar('1_CW01 Guild Aspirant',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\15_CU01 Disarming Mimic.png" id="15_CU01 Disarming Mimic" data-flag="@X" onclick="openSidebar('15_CU01 Disarming Mimic',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\29_CB01 Spark Hunter's Hire.png" id="29_CB01 Spark Hunters Hire" data-flag="@X" onclick="openSidebar('29_CB01 Spark Hunters Hire',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\43_CR01 Wildbond Hunter.png" id="43_CR01 Wildbond Hunter" data-flag="@X" onclick="openSidebar('43_CR01 Wildbond Hunter',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\57_CG01 Venturing Goblin.png" id="57_CG01 Venturing Goblin" data-flag="@X" onclick="openSidebar('57_CG01 Venturing Goblin',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\2_CW02 Sanctum Sureshot.png" id="2_CW02 Sanctum Sureshot" data-flag="@X" onclick="openSidebar('2_CW02 Sanctum Sureshot',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\16_CU02 [NAME] Ambusher.png" id="16_CU02 [NAME] Ambusher" data-flag="@X" onclick="openSidebar('16_CU02 [NAME] Ambusher',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\30_CB02 Callous Huntress.png" id="30_CB02 Callous Huntress" data-flag="@X" onclick="openSidebar('30_CB02 Callous Huntress',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\44_CR02 Chakram Pitcher.png" id="44_CR02 Chakram Pitcher" data-flag="@X" onclick="openSidebar('44_CR02 Chakram Pitcher',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\58_CG02 Blast-Fist Brawler.png" id="58_CG02 Blast-Fist Brawler" data-flag="@X" onclick="openSidebar('58_CG02 Blast-Fist Brawler',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\3_CW03 Snowsteppe Adventurer.png" id="3_CW03 Snowsteppe Adventurer" data-flag="@X" onclick="openSidebar('3_CW03 Snowsteppe Adventurer',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\17_CU03 Battlefield Specialist.png" id="17_CU03 Battlefield Specialist" data-flag="@X" onclick="openSidebar('17_CU03 Battlefield Specialist',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\31_CB03 Farsight Familiar.png" id="31_CB03 Farsight Familiar" data-flag="@X" onclick="openSidebar('31_CB03 Farsight Familiar',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\45_CR03 Hemogoblins.png" id="45_CR03 Hemogoblins" data-flag="@X" onclick="openSidebar('45_CR03 Hemogoblins',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\59_CG03 Primeval Muse.png" id="59_CG03 Primeval Muse" data-flag="@X" onclick="openSidebar('59_CG03 Primeval Muse',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\4_CW04 Guild Courser.png" id="4_CW04 Guild Courser" data-flag="@X" onclick="openSidebar('4_CW04 Guild Courser',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\18_CU04 Beginner's Bane.png" id="18_CU04 Beginners Bane" data-flag="@X" onclick="openSidebar('18_CU04 Beginners Bane',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\32_CB04 Miasmic Stag.png" id="32_CB04 Miasmic Stag" data-flag="@X" onclick="openSidebar('32_CB04 Miasmic Stag',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\46_CR04 Wild-Ways Huntress.png" id="46_CR04 Wild-Ways Huntress" data-flag="@X" onclick="openSidebar('46_CR04 Wild-Ways Huntress',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\60_CG04 Rumbling Gladewalker.png" id="60_CG04 Rumbling Gladewalker" data-flag="@X" onclick="openSidebar('60_CG04 Rumbling Gladewalker',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\5_CW05 Armament Appraiser.png" id="5_CW05 Armament Appraiser" data-flag="@X" onclick="openSidebar('5_CW05 Armament Appraiser',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\19_CU05 Forgesmith's Eye.png" id="19_CU05 Forgesmiths Eye" data-flag="@X" onclick="openSidebar('19_CU05 Forgesmiths Eye',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\33_CB05 [NAME] Consultant.png" id="33_CB05 [NAME] Consultant" data-flag="@X" onclick="openSidebar('33_CB05 [NAME] Consultant',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\47_CR05 Wild-Ways Ritualist.png" id="47_CR05 Wild-Ways Ritualist" data-flag="@X" onclick="openSidebar('47_CR05 Wild-Ways Ritualist',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\61_CG05 Wild-Ways Ranger.png" id="61_CG05 Wild-Ways Ranger" data-flag="@X" onclick="openSidebar('61_CG05 Wild-Ways Ranger',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\6_CW06 Highland Shepherd.png" id="6_CW06 Highland Shepherd" data-flag="@X" onclick="openSidebar('6_CW06 Highland Shepherd',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\20_CU06 Soulblast Arcanist.png" id="20_CU06 Soulblast Arcanist" data-flag="@X" onclick="openSidebar('20_CU06 Soulblast Arcanist',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\34_CB06 Dreadsmith.png" id="34_CB06 Dreadsmith" data-flag="@X" onclick="openSidebar('34_CB06 Dreadsmith',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\48_CR06 Lotusfire Dancer.png" id="48_CR06 Lotusfire Dancer" data-flag="@X" onclick="openSidebar('48_CR06 Lotusfire Dancer',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\62_CG06 Wild-Ways Courser.png" id="62_CG06 Wild-Ways Courser" data-flag="@X" onclick="openSidebar('62_CG06 Wild-Ways Courser',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\7_CW07 Nimbus Drake.png" id="7_CW07 Nimbus Drake" data-flag="@X" onclick="openSidebar('7_CW07 Nimbus Drake',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\21_CU07 Frolicking Yearling.png" id="21_CU07 Frolicking Yearling" data-flag="@X" onclick="openSidebar('21_CU07 Frolicking Yearling',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\35_CB07 Dashing Heavyshot.png" id="35_CB07 Dashing Heavyshot" data-flag="@X" onclick="openSidebar('35_CB07 Dashing Heavyshot',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\49_CR07 Dragonflame Paladin.png" id="49_CR07 Dragonflame Paladin" data-flag="@X" onclick="openSidebar('49_CR07 Dragonflame Paladin',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\63_CG07 Steeleater Flora.png" id="63_CG07 Steeleater Flora" data-flag="@X" onclick="openSidebar('63_CG07 Steeleater Flora',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\8_CW08 [NAME] Militia.png" id="8_CW08 [NAME] Militia" data-flag="@X" onclick="openSidebar('8_CW08 [NAME] Militia',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\22_CU08 [NAME] Apex.png" id="22_CU08 [NAME] Apex" data-flag="@X" onclick="openSidebar('22_CU08 [NAME] Apex',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\36_CB08 Darktouched Devourer.png" id="36_CB08 Darktouched Devourer" data-flag="@X" onclick="openSidebar('36_CB08 Darktouched Devourer',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\50_CR08 Molten Cragstomper.png" id="50_CR08 Molten Cragstomper" data-flag="@X" onclick="openSidebar('50_CR08 Molten Cragstomper',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\64_CG08 Hollowmire Veteran.png" id="64_CG08 Hollowmire Veteran" data-flag="@X" onclick="openSidebar('64_CG08 Hollowmire Veteran',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\9_CW09 Hired Gun.png" id="9_CW09 Hired Gun" data-flag="@X" onclick="openSidebar('9_CW09 Hired Gun',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\23_CU09 Trainee's Tome.png" id="23_CU09 Trainees Tome" data-flag="@X" onclick="openSidebar('23_CU09 Trainees Tome',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\37_CB09 Poisoned Rounds.png" id="37_CB09 Poisoned Rounds" data-flag="@X" onclick="openSidebar('37_CB09 Poisoned Rounds',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\51_CR09 Take the Shot.png" id="51_CR09 Take the Shot" data-flag="@X" onclick="openSidebar('51_CR09 Take the Shot',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\65_CG09 Hinterwoods Sage.png" id="65_CG09 Hinterwoods Sage" data-flag="@X" onclick="openSidebar('65_CG09 Hinterwoods Sage',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\10_CW10 Rapid Reload.png" id="10_CW10 Rapid Reload" data-flag="@X" onclick="openSidebar('10_CW10 Rapid Reload',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\24_CU10 Precise Denial.png" id="24_CU10 Precise Denial" data-flag="@X" onclick="openSidebar('24_CU10 Precise Denial',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\38_CB10 Crystal-Carved Blade.png" id="38_CB10 Crystal-Carved Blade" data-flag="@X" onclick="openSidebar('38_CB10 Crystal-Carved Blade',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\52_CR10 Flametouch Gauntlet.png" id="52_CR10 Flametouch Gauntlet" data-flag="@X" onclick="openSidebar('52_CR10 Flametouch Gauntlet',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\66_CG10 Gathering Pan.png" id="66_CG10 Gathering Pan" data-flag="@X" onclick="openSidebar('66_CG10 Gathering Pan',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\11_CW11 Fettered Decree.png" id="11_CW11 Fettered Decree" data-flag="@X" onclick="openSidebar('11_CW11 Fettered Decree',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\25_CU11 Posessed Wingspan.png" id="25_CU11 Posessed Wingspan" data-flag="@X" onclick="openSidebar('25_CU11 Posessed Wingspan',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\39_CB11 Corrupted Oath.png" id="39_CB11 Corrupted Oath" data-flag="@X" onclick="openSidebar('39_CB11 Corrupted Oath',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\53_CR11 Guns Blazing.png" id="53_CR11 Guns Blazing" data-flag="@X" onclick="openSidebar('53_CR11 Guns Blazing',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\67_CG11 Canopy Prowling.png" id="67_CG11 Canopy Prowling" data-flag="@X" onclick="openSidebar('67_CG11 Canopy Prowling',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\12_CW12 Lightsear Barrage.png" id="12_CW12 Lightsear Barrage" data-flag="@X" onclick="openSidebar('12_CW12 Lightsear Barrage',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\26_CU12 Strip Identity.png" id="26_CU12 Strip Identity" data-flag="@X" onclick="openSidebar('26_CU12 Strip Identity',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\40_CB12 Extract Determination.png" id="40_CB12 Extract Determination" data-flag="@X" onclick="openSidebar('40_CB12 Extract Determination',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\54_CR12 Lightning Spear.png" id="54_CR12 Lightning Spear" data-flag="@X" onclick="openSidebar('54_CR12 Lightning Spear',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\68_CG12 Clear Shot.png" id="68_CG12 Clear Shot" data-flag="@X" onclick="openSidebar('68_CG12 Clear Shot',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\13_CW13 Blessed Bow.png" id="13_CW13 Blessed Bow" data-flag="@X" onclick="openSidebar('13_CW13 Blessed Bow',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\27_CU13 Bounty Collection.png" id="27_CU13 Bounty Collection" data-flag="@X" onclick="openSidebar('27_CU13 Bounty Collection',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\41_CB13 Take by Surprise.png" id="41_CB13 Take by Surprise" data-flag="@X" onclick="openSidebar('41_CB13 Take by Surprise',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\55_CR13 Provoke Conflict.png" id="55_CR13 Provoke Conflict" data-flag="@X" onclick="openSidebar('55_CR13 Provoke Conflict',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\69_CG13 Armament Rejection.png" id="69_CG13 Armament Rejection" data-flag="@X" onclick="openSidebar('69_CG13 Armament Rejection',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\14_CW14 Reach for the Divine.png" id="14_CW14 Reach for the Divine" data-flag="@X" onclick="openSidebar('14_CW14 Reach for the Divine',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\28_CU14 Decree of Dissolution.png" id="28_CU14 Decree of Dissolution" data-flag="@X" onclick="openSidebar('28_CU14 Decree of Dissolution',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\42_CB14 Back for More.png" id="42_CB14 Back for More" data-flag="@X" onclick="openSidebar('42_CB14 Back for More',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\56_CR14 Erupting Roar.png" id="56_CR14 Erupting Roar" data-flag="@X" onclick="openSidebar('56_CR14 Erupting Roar',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\70_CG14 Titanhunter Arms.png" id="70_CG14 Titanhunter Arms" data-flag="@X" onclick="openSidebar('70_CG14 Titanhunter Arms',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\RSD-files\img\1_CW01 Guild Aspirant.png" id="RSD_1_CW01 Guild Aspirant" data-flag="@X" onclick="openSidebar('RSD_1_CW01 Guild Aspirant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\15_CU01 Disarming Mimic.png" id="RSD_15_CU01 Disarming Mimic" data-flag="@X" onclick="openSidebar('RSD_15_CU01 Disarming Mimic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\29_CB01 Spark Hunter's Hire.png" id="RSD_29_CB01 Spark Hunters Hire" data-flag="@X" onclick="openSidebar('RSD_29_CB01 Spark Hunters Hire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\43_CR01 Wildbond Hunter.png" id="RSD_43_CR01 Wildbond Hunter" data-flag="@X" onclick="openSidebar('RSD_43_CR01 Wildbond Hunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\57_CG01 Venturing Goblin.png" id="RSD_57_CG01 Venturing Goblin" data-flag="@X" onclick="openSidebar('RSD_57_CG01 Venturing Goblin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\2_CW02 Sanctum Sureshot.png" id="RSD_2_CW02 Sanctum Sureshot" data-flag="@X" onclick="openSidebar('RSD_2_CW02 Sanctum Sureshot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\16_CU02 [NAME] Ambusher.png" id="RSD_16_CU02 [NAME] Ambusher" data-flag="@X" onclick="openSidebar('RSD_16_CU02 [NAME] Ambusher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\30_CB02 Callous Huntress.png" id="RSD_30_CB02 Callous Huntress" data-flag="@X" onclick="openSidebar('RSD_30_CB02 Callous Huntress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\44_CR02 Chakram Pitcher.png" id="RSD_44_CR02 Chakram Pitcher" data-flag="@X" onclick="openSidebar('RSD_44_CR02 Chakram Pitcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\58_CG02 Blast-Fist Brawler.png" id="RSD_58_CG02 Blast-Fist Brawler" data-flag="@X" onclick="openSidebar('RSD_58_CG02 Blast-Fist Brawler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\3_CW03 Snowsteppe Adventurer.png" id="RSD_3_CW03 Snowsteppe Adventurer" data-flag="@X" onclick="openSidebar('RSD_3_CW03 Snowsteppe Adventurer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\17_CU03 Battlefield Specialist.png" id="RSD_17_CU03 Battlefield Specialist" data-flag="@X" onclick="openSidebar('RSD_17_CU03 Battlefield Specialist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\31_CB03 Farsight Familiar.png" id="RSD_31_CB03 Farsight Familiar" data-flag="@X" onclick="openSidebar('RSD_31_CB03 Farsight Familiar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\45_CR03 Hemogoblins.png" id="RSD_45_CR03 Hemogoblins" data-flag="@X" onclick="openSidebar('RSD_45_CR03 Hemogoblins',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\59_CG03 Primeval Muse.png" id="RSD_59_CG03 Primeval Muse" data-flag="@X" onclick="openSidebar('RSD_59_CG03 Primeval Muse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\4_CW04 Guild Courser.png" id="RSD_4_CW04 Guild Courser" data-flag="@X" onclick="openSidebar('RSD_4_CW04 Guild Courser',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\18_CU04 Beginner's Bane.png" id="RSD_18_CU04 Beginners Bane" data-flag="@X" onclick="openSidebar('RSD_18_CU04 Beginners Bane',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\32_CB04 Miasmic Stag.png" id="RSD_32_CB04 Miasmic Stag" data-flag="@X" onclick="openSidebar('RSD_32_CB04 Miasmic Stag',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\46_CR04 Wild-Ways Huntress.png" id="RSD_46_CR04 Wild-Ways Huntress" data-flag="@X" onclick="openSidebar('RSD_46_CR04 Wild-Ways Huntress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\60_CG04 Rumbling Gladewalker.png" id="RSD_60_CG04 Rumbling Gladewalker" data-flag="@X" onclick="openSidebar('RSD_60_CG04 Rumbling Gladewalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\5_CW05 Armament Appraiser.png" id="RSD_5_CW05 Armament Appraiser" data-flag="@X" onclick="openSidebar('RSD_5_CW05 Armament Appraiser',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\19_CU05 Forgesmith's Eye.png" id="RSD_19_CU05 Forgesmiths Eye" data-flag="@X" onclick="openSidebar('RSD_19_CU05 Forgesmiths Eye',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\33_CB05 [NAME] Consultant.png" id="RSD_33_CB05 [NAME] Consultant" data-flag="@X" onclick="openSidebar('RSD_33_CB05 [NAME] Consultant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\47_CR05 Wild-Ways Ritualist.png" id="RSD_47_CR05 Wild-Ways Ritualist" data-flag="@X" onclick="openSidebar('RSD_47_CR05 Wild-Ways Ritualist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\61_CG05 Wild-Ways Ranger.png" id="RSD_61_CG05 Wild-Ways Ranger" data-flag="@X" onclick="openSidebar('RSD_61_CG05 Wild-Ways Ranger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\6_CW06 Highland Shepherd.png" id="RSD_6_CW06 Highland Shepherd" data-flag="@X" onclick="openSidebar('RSD_6_CW06 Highland Shepherd',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\20_CU06 Soulblast Arcanist.png" id="RSD_20_CU06 Soulblast Arcanist" data-flag="@X" onclick="openSidebar('RSD_20_CU06 Soulblast Arcanist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\34_CB06 Dreadsmith.png" id="RSD_34_CB06 Dreadsmith" data-flag="@X" onclick="openSidebar('RSD_34_CB06 Dreadsmith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\48_CR06 Lotusfire Dancer.png" id="RSD_48_CR06 Lotusfire Dancer" data-flag="@X" onclick="openSidebar('RSD_48_CR06 Lotusfire Dancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\62_CG06 Wild-Ways Courser.png" id="RSD_62_CG06 Wild-Ways Courser" data-flag="@X" onclick="openSidebar('RSD_62_CG06 Wild-Ways Courser',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\7_CW07 Nimbus Drake.png" id="RSD_7_CW07 Nimbus Drake" data-flag="@X" onclick="openSidebar('RSD_7_CW07 Nimbus Drake',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\21_CU07 Frolicking Yearling.png" id="RSD_21_CU07 Frolicking Yearling" data-flag="@X" onclick="openSidebar('RSD_21_CU07 Frolicking Yearling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\35_CB07 Dashing Heavyshot.png" id="RSD_35_CB07 Dashing Heavyshot" data-flag="@X" onclick="openSidebar('RSD_35_CB07 Dashing Heavyshot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\49_CR07 Dragonflame Paladin.png" id="RSD_49_CR07 Dragonflame Paladin" data-flag="@X" onclick="openSidebar('RSD_49_CR07 Dragonflame Paladin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\63_CG07 Steeleater Flora.png" id="RSD_63_CG07 Steeleater Flora" data-flag="@X" onclick="openSidebar('RSD_63_CG07 Steeleater Flora',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\8_CW08 [NAME] Militia.png" id="RSD_8_CW08 [NAME] Militia" data-flag="@X" onclick="openSidebar('RSD_8_CW08 [NAME] Militia',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\22_CU08 [NAME] Apex.png" id="RSD_22_CU08 [NAME] Apex" data-flag="@X" onclick="openSidebar('RSD_22_CU08 [NAME] Apex',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\36_CB08 Darktouched Devourer.png" id="RSD_36_CB08 Darktouched Devourer" data-flag="@X" onclick="openSidebar('RSD_36_CB08 Darktouched Devourer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\50_CR08 Molten Cragstomper.png" id="RSD_50_CR08 Molten Cragstomper" data-flag="@X" onclick="openSidebar('RSD_50_CR08 Molten Cragstomper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\64_CG08 Hollowmire Veteran.png" id="RSD_64_CG08 Hollowmire Veteran" data-flag="@X" onclick="openSidebar('RSD_64_CG08 Hollowmire Veteran',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\9_CW09 Hired Gun.png" id="RSD_9_CW09 Hired Gun" data-flag="@X" onclick="openSidebar('RSD_9_CW09 Hired Gun',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\23_CU09 Trainee's Tome.png" id="RSD_23_CU09 Trainees Tome" data-flag="@X" onclick="openSidebar('RSD_23_CU09 Trainees Tome',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\37_CB09 Poisoned Rounds.png" id="RSD_37_CB09 Poisoned Rounds" data-flag="@X" onclick="openSidebar('RSD_37_CB09 Poisoned Rounds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\51_CR09 Take the Shot.png" id="RSD_51_CR09 Take the Shot" data-flag="@X" onclick="openSidebar('RSD_51_CR09 Take the Shot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\65_CG09 Hinterwoods Sage.png" id="RSD_65_CG09 Hinterwoods Sage" data-flag="@X" onclick="openSidebar('RSD_65_CG09 Hinterwoods Sage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\10_CW10 Rapid Reload.png" id="RSD_10_CW10 Rapid Reload" data-flag="@X" onclick="openSidebar('RSD_10_CW10 Rapid Reload',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\24_CU10 Precise Denial.png" id="RSD_24_CU10 Precise Denial" data-flag="@X" onclick="openSidebar('RSD_24_CU10 Precise Denial',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\38_CB10 Crystal-Carved Blade.png" id="RSD_38_CB10 Crystal-Carved Blade" data-flag="@X" onclick="openSidebar('RSD_38_CB10 Crystal-Carved Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\52_CR10 Flametouch Gauntlet.png" id="RSD_52_CR10 Flametouch Gauntlet" data-flag="@X" onclick="openSidebar('RSD_52_CR10 Flametouch Gauntlet',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\66_CG10 Gathering Pan.png" id="RSD_66_CG10 Gathering Pan" data-flag="@X" onclick="openSidebar('RSD_66_CG10 Gathering Pan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\11_CW11 Fettered Decree.png" id="RSD_11_CW11 Fettered Decree" data-flag="@X" onclick="openSidebar('RSD_11_CW11 Fettered Decree',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\25_CU11 Posessed Wingspan.png" id="RSD_25_CU11 Posessed Wingspan" data-flag="@X" onclick="openSidebar('RSD_25_CU11 Posessed Wingspan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\39_CB11 Corrupted Oath.png" id="RSD_39_CB11 Corrupted Oath" data-flag="@X" onclick="openSidebar('RSD_39_CB11 Corrupted Oath',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\53_CR11 Guns Blazing.png" id="RSD_53_CR11 Guns Blazing" data-flag="@X" onclick="openSidebar('RSD_53_CR11 Guns Blazing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\67_CG11 Canopy Prowling.png" id="RSD_67_CG11 Canopy Prowling" data-flag="@X" onclick="openSidebar('RSD_67_CG11 Canopy Prowling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\12_CW12 Lightsear Barrage.png" id="RSD_12_CW12 Lightsear Barrage" data-flag="@X" onclick="openSidebar('RSD_12_CW12 Lightsear Barrage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\26_CU12 Strip Identity.png" id="RSD_26_CU12 Strip Identity" data-flag="@X" onclick="openSidebar('RSD_26_CU12 Strip Identity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\40_CB12 Extract Determination.png" id="RSD_40_CB12 Extract Determination" data-flag="@X" onclick="openSidebar('RSD_40_CB12 Extract Determination',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\54_CR12 Lightning Spear.png" id="RSD_54_CR12 Lightning Spear" data-flag="@X" onclick="openSidebar('RSD_54_CR12 Lightning Spear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\68_CG12 Clear Shot.png" id="RSD_68_CG12 Clear Shot" data-flag="@X" onclick="openSidebar('RSD_68_CG12 Clear Shot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\13_CW13 Blessed Bow.png" id="RSD_13_CW13 Blessed Bow" data-flag="@X" onclick="openSidebar('RSD_13_CW13 Blessed Bow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\27_CU13 Bounty Collection.png" id="RSD_27_CU13 Bounty Collection" data-flag="@X" onclick="openSidebar('RSD_27_CU13 Bounty Collection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\41_CB13 Take by Surprise.png" id="RSD_41_CB13 Take by Surprise" data-flag="@X" onclick="openSidebar('RSD_41_CB13 Take by Surprise',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\55_CR13 Provoke Conflict.png" id="RSD_55_CR13 Provoke Conflict" data-flag="@X" onclick="openSidebar('RSD_55_CR13 Provoke Conflict',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\69_CG13 Armament Rejection.png" id="RSD_69_CG13 Armament Rejection" data-flag="@X" onclick="openSidebar('RSD_69_CG13 Armament Rejection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\14_CW14 Reach for the Divine.png" id="RSD_14_CW14 Reach for the Divine" data-flag="@X" onclick="openSidebar('RSD_14_CW14 Reach for the Divine',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\28_CU14 Decree of Dissolution.png" id="RSD_28_CU14 Decree of Dissolution" data-flag="@X" onclick="openSidebar('RSD_28_CU14 Decree of Dissolution',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\42_CB14 Back for More.png" id="RSD_42_CB14 Back for More" data-flag="@X" onclick="openSidebar('RSD_42_CB14 Back for More',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\56_CR14 Erupting Roar.png" id="RSD_56_CR14 Erupting Roar" data-flag="@X" onclick="openSidebar('RSD_56_CR14 Erupting Roar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\70_CG14 Titanhunter Arms.png" id="RSD_70_CG14 Titanhunter Arms" data-flag="@X" onclick="openSidebar('RSD_70_CG14 Titanhunter Arms',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\71_CC0B Blightround Musket.png" id="71_CC0B Blightround Musket" data-flag="@X" onclick="openSidebar('71_CC0B Blightround Musket',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\72_CC0G Groveforce Sword.png" id="72_CC0G Groveforce Sword" data-flag="@X" onclick="openSidebar('72_CC0G Groveforce Sword',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\73_CC0R Twin Stilettos.png" id="73_CC0R Twin Stilettos" data-flag="@X" onclick="openSidebar('73_CC0R Twin Stilettos',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\74_CC0U Crafted Wings.png" id="74_CC0U Crafted Wings" data-flag="@X" onclick="openSidebar('74_CC0U Crafted Wings',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\75_CC0W Rousing Harp.png" id="75_CC0W Rousing Harp" data-flag="@X" onclick="openSidebar('75_CC0W Rousing Harp',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\76_CC01 Ammo Belt.png" id="76_CC01 Ammo Belt" data-flag="@X" onclick="openSidebar('76_CC01 Ammo Belt',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\77_CC02 Single-Use Explosive.png" id="77_CC02 Single-Use Explosive" data-flag="@X" onclick="openSidebar('77_CC02 Single-Use Explosive',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\78_CC03 Big-Bore Cannon.png" id="78_CC03 Big-Bore Cannon" data-flag="@X" onclick="openSidebar('78_CC03 Big-Bore Cannon',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\79_CC04 Weaponsmith's Anvil.png" id="79_CC04 Weaponsmiths Anvil" data-flag="@X" onclick="openSidebar('79_CC04 Weaponsmiths Anvil',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\80_CL01 Nimbus Maze.png" id="80_CL01 Nimbus Maze" data-flag="@X" onclick="openSidebar('80_CL01 Nimbus Maze',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\81_CL02 Foreboding Ruins.png" id="81_CL02 Foreboding Ruins" data-flag="@X" onclick="openSidebar('81_CL02 Foreboding Ruins',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\82_CL03 Ancient Battleground.png" id="82_CL03 Ancient Battleground" data-flag="@X" onclick="openSidebar('82_CL03 Ancient Battleground',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\83_CL04 Mountaintop Monument.png" id="83_CL04 Mountaintop Monument" data-flag="@X" onclick="openSidebar('83_CL04 Mountaintop Monument',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\84_CL05 Guarded Citadel.png" id="84_CL05 Guarded Citadel" data-flag="@X" onclick="openSidebar('84_CL05 Guarded Citadel',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\85_CL06 Inverted Spires.png" id="85_CL06 Inverted Spires" data-flag="@X" onclick="openSidebar('85_CL06 Inverted Spires',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\88_CL09 Skyward Port.png" id="88_CL09 Skyward Port" data-flag="@X" onclick="openSidebar('88_CL09 Skyward Port',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\86_CL07 Hollowmire Township.png" id="86_CL07 Hollowmire Township" data-flag="@X" onclick="openSidebar('86_CL07 Hollowmire Township',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\89_CL10 Sanctified Ground.png" id="89_CL10 Sanctified Ground" data-flag="@X" onclick="openSidebar('89_CL10 Sanctified Ground',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\87_CL08 Shorecarved Cliffs.png" id="87_CL08 Shorecarved Cliffs" data-flag="@X" onclick="openSidebar('87_CL08 Shorecarved Cliffs',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\RSD-files\img\90_CL11 Redeveloped Cityscape.png" id="90_CL11 Redeveloped Cityscape" data-flag="@X" onclick="openSidebar('90_CL11 Redeveloped Cityscape',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\71_CC0B Blightround Musket.png" id="RSD_71_CC0B Blightround Musket" data-flag="@X" onclick="openSidebar('RSD_71_CC0B Blightround Musket',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\72_CC0G Groveforce Sword.png" id="RSD_72_CC0G Groveforce Sword" data-flag="@X" onclick="openSidebar('RSD_72_CC0G Groveforce Sword',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\73_CC0R Twin Stilettos.png" id="RSD_73_CC0R Twin Stilettos" data-flag="@X" onclick="openSidebar('RSD_73_CC0R Twin Stilettos',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\74_CC0U Crafted Wings.png" id="RSD_74_CC0U Crafted Wings" data-flag="@X" onclick="openSidebar('RSD_74_CC0U Crafted Wings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\75_CC0W Rousing Harp.png" id="RSD_75_CC0W Rousing Harp" data-flag="@X" onclick="openSidebar('RSD_75_CC0W Rousing Harp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\76_CC01 Ammo Belt.png" id="RSD_76_CC01 Ammo Belt" data-flag="@X" onclick="openSidebar('RSD_76_CC01 Ammo Belt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\77_CC02 Single-Use Explosive.png" id="RSD_77_CC02 Single-Use Explosive" data-flag="@X" onclick="openSidebar('RSD_77_CC02 Single-Use Explosive',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\78_CC03 Big-Bore Cannon.png" id="RSD_78_CC03 Big-Bore Cannon" data-flag="@X" onclick="openSidebar('RSD_78_CC03 Big-Bore Cannon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\79_CC04 Weaponsmith's Anvil.png" id="RSD_79_CC04 Weaponsmiths Anvil" data-flag="@X" onclick="openSidebar('RSD_79_CC04 Weaponsmiths Anvil',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="RSD_e" data-flag="@E" onclick="openSidebar('RSD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\80_CL01 Nimbus Maze.png" id="RSD_80_CL01 Nimbus Maze" data-flag="@X" onclick="openSidebar('RSD_80_CL01 Nimbus Maze',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\81_CL02 Foreboding Ruins.png" id="RSD_81_CL02 Foreboding Ruins" data-flag="@X" onclick="openSidebar('RSD_81_CL02 Foreboding Ruins',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\82_CL03 Ancient Battleground.png" id="RSD_82_CL03 Ancient Battleground" data-flag="@X" onclick="openSidebar('RSD_82_CL03 Ancient Battleground',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\83_CL04 Mountaintop Monument.png" id="RSD_83_CL04 Mountaintop Monument" data-flag="@X" onclick="openSidebar('RSD_83_CL04 Mountaintop Monument',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\84_CL05 Guarded Citadel.png" id="RSD_84_CL05 Guarded Citadel" data-flag="@X" onclick="openSidebar('RSD_84_CL05 Guarded Citadel',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\85_CL06 Inverted Spires.png" id="RSD_85_CL06 Inverted Spires" data-flag="@X" onclick="openSidebar('RSD_85_CL06 Inverted Spires',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\88_CL09 Skyward Port.png" id="RSD_88_CL09 Skyward Port" data-flag="@X" onclick="openSidebar('RSD_88_CL09 Skyward Port',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\86_CL07 Hollowmire Township.png" id="RSD_86_CL07 Hollowmire Township" data-flag="@X" onclick="openSidebar('RSD_86_CL07 Hollowmire Township',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\89_CL10 Sanctified Ground.png" id="RSD_89_CL10 Sanctified Ground" data-flag="@X" onclick="openSidebar('RSD_89_CL10 Sanctified Ground',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\87_CL08 Shorecarved Cliffs.png" id="RSD_87_CL08 Shorecarved Cliffs" data-flag="@X" onclick="openSidebar('RSD_87_CL08 Shorecarved Cliffs',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RSD-files\img\90_CL11 Redeveloped Cityscape.png" id="RSD_90_CL11 Redeveloped Cityscape" data-flag="@X" onclick="openSidebar('RSD_90_CL11 Redeveloped Cityscape',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="RSD_e" data-flag="@E" onclick="openSidebar('RSD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="RSD_e" data-flag="@E" onclick="openSidebar('RSD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="RSD_e" data-flag="@E" onclick="openSidebar('RSD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="RSD_e" data-flag="@E" onclick="openSidebar('RSD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RSD_er" data-flag="@E" onclick="openSidebar('RSD_er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -346,19 +370,111 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 
@@ -393,13 +509,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -425,27 +544,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -457,17 +600,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -500,6 +645,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -509,6 +655,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -525,16 +672,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -544,7 +691,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>

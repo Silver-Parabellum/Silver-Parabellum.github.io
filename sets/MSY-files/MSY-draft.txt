@@ -411,7 +411,7 @@
 			"type": "Token Enchantment — Aura Curse",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/3_Decay.png"
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/3t_Decay.png"
 			}
 		},
 		{
@@ -431,7 +431,7 @@
 			"type": "Token Land — Plains Satrapy",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/7_Plains Satrapy.png"
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/7t_Plains Satrapy.png"
 			}
 		},
 		{
@@ -441,7 +441,7 @@
 			"type": "Token Creature — Spirit",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/4_Spirit.png"
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/4t_Spirit.png"
 			}
 		},
 		{
@@ -451,7 +451,7 @@
 			"type": "Token Creature — Knight",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/1_Knight.png"
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/1t_Knight.png"
 			}
 		},
 		{
@@ -461,7 +461,7 @@
 			"type": "Token Creature — Spirit",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/2_Spirit.png"
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/2t_Spirit.png"
 			}
 		},
 		{
@@ -471,7 +471,7 @@
 			"type": "Token Artifact — Idol",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/6_Idol.png"
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/6t_Idol.png"
 			}
 		},
 		{
@@ -481,7 +481,7 @@
 			"type": "Token Artifact — Food",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/5_Food.png"
+				"en": "https://Silver-Parabellum.github.io/sets/MSY-files/img/5t_Food.png"
 			}
 		}
 	]
@@ -528,7 +528,8 @@
 	4 Council of Defense
 	4 Mapwright's Prism
 	4 Forgotten Citadel
-[common(7)]
+[common(6)]
+[common | masterpiece(1)]
 [foil(1)]
 	6 Upholder of Ancient Oath
 	6 Ingenious Mechsmith

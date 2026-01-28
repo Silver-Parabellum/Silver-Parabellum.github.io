@@ -1143,7 +1143,8 @@
 	2 G01- Mysterious Assisstant
 	2 G012- Strength Training
 [uncommon(3)]
-[common(7)]
+[common(6)]
+[common | masterpiece(1)]
 [foil(1)]
 	2 W01-
 	2 U014-

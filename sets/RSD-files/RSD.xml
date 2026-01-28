@@ -1,0 +1,1632 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>RSD</name>
+			<longname>Risemara: Second Dawn</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-01-28</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>CW01 Guild Aspirant</name>
+			<text>Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
+When Guild Aspirant dies, put its counters on target creature you control.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/1_CW01 Guild Aspirant.png" num="1">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW02 Sanctum Sureshot // Blessed Strength</name>
+			<text>Flying
+Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
+
+---
+
+Put three +1/+1 counters on target creature you control. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/2_CW02 Sanctum Sureshot.png" num="2">RSD</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Angel Archer // Sorcery — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>1W // 3R/G</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>WRG</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW03 Snowsteppe Adventurer</name>
+			<text>Equipment spells you cast cost {1} less to cast.
+Equip abilities you activate cost {1} less to activate.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/3_CW03 Snowsteppe Adventurer.png" num="3">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW12 Lightsear Barrage</name>
+			<text>Choose one —
+• Lightsear Barrage deals damage equal to the number of creatures and equipment you control to target creature.
+• Destroy target artifact</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/12_CW12 Lightsear Barrage.png" num="12">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CW13 Blessed Bow</name>
+			<text>Flash
+When this Equipment enters, attach it to target creature you control. Untap it. It gains first strike until end of turn.
+Equipped creature gets +2/+1.
+Equip {3}</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/13_CW13 Blessed Bow.png" num="13">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CW14 Reach for the Divine</name>
+			<text>This spell costs {3} less to cast if it targets a tapped creature.
+Exile target nonland permanent.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/14_CW14 Reach for the Divine.png" num="14">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CW11 Fettered Decree</name>
+			<text>Enchant creature
+When Fettered Decree enters, unattach all equipment from enchanted creature.
+Enchanted creature can&apos;t attack, block or be the target of equip abilities.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/11_CW11 Fettered Decree.png" num="11">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CW10 Rapid Reload</name>
+			<text>Target artifact or creature you control gains indestructible until end of turn. If it&apos;s a creature, you may attach an equipment you control to it.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/10_CW10 Rapid Reload.png" num="10">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CW09 Hired Gun</name>
+			<text>When Hired Gun enters, you may exile target creature with mana value 4 or less. If you do, return it to the battlefield under its owner&apos;s control.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/9_CW09 Hired Gun.png" num="9">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW08 [NAME] Militia // Scrounge Up</name>
+			<text>Reach
+When [NAME] Militia enters, attach up to one target equipment you control to it.
+
+---
+
+Return target aura or equipment card from your graveyard to your hand. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/8_CW08 [NAME] Militia.png" num="8">RSD</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Minotaur Warrior // Instant — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>4W // 1W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW06 Highland Shepherd</name>
+			<text>Whenever Highland Shepherd attacks, if you control a token, tap up to one target creature defending player controls.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/6_CW06 Highland Shepherd.png" num="6">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Peasant</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW07 Nimbus Drake</name>
+			<text>Flying
+When Nimbus Drake enters, create a 1/1 ?? creature token with training. (Whenever it attacks with another creature with greater power, put a +1/+1 counter on it.)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/7_CW07 Nimbus Drake.png" num="7">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW05 Armament Appraiser</name>
+			<text>Vigilance
+When Armament Appraiser enters, you get a one-time boon with &quot;Whenever you activate an equip ability, draw a card.&quot;</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/5_CW05 Armament Appraiser.png" num="5">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Azra Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CW04 Guild Courser</name>
+			<text>When Guild Courser enters, put a +1/+1 counter on target creature you control.
+Each creature you control with a +1/+1 counter on it has first strike during your turn.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/4_CW04 Guild Courser.png" num="4">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Centaur Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CC0B Blightround Musket // Temporary End</name>
+			<text>Equipped creature gets +1/+1 and has menace.
+Equip {1}
+
+---
+
+Return target creature card from your graveyard to your hand. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/71_CC0B Blightround Musket.png" num="71">RSD</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Artifact — Equipment // Sorcery — Adventure</type>
+				<maintype>Artifact</maintype>
+				<manacost>3 // 1B</manacost>
+				<cmc>3</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CU14 Decree of Dissolution</name>
+			<text>The owner of target spell or nonland permanent puts it on the bottom of their library or second from the top.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/28_CU14 Decree of Dissolution.png" num="28">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CU13 Bounty Collection</name>
+			<text>Surveil 2. Draw two cards.
+You get a one-time boon with &quot;Whenever you cast a noncreature spell, surveil 1. Draw a card.&quot;</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/27_CU13 Bounty Collection.png" num="27">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CU12 Strip Identity</name>
+			<text>Enchant creature or equipment.
+When Strip Identity enters, tap enchanted permanent.
+Enchanted permanent loses all abilities and doesn&apos;t untap during its controller&apos;s untap step.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/26_CU12 Strip Identity.png" num="26">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CU11 Posessed Wingspan</name>
+			<text>Primeval {3}{U} (If cast for its primeval cost, create a 2/2 white spirit creature token when this equipment enters, then attach this to it.)
+Equipped creature has flying and &quot;Whenever this creature attacks, draw a card, then discard a card.&quot;
+Equip {2}</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/25_CU11 Posessed Wingspan.png" num="25">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CU10 Precise Denial</name>
+			<text>Choose one — 
+• Counter target spell unless its controller pays {2}.
+• Tap target creature and put two stun counters on it.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/24_CU10 Precise Denial.png" num="24">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CU09 Trainee&apos;s Tome</name>
+			<text>When Trainee&apos;s Tome enters, return up to one target creature to its owner&apos;s hand.
+Equipped creature gets +1/+2 and ward {1}.
+Equip {3}</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/23_CU09 Trainee&apos;s Tome.png" num="23">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CU08 [NAME] Apex</name>
+			<text>Hexproof
+When [NAME] Apex enters, return up to one target creature to its owner&apos;s hand.
+{1}{U}, Discard [NAME] Apex: Return target creature to its owner&apos;s hand.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/22_CU08 [NAME] Apex.png" num="22">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>5UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU07 Frolicking Yearling</name>
+			<text>Flying
+Whenever Frolicking Yearling attacks, surveil 1.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/21_CU07 Frolicking Yearling.png" num="21">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>5U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU06 Soulblast Arcanist // Cursed Rounds</name>
+			<text>Vigilance
+At the beginning of combat on your turn, if Soulblast Arcanist is equipped, you may swap its power and toughness until end of turn.
+
+---
+
+Create an ammo token. (It&apos;s an equipment with equip {1} and &quot;Whenever equipped creature attacks you may sacrifice this. It deals 1 damage to any target.&quot;)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/20_CU06 Soulblast Arcanist.png" num="20">RSD</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock // Sorcery — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>3U // B/R</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>2/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU05 Forgesmith&apos;s Eye</name>
+			<text>Flying
+When Forgesmith&apos;s Eye enters, you may search your library for an artifact card, reveal it, then shuffle. Put that card into your hand if it&apos;s an equipment. Otherwise, put that card on top of your library.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/19_CU05 Forgesmith&apos;s Eye.png" num="19">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Thopter</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU03 Battlefield Specialist // Collect Intel</name>
+			<text>Whenever you spend 5 or more mana to cast a spell, put two +1/+1 counters on Battlefield Specialist.
+
+---
+
+Draw three cards, then discard a card. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/17_CU03 Battlefield Specialist.png" num="17">RSD</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Azra Ranger // Instant — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>1U // 4U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU04 Beginner&apos;s Bane</name>
+			<text>When Beginner&apos;s Bane enters, look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/18_CU04 Beginner&apos;s Bane.png" num="18">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Crab Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU02 [NAME] Ambusher</name>
+			<text>Defender
+Whenever you cast a noncreature spell, [NAME] Ambusher loses defender and gains vigilance until end of turn.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/16_CU02 [NAME] Ambusher.png" num="16">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fox Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CU01 Disarming Mimic</name>
+			<text>Flash
+When Disarming Mimic enters, target creature an opponent controls gets -2/-0 until end of turn. You may unattach all equipment from it.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/15_CU01 Disarming Mimic.png" num="15">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Shapeshifter Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CC0U Crafted Wings // Schematics</name>
+			<text>Equipped creature gets +1/+1 and has flying.
+Equip {2}
+
+---
+
+Draw two cards, then discard a card. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/74_CC0U Crafted Wings.png" num="74">RSD</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Artifact — Equipment // Sorcery — Adventure</type>
+				<maintype>Artifact</maintype>
+				<manacost>3 // 1U</manacost>
+				<cmc>3</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CC0R Twin Stilettos // Strike Twice</name>
+			<text>Whenever equipped creature becomes blocked, it deals damage equal to its power to target creature blocking it.
+Equip {3}
+
+---
+
+Target creature you control gains double strike until end of turn. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/73_CC0R Twin Stilettos.png" num="73">RSD</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Artifact — Equipment // Instant — Adventure</type>
+				<maintype>Artifact</maintype>
+				<manacost>2 // 1R</manacost>
+				<cmc>2</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CC0G Groveforce Sword // Traverse the Bog</name>
+			<text>Equipped creature gets +5/+0
+Equip {5}
+
+---
+
+Search your library for a basic land card, put it into your hand, then shuffle. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/72_CC0G Groveforce Sword.png" num="72">RSD</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Artifact — Equipment // Sorcery — Adventure</type>
+				<maintype>Artifact</maintype>
+				<manacost>1 // G</manacost>
+				<cmc>1</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CC0W Rousing Harp // Bolstering Song</name>
+			<text>Equipped creature gets +0/+3 and has vigilance
+Equip {2}
+
+---
+
+Prevent all damage that would be dealt to target creature this turn. Untap it. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/75_CC0W Rousing Harp.png" num="75">RSD</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Artifact — Equipment // Instant — Adventure</type>
+				<maintype>Artifact</maintype>
+				<manacost>1 // 1W</manacost>
+				<cmc>1</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CB02 Callous Huntress</name>
+			<text>{2}, Sacrifice another artifact or creature: You draw a card and lose 1 life.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/30_CB02 Callous Huntress.png" num="30">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB03 Farsight Familiar</name>
+			<text>Flying, lifelink
+When Farsight Familiar enters, you get a one-time boon with &quot;Whenever a creature you control dies, create a 2/2 ?? creature token.&quot;</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/31_CB03 Farsight Familiar.png" num="31">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Skeleton</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB05 [NAME] Consultant // Recruit Troops</name>
+			<text>At the beginning of combat on your turn, up to one other target creature you control gets +1/+0 and gains deathtouch until end of turn.
+
+---
+
+Create a 1/1 ?? creature token. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/33_CB05 [NAME] Consultant.png" num="33">RSD</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Cat Advisor // Sorcery — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>2B // G/W</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB06 Dreadsmith</name>
+			<text>When Dreadsmith enters, you may discard a card. If you do, create a 2/2 ?? creature token. You may attach an equipment you control to it.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/34_CB06 Dreadsmith.png" num="34">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Halfling Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB07 Dashing Heavyshot</name>
+			<text>When Dashing Heavyshot enters, create two ammo tokens. Attach them to Dashing Heavyshot. (they&apos;re equipment with equip {1} and &quot;Whenever equipped creature attacks you may sacrifice this. It deals 1 damage to any target.&quot;)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/35_CB07 Dashing Heavyshot.png" num="35">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassuin</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB08 Darktouched Devourer // Churn Graves</name>
+			<text>This spell costs {1} less to cast for each artifact and/or creature card in your graveyard.
+Menace
+
+---
+
+Mill four cards. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/36_CB08 Darktouched Devourer.png" num="36">RSD</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Goblin Horror // Sorcery — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>7B // 1B</manacost>
+				<cmc>8</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB09 Poisoned Rounds</name>
+			<text>When Poisoned Rounds enters, you draw a card and lose 1 life.
+{2}, {T}, Sacrifice Poisoned Rounds: Target creature or equipment you control gains deathtouch until end of turn.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/37_CB09 Poisoned Rounds.png" num="37">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CB04 Miasmic Stag</name>
+			<text>Lifelink
+Whenever Miasmic Stag or another creature or artifact you control is put into a graveyard from the battlefield, Miasmic Stag deals 1 damage to each opponent.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/32_CB04 Miasmic Stag.png" num="32">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CB11 Corrupted Oath</name>
+			<text>As an additional cost to cast this spell, sacrifice an artifact or creature.
+Draw two cards and create an ammo token. (It&apos;s an equipment with equip {1} and &quot;Whenever equipped creature attacks you may sacrifice this. It deals 1 damage to any target.&quot;)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/39_CB11 Corrupted Oath.png" num="39">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CB10 Crystal-Carved Blade</name>
+			<text>Primeval {2}{B} (If cast for its primeval cost, create a 2/2 white spirit creature token when this equipment enters, then attach this to it.)
+Equipped creature has +2/+0 during your turn.
+Equip {1}</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/38_CB10 Crystal-Carved Blade.png" num="38">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CB12 Extract Determination</name>
+			<text>Choose one —
+• Target opponent reveals their hand. You may choose a creature, equipment, or planeswalker card from it. That player discards that card.
+• Target opponent sacrifices a creature of their choice.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/40_CB12 Extract Determination.png" num="40">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CB13 Take by Surprise</name>
+			<text>Destroy target creature. Its controller loses 2 life it that creature was equipped.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/41_CB13 Take by Surprise.png" num="41">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CB14 Back for More</name>
+			<text>This spell costs {4} less to cast if it targets a creature that was put into a graveyard from the battlefield this turn.
+Return target creature card from your graveyard to the battlefield tapped.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/42_CB14 Back for More.png" num="42">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CB01 Spark Hunter&apos;s Hire</name>
+			<text>When Spark Hunter&apos;s Hire enters, create an ammo token and attach it to Spark Hunter&apos;s Hire. (It&apos;s an equipment with equip {1} and &quot;Whenever equipped creature attacks you may sacrifice this. It deals 1 damage to any target.&quot;)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/29_CB01 Spark Hunter&apos;s Hire.png" num="29">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR01 Wildbond Hunter</name>
+			<text>Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
+Wildbond Hunter has first strike as long as it&apos;s equipped.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/43_CR01 Wildbond Hunter.png" num="43">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR02 Chakram Pitcher</name>
+			<text>Reach
+{T}: Add {R}. If this mana is spent to cast an equipment spell or to activate an equip ability, you may discard a card. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/44_CR02 Chakram Pitcher.png" num="44">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR03 Hemogoblins</name>
+			<text>Haste
+When Hemogoblins enters, you get a two-time boon with &quot;Whenever a creature you control with power 4 or greater attacks, up to one target creature can&apos;t block this turn.&quot;</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/45_CR03 Hemogoblins.png" num="45">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR04 Wild-Ways Huntress</name>
+			<text>When Wild-Ways Huntress enters, choose one — 
+• Create an ammo token (It&apos;s an equipment with equip {1} and &quot;Whenever equipped creature attacks you may sacrifice this. It deals 1 damage to any target.&quot;)
+• Attach up to one target equipment you control to Wild-Ways Huntress.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/46_CR04 Wild-Ways Huntress.png" num="46">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR05 Wild-Ways Ritualist // Inspire</name>
+			<text>Whenever you cast a noncreature spell, Wild-Ways Ritualist deals 1 damage to each opponent.
+
+---
+
+Target creature you control gets +2/+1 and gains trample until end of turn. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/47_CR05 Wild-Ways Ritualist.png" num="47">RSD</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid // Instant — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>2R // 1R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR06 Lotusfire Dancer // Commencement</name>
+			<text>When Lotusfire Dancer enters, exile up to one target instant or sorcery card from your graveyard. You may cast that card until the end of your next turn.
+
+---
+
+Surveil 3. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/48_CR06 Lotusfire Dancer.png" num="48">RSD</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Cat Warrior // Sorcery — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>3R // U/B</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR07 Dragonflame Paladin</name>
+			<text>Menace
+When Dragonflame Paladin enters, enters, you may sacrifice another artifact or creature. When you do, Dragonflame Paladin deals 2 damage to any target.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/49_CR07 Dragonflame Paladin.png" num="49">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CR09 Take the Shot</name>
+			<text>Target creature you control gains haste until end of turn. create an ammo token attached to it. (It&apos;s an equipment with equip {1} and &quot;Whenever equipped creature attacks you may sacrifice this. It deals 1 damage to any target.&quot;)
+Draw a card</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/51_CR09 Take the Shot.png" num="51">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CR10 Flametouch Gauntlet</name>
+			<text>When Flametouch Gauntlet enters, you may discard a card. If you do, draw two cards.
+Equipped creature gets +X/+0, where X is the number of cards you have drawn this turn.
+Equip {1}</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/52_CR10 Flametouch Gauntlet.png" num="52">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CR11 Guns Blazing</name>
+			<text>Choose one —
+• Guns Blazing deals 2 damage divided as you choose between one or two targets.
+• Destroy target artifact. If it was an equipment, Guns Blazing deals 2 damage to its controller.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/53_CR11 Guns Blazing.png" num="53">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CR12 Lightning Spear</name>
+			<text>Equipped creature gets +1/+0 and has trample
+{2},{R}, Sacrifice Lightning Spear: It deals 3 damage to any target.
+Equip {1}</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/54_CR12 Lightning Spear.png" num="54">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CR13 Provoke Conflict</name>
+			<text>Choose one —
+• Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
+• Exile the top two cards of your library. Until the end of your next turn, you may play those cards.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/55_CR13 Provoke Conflict.png" num="55">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CR14 Erupting Roar</name>
+			<text>Erupting Roar deals 6 damage to target creature or planeswalker. Destroy up to one target artifact with mana value less than or equal to the amount of excess damage dealt.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/56_CR14 Erupting Roar.png" num="56">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CR08 Molten Cragstomper</name>
+			<text>This spell costs {1} less to cast for each instant, sorcery and artifact card in your graveyard.
+Trample</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/50_CR08 Molten Cragstomper.png" num="50">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Dinosaur</type>
+				<maintype>Creature</maintype>
+				<manacost>6R</manacost>
+				<cmc>7</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG01 Venturing Goblin</name>
+			<text>When Venturing Goblin enters, mill three cards. You may put a land or equipment card from among them into your hand. If you don&apos;t, put a +1/+1 counter on Venturing Goblin.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/57_CG01 Venturing Goblin.png" num="57">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG02 Blast-Fist Brawler</name>
+			<text>Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
+{4}{G}: Reveal the top three cards of your library. You may put a permanent card from among them into your hand. Put the rest into your graveyard.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/58_CG02 Blast-Fist Brawler.png" num="58">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG03 Primeval Muse</name>
+			<text>{T}: Add one mana of any color.
+Whenever you spend 5 or more mana to cast a spell, untap Primeval Muse. It gets +2/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/59_CG03 Primeval Muse.png" num="59">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG04 Rumbling Gladewalker</name>
+			<text>Trample
+When Rumbling Gladewalker enters, you get a one-time boon with &quot;Whenever a creature you control enters, draw a card if its power is 4 or greater. Otherwise, put a +1/+1 counter on it.&quot;</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/60_CG04 Rumbling Gladewalker.png" num="60">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG07 Steeleater Flora</name>
+			<text>When Steeleater Flora enters, mill three cards, then put a +1/+1 counter on Steeleater Flora for each creature and equipment card in your graveyard.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/63_CG07 Steeleater Flora.png" num="63">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG09 Hinterwoods Sage // Guide On</name>
+			<text>Trample
+When Hinterwoods Sage enters, you gain 1 life for each land you control.
+
+---
+
+Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/65_CG09 Hinterwoods Sage.png" num="65">RSD</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Elk Rabbit Ranger // Sorcery — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG // 2G</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG10 Gathering Pan</name>
+			<text>When Gathering Pan enters, mill three cards, then you may return a creature or land card from your graveyard to your hand.
+Equipped creature gets +1/+2 and has reach.
+Equip {1}</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/66_CG10 Gathering Pan.png" num="66">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CG11 Canopy Prowling</name>
+			<text>Choose one — 
+• Target creature you control gets +3/+3 until end of turn.
+• Up to one target creature you control gains hexproof until end of turn. Draw a card.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/67_CG11 Canopy Prowling.png" num="67">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CG05 Wild-Ways Ranger</name>
+			<text>Reach
+Training (Whenever this creature attacks with another creature with greater power, put a +1/+1 counter on this creature.)
+{1}, Sacrifice Wild-Ways Ranger: Destroy target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/61_CG05 Wild-Ways Ranger.png" num="61">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Jackal Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG12 Clear Shot</name>
+			<text>Target creature you control gets +1/+1 until end of turn. It deals damage equal to its power to target creature you don&apos;t control.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/68_CG12 Clear Shot.png" num="68">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CG13 Armament Rejection</name>
+			<text>Destroy target artifact, enchantment, or creature with flying. Surveil 1.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/69_CG13 Armament Rejection.png" num="69">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CG14 Titanhunter Arms</name>
+			<text>Primeval {4}{G}{G} (If cast for its primeval cost, create a 2/2 white spirit creature token when this equipment enters, then attach this to it.)
+Equipped creature gets +4/+4 and has trample.
+Equip {3}{G}</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/70_CG14 Titanhunter Arms.png" num="70">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CG06 Wild-Ways Courser // Ride Down</name>
+			<text>Vigilance, reach
+
+---
+
+Tap up to two target creatures. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/62_CG06 Wild-Ways Courser.png" num="62">RSD</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Centaur Archer // Instant — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>3G // {/1WU/}</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>WUG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CC02 Single-Use Explosive</name>
+			<text>Equipped creature gets +1/+1.
+{4}, {T}, Sacrifice Single-Use Explosive: Destroy target nonland permanent. Activate only if this is equipped.
+Equip {1}</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/77_CC02 Single-Use Explosive.png" num="77">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CC03 Big-Bore Cannon</name>
+			<text>Primeval {5} (If cast for its primeval cost, create a 2/2 white spirit creature token when this equipment enters, then attach this to it.)
+Equipped creature gets +2/+3 and has &quot;Whenever this creature attacks, exile up to one target card from a graveyard.
+Equip {3}</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/78_CC03 Big-Bore Cannon.png" num="78">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CC04 Weaponsmith&apos;s Anvil</name>
+			<text>{T}: Add one mana of any color.
+{T}: Add two mana of any one color. Spend this mana only to activate abilities of equipment.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/79_CC04 Weaponsmith&apos;s Anvil.png" num="79">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CC01 Ammo Belt</name>
+			<text>When Ammo Belt enters or is put into a graveyard from the battlefield, create an ammo token. (It&apos;s an equipment with equip {1} and &quot;Whenever equipped creature attacks you may sacrifice this. It deals 1 damage to any target.&quot;)
+{2}, Sacrifice Ammo Belt: Draw a card.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/76_CC01 Ammo Belt.png" num="76">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>CL01 Nimbus Maze</name>
+			<text>{T}: Add {C}.
+{T}: Add {W}. Activate only if you control an Island.
+{T}: Add {U}. Activate only if you control a Plains.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/80_CL01 Nimbus Maze.png" num="80">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>CL02 Foreboding Ruins</name>
+			<text>{T}: Add {C}.
+{T}: Add {U}. Activate only if you control a Swamp.
+{T}: Add {B}. Activate only if you control an Island.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/81_CL02 Foreboding Ruins.png" num="81">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>CL03 Ancient Battleground</name>
+			<text>{T}: Add {C}.
+{T}: Add {B}. Activate only if you control a Mountain.
+{T}: Add {R}. Activate only if you control a Swamp.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/82_CL03 Ancient Battleground.png" num="82">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>CL04 Mountaintop Monument</name>
+			<text>{T}: Add {C}.
+{T}: Add {R}. Activate only if you control a Forest.
+{T}: Add {G}. Activate only if you control a Mountain.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/83_CL04 Mountaintop Monument.png" num="83">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>CL05 Guarded Citadel</name>
+			<text>{T}: Add {C}.
+{T}: Add {G}. Activate only if you control a Plains.
+{T}: Add {W}. Activate only if you control a Forest.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/84_CL05 Guarded Citadel.png" num="84">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>CL07 Hollowmire Township</name>
+			<text>{T}: Add {C}.
+{T}: Add {B}. Activate only if you control a Forest.
+{T}: Add {G}. Activate only if you control a Swamp.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/86_CL07 Hollowmire Township.png" num="86">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>CL08 Shorecarved Cliffs</name>
+			<text>{T}: Add {C}.
+{T}: Add {G}. Activate only if you control an Island.
+{T}: Add {U}. Activate only if you control a Forest.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/87_CL08 Shorecarved Cliffs.png" num="87">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>CL09 Skyward Port</name>
+			<text>{T}: Add {C}.
+{T}: Add {U}. Activate only if you control a Mountain.
+{T}: Add {R}. Activate only if you control an Island.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/88_CL09 Skyward Port.png" num="88">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>CL10 Sanctified Ground</name>
+			<text>{T}: Add {C}.
+{T}: Add {R}. Activate only if you control a Plains.
+{T}: Add {W}. Activate only if you control a Mountain.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/89_CL10 Sanctified Ground.png" num="89">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>CL11 Redeveloped Cityscape</name>
+			<text>{T}, Sacrifice Redeveloped Cityscape, Exile a card from your hand: Search your library for two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/90_CL11 Redeveloped Cityscape.png" num="90">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>CL06 Inverted Spires</name>
+			<text>{T}: Add {C}.
+{T}: Add {W}. Activate only if you control a Swamp.
+{T}: Add {B}. Activate only if you control a Plains.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/85_CL06 Inverted Spires.png" num="85">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>CG08 Hollowmire Veteran</name>
+			<text>When Hollowmire Veteran enters, choose one — 
+• Put two +1/+1 counters on up to one target creature you control.
+• Return target equipment card from your graveyard to the battlefield attached to Hollowmire Veteran.</text>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/RSD-files/img/64_CG08 Hollowmire Veteran.png" num="64">RSD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

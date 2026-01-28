@@ -1,0 +1,883 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>MSY</name>
+			<longname>MSEM Mystery Community Slots</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-01-28</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Upholder of Ancient Oath</name>
+			<text>When Upholder of Ancient Oath enters, it seeks secrets or valor. (Give it that Oath Aura. Fulfill secrets by attacking with it and two or more other creatures to draw a card. Fulfill valor by dealing combat damage to a player to create a 2/1 white Soldier token.)</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/6_Upholder of Ancient Oath.png" num="6">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ingenious Mechsmith</name>
+			<text>Prowess
+Whenever you cast your second spell each turn, up to one target artifact you control becomes an artifact creature with base power and toughness 4/4 for as long as Ingenious Mechsmith remains on the battlefield.</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/10_Ingenious Mechsmith.png" num="10">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Witch-Apprentice Yarag</name>
+			<text>Prowess
+Whenever you cast your first noncreature spell during each of your turns, create a black Aura Curse enchantment token named Decay attached to target player. That token has enchant player and &quot;at the beginning of enchanted player&apos;s upkeep, they lose 1 life.&quot;</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/18_Witch-Apprentice Yarag.png" num="18">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fervent Dramatist</name>
+			<text>This spell can&apos;t be countered.
+Whenever an opponent casts a spell during a turn other than theirs, create a function token with &quot;This spell deals 4 damage to each opponent.&quot; (It&apos;s an enchantment. As you cast an instant or sorcery spell, sacrifice any number of Functions to add their effects to that spell.)</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/21_Fervent Dramatist.png" num="21">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Magus of the Heart</name>
+			<text>{T}: Add {C}.
+{3}, {T}, Choose a color: Add one mana of the chosen color for each differently named land you control.</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/28_Magus of the Heart.png" num="28">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Swift Retribution</name>
+			<text>Revolt — Destroy target creature if it&apos;s attacking, blocking or a permanent you controlled left the battlefield this turn.</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/5_Swift Retribution.png" num="5">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Undertow Meditations</name>
+			<text>Foretell {5}{U}{U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
+Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order. If this spell was foretold, you may put each of them into your hand instead.</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/12_Undertow Meditations.png" num="12">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rite of Myriad Shapes</name>
+			<text>As an additional cost to cast this spell, exile any number of creature cards with total mana value 7 or less from your graveyard. 
+For each card exiled with Rite of Myriad Shapes, create a token that&apos;s a copy of it, except it&apos;s a 3/2 colorless Horror creature.</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/14_Rite of Myriad Shapes.png" num="14">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rapid Overtake</name>
+			<text>At the beginning of combat on your turn, up to one target creature gets +2/+0 and gains trample and haste until end of turn.
+Warp {R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/22_Rapid Overtake.png" num="22">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Overharvest</name>
+			<text>Primal {1}{G} (During your turn, you may cast this spell for {2}{G} instead of playing a land.)
+Return up to two target permanent cards from your graveyard to your hand. Exile Overharvest.</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/29_Overharvest.png" num="29">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Laleh, Maharan Commander</name>
+			<text>Vigilance
+When Laleh, Maharan Commander enters, if an opponent controls more lands than you, create a tapped colorless Plains Satrapy token.
+Satrapies you control have exalted. (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/3_Laleh, Maharan Commander.png" num="3">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Coastal Channeler</name>
+			<text>Prowess
+Each instant and sorcery card in your graveyard has reprise. Its reprise cost is equal to its mana cost minus {2}. (As you cast an instant or sorcery spell, you may exile one card with reprise from your graveyard and pay its reprise cost. If you do, add its effects to that spell.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/8_Coastal Channeler.png" num="8">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Undead Diva</name>
+			<text>When Undead Diva enters, conjure ten cards named Undead Servant and shuffle them into your library. (They&apos;re {3}{B} 3/2 Zombie creatures with &quot;When Undead Servant enters, create a 2/2 black Zombie creature token for each card named Undead Servant in your graveyard.&quot;)
+Other Zombies you control get +1/+1 and have lifelink.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/16_Undead Diva.png" num="16">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skarvith Champion</name>
+			<text>Haste
+Skarvith Champion can only attack or block alone.
+Sabotage — Whenever an opponent or permanent an opponent controls becomes the target of a spell you control, put a +1/+1 counter on Skarvith Champion.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/23_Skarvith Champion.png" num="23">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Radiant General</name>
+			<text>Backup 1 (When this creature enters, put a +1/+1 counter on target creature. If that&apos;s another creature, it gains the following abilities until end of turn.)
+First strike, vigilance, lifelink
+Other creatures you control get +1/+1.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/4_Radiant General.png" num="4">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nephilim Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lysandra&apos;s Accomplice</name>
+			<text>Flying, prowess
+Whenever Lysandra&apos;s Accomplice deals combat damage to a player, you may discard a card. If you do, search your library for an instant or sorcery card with mana value equal to Lysandra&apos;s Accomplice&apos;s power, put it into your hand, then shuffle.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/11_Lysandra&apos;s Accomplice.png" num="11">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Veil-Pierced Diabolist</name>
+			<text>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+Menace
+When Veil-Pierced Diabolist enters, target opponent chooses a card in your graveyard. Salvage it. (Exile it from your graveyard until this creature leaves the battlefield. Whenever this creature deals combat damage to a player, put a card it salvaged into your hand.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/17_Veil-Pierced Diabolist.png" num="17">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>6B</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thundering Twins</name>
+			<text>Flash
+Haste
+Whenever another nontoken creature you control with flash and/or haste enters, create a token that&apos;s a copy of that creature. Sacrifice that token at the beginning of your next end step.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/24_Thundering Twins.png" num="24">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Mouse</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reminiscent Waylighter</name>
+			<text>Vision (Whenever this or another creature you control enters, reveal the top card of your library. Then you may put that card into your graveyard.)
+Whenever Reminiscent Waylighter envisions a creature card, you may put it into your hand.
+{1}{G}, {T}: Put a creature card from your hand onto the battlefield. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/30_Reminiscent Waylighter.png" num="30">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aiko, Silent Mourner</name>
+			<text>If a nonland, nontoken permanent would enter and wasn&apos;t cast, exile it instead.
+[+1]: Create your choice of a 0/1 white Spirit creature token or an Idol token. (It&apos;s an artifact with &quot;, Sacrifice this artifact: Put a +1/+1 counter on target creature. Activate only as a sorcery.&quot;)
+[-2]: Exile target creature. For as long as it remains exiled, its controller may pay {2} as a sorcery to put it onto the battlefield.</text>
+			<set rarity="mythic" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/1_Aiko, Silent Mourner.png" num="1">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Aiko</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<loyalty>2</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bound by Possibility</name>
+			<text>When Bound by Possibility enters, aetherize up to X target creatures you control. (Create tokens that are copies of each of them, then exile them.)
+Triggered abilities you control can&apos;t cause you to sacrifice or exile creature tokens you control.</text>
+			<set rarity="mythic" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/7_Bound by Possibility.png" num="7">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>XUUU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Chromatic Impact</name>
+			<text>This spell can&apos;t be countered.
+Augmented — Chromatic Impact deals damage to any target equal to the amount of mana spent to cast it. If you&apos;ve spent {W}{U}{B}{R}{G} to cast spells this turn, you may have it deal that much damage to each creature and each player instead.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/20_Chromatic Impact.png" num="20">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XR</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Explorer&apos;s Potluck</name>
+			<text>When Explorer&apos;s Potluck enters, create a food token. (It&apos;s an artifact with &quot;{2}, {T}, Sacrifice this token: You gain 3 life.&quot;)
+You may play an additional land on each of your turns you have gained life.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/25_Explorer&apos;s Potluck.png" num="25">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Glorious Gathering</name>
+			<text>For each creature you control, create a 2/2 white Knight creature token with vigilance.
+Leitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/2_Glorious Gathering.png" num="2">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Grip of the Watcher</name>
+			<text>Pressure {X}{U}{U} (You may cast this spell for its pressure cost if seven or more cards are in your graveyard.)
+Gain control of target creature with mana value less than or equal to the amount of mana spent to cast Grip of the Watcher.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/9_Grip of the Watcher.png" num="9">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Twist Fate&apos;s Hand</name>
+			<text>Destroy all creatures. You lose 1 life for each creature destroyed this way.
+Coalesce {5}{B}{B}{B} (You may cast this from your graveyard for {5}{B}{B}{B}. If you do, it enters as a Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)
+Twist Fate&apos;s Hand&apos;s power and toughness are each equal to the number of creature cards in all graveyards.</text>
+			<set rarity="mythic" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/15_Twist Fate&apos;s Hand.png" num="15">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Akira, Wayward Sophomore</name>
+			<text>{1}{R}{R}, Discard Akira, Wayward Sophomore: You may activate one of her loyalty abilities without paying its loyalty cost.
+[+2]: Exile the top three cards of your library. Until the end of your next turn, you may play up to two of those cards.
+[+1]: Akira deals 4 damage to any nonplayer target.
+[-2]: Create two 3/1 red Spirit creature tokens with trample and haste. Sacrifice those tokens at the beginning of your next end step.</text>
+			<set rarity="mythic" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/19_Akira, Wayward Sophomore.png" num="19">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Akira</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<loyalty>6</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gruesome Emergence</name>
+			<text>Delirium — Mill six cards, then you may put a permanent card from among the milled cards onto the battlefield. If there are four or more card types among cards in your graveyard, you may put each permanent card from among the milled cards onto the battlefield instead.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/26_Gruesome Emergence.png" num="26">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Decadent Gorger</name>
+			<text>Colossal 4 — {5}{B}{R} (You may cast this for its colossal cost to have it enter with four +1/+1 counters; or pay {5}{B}{R} as a sorcery: Put four +1/+1 counters on it if it has none.)
+Flying, haste
+When Decadent Gorger enters or becomes colossal, return up to one target creature card with mana value less than or equal to Decadent Gorger&apos;s power from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/31_Decadent Gorger.png" num="31">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ogura&apos;s Charm</name>
+			<text>Choose one — 
+• Target creature you control gets +1/+0 and gains first strike until end of turn.
+• Each player sacrifices a creature.
+• Create a token that&apos;s a copy of target creature you control, except it has haste. Sacrifice that token at the beginning of your next end step.</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/33_Ogura&apos;s Charm.png" num="33">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Council of Defense</name>
+			<text>Defender
+Each embattled creature you control may attack as though it didn&apos;t have defender, and may assign combat damage using its toughness rather than its power. (A creature is embattled if it has a counter on it or a permanent you control attached to it.)</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/35_Council of Defense.png" num="35">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>0/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mapwright&apos;s Prism</name>
+			<text>When Mapwright&apos;s Prism enters, draw a card.
+Wanderlust — {1}, {T}: Add one mana of any color. This ability costs {1} less to activate if you control four or more differently named lands.</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/37_Mapwright&apos;s Prism.png" num="37">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Shining Apotheosis</name>
+			<text>Artifact harness (You may tap an artifact creature you control as you cast this spell. If you do, reduce this spell&apos;s mana cost by that creature&apos;s power.)
+Multitude {12} (You may cast this spell for {12}. If you do, copy it.)
+Other artifacts you control with mana value 7 or greater have protection from all colors.</text>
+			<set rarity="mythic" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/38_Shining Apotheosis.png" num="38">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Angel Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hosted Helm</name>
+			<text>Living ritual (When this Equipment enters, create a 1/0 red Devil creature token or a token copy of Sulmina, the Final Age, then attach this to it.)
+Equipped creature gets +2/+2 and has &quot;At the beginning of combat on your turn, create a token that&apos;s a copy of this creature, except it&apos;s not legendary and has haste.&quot;
+Equip {3}. This ability costs {3} less to activate if it targets a Demon.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/36_Hosted Helm.png" num="36">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment Implement</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Forgotten Citadel</name>
+			<text>{T}: Add {C}.
+{7}: Forgotten Citadel becomes a 4/4 Golem artifact creature until end of turn. It&apos;s still a land. This ability costs {1} less to activate for each card type among cards in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/39_Forgotten Citadel.png" num="39">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Kinken Shrine Steppe</name>
+			<text>Kinken Shrine Steppe enters tapped. As it does, choose a creature card name.
+{T}: Add {R}.
+{2}, {T}, Sacrifice Kinken Shrine Steppe: Create a token that&apos;s a copy of target creature you control with the chosen name, except it has haste and is not legendary. Exile it at the beginning of your next end step.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/40_Kinken Shrine Steppe.png" num="40">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Kyoko, City&apos;s Hope</name>
+			<text>{T}: Add one mana of any color among permanents you control.
+Chosen one ({W}{U}{B}{R}{G}: Transform this permanent)
+---
+(Back): Kyoko, Chromatichampion</text>
+			<set rarity="mythic" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/27_Kyoko, City&apos;s Hope_front.png" num="27a">MSY</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rebel</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Kyoko, Chromatichampion</related>
+		</card>
+		<card>
+			<name>Kyoko, Chromatichampion</name>
+			<text>First strike, vigilance, trample, lifelink, haste.
+Other creatures you control get +1/+1 and have first strike if they&apos;re white, vigilance if they&apos;re blue, lifelink if they&apos;re black, trample if they&apos;re green and haste if they&apos;re red.
+---
+(Front): Kyoko, City&apos;s Hope</text>
+			<set rarity="mythic" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/27_Kyoko, City&apos;s Hope_back.png" num="27b">MSY</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Legendary Creature — Human Hero</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<related attach="transform">Kyoko, City&apos;s Hope</related>
+		</card>
+		<card>
+			<name>Sihari&apos;s Fury</name>
+			<text>When Sihari&apos;s Fury enters, earthbend 4. Then that land fights up to one target creature you don&apos;t control.
+{5}{R}{G}: Exile Sihari&apos;s Fury, then return it to the battlefield transformed. This ability costs {X} less to activate, where X is your fealty to Deserts.
+---
+(Back): Sihari, the Sandstorm</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/34_Sihari&apos;s Fury_front.png" num="34a">MSY</set>
+			<prop>
+				<layout>transform</layout>
+				<side>front</side>
+				<type>Legendary Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Sihari, the Sandstorm</related>
+		</card>
+		<card>
+			<name>Sihari, the Sandstorm</name>
+			<text>Creatures you control have menace and vigilance.
+[+1]: Exile the top two cards of your library. Until the end of your next turn, you may play those cards. You may play an additional land this turn.
+[-3]: Earthbend 4 (Target land you control becomes a 0/0 creature with haste that&apos;s still a land. Put four +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)
+---
+(Front): Sihari&apos;s Fury</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/34_Sihari&apos;s Fury_back.png" num="34b">MSY</set>
+			<prop>
+				<layout>transform</layout>
+				<side>back</side>
+				<type>Legendary Planeswalker — Sihari</type>
+				<maintype>Planeswalker</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+			<related attach="transform">Sihari&apos;s Fury</related>
+		</card>
+		<card>
+			<name>Do and Die Again</name>
+			<text>Whenever a nontoken creature you own with mana value 2 or less is put into a graveyard from the battlefield for the first time each turn, exile it with two time counters on it. If it doesn&apos;t have suspend, it gains suspend. (At the beginning of its owner&apos;s upkeep, they remove a time counter. When the last is removed, they may play it without paying its mana cost. If it&apos;s a creature, it has haste.)</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/13_Do and Die Again.png" num="13">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Decay MSY</name>
+			<text>Enchant player
+At the beginning of enchanted player&apos;s upkeep, they lose 1 life.</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/3t_Decay.png" num="3">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Enchantment — Aura Curse</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Naomi, Academic Authority</name>
+			<text>This spell can&apos;t be countered
+Each noncreature spell that would cost less mana to cast than the greatest power among creatures you control costs that much mana to cast.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/32_Naomi, Academic Authority.png" num="32">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Plains Satrapy MSY</name>
+			<text>({T}: Add {W}.)</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/7t_Plains Satrapy.png" num="7">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Land — Plains Satrapy</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Spirit MSY</name>
+			<text>Trample, haste</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/4t_Spirit.png" num="4">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Knight MSY</name>
+			<text>Vigilance</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/1t_Knight.png" num="1">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Knight</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Spirit MSY</name>
+			<text></text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/2t_Spirit.png" num="2">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Idol MSY</name>
+			<text>{1}, Sacrifice this artifact: Put a +1/+1 counter on target creature. Activate only as a sorcery.</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/6t_Idol.png" num="6">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Idol</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Food MSY</name>
+			<text>{2}, {T}, Sacrifice this token: You gain 3 life.</text>
+			<set rarity="special" picurl="https://Silver-Parabellum.github.io/sets/MSY-files/img/5t_Food.png" num="5">MSY</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Food</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

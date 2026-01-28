@@ -4,7 +4,7 @@
 			"name": "CW01 Guild Aspirant",
 			"rarity": "common",
 			"mana_cost": "{W}",
-			"type": "Creature — Cat Citizen ",
+			"type": "Creature — Cat Citizen",
 			"collector_number": "1",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/1_CW01 Guild Aspirant.png"
@@ -14,7 +14,7 @@
 			"name": "CW02 Sanctum Sureshot",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Angel Archer ",
+			"type": "Creature — Angel Archer",
 			"collector_number": "2",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/2_CW02 Sanctum Sureshot.png"
@@ -24,7 +24,7 @@
 			"name": "CW03 Snowsteppe Adventurer",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Human Rogue ",
+			"type": "Creature — Human Rogue",
 			"collector_number": "3",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/3_CW03 Snowsteppe Adventurer.png"
@@ -44,7 +44,7 @@
 			"name": "CW13 Blessed Bow",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "13",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/13_CW13 Blessed Bow.png"
@@ -64,7 +64,7 @@
 			"name": "CW11 Fettered Decree",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "11",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/11_CW11 Fettered Decree.png"
@@ -84,7 +84,7 @@
 			"name": "CW09 Hired Gun",
 			"rarity": "common",
 			"mana_cost": "{4}{W}",
-			"type": "Creature — Human Mercenary ",
+			"type": "Creature — Human Mercenary",
 			"collector_number": "9",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/9_CW09 Hired Gun.png"
@@ -94,7 +94,7 @@
 			"name": "CW08 [NAME] Militia",
 			"rarity": "common",
 			"mana_cost": "{4}{W}",
-			"type": "Creature — Minotaur Warrior ",
+			"type": "Creature — Minotaur Warrior",
 			"collector_number": "8",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/8_CW08 [NAME] Militia.png"
@@ -104,7 +104,7 @@
 			"name": "CW06 Highland Shepherd",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Human Peasant ",
+			"type": "Creature — Human Peasant",
 			"collector_number": "6",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/6_CW06 Highland Shepherd.png"
@@ -114,7 +114,7 @@
 			"name": "CW07 Nimbus Drake",
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
-			"type": "Creature — Elemental Drake ",
+			"type": "Creature — Elemental Drake",
 			"collector_number": "7",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/7_CW07 Nimbus Drake.png"
@@ -124,7 +124,7 @@
 			"name": "CW05 Armament Appraiser",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Azra Soldier ",
+			"type": "Creature — Azra Soldier",
 			"collector_number": "5",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/5_CW05 Armament Appraiser.png"
@@ -134,7 +134,7 @@
 			"name": "CW04 Guild Courser",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Centaur Soldier ",
+			"type": "Creature — Centaur Soldier",
 			"collector_number": "4",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/4_CW04 Guild Courser.png"
@@ -144,7 +144,7 @@
 			"name": "CC0B Blightround Musket",
 			"rarity": "common",
 			"mana_cost": "{3}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "71",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/71_CC0B Blightround Musket.png"
@@ -174,7 +174,7 @@
 			"name": "CU12 Strip Identity",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "26",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/26_CU12 Strip Identity.png"
@@ -184,7 +184,7 @@
 			"name": "CU11 Posessed Wingspan",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "25",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/25_CU11 Posessed Wingspan.png"
@@ -204,7 +204,7 @@
 			"name": "CU09 Trainee's Tome",
 			"rarity": "common",
 			"mana_cost": "{U}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "23",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/23_CU09 Trainee's Tome.png"
@@ -214,7 +214,7 @@
 			"name": "CU08 [NAME] Apex",
 			"rarity": "common",
 			"mana_cost": "{5}{U}{U}",
-			"type": "Creature — Beast ",
+			"type": "Creature — Beast",
 			"collector_number": "22",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/22_CU08 [NAME] Apex.png"
@@ -224,7 +224,7 @@
 			"name": "CU07 Frolicking Yearling",
 			"rarity": "common",
 			"mana_cost": "{5}{U}",
-			"type": "Creature — Dragon ",
+			"type": "Creature — Dragon",
 			"collector_number": "21",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/21_CU07 Frolicking Yearling.png"
@@ -234,7 +234,7 @@
 			"name": "CU06 Soulblast Arcanist",
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
-			"type": "Creature — Human Warlock ",
+			"type": "Creature — Human Warlock",
 			"collector_number": "20",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/20_CU06 Soulblast Arcanist.png"
@@ -244,7 +244,7 @@
 			"name": "CU05 Forgesmith's Eye",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
-			"type": "Artifact Creature — Thopter ",
+			"type": "Artifact Creature — Thopter",
 			"collector_number": "19",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/19_CU05 Forgesmith's Eye.png"
@@ -254,7 +254,7 @@
 			"name": "CU03 Battlefield Specialist",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Azra Ranger ",
+			"type": "Creature — Azra Ranger",
 			"collector_number": "17",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/17_CU03 Battlefield Specialist.png"
@@ -264,7 +264,7 @@
 			"name": "CU04 Beginner's Bane",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Crab Insect ",
+			"type": "Creature — Crab Insect",
 			"collector_number": "18",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/18_CU04 Beginner's Bane.png"
@@ -274,7 +274,7 @@
 			"name": "CU02 [NAME] Ambusher",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Fox Rogue ",
+			"type": "Creature — Fox Rogue",
 			"collector_number": "16",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/16_CU02 [NAME] Ambusher.png"
@@ -284,7 +284,7 @@
 			"name": "CU01 Disarming Mimic",
 			"rarity": "common",
 			"mana_cost": "{U}",
-			"type": "Artifact Creature — Shapeshifter Horror ",
+			"type": "Artifact Creature — Shapeshifter Horror",
 			"collector_number": "15",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/15_CU01 Disarming Mimic.png"
@@ -294,7 +294,7 @@
 			"name": "CC0U Crafted Wings",
 			"rarity": "common",
 			"mana_cost": "{3}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "74",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/74_CC0U Crafted Wings.png"
@@ -304,7 +304,7 @@
 			"name": "CC0R Twin Stilettos",
 			"rarity": "common",
 			"mana_cost": "{2}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "73",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/73_CC0R Twin Stilettos.png"
@@ -314,7 +314,7 @@
 			"name": "CC0G Groveforce Sword",
 			"rarity": "common",
 			"mana_cost": "{1}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "72",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/72_CC0G Groveforce Sword.png"
@@ -324,7 +324,7 @@
 			"name": "CC0W Rousing Harp",
 			"rarity": "common",
 			"mana_cost": "{1}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "75",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/75_CC0W Rousing Harp.png"
@@ -334,7 +334,7 @@
 			"name": "CB02 Callous Huntress",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Human Ranger ",
+			"type": "Creature — Human Ranger",
 			"collector_number": "30",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/30_CB02 Callous Huntress.png"
@@ -344,7 +344,7 @@
 			"name": "CB03 Farsight Familiar",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Elemental Skeleton ",
+			"type": "Creature — Elemental Skeleton",
 			"collector_number": "31",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/31_CB03 Farsight Familiar.png"
@@ -354,7 +354,7 @@
 			"name": "CB05 [NAME] Consultant",
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Cat Advisor ",
+			"type": "Creature — Cat Advisor",
 			"collector_number": "33",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/33_CB05 [NAME] Consultant.png"
@@ -364,7 +364,7 @@
 			"name": "CB06 Dreadsmith",
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
-			"type": "Creature — Halfling Artificer ",
+			"type": "Creature — Halfling Artificer",
 			"collector_number": "34",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/34_CB06 Dreadsmith.png"
@@ -374,7 +374,7 @@
 			"name": "CB07 Dashing Heavyshot",
 			"rarity": "common",
 			"mana_cost": "{5}{B}",
-			"type": "Creature — Human Assassuin ",
+			"type": "Creature — Human Assassuin",
 			"collector_number": "35",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/35_CB07 Dashing Heavyshot.png"
@@ -384,7 +384,7 @@
 			"name": "CB08 Darktouched Devourer",
 			"rarity": "common",
 			"mana_cost": "{7}{B}",
-			"type": "Creature — Goblin Horror ",
+			"type": "Creature — Goblin Horror",
 			"collector_number": "36",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/36_CB08 Darktouched Devourer.png"
@@ -404,7 +404,7 @@
 			"name": "CB04 Miasmic Stag",
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Elk Horror ",
+			"type": "Creature — Elk Horror",
 			"collector_number": "32",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/32_CB04 Miasmic Stag.png"
@@ -424,7 +424,7 @@
 			"name": "CB10 Crystal-Carved Blade",
 			"rarity": "common",
 			"mana_cost": "{B}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "38",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/38_CB10 Crystal-Carved Blade.png"
@@ -464,7 +464,7 @@
 			"name": "CB01 Spark Hunter's Hire",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Cat Rogue ",
+			"type": "Creature — Cat Rogue",
 			"collector_number": "29",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/29_CB01 Spark Hunter's Hire.png"
@@ -474,7 +474,7 @@
 			"name": "CR01 Wildbond Hunter",
 			"rarity": "common",
 			"mana_cost": "{R}",
-			"type": "Creature — Elf Archer ",
+			"type": "Creature — Elf Archer",
 			"collector_number": "43",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/43_CR01 Wildbond Hunter.png"
@@ -484,7 +484,7 @@
 			"name": "CR02 Chakram Pitcher",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Cat Rogue ",
+			"type": "Creature — Cat Rogue",
 			"collector_number": "44",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/44_CR02 Chakram Pitcher.png"
@@ -494,7 +494,7 @@
 			"name": "CR03 Hemogoblins",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Goblin Horror ",
+			"type": "Creature — Goblin Horror",
 			"collector_number": "45",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/45_CR03 Hemogoblins.png"
@@ -504,7 +504,7 @@
 			"name": "CR04 Wild-Ways Huntress",
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Cat Ranger ",
+			"type": "Creature — Cat Ranger",
 			"collector_number": "46",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/46_CR04 Wild-Ways Huntress.png"
@@ -514,7 +514,7 @@
 			"name": "CR05 Wild-Ways Ritualist",
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Elf Druid ",
+			"type": "Creature — Elf Druid",
 			"collector_number": "47",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/47_CR05 Wild-Ways Ritualist.png"
@@ -524,7 +524,7 @@
 			"name": "CR06 Lotusfire Dancer",
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
-			"type": "Creature — Cat  Warrior ",
+			"type": "Creature — Cat Warrior",
 			"collector_number": "48",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/48_CR06 Lotusfire Dancer.png"
@@ -534,7 +534,7 @@
 			"name": "CR07 Dragonflame Paladin",
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
-			"type": "Creature — Dragon Knight ",
+			"type": "Creature — Dragon Knight",
 			"collector_number": "49",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/49_CR07 Dragonflame Paladin.png"
@@ -554,7 +554,7 @@
 			"name": "CR10 Flametouch Gauntlet",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "52",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/52_CR10 Flametouch Gauntlet.png"
@@ -574,7 +574,7 @@
 			"name": "CR12 Lightning Spear",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "54",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/54_CR12 Lightning Spear.png"
@@ -604,7 +604,7 @@
 			"name": "CR08 Molten Cragstomper",
 			"rarity": "common",
 			"mana_cost": "{6}{R}",
-			"type": "Creature — Elemental Dinosaur ",
+			"type": "Creature — Elemental Dinosaur",
 			"collector_number": "50",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/50_CR08 Molten Cragstomper.png"
@@ -614,7 +614,7 @@
 			"name": "CG01 Venturing Goblin",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Goblin Warrior ",
+			"type": "Creature — Goblin Warrior",
 			"collector_number": "57",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/57_CG01 Venturing Goblin.png"
@@ -624,7 +624,7 @@
 			"name": "CG02 Blast-Fist Brawler",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Human Monk ",
+			"type": "Creature — Human Monk",
 			"collector_number": "58",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/58_CG02 Blast-Fist Brawler.png"
@@ -634,7 +634,7 @@
 			"name": "CG03 Primeval Muse",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Merfolk Cleric ",
+			"type": "Creature — Merfolk Cleric",
 			"collector_number": "59",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/59_CG03 Primeval Muse.png"
@@ -644,7 +644,7 @@
 			"name": "CG04 Rumbling Gladewalker",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
-			"type": "Artifact Creature — Golem ",
+			"type": "Artifact Creature — Golem",
 			"collector_number": "60",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/60_CG04 Rumbling Gladewalker.png"
@@ -654,7 +654,7 @@
 			"name": "CG07 Steeleater Flora",
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
-			"type": "Creature — Plant Horror ",
+			"type": "Creature — Plant Horror",
 			"collector_number": "63",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/63_CG07 Steeleater Flora.png"
@@ -664,7 +664,7 @@
 			"name": "CG09 Hinterwoods Sage",
 			"rarity": "common",
 			"mana_cost": "{5}{G}{G}",
-			"type": "Creature — Elk Rabbit Ranger ",
+			"type": "Creature — Elk Rabbit Ranger",
 			"collector_number": "65",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/65_CG09 Hinterwoods Sage.png"
@@ -674,7 +674,7 @@
 			"name": "CG10 Gathering Pan",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "66",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/66_CG10 Gathering Pan.png"
@@ -694,7 +694,7 @@
 			"name": "CG05 Wild-Ways Ranger",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Jackal Ranger ",
+			"type": "Creature — Jackal Ranger",
 			"collector_number": "61",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/61_CG05 Wild-Ways Ranger.png"
@@ -724,7 +724,7 @@
 			"name": "CG14 Titanhunter Arms",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "70",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/70_CG14 Titanhunter Arms.png"
@@ -734,7 +734,7 @@
 			"name": "CG06 Wild-Ways Courser",
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
-			"type": "Creature — Centaur Archer ",
+			"type": "Creature — Centaur Archer",
 			"collector_number": "62",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/62_CG06 Wild-Ways Courser.png"
@@ -744,7 +744,7 @@
 			"name": "CC02 Single-Use Explosive",
 			"rarity": "common",
 			"mana_cost": "{2}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "77",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/77_CC02 Single-Use Explosive.png"
@@ -754,7 +754,7 @@
 			"name": "CC03 Big-Bore Cannon",
 			"rarity": "common",
 			"mana_cost": "{2}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "78",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/RSD-files/img/78_CC03 Big-Bore Cannon.png"
@@ -901,187 +901,97 @@
 			}
 		}
 	]
-[RareSlot(1)]
-[UncommonSlot(3)]
-[CommonSlot(8)]
-30 CW01 Guild Aspirant
-30 CW02 Sanctum Sureshot
-30 CW03 Snowsteppe Adventurer
-30 CW12 Lightsear Barrage
-30 CW13 Blessed Bow
-30 CW14 Reach for the Divine
-30 CW11 Fettered Decree
-30 CW10 Rapid Reload
-30 CW09 Hired Gun
-30 CW08 [NAME] Militia
-30 CW06 Highland Shepherd
-30 CW07 Nimbus Drake
-30 CW05 Armament Appraiser
-30 CW04 Guild Courser
-30 CC0B Blightround Musket
-30 CU14 Decree of Dissolution
-30 CU13 Bounty Collection
-30 CU12 Strip Identity
-30 CU11 Posessed Wingspan
-30 CU10 Precise Denial
-30 CU09 Trainee's Tome
-30 CU08 [NAME] Apex
-30 CU07 Frolicking Yearling
-30 CU06 Soulblast Arcanist
-30 CU05 Forgesmith's Eye
-30 CU03 Battlefield Specialist
-30 CU04 Beginner's Bane
-30 CU02 [NAME] Ambusher
-30 CU01 Disarming Mimic
-30 CC0U Crafted Wings
-30 CC0R Twin Stilettos
-30 CC0G Groveforce Sword
-30 CC0W Rousing Harp
-30 CB02 Callous Huntress
-30 CB03 Farsight Familiar
-30 CB05 [NAME] Consultant
-30 CB06 Dreadsmith
-30 CB07 Dashing Heavyshot
-30 CB08 Darktouched Devourer
-30 CB09 Poisoned Rounds
-30 CB04 Miasmic Stag
-30 CB11 Corrupted Oath
-30 CB10 Crystal-Carved Blade
-30 CB12 Extract Determination
-30 CB13 Take by Surprise
-30 CB14 Back for More
-30 CB01 Spark Hunter's Hire
-30 CR01 Wildbond Hunter
-30 CR02 Chakram Pitcher
-30 CR03 Hemogoblins
-30 CR04 Wild-Ways Huntress
-30 CR05 Wild-Ways Ritualist
-30 CR06 Lotusfire Dancer
-30 CR07 Dragonflame Paladin
-30 CR09 Take the Shot
-30 CR10 Flametouch Gauntlet
-30 CR11 Guns Blazing
-30 CR12 Lightning Spear
-30 CR13 Provoke Conflict
-30 CR14 Erupting Roar
-30 CR08 Molten Cragstomper
-30 CG01 Venturing Goblin
-30 CG02 Blast-Fist Brawler
-30 CG03 Primeval Muse
-30 CG04 Rumbling Gladewalker
-30 CG07 Steeleater Flora
-30 CG09 Hinterwoods Sage
-30 CG10 Gathering Pan
-30 CG11 Canopy Prowling
-30 CG05 Wild-Ways Ranger
-30 CG12 Clear Shot
-30 CG13 Armament Rejection
-30 CG14 Titanhunter Arms
-30 CG06 Wild-Ways Courser
-30 CC02 Single-Use Explosive
-30 CC03 Big-Bore Cannon
-30 CC04 Weaponsmith's Anvil
-30 CC01 Ammo Belt
-30 CL01 Nimbus Maze
-30 CL02 Foreboding Ruins
-30 CL03 Ancient Battleground
-30 CL04 Mountaintop Monument
-30 CL05 Guarded Citadel
-30 CL07 Hollowmire Township
-30 CL08 Shorecarved Cliffs
-30 CL09 Skyward Port
-30 CL10 Sanctified Ground
-30 CL11 Redeveloped Cityscape
-30 CL06 Inverted Spires
-30 CG08 Hollowmire Veteran
-[WildcardSlot(2)]
-10 CW01 Guild Aspirant
-10 CW02 Sanctum Sureshot
-10 CW03 Snowsteppe Adventurer
-10 CW12 Lightsear Barrage
-10 CW13 Blessed Bow
-10 CW14 Reach for the Divine
-10 CW11 Fettered Decree
-10 CW10 Rapid Reload
-10 CW09 Hired Gun
-10 CW08 [NAME] Militia
-10 CW06 Highland Shepherd
-10 CW07 Nimbus Drake
-10 CW05 Armament Appraiser
-10 CW04 Guild Courser
-10 CC0B Blightround Musket
-10 CU14 Decree of Dissolution
-10 CU13 Bounty Collection
-10 CU12 Strip Identity
-10 CU11 Posessed Wingspan
-10 CU10 Precise Denial
-10 CU09 Trainee's Tome
-10 CU08 [NAME] Apex
-10 CU07 Frolicking Yearling
-10 CU06 Soulblast Arcanist
-10 CU05 Forgesmith's Eye
-10 CU03 Battlefield Specialist
-10 CU04 Beginner's Bane
-10 CU02 [NAME] Ambusher
-10 CU01 Disarming Mimic
-10 CC0U Crafted Wings
-10 CC0R Twin Stilettos
-10 CC0G Groveforce Sword
-10 CC0W Rousing Harp
-10 CB02 Callous Huntress
-10 CB03 Farsight Familiar
-10 CB05 [NAME] Consultant
-10 CB06 Dreadsmith
-10 CB07 Dashing Heavyshot
-10 CB08 Darktouched Devourer
-10 CB09 Poisoned Rounds
-10 CB04 Miasmic Stag
-10 CB11 Corrupted Oath
-10 CB10 Crystal-Carved Blade
-10 CB12 Extract Determination
-10 CB13 Take by Surprise
-10 CB14 Back for More
-10 CB01 Spark Hunter's Hire
-10 CR01 Wildbond Hunter
-10 CR02 Chakram Pitcher
-10 CR03 Hemogoblins
-10 CR04 Wild-Ways Huntress
-10 CR05 Wild-Ways Ritualist
-10 CR06 Lotusfire Dancer
-10 CR07 Dragonflame Paladin
-10 CR09 Take the Shot
-10 CR10 Flametouch Gauntlet
-10 CR11 Guns Blazing
-10 CR12 Lightning Spear
-10 CR13 Provoke Conflict
-10 CR14 Erupting Roar
-10 CR08 Molten Cragstomper
-10 CG01 Venturing Goblin
-10 CG02 Blast-Fist Brawler
-10 CG03 Primeval Muse
-10 CG04 Rumbling Gladewalker
-10 CG07 Steeleater Flora
-10 CG09 Hinterwoods Sage
-10 CG10 Gathering Pan
-10 CG11 Canopy Prowling
-10 CG05 Wild-Ways Ranger
-10 CG12 Clear Shot
-10 CG13 Armament Rejection
-10 CG14 Titanhunter Arms
-10 CG06 Wild-Ways Courser
-10 CC02 Single-Use Explosive
-10 CC03 Big-Bore Cannon
-10 CC04 Weaponsmith's Anvil
-10 CC01 Ammo Belt
-10 CL01 Nimbus Maze
-10 CL02 Foreboding Ruins
-10 CL03 Ancient Battleground
-10 CL04 Mountaintop Monument
-10 CL05 Guarded Citadel
-10 CL07 Hollowmire Township
-10 CL08 Shorecarved Cliffs
-10 CL09 Skyward Port
-10 CL10 Sanctified Ground
-10 CL11 Redeveloped Cityscape
-10 CL06 Inverted Spires
-10 CG08 Hollowmire Veteran
+
+[rare(1)]
+[uncommon(3)]
+[common(10)]
+	5 CW01 Guild Aspirant
+	5 CW02 Sanctum Sureshot
+	5 CW03 Snowsteppe Adventurer
+	5 CW12 Lightsear Barrage
+	5 CW13 Blessed Bow
+	5 CW14 Reach for the Divine
+	5 CW11 Fettered Decree
+	5 CW10 Rapid Reload
+	5 CW09 Hired Gun
+	5 CW08 [NAME] Militia
+	5 CW06 Highland Shepherd
+	5 CW07 Nimbus Drake
+	5 CW05 Armament Appraiser
+	5 CW04 Guild Courser
+	5 CC0B Blightround Musket
+	5 CU14 Decree of Dissolution
+	5 CU13 Bounty Collection
+	5 CU12 Strip Identity
+	5 CU11 Posessed Wingspan
+	5 CU10 Precise Denial
+	5 CU09 Trainee's Tome
+	5 CU08 [NAME] Apex
+	5 CU07 Frolicking Yearling
+	5 CU06 Soulblast Arcanist
+	5 CU05 Forgesmith's Eye
+	5 CU03 Battlefield Specialist
+	5 CU04 Beginner's Bane
+	5 CU02 [NAME] Ambusher
+	5 CU01 Disarming Mimic
+	5 CC0U Crafted Wings
+	5 CC0R Twin Stilettos
+	5 CC0G Groveforce Sword
+	5 CC0W Rousing Harp
+	5 CB02 Callous Huntress
+	5 CB03 Farsight Familiar
+	5 CB05 [NAME] Consultant
+	5 CB06 Dreadsmith
+	5 CB07 Dashing Heavyshot
+	5 CB08 Darktouched Devourer
+	5 CB09 Poisoned Rounds
+	5 CB04 Miasmic Stag
+	5 CB11 Corrupted Oath
+	5 CB10 Crystal-Carved Blade
+	5 CB12 Extract Determination
+	5 CB13 Take by Surprise
+	5 CB14 Back for More
+	5 CB01 Spark Hunter's Hire
+	5 CR01 Wildbond Hunter
+	5 CR02 Chakram Pitcher
+	5 CR03 Hemogoblins
+	5 CR04 Wild-Ways Huntress
+	5 CR05 Wild-Ways Ritualist
+	5 CR06 Lotusfire Dancer
+	5 CR07 Dragonflame Paladin
+	5 CR09 Take the Shot
+	5 CR10 Flametouch Gauntlet
+	5 CR11 Guns Blazing
+	5 CR12 Lightning Spear
+	5 CR13 Provoke Conflict
+	5 CR14 Erupting Roar
+	5 CR08 Molten Cragstomper
+	5 CG01 Venturing Goblin
+	5 CG02 Blast-Fist Brawler
+	5 CG03 Primeval Muse
+	5 CG04 Rumbling Gladewalker
+	5 CG07 Steeleater Flora
+	5 CG09 Hinterwoods Sage
+	5 CG10 Gathering Pan
+	5 CG11 Canopy Prowling
+	5 CG05 Wild-Ways Ranger
+	5 CG12 Clear Shot
+	5 CG13 Armament Rejection
+	5 CG14 Titanhunter Arms
+	5 CG06 Wild-Ways Courser
+	5 CC02 Single-Use Explosive
+	5 CC03 Big-Bore Cannon
+	5 CC04 Weaponsmith's Anvil
+	5 CC01 Ammo Belt
+	5 CL01 Nimbus Maze
+	5 CL02 Foreboding Ruins
+	5 CL03 Ancient Battleground
+	5 CL04 Mountaintop Monument
+	5 CL05 Guarded Citadel
+	5 CL07 Hollowmire Township
+	5 CL08 Shorecarved Cliffs
+	5 CL09 Skyward Port
+	5 CL10 Sanctified Ground
+	5 CL11 Redeveloped Cityscape
+	5 CL06 Inverted Spires
+	5 CG08 Hollowmire Veteran

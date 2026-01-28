@@ -3,181 +3,241 @@
         "card_name": "Aiko, Silent Mourner",
         "number": 1,
         "shape": "planeswalker",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Bound by Possibility",
         "number": 7,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Twist Fate's Hand",
         "number": 15,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Akira, Wayward Sophomore",
         "number": 19,
         "shape": "planeswalker",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Kyoko, City's Hope",
         "number": 27,
         "shape": "transform double faced",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Glorious Gathering",
         "number": 2,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Coastal Channeler",
         "number": 8,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Do and Die Again",
         "number": 13,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Chromatic Impact",
         "number": 20,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Explorer's Potluck",
         "number": 25,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Laleh, Maharan Commander",
         "number": 3,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Grip of the Watcher",
         "number": 9,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Undead Diva",
         "number": 16,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Skarvith Champion",
         "number": 23,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Gruesome Emergence",
         "number": 26,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Radiant General",
         "number": 4,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Lysandra's Accomplice",
         "number": 11,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Veil-Pierced Diabolist",
         "number": 17,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Thundering Twins",
         "number": 24,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Reminiscent Waylighter",
         "number": 30,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Swift Retribution",
         "number": 5,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Ingenious Mechsmith",
         "number": 10,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Rite of Myriad Shapes",
         "number": 14,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Fervent Dramatist",
         "number": 21,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Magus of the Heart",
         "number": 28,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Upholder of Ancient Oath",
         "number": 6,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Undertow Meditations",
         "number": 12,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Witch-Apprentice Yarag",
         "number": 18,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Rapid Overtake",
         "number": 22,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Overharvest",
         "number": 29,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "er"
@@ -202,19 +262,25 @@
         "card_name": "Decadent Gorger",
         "number": 31,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Sihari's Fury",
         "number": 34,
         "shape": "transform double faced",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Naomi, Academic Authority",
         "number": 32,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -226,7 +292,9 @@
         "card_name": "Ogura's Charm",
         "number": 33,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -251,25 +319,33 @@
         "card_name": "Shining Apotheosis",
         "number": 38,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Hosted Helm",
         "number": 36,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Council of Defense",
         "number": 35,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Mapwright's Prism",
         "number": 37,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -300,7 +376,9 @@
         "card_name": "Kinken Shrine Steppe",
         "number": 40,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -324,7 +402,9 @@
         "card_name": "Forgotten Citadel",
         "number": 39,
         "shape": "normal",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -355,43 +435,57 @@
         "card_name": "Food",
         "number": 5,
         "shape": "token",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Idol",
         "number": 6,
         "shape": "token",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Plains Satrapy",
         "number": 7,
         "shape": "token",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Knight",
         "number": 1,
         "shape": "token",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Spirit",
         "number": 2,
         "shape": "token",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Decay",
         "number": 3,
         "shape": "token",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Spirit",
         "number": 4,
         "shape": "token",
-        "set": "MSY"
+        "set": "MSY",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
