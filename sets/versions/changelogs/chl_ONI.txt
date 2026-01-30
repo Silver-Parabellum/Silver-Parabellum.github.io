@@ -1,4 +1,66 @@
-﻿VERSION 11 CHANGELOG
+﻿VERSION 12 CHANGELOG
+====================
+
+Track Team Sprinter added.
+Hateful Seishin added.
+Soul Agency Heavy added.
+Kitsune Heiress added.
+Shrinebound Seishin added.
+Uncontrollable Contracted added.
+Ryu-Blood Inheritor added.
+Golem Horror added.
+Bleed Wound added.
+Spirit added.
+
+Possessed Mech removed.
+Hateful Inari removed.
+Track Team Trainer removed.
+Whispering Maw removed.
+Shrinebound Inari removed.
+Hellraisers Punisher removed.
+Ryu-Blood Heiress removed.
+
+Scholarly Witness
+type: Creature — Fox Student => Creature — Wolf Student
+
+Taraikyo Egotist
+rules_text: Menace, prowess
+At the beginning of your end step, if you've cast a creature and a noncreature spell this turn, put a +1/+1 counter on Taraikyo Egotist. => Menace, prowess
+At the beginning of your end step, if you've cast a creature and a noncreature spell this turn, you draw a card and lose 1 life.
+pt: 2/2 => 2/1
+
+Contracted Hunger
+
+Soul Agency Street Patrol
+type: Creature — Human Soldier => Creature — Human Detective Soldier
+
+Track Stars
+
+Seijuku Disruptor
+
+Soul Agency Coroner
+
+Kyoko, City's Hope
+
+Tetsuya, Soulsculptor Strix
+rules_text: Paradigm shift {B}{G} — Sorcery [i](You may cast this as a {B}{G} sorcery with only bracketed text.)[/i]
+Flying
+Whenever Tetsuya, Soulsculptor Strix enters or attacks, you may [b][destroy target creature.][/b] It's controller creates a 4/4 black Cat Horror creature token. => Paradigm shift {B}{G} — Sorcery [i](You may cast this as a {B}{G} sorcery with only bracketed text.)[/i]
+Flying
+Whenever Tetsuya, Soulsculptor Strix enters or attacks, you may [b][destroy target creature.][/b] It's controller creates a 4/4 blue and black Golem Horror creature token.
+special_text: Paradigm shift {B}{G} — Sorcery [i](You may cast this as a {B}{G} sorcery with only bracketed text.)[/i]
+Flying
+Whenever Tetsuya, Soulsculptor Strix enters or attacks, you may [b][destroy target creature.][/b] It's controller creates a 4/4 black Cat Horror creature token. => Paradigm shift {B}{G} — Sorcery [i](You may cast this as a {B}{G} sorcery with only bracketed text.)[/i]
+Flying
+Whenever Tetsuya, Soulsculptor Strix enters or attacks, you may [b][destroy target creature.][/b] It's controller creates a 4/4 blue and black Golem Horror creature token.
+
+Hotheaded Teacher
+type: Creature — Fox Warlock Advisor => Creature — Wolf Warlock Advisor
+
+Voidless Epiphany
+
+
+VERSION 11 CHANGELOG
 ====================
 
 Soul Agency Reaper added.
