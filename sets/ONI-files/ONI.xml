@@ -1900,7 +1900,7 @@ When Greater Toad Sage enters, target creature you control gets +2/+2 until end 
 		</card>
 		<card>
 			<name>Omukade, Void Feaster</name>
-			<text>At the beginning of each end step, if you&apos;ve cast a creature and a noncreature spell this turn, choose a nonland permanent type. Each opponent sacrifices a permanent they control of that type.</text>
+			<text>At the beginning of your end step, if you&apos;ve cast a creature and a noncreature spell this turn, choose a nonland permanent type. Each opponent sacrifices a permanent they control of that type.</text>
 			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/217_Omukade, Void Feaster.png" num="217">ONI</set>
 			<prop>
 				<layout>normal</layout>
@@ -3320,7 +3320,7 @@ Shrinebound Seishin can&apos;t attack or block alone.</text>
 		</card>
 		<card>
 			<name>Recollection&apos;s Consumption</name>
-			<text>At the beginning of each your end step, if you&apos;ve cast a creature and a noncreature spell this turn, create a 2/2 green Spirit creature token. Each opponent loses 2 life.</text>
+			<text>At the beginning of your end step, if you&apos;ve cast a creature and a noncreature spell this turn, create a 2/2 green Spirit creature token. Each opponent loses 2 life.</text>
 			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/222_Recollection&apos;s Consumption.png" num="222">ONI</set>
 			<prop>
 				<layout>normal</layout>

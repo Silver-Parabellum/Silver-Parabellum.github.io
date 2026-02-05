@@ -1,4 +1,16 @@
-﻿VERSION 15 CHANGELOG
+﻿VERSION 16 CHANGELOG
+====================
+
+
+
+Omukade, Void Feaster
+rules_text: At the beginning of each end step, if you've cast a creature and a noncreature spell this turn, choose a nonland permanent type. Each opponent sacrifices a permanent they control of that type. => At the beginning of your end step, if you've cast a creature and a noncreature spell this turn, choose a nonland permanent type. Each opponent sacrifices a permanent they control of that type.
+
+Recollection's Consumption
+rules_text: At the beginning of each your end step, if you've cast a creature and a noncreature spell this turn, create a 2/2 green Spirit creature token. Each opponent loses 2 life. => At the beginning of your end step, if you've cast a creature and a noncreature spell this turn, create a 2/2 green Spirit creature token. Each opponent loses 2 life.
+
+
+VERSION 15 CHANGELOG
 ====================
 
 Deft Reckoning added.
