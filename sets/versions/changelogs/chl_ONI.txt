@@ -1,4 +1,36 @@
-﻿VERSION 14 CHANGELOG
+﻿VERSION 15 CHANGELOG
+====================
+
+Deft Reckoning added.
+
+Swift Reckoning removed.
+
+Inami, Taraikyo Star
+rules_text: Other creatures you control with one or more of flying, first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach and trample have instruct for those abilities. [i](Whenever a creature with one of those abilities attacks, up to one other target attacking creature gains that ability until end of turn.)[/i] => Other creatures you control with one or more of flying, first strike, double strike, deathtouch, hexproof, indestructible, lifelink, menace, reach and trample have instruct for those abilities. [i](Whenever a creature with one of those abilities attacks, up to one other target attacking creature gains that ability until end of turn.)[/i]
+
+Orochi's Soulcaller
+type: Creature — Demon Student Warlock => Creature — Human Student Warlock
+
+Daemthine, Dread Influencer
+rules_text: Lifelink, deathtouch
+Whenever Daemthine deals combat damage to a player, they create a 0/1 colorless Fan creature token with “This token can't block” and “At the beginning of your upkeep, you lose 1 life and each opponent gains 1 life.” => Lifelink, deathtouch
+Whenever a permanent you control leaves the battlefield for the first time each turn, each opponent creates a 0/1 colorless Fan creature token with “This token can't block” and “At the beginning of your upkeep, you lose 1 life and each opponent gains 1 life.”
+
+Taraikyo Expression
+cost: {3}{R}{G}{W} => {2}{R}{G}{W}
+
+Bloodsoaked Void Line
+
+Engulfed Void Line
+
+Overwhelmed Void Line
+
+Wilted Void Line
+
+Consumed Void Line
+
+
+VERSION 14 CHANGELOG
 ====================
 
 Orochi's Soulcaller added.

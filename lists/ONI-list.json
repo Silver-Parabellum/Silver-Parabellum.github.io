@@ -1,7 +1,7 @@
 ﻿[
     {
         "card_name": "Graduation",
-        "number": 6,
+        "number": 7,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -41,7 +41,7 @@
     },
     {
         "card_name": "Rin, Obstructive Exorcist",
-        "number": 22,
+        "number": 23,
         "shape": "planeswalker",
         "set": "ONI",
         "rotated": false,
@@ -121,7 +121,7 @@
     },
     {
         "card_name": "Kaede, Drama Head",
-        "number": 15,
+        "number": 16,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -161,7 +161,7 @@
     },
     {
         "card_name": "Ryujin of Divine Justice",
-        "number": 24,
+        "number": 25,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -201,7 +201,7 @@
     },
     {
         "card_name": "Satomi, Spectacular Dramatist",
-        "number": 25,
+        "number": 26,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -241,7 +241,7 @@
     },
     {
         "card_name": "Setting Sun",
-        "number": 27,
+        "number": 28,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -520,8 +520,8 @@
         "position": ""
     },
     {
-        "card_name": "Haiden Consecrator",
-        "number": 7,
+        "card_name": "Deft Reckoning",
+        "number": 5,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -560,8 +560,8 @@
         "position": ""
     },
     {
-        "card_name": "Hiruya Star Aspirant",
-        "number": 9,
+        "card_name": "Haiden Consecrator",
+        "number": 8,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -600,8 +600,8 @@
         "position": ""
     },
     {
-        "card_name": "Inugami Twins",
-        "number": 14,
+        "card_name": "Hiruya Star Aspirant",
+        "number": 10,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -640,8 +640,8 @@
         "position": ""
     },
     {
-        "card_name": "Kitakui Commute",
-        "number": 16,
+        "card_name": "Inugami Twins",
+        "number": 15,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -680,7 +680,7 @@
         "position": ""
     },
     {
-        "card_name": "Kyoko's Rejection",
+        "card_name": "Kitakui Commute",
         "number": 17,
         "shape": "normal",
         "set": "ONI",
@@ -720,8 +720,8 @@
         "position": ""
     },
     {
-        "card_name": "Rousing Shrineguard",
-        "number": 23,
+        "card_name": "Kyoko's Rejection",
+        "number": 18,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -760,8 +760,8 @@
         "position": ""
     },
     {
-        "card_name": "Senzao Peak Skythresher",
-        "number": 26,
+        "card_name": "Rousing Shrineguard",
+        "number": 24,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -800,8 +800,8 @@
         "position": ""
     },
     {
-        "card_name": "Swift Reckoning",
-        "number": 30,
+        "card_name": "Senzao Peak Skythresher",
+        "number": 27,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -881,7 +881,7 @@
     },
     {
         "card_name": "Disastrous Derailment",
-        "number": 5,
+        "number": 6,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -921,7 +921,7 @@
     },
     {
         "card_name": "Hellraisers Seraph",
-        "number": 8,
+        "number": 9,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -961,7 +961,7 @@
     },
     {
         "card_name": "Hollowed Vanguard",
-        "number": 10,
+        "number": 11,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1001,7 +1001,7 @@
     },
     {
         "card_name": "Horrific Companion",
-        "number": 11,
+        "number": 12,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1041,7 +1041,7 @@
     },
     {
         "card_name": "Inaba Talent Scouts",
-        "number": 12,
+        "number": 13,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1081,7 +1081,7 @@
     },
     {
         "card_name": "Inspiring Senior",
-        "number": 13,
+        "number": 14,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1121,7 +1121,7 @@
     },
     {
         "card_name": "Lost in Transit",
-        "number": 18,
+        "number": 19,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1161,7 +1161,7 @@
     },
     {
         "card_name": "Motivating Monitor",
-        "number": 19,
+        "number": 20,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1201,7 +1201,7 @@
     },
     {
         "card_name": "Obsessive Stalker",
-        "number": 20,
+        "number": 21,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1241,7 +1241,7 @@
     },
     {
         "card_name": "Rebellious Maiko",
-        "number": 21,
+        "number": 22,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1281,7 +1281,7 @@
     },
     {
         "card_name": "Soul Agency Reaper",
-        "number": 28,
+        "number": 29,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1321,7 +1321,7 @@
     },
     {
         "card_name": "Subsumed Self",
-        "number": 29,
+        "number": 30,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,

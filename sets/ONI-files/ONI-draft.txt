@@ -55,9 +55,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Rebel Student",
-			"collector_number": "21",
+			"collector_number": "22",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/21_Rebellious Maiko.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/22_Rebellious Maiko.png"
 			}
 		},
 		{
@@ -65,9 +65,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Angel Rebel Student",
-			"collector_number": "8",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/8_Hellraisers Seraph.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/9_Hellraisers Seraph.png"
 			}
 		},
 		{
@@ -75,9 +75,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "5",
+			"collector_number": "6",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/5_Disastrous Derailment.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/6_Disastrous Derailment.png"
 			}
 		},
 		{
@@ -245,9 +245,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Creature — Cat Performer",
-			"collector_number": "9",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/9_Hiruya Star Aspirant.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/10_Hiruya Star Aspirant.png"
 			}
 		},
 		{
@@ -295,9 +295,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Fox Detective Warlock",
-			"collector_number": "28",
+			"collector_number": "29",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/28_Soul Agency Reaper.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/29_Soul Agency Reaper.png"
 			}
 		},
 		{
@@ -325,9 +325,9 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Creature — Human Student Advisor",
-			"collector_number": "13",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/13_Inspiring Senior.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/14_Inspiring Senior.png"
 			}
 		},
 		{
@@ -435,9 +435,9 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{W}{W}",
 			"type": "Legendary Creature — Dragon Spirit",
-			"collector_number": "24",
+			"collector_number": "25",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/24_Ryujin of Divine Justice.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/25_Ryujin of Divine Justice.png"
 			}
 		},
 		{
@@ -785,9 +785,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Dog Student",
-			"collector_number": "14",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/14_Inugami Twins.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/15_Inugami Twins.png"
 			}
 		},
 		{
@@ -925,9 +925,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{W}",
 			"type": "Creature — Spirit Wurm",
-			"collector_number": "26",
+			"collector_number": "27",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/26_Senzao Peak Skythresher.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/27_Senzao Peak Skythresher.png"
 			}
 		},
 		{
@@ -1005,9 +1005,9 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Sorcery",
-			"collector_number": "29",
+			"collector_number": "30",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/29_Subsumed Self.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/30_Subsumed Self.png"
 			}
 		},
 		{
@@ -1205,9 +1205,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment",
-			"collector_number": "18",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/18_Lost in Transit.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/19_Lost in Transit.png"
 			}
 		},
 		{
@@ -1225,9 +1225,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Human Student Advisor",
-			"collector_number": "19",
+			"collector_number": "20",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/19_Motivating Monitor.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/20_Motivating Monitor.png"
 			}
 		},
 		{
@@ -1285,9 +1285,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{W}{W}",
 			"type": "Legendary Creature — Human Advisor",
-			"collector_number": "15",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/15_Kaede, Drama Head.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/16_Kaede, Drama Head.png"
 			}
 		},
 		{
@@ -1344,7 +1344,7 @@
 			"name": "Orochi's Soulcaller",
 			"rarity": "rare",
 			"mana_cost": "{B}{G}",
-			"type": "Creature — Demon Student Warlock",
+			"type": "Creature — Human Student Warlock",
 			"collector_number": "218",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/218_Orochi's Soulcaller.png"
@@ -1405,9 +1405,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Student Assassin",
-			"collector_number": "20",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/20_Obsessive Stalker.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/21_Obsessive Stalker.png"
 			}
 		},
 		{
@@ -1455,9 +1455,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "6",
+			"collector_number": "7",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/6_Graduation.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/7_Graduation.png"
 			}
 		},
 		{
@@ -1555,9 +1555,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "17",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/17_Kyoko's Rejection.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/18_Kyoko's Rejection.png"
 			}
 		},
 		{
@@ -1775,9 +1775,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{W}{W}",
 			"type": "Creature — Angel Horror",
-			"collector_number": "10",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/10_Hollowed Vanguard.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/11_Hollowed Vanguard.png"
 			}
 		},
 		{
@@ -1971,13 +1971,13 @@
 			}
 		},
 		{
-			"name": "Swift Reckoning",
+			"name": "Deft Reckoning",
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "30",
+			"collector_number": "5",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/30_Swift Reckoning.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/5_Deft Reckoning.png"
 			}
 		},
 		{
@@ -2075,9 +2075,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{W}{W}",
 			"type": "Creature — Cat Samurai",
-			"collector_number": "23",
+			"collector_number": "24",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/23_Rousing Shrineguard.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/24_Rousing Shrineguard.png"
 			}
 		},
 		{
@@ -2320,7 +2320,7 @@
 		{
 			"name": "Taraikyo Expression",
 			"rarity": "mythic",
-			"mana_cost": "{3}{R}{G}{W}",
+			"mana_cost": "{2}{R}{G}{W}",
 			"type": "Sorcery",
 			"collector_number": "237",
 			"image_uris": {
@@ -2389,9 +2389,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{W}",
 			"type": "Legendary Creature — Human Performer",
-			"collector_number": "25",
+			"collector_number": "26",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/25_Satomi, Spectacular Dramatist.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/26_Satomi, Spectacular Dramatist.png"
 			}
 		},
 		{
@@ -2399,9 +2399,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "27",
+			"collector_number": "28",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/27_Setting Sun.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/28_Setting Sun.png"
 			}
 		},
 		{
@@ -2419,9 +2419,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Human Monk Student",
-			"collector_number": "7",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/7_Haiden Consecrator.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/8_Haiden Consecrator.png"
 			}
 		},
 		{
@@ -2429,9 +2429,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Wolf Horror",
-			"collector_number": "11",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/11_Horrific Companion.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/12_Horrific Companion.png"
 			}
 		},
 		{
@@ -2439,9 +2439,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Rabbit Advisor Scout",
-			"collector_number": "12",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/12_Inaba Talent Scouts.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/13_Inaba Talent Scouts.png"
 			}
 		},
 		{
@@ -2979,9 +2979,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Legendary Planeswalker — Rin",
-			"collector_number": "22",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/22_Rin, Obstructive Exorcist.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/23_Rin, Obstructive Exorcist.png"
 			}
 		},
 		{
@@ -3039,9 +3039,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment",
-			"collector_number": "16",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/16_Kitakui Commute.png"
+				"en": "https://Silver-Parabellum.github.io/sets/ONI-files/img/17_Kitakui Commute.png"
 			}
 		}
 	]
@@ -3182,7 +3182,7 @@
 	4 Battle-Rage Komainus
 	4 Shrinebound Seishin
 	4 Recollection's Consumption
-	4 Swift Reckoning
+	4 Deft Reckoning
 	4 Consuming Sorrow
 	4 Territorial Mentor
 	4 Hiruya Commute
@@ -3597,7 +3597,7 @@
 	2 Nightpack Contractor
 	2 Gate Guardian's Fury
 	2 Enspirited Spring
-	6 Swift Reckoning
+	6 Deft Reckoning
 	6 Consuming Sorrow
 	6 Territorial Mentor
 	6 Hiruya Commute
@@ -3874,7 +3874,7 @@
 	7 Nightpack Contractor
 	7 Gate Guardian's Fury
 	7 Enspirited Spring
-	15 Swift Reckoning
+	15 Deft Reckoning
 	15 Consuming Sorrow
 	15 Territorial Mentor
 	15 Hiruya Commute
