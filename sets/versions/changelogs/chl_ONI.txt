@@ -1,4 +1,320 @@
-﻿VERSION 13 CHANGELOG
+﻿VERSION 14 CHANGELOG
+====================
+
+Orochi's Soulcaller added.
+Hydra Horror added.
+Swift Reckoning added.
+Akira, Hellraisers Sukeban added.
+Jun, Ryu Heiress added.
+Skeleton Spirit added.
+Overdrive added.
+
+Spirit Dragon removed.
+Bonecaller Diva removed.
+Skeleton Horror removed.
+Exhausting Reproach removed.
+Jun, Ryu-Born removed.
+Akira, Hidanko's Blade removed.
+
+Seiran, Thundering Star
+rules_text: Double strike
+Seiran, Thundering Star gets +1/+0 for each card you have drawn this turn.
+If you would draw one or more cards, instead draw twice that many cards, then discard that many cards. => Menace
+Seiran, Thundering Star gets +1/+0 for each card you have drawn this turn.
+If you would draw a card, draw two cards, then discard a card instead.
+
+Seijuku Star Pilot
+rules_text: Paradigm shift {4}{B} — Sorcery [i](You may cast this as a {4}{B} sorcery with only bracketed text.)[/i]
+Lifelink
+At the beginning of your end step, if you've cast a creature and a noncreature spell this turn, [b][surveil 3, then return a creature or planeswalker card from your graveyard to the battlefield.] [/b]You lose life equal to its mana value. => Paradigm shift {4}{B} — Sorcery [i](You may cast this as a {4}{B} sorcery with only bracketed text.)[/i]
+Lifelink
+At the beginning of your end step, if you've cast a creature and a noncreature spell this turn, [b][Return up to one target creature or planeswalker card from your graveyard to the battlefield.] [/b]You lose life equal to its mana value.
+special_text: Paradigm shift {4}{B} — Sorcery [i](You may cast this as a {4}{B} sorcery with only bracketed text.)[/i]
+Lifelink
+At the beginning of your end step, if you've cast a creature and a noncreature spell this turn, [b][surveil 3, then return a creature or planeswalker card from your graveyard to the battlefield.] [/b]You lose life equal to its mana value. => Paradigm shift {4}{B} — Sorcery [i](You may cast this as a {4}{B} sorcery with only bracketed text.)[/i]
+Lifelink
+At the beginning of your end step, if you've cast a creature and a noncreature spell this turn, [b][Return up to one target creature or planeswalker card from your graveyard to the battlefield.] [/b]You lose life equal to its mana value.
+
+Soul Agency Street Patrol
+rules_text: Paradigm shift {U} — Instant [i](You may cast this as a {U} instant with only bracketed text.)[/i]
+Prowess
+When Soul Agency Street Patrol enters, [b][return up to one other target creature to its owner's hand.][/b] => Paradigm shift {U} — Instant [i](You may cast this as a {U} instant with only bracketed text.)[/i]
+Prowess
+When Soul Agency Street Patrol enters, [b][return up to one target creature to its owner's hand.][/b]
+special_text: Paradigm shift {U} — Instant [i](You may cast this as a {U} instant with only bracketed text.)[/i]
+Prowess
+When Soul Agency Street Patrol enters, [b][return up to one other target creature to its owner's hand.][/b] => Paradigm shift {U} — Instant [i](You may cast this as a {U} instant with only bracketed text.)[/i]
+Prowess
+When Soul Agency Street Patrol enters, [b][return up to one target creature to its owner's hand.][/b]
+
+Thirst for Inspiration
+rules_text: Draw three cards. Then discard two cards unless you discard an instant card sorcery card or card with paradigm. => Draw three cards. Then discard two cards unless you discard an instant card, sorcery card, or card with paradigm shift.
+
+Detention
+rules_text: Enchant creature or planeswalker.
+When Detention enters, you may tap enchanted permanent. If you do, conjure Fatigue on top of your library. [i](It's a {2} sorcery with “Draw a card.”)[/i]
+Enchanted permanent loses all abilities and doesn't untap during its controller's untap step. => Enchant creature or planeswalker
+When Detention enters, you may tap enchanted permanent. If you do, conjure Fatigue on top of your library. [i](It's a {2} sorcery with “Draw a card.”)[/i]
+Enchanted permanent loses all abilities and doesn't untap during its controller's untap step.
+
+Attended Prefect
+
+Gladewaker Seishin
+cost: {1}{U} => {2}{U}
+rules_text: Paradigm shift {1}{G} — Instant [i](You may cast this as a {1}{G} instant with only bracketed text.)[/i]
+Whenever you cast a noncreature spell, you may pay {2}. If you do, [b][target land you control becomes a 4/4 Spirit creature with hexproof and haste until end of turn. It's still a land.][/b] => Paradigm shift {1}{G} — Instant [i](You may cast this as a {1}{G} instant with only bracketed text.)[/i]
+Whenever you cast your first noncreature spell each turn, up to one [b][target land you control becomes a 4/4 Spirit creature with hexproof and haste until end of turn. It's still a land.][/b]
+pt: 1/3 => 2/3
+special_text: Paradigm shift {1}{G} — Instant [i](You may cast this as a {1}{G} instant with only bracketed text.)[/i]
+Whenever you cast a noncreature spell, you may pay {2}. If you do, [b][target land you control becomes a 4/4 Spirit creature with hexproof and haste until end of turn. It's still a land.][/b] => Paradigm shift {1}{G} — Instant [i](You may cast this as a {1}{G} instant with only bracketed text.)[/i]
+Whenever you cast your first noncreature spell each turn, up to one [b][target land you control becomes a 4/4 Spirit creature with hexproof and haste until end of turn. It's still a land.][/b]
+
+War-Stage Idol
+rules_text: Paradigm shift {2}{R} — Instant [i](You may cast this as a {2}{R} instant with only bracketed text.)[/i]
+Menace
+Whenever War-Stage Idol enters or attacks, you may sacrifice another creature or [b][discard a card. If you do, draw two cards and create a treasure token.][/b] => Paradigm shift {2}{R} — Instant [i](You may cast this as a {2}{R} instant with only bracketed text.)[/i]
+Menace
+Whenever War-Stage Idol enters or attacks, you may sacrifice another creature or [b][discard a card. If you do, draw two cards and create a Treasure token.][/b]
+special_text: Paradigm shift {2}{R} — Instant [i](You may cast this as a {2}{R} instant with only bracketed text.)[/i]
+Menace
+Whenever War-Stage Idol enters or attacks, you may sacrifice another creature or [b][discard a card. If you do, draw two cards and create a treasure token.][/b] => Paradigm shift {2}{R} — Instant [i](You may cast this as a {2}{R} instant with only bracketed text.)[/i]
+Menace
+Whenever War-Stage Idol enters or attacks, you may sacrifice another creature or [b][discard a card. If you do, draw two cards and create a Treasure token.][/b]
+
+Void Central Junction
+rules_text: When Void Central Junction enters, surveil 1.
+Other Terminals you control have “when this land enters, surveil 1.”
+{T}: Add {C}.
+{1}, {T}: Add one mana of any color. => When Void Central Junction enters, surveil 1.
+{T}: Add {C}.
+Terminalcycling {2} [i]({2}, Discard this card: Search your library for a Terminal card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Motivating Monitor
+rules_text: Instruct [i](Whenever this creature attacks, up to one other target attacking creature gains the following abilities until end of turn.)[/i]
+As long as its your turn, this creature gets +2/+0 => Instruct [i](Whenever this creature attacks, up to one other target attacking creature gains the following abilities until end of turn.)[/i]
+As long as its your turn, this creature gets +2/+0.
+
+Kaede, Drama Head
+rules_text: Paradigm shift {R}{G} — Sorcery [i](You may cast this as a {R}{G} sorcery with only bracketed text.)[/i]
+Whenever Kaede, Drama Head enters or attacks [b][look at the top six cards of your library. You may put a creature card with mana value 2 or less from among them onto the battlefield, then shuffle.][/b] => Paradigm shift {R}{G} — Sorcery [i](You may cast this as a {R}{G} sorcery with only bracketed text.)[/i]
+Whenever Kaede, Drama Head enters or attacks, [b][look at the top six cards of your library. You may put a creature card with mana value 2 or less from among them onto the battlefield, then shuffle.][/b]
+special_text: Paradigm shift {R}{G} — Sorcery [i](You may cast this as a {R}{G} sorcery with only bracketed text.)[/i]
+Whenever Kaede, Drama Head enters or attacks [b][look at the top six cards of your library. You may put a creature card with mana value 2 or less from among them onto the battlefield, then shuffle.][/b] => Paradigm shift {R}{G} — Sorcery [i](You may cast this as a {R}{G} sorcery with only bracketed text.)[/i]
+Whenever Kaede, Drama Head enters or attacks, [b][look at the top six cards of your library. You may put a creature card with mana value 2 or less from among them onto the battlefield, then shuffle.][/b]
+
+Mezu's Forerunner
+rules_text: Deathtouch, haste, lifelink
+When Mezu's Forerunner enters, if it entered from a graveyard or was cast from a graveyard, create a token that's a copy of it. => Lifelink, haste
+When Mezu's Forerunner enters, if it entered from a graveyard or was cast from a graveyard, create a token that's a copy of it.
+
+Tandem Defiance
+rules_text: Each of up to two target creatures get +1/+0 until end of turn.
+Draw a card => Each of up to two target creatures get +1/+0 until end of turn.
+Draw a card.
+
+Haiden Pactbreaker
+rules_text: Prowess
+Sacrifice Haiden Pactbreaker: Counter target noncreature spell unless its controller pays {X}, where X is Haiden Pactbreaker's power. => Prowess
+Sacrifice Haiden Pactbreaker: Counter target noncreature spell unless its controller pays {1}.
+
+Sarugami Titan
+rules_text: Paradigm shift {2}{B} — Instant [i](You may cast this as a {2}{B} instant with only bracketed text.)[/i]
+When Sarugami Titan enters, you may exile an instant, sorcery or card with paradigm from your graveyard. If you do, up to one [b][target creature gets +4/-4 until end of turn.][/b] => Paradigm shift {2}{B} — Instant [i](You may cast this as a {2}{B} instant with only bracketed text.)[/i]
+When Sarugami Titan enters, you may exile an instant, sorcery or card with paradigm shift from your graveyard. If you do, up to one [b][target creature gets +4/-4 until end of turn.][/b]
+special_text: Paradigm shift {2}{B} — Instant [i](You may cast this as a {2}{B} instant with only bracketed text.)[/i]
+When Sarugami Titan enters, you may exile an instant, sorcery or card with paradigm from your graveyard. If you do, up to one [b][target creature gets +4/-4 until end of turn.][/b] => Paradigm shift {2}{B} — Instant [i](You may cast this as a {2}{B} instant with only bracketed text.)[/i]
+When Sarugami Titan enters, you may exile an instant, sorcery or card with paradigm shift from your graveyard. If you do, up to one [b][target creature gets +4/-4 until end of turn.][/b]
+
+Kitsune Heiress
+rules_text: Whenever you sacrifice another permanent, put a +1/+1 counter on Kitsune Heiress. => Whenever you sacrifice another nnland permanent, put a +1/+1 counter on Kitsune Heiress.
+
+Future Past
+rules_text: Look at the top three cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order. Put each of those cards into your hand instead if this spell's flashback cost was paid.
+Flashback {5}{U}{U} => Look at the top three cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order. Put each of those cards into your hand instead if this spell's flashback cost was paid.
+Flashback {4}{U}{U}
+
+Seijuku Disruptor
+pt: 1/2 => 1/1
+
+Ryo, Delinquent Hinotori
+rules_text: Paradigm shift {2}{G}{U} — Instant [i](You may cast this as a {2}{G}{U} instant with only bracketed text.)[/i]
+Flying, prowess
+Whenever you cast a noncreature spell, you may pay {1}{R}. If you do, [b][create a token that's a copy of target creature][/b] card in your graveyard. It gains haste. Sacrifice that token at the beginning of the next end step. => Paradigm shift {2}{G}{U} — Instant [i](You may cast this as a {2}{G}{U} instant with only bracketed text.)[/i]
+Flying, prowess
+Whenever you cast a noncreature spell, you may pay {1}{R}. If you do, [b][create a token that's a copy of target creature][/b] card in your graveyard, then exile that card. The token gains haste. Sacrifice that token at the beginning of the next end step.
+special_text: Paradigm shift {2}{G}{U} — Instant [i](You may cast this as a {2}{G}{U} instant with only bracketed text.)[/i]
+Flying, prowess
+Whenever you cast a noncreature spell, you may pay {1}{R}. If you do, [b][create a token that's a copy of target creature][/b] card in your graveyard. It gains haste. Sacrifice that token at the beginning of the next end step. => Paradigm shift {2}{G}{U} — Instant [i](You may cast this as a {2}{G}{U} instant with only bracketed text.)[/i]
+Flying, prowess
+Whenever you cast a noncreature spell, you may pay {1}{R}. If you do, [b][create a token that's a copy of target creature][/b] card in your graveyard, then exile that card. The token gains haste. Sacrifice that token at the beginning of the next end step.
+
+Hiruya Commute
+rules_text: When Hiruya Commute enters, if you control a Terminal, target player mills three cards.
+Whenever a Terminal you control enters, target player mills four cards. => Whenever Hiruya Commute or a Terminal you control enters, target player mills three cards.
+
+Guretani Commute
+cost: {2}{B} => {1}{B}
+rules_text: When Guretani Commute enters, if you control a Terminal, return up to one target creature card from your graveyard to your hand.
+Whenever a Terminal you control enters, return up to one target creature card from your graveyard to your hand. => Whenever Guretani Commute or a Terminal you control enters, surveil 2. You gain 2 life.
+
+Tenkami Commute
+cost: {3}{R} => {2}{R}
+rules_text: When Tenkami Commute enters, if you control a Terminal, create a token that's a copy of target creature you control, except it has haste. Sacrifice it at the beginning of the next end step.
+Whenever a Terminal you control enters, create a token that's a copy of target creature you control, except it has haste. Sacrifice it at the beginning of the next end step. => Whenever Tenkami Commute or a Terminal you control enters, create a Treasure token.
+
+Senzao Commute
+rules_text: When Senzao Commute enters, if you control a Terminal, create a 2/2 green Spirit creature token.
+Whenever a Terminal you control enters, create a 2/2 green Spirit creature token. => Whenever Senzao Commute or a Terminal you control enters, create a 2/2 green Spirit creature token.
+
+Hidanko Training Blade
+rules_text: When Hidanko Training Blade enters, create a 1/1 white and black Student creature token.
+Equipped creature gets +1/+1 and gains prowess.
+Equip {2} => When Hidanko Training Blade enters, create a 1/1 white and black Student creature token.
+Equipped creature gets +1/+1 and has prowess.
+Equip {2}
+
+Taraikyo Expression
+cost: {2}{R}{G}{W} => {3}{R}{G}{W}
+
+Miyako, the Watched
+rules_text: Prowess
+Whenever you cast a black noncreature spell, you may pay 1 life. If you do, create a treasure token.
+{W}{U}{B}{R}{G}: Transform Miyako, the Watched. => Prowess
+Whenever you cast a black noncreature spell, you may pay 1 life. If you do, create a Treasure token.
+{W}{U}{B}{R}{G}: Transform Miyako, the Watched.
+
+Uncontrollable Contracted
+rules_text: This spell can't be countered
+Menace, haste
+Whenever an opponent casts a noncreature spell, they create a red enchantment token named Bleed Wound with “at the beginning of your upkeep, this token deals 1 damage to you.” => This spell can't be countered.
+Menace, haste
+Whenever an opponent casts a noncreature spell, they create a red enchantment token named Bleed Wound with “at the beginning of your upkeep, this token deals 1 damage to you.”
+
+Haiden Consecrator
+rules_text: Flash
+Whenever Haiden Consecrator or another nontoken creature you control dies, create a 2/2 green Spirit creature token. => Flash
+Whenever another nonland permanent you control leaves the battlefield, put a +1/+1 counter on Haiden Consecrator.
+pt: 2/2 => 3/2
+
+Voidqueller Sidearm
+rules_text: Equipped creature has prowess and ward {2}.
+Whenever equipped creature attacks, copy the next instant or sorcery spell with mana value 2 or less you cast this turn when you cast it.
+Equip—Conjure Fatigue on top of your library. Activate only once each turn. [i](It's a 2 sorcery with “Draw a card.”)[/i] => Equipped creature has prowess.
+Whenever equipped creature attacks, copy the next instant or sorcery spell with mana value 2 or less you cast this turn when you cast it.
+Equip—Conjure Fatigue on top of your library. Activate only once each turn. [i](It's a 2 sorcery with “Draw a card.”)[/i]
+
+Shrineguard Elite
+rules_text: Ward {1}
+Other Advisors you control have ward {1}.
+When Shrineguard Elite enters, look at the top six cards of your library. You may reveal an Advisor or noncreature nonland card from among them and put it into your hand. Put the rest into your graveyard. => Ward {1}
+Other Advisors you control have ward {1}.
+When Shrineguard Elite enters, Reveal the top six cards of your library. You may put an Advisor or noncreature, nonland card from among them into your hand. Put the rest into your graveyard.
+
+Tetsuya, Soulsculptor Strix
+rules_text: Paradigm shift {B}{G} — Sorcery [i](You may cast this as a {B}{G} sorcery with only bracketed text.)[/i]
+Flying
+Whenever Tetsuya, Soulsculptor Strix enters or attacks, you may [b][destroy target creature.][/b] It's controller creates a 4/4 blue and black Golem Horror creature token. => Paradigm shift {B}{G} — Sorcery [i](You may cast this as a {B}{G} sorcery with only bracketed text.)[/i]
+Flying
+Whenever Tetsuya, Soulsculptor Strix enters or attacks, you may [b][destroy target creature.][/b] Its controller creates a 4/4 blue and black Golem Horror creature token.
+special_text: Paradigm shift {B}{G} — Sorcery [i](You may cast this as a {B}{G} sorcery with only bracketed text.)[/i]
+Flying
+Whenever Tetsuya, Soulsculptor Strix enters or attacks, you may [b][destroy target creature.][/b] It's controller creates a 4/4 blue and black Golem Horror creature token. => Paradigm shift {B}{G} — Sorcery [i](You may cast this as a {B}{G} sorcery with only bracketed text.)[/i]
+Flying
+Whenever Tetsuya, Soulsculptor Strix enters or attacks, you may [b][destroy target creature.][/b] Its controller creates a 4/4 blue and black Golem Horror creature token.
+
+Hellraiser's Charm
+rules_text: Choose one —
+• Hellraiser's Charm deals 3 damage to any target.
+• Return target permanent card with mana value 3 or less from your graveyard to the battlefield.
+• Mill three cards. Each opponent loses 3 life and you gain 3 life. => Choose one —
+• Hellraiser's Charm deals 3 damage to any nonplayer target.
+• Return target permanent card with mana value 3 or less from your graveyard to the battlefield.
+• Mill three cards. Each opponent loses 3 life and you gain 3 life.
+
+Bloodsoaked Void Line
+rules_text: {T}: Add {C}.
+{2}{R}{R}, {T}, Sacrifice Bloodsoaked Void Line: It deals 2 damage to any noncreature target.
+Other Terminals you control have “{2}{R}{R}, {T}, Sacrifice this land: It deals 2 damage to any noncreature target.” => {T}: Add {C}.
+Bloodsoaked Void Line and other Terminals you control have “{2}{R}{R}, {T}, Sacrifice this land: It deals 2 damage to any noncreature target.”
+
+Engulfed Void Line
+rules_text: {T}: Add {C}.
+{2}{U}{U}, {T}, Sacrifice Engulfed Void Line: Surveil 2, then draw a card.
+Other Terminals you control have “{2}{U}{U}, {T}, Sacrifice this land: Surveil 2, then draw a card.” => {T}: Add {C}.
+Engulfed Void Line and other Terminals you control have “{2}{U}{U}, {T}, Sacrifice this land: Surveil 2, then draw a card.”
+
+Overwhelmed Void Line
+rules_text: {T}: Add {C}.
+{2}{W}{W}, {T}, Sacrifice Overwhelmed Void Line: Return target creature card with mana value 2 or less from your graveyard to the battlefield tapped.
+Other Terminals you control have “{2}{W}{W}, {T}, Sacrifice this land: Return target creature card with mana value 2 or less from your graveyard to the battlefield tapped.” => {T}: Add {C}.
+Overwhelmed Void Line and other Terminals you control have “{2}{W}{W}, {T}, Sacrifice this land: Return target creature card with mana value 2 or less from your graveyard to the battlefield tapped.”
+
+Wilted Void Line
+rules_text: {T}: Add {C}.
+{2}{G}{G}, {T}, Sacrifice Wilted Void Line: Create a 2/2 green Spirit creature token. You gain 2 life.
+Other Terminals you control have “{2}{G}{G}, {T}, Sacrifice this land: Create a 2/2 green Spirit creature token. You gain 2 life.” => {T}: Add {C}.
+Wilted Void Line and other Terminals you control have “{2}{G}{G}, {T}, Sacrifice this land: Create a 2/2 green Spirit creature token. You gain 2 life.”
+
+Consumed Void Line
+rules_text: {T}: Add {C}.
+{2}{B}{B}, {T}, Sacrifice Consumed Void Line: Return target creature card from your graveyard to your hand.
+Other Terminals you control have “{2}{B}{B}, {T}, Sacrifice this land: Return target creature card from your graveyard to your hand.” => {T}: Add {C}.
+Consumed Void Line and other Terminals you control have “{2}{B}{B}, {T}, Sacrifice this land: Return target creature card from your graveyard to your hand.”
+
+Akuma, Exchange Student
+rules_text: Paradigm shift {G} — Sorcery [i](You may cast this as a {G} sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {G} sorcery with only bracketed text.)[/i]
+[+2]: Put two +1/+1 counters on up to one target creature you control. It gains trample until end of turn.
+[-1]: [b][Target creature you control fights target creature you don't control.][/b]
+[-5]: Create a 6/6 green Dragon Spirit creature token with trample. => Paradigm shift {G} — Sorcery [i](You may cast this as a {G} sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {G} sorcery with only bracketed text.)[/i]
+[+2]: Put two +1/+1 counters on up to one target creature you control. It gains trample until end of turn.
+[-1]: [b][Target creature you control fights target creature you don't control.][/b]
+[-5]: Create a 6/6 green Skeleton Spirit creature token with trample.
+special_text: Paradigm shift {G} — Sorcery [i](You may cast this as a {G} sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {G} sorcery with only bracketed text.)[/i]
+[+2]: Put two +1/+1 counters on up to one target creature you control. It gains trample until end of turn.
+[-1]: [b][Target creature you control fights target creature you don't control.][/b]
+[-5]: Create a 6/6 green Dragon Spirit creature token with trample. => Paradigm shift {G} — Sorcery [i](You may cast this as a {G} sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {G} sorcery with only bracketed text.)[/i]
+[+2]: Put two +1/+1 counters on up to one target creature you control. It gains trample until end of turn.
+[-1]: [b][Target creature you control fights target creature you don't control.][/b]
+[-5]: Create a 6/6 green Skeleton Spirit creature token with trample.
+
+Rin, Obstructive Exorcist
+rules_text: Paradigm shift {3}{W}{W} — Sorcery [i](You may cast this as a {3}{W}{W} sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {3}{W}{W} sorcery with only bracketed text.)[/i]
+[+1]: Until end of turn, creatures target player controls assign combat damage using their toughness rather than their power
+[-2]: Create a 0/3 white Spirit creature token.
+[-6]: [b][Each creature deals damage to itself equal to its power.][/b] => Paradigm shift {3}{W}{W} — Sorcery [i](You may cast this as a {3}{W}{W} sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {3}{W}{W} sorcery with only bracketed text.)[/i]
+[+1]: Until end of turn, creatures target player controls assign combat damage using their toughness rather than their power.
+[-2]: Create a 0/3 white Spirit creature token.
+[-6]: [b][Each creature deals damage to itself equal to its power.][/b]
+special_text: Paradigm shift {3}{W}{W} — Sorcery [i](You may cast this as a {3}{W}{W} sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {3}{W}{W} sorcery with only bracketed text.)[/i]
+[+1]: Until end of turn, creatures target player controls assign combat damage using their toughness rather than their power
+[-2]: Create a 0/3 white Spirit creature token.
+[-6]: [b][Each creature deals damage to itself equal to its power.][/b] => Paradigm shift {3}{W}{W} — Sorcery [i](You may cast this as a {3}{W}{W} sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {3}{W}{W} sorcery with only bracketed text.)[/i]
+[+1]: Until end of turn, creatures target player controls assign combat damage using their toughness rather than their power.
+[-2]: Create a 0/3 white Spirit creature token.
+[-6]: [b][Each creature deals damage to itself equal to its power.][/b]
+
+Freila, Council President
+rules_text: This spell can't be countered
+During turns other than theirs, spells your opponents cast and nonmana abilities they activate cost {X} more to cast/activate, where X is the greatest power among creatures you control. => This spell can't be countered.
+Your opponents can't cast spells or activate nonmana abilities during your turn.
+pt: 3/3 => 3/2
+
+Book of Eternity
+rules_text: At the beginning of your upkeep, put a time counter on Book of Eternity.
+{T}: Return target creature card with mana value X or less from your graveyard to the battlefield with a finality counter, where X is the number of time counters on Book of Eternity. => At the beginning of your upkeep, put a time counter on Book of Eternity.
+{T}: Return target creature card with mana value X or less from your graveyard to the battlefield with a finality counter, where X is the number of time counters on Book of Eternity. Activate only as a sorcery.
+
+Pactbound by Blood
+rules_text: At the beginning of your upkeep, exile a creature card from your graveyard. You lose the game if there are four or more creature cards exiled with Pactbound by Blood. Otherwise, create a token that's a copy of the exiled creature. => When Pactbound by Blood enters, discard any number of cards, then draw that many cards plus one.
+Whenever a creature you control enters, if it entered from a graveyard or was cast from a graveyard, it deals damage equal to its power to any nonplayer target.
+
+Kitakui Commute
+cost: {3}{W} => {2}{W}
+rules_text: When Kitakui Commute enters, if you control a Terminal, exile up to one target creature you control. then return it to the battlefield under its owner's control.
+Whenever a Terminal you control enters, exile up to one target creature you control, then return it to the battlefield under its owner's control. => Whenever Kitakui Commute or a Terminal you control enters, exile up to one target creature you control. Return it to the battlefield under its owner's control at the beginning of their next end step.
+
+
+VERSION 13 CHANGELOG
 ====================
 
 
