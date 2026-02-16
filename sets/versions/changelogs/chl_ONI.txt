@@ -1,4 +1,191 @@
-﻿VERSION 16 CHANGELOG
+﻿VERSION 17 CHANGELOG
+====================
+
+Skyport Station added.
+Railworks Signaller added.
+Tangled Troubles added.
+Pactbound Student added.
+Soulseek Thrills added.
+Fervent Idolatry added.
+Bloodcurse added.
+Life's Travels added.
+Senzao Stormqueller added.
+Bonded Rivals added.
+Dismissive Dramatist added.
+Trackbound Apparition added.
+Railworks Patroller added.
+Kyoko's Trackstrider added.
+Half-Blood Cursebinder added.
+Shrineguard Stalwart added.
+Travelled Tag added.
+Uplifted Soulseeker added.
+Reminiscent Archivist added.
+Student Council Mentor added.
+Persistent Cursebinder added.
+
+Hidanko Cursebinder removed.
+Aerport Station removed.
+Stunning Soundweaver removed.
+Rie, Top of Class removed.
+Iterative Teachings removed.
+Colossal Derailer removed.
+Show of Passion removed.
+Human Horror removed.
+Kitsune Heiress removed.
+Territorial Mentor removed.
+Hiruya Commute removed.
+Guretani Commute removed.
+Tenkami Commute removed.
+Furious Kotobuki removed.
+Uncontrollable Contracted removed.
+Shrineguard Elite removed.
+Voidless Epiphany removed.
+Bleed Wound removed.
+Kitakui Commute removed.
+
+Raging Sarugami
+rules_text: Paradigm shift {X}{R} — Instant [i](You may cast this as a {X}{R} instant with only bracketed text.)[/i]
+When Raging Sarugami enters, up to one [b][Target creature gets +X/+0 and gains trample until end of turn][/b], where X is the number of instant, sorcery and cards with paradigm shift in your graveyard. => Paradigm shift {X}{R} — Instant [i](You may cast this as a {X}{R} instant with only bracketed text.)[/i]
+When Raging Sarugami enters, up to one [b][Target creature gets +X/+0 until end of turn][/b], where X is the number of instant, sorcery and cards with paradigm shift in your graveyard.
+special_text: Paradigm shift {X}{R} — Instant [i](You may cast this as a {X}{R} instant with only bracketed text.)[/i]
+When Raging Sarugami enters, up to one [b][Target creature gets +X/+0 and gains trample until end of turn][/b], where X is the number of instant, sorcery and cards with paradigm shift in your graveyard. => Paradigm shift {X}{R} — Instant [i](You may cast this as a {X}{R} instant with only bracketed text.)[/i]
+When Raging Sarugami enters, up to one [b][Target creature gets +X/+0 until end of turn][/b], where X is the number of instant, sorcery and cards with paradigm shift in your graveyard.
+
+Approach the Contract
+rules_text: This spell costs {2} less to cast if you control a creature with prowess.
+Surveil 2, then draw two cards. => This spell costs {1} less to cast if you control a creature with prowess.
+Surveil 2, then draw two cards.
+
+Inugami Twins
+cost: {1}{W} => {2}{W}
+pt: 1/1 => 2/2
+
+Subsumed Self
+rules_text: As an additional cost to cast this spell, sacrifice a creature, or conjure fatigue on top of your library. [i](It's a {2} sorcery with “Draw a card.”)[/i]
+Exile target creature or planeswalker. => As an additional cost to cast this spell, sacrifice a creature, or conjure Fatigue on top of your library. [i](It's a {2} sorcery with “Draw a card.”)[/i]
+Exile target creature or planeswalker with mana value 3 or less.
+
+Leisure District Exit
+rules_text: As Leisure District Exit enters, you may pay 2 life. If you don't, it enters tapped.
+{T}: Add {R}.
+Other Terminals you control have “{T}: Add {R}.” => Leisure District Exit enters tapped unless you control two or fewer other lands.
+{T}: Add {R}.
+Other Terminals you control have “{T}: Add {R}.”
+
+Enheartened Proposal
+rules_text: When Enheartened Proposal enters, you may discard two cards. If you do, draw three cards.
+Whenever a creature you control with mana value 4 or greater enters, you may sacrifice Enheartened Proposal. If you do, that creature gains haste until end of turn. => When Enheartened Proposal enters, you may discard two cards. If you do, draw three cards.
+{1}, Sacrifice Enheartened Proposal: Target creature you control with mana value 4 or greater gets +1/+0 and gains haste until end of turn.
+
+Kyoko's Rejection
+type: Instant => Sorcery
+
+Future Past
+type: Instant => Sorcery
+cost: {1}{U} => {5}{G}{U}
+rules_text: Look at the top three cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order. Put each of those cards into your hand instead if this spell's flashback cost was paid.
+Flashback {4}{U}{U} => Draw four cards, then you may put a permanent card with mana value less than or equal to the number of Terminals you control from your hand onto the battlefield.
+
+Nightpack Contractor
+rules_text: This spell can't be countered.
+Trample
+Whenever Nightpack Contractor becomes the target of a spell or ability for the first time each turn, you may conjure Fatigue on top of your library. If you do, create a tapped token that's a copy of it. [i](It's a {2} sorcery with “Draw a card.”)[/i] => This spell can't be countered.
+When Nightpack Contractor enters, create a 2/2 green Spirit creature token.
+Whenever another creature you control enters, put two +1/+1 counters on it.
+pt: 6/6 => 4/4
+
+Haiden Consecrator
+cost: {2}{W} => {1}{W}
+rules_text: Flash
+Whenever another nonland permanent you control leaves the battlefield, put a +1/+1 counter on Haiden Consecrator. => At the beginning of combat on your turn, up to one target creature you control gets +1/+1 and gains vigilance until end of turn.
+pt: 3/2 => 2/2
+
+Spell Pierce
+
+Defy
+rules_text: Target player reveals their hand. You choose an instant, sorcery, or creature card from it. That player discards that card. => Target player reveals their hand. You choose an instant, sorcery, or creature card from it. That player discards that card. You lose 1 life.
+
+Soul Agent's Charm
+rules_text: Choose one —
+• Create two 1/1 black and red Human Horror creature tokens.
+• Each creature gets -2/-2 until end of turn.
+• Distribute three +1/+1 counters among one, two, or three target creatures. => Choose one —
+• Create two 1/1 white and black Student creature tokens.
+• Each creature gets -2/-2 until end of turn.
+• Distribute three +1/+1 counters among one, two, or three target creatures.
+
+Exorcist's Charm
+rules_text: Choose one —
+• Look at the top four cards of your library. Put one of those cards into your hand and the rest into your graveyard.
+• You gain 1 life for each card in target player's graveyard, then exile it.
+• Change the target of target spell or ability with a single target. => Choose one —
+• Look at the top four cards of your library. Put one of those cards into your hand and the rest into your graveyard.
+• You gain 1 life for each card type in target player's graveyard, then exile it.
+• Change the target of target spell or ability with a single target.
+
+Back-Alleys Exit
+rules_text: As Back-Alleys Exit enters, you may pay 2 life. If you don't, it enters tapped.
+{T}: Add {B}.
+Other Terminals you control have “{T}: Add {B}.” => Back-Alleys Exit enters tapped unless you control two or fewer other lands.
+{T}: Add {B}.
+Other Terminals you control have “{T}: Add {B}.”
+
+Outskirts Exit
+rules_text: As Outskirts Exit enters, you may pay 2 life. If you don't, it enters tapped.
+{T}: Add {W}.
+Other Terminals you control have “{T}: Add {W}.” => Outskirts Exit enters tapped unless you control two or fewer other lands.
+{T}: Add {W}.
+Other Terminals you control have “{T}: Add {W}.”
+
+Central Subway Exit
+rules_text: As Central Subway Exit enters, you may pay 2 life. If you don't, it enters tapped.
+{T}: Add {U}.
+Other Terminals you control have “{T}: Add {U}.” => Central Subway Exit enters tapped unless you control two or fewer other lands.
+{T}: Add {U}.
+Other Terminals you control have “{T}: Add {U}.”
+
+Soul Border Exit
+rules_text: As Soul Border Exit enters, you may pay 2 life. If you don't, it enters tapped.
+{T}: Add {G}.
+Other Terminals you control have “{T}: Add {G}.” => Soul Border Exit enters tapped unless you control two or fewer other lands.
+{T}: Add {G}.
+Other Terminals you control have “{T}: Add {G}.”
+
+Overdrive
+rules_text: Double all damage sources you control would deal. => Triple all damage sources you control would deal.
+
+Akira, Hellraisers Sukeban
+cost: {1}{R}{R} => {2}{R}{R}
+rules_text: Paradigm shift {3}{R}{R} — Sorcery [i](You may cast this as a {3}{R}{R} sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {3}{R}{R} sorcery with only bracketed text.)[/i]
+[+1]: Surveil 1, then exile the top card of your library. You may play it on any turn you attacked.
+[0]: Create an X/1 red Spirit creature token with haste, where X is Akira's loyalty. Sacrifice it at the beginning of your next end step.
+[-6]: [b][Create a red enchantment token named Overdrive with “Double all damage sources you control would deal.”][/b] => Paradigm shift {5}{R}{R} — Sorcery [i](You may cast this as a {5}{R}{R} sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {5}{R}{R} sorcery with only bracketed text.)[/i]
+[+1]: Surveil 1, then exile the top card of your library. You may play it on any turn you attacked.
+[0]: Create an X/1 red Spirit creature token with haste, where X is Akira's loyalty. Sacrifice it at the beginning of your next end step.
+[-7]: [b][Create a red enchantment token named Overdrive with “Triple all damage sources you control would deal.”][/b]
+special_text: Paradigm shift {3}{R}{R} — Sorcery [i](You may cast this as a {3}{R}{R} sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {3}{R}{R} sorcery with only bracketed text.)[/i]
+[+1]: Surveil 1, then exile the top card of your library. You may play it on any turn you attacked.
+[0]: Create an X/1 red Spirit creature token with haste, where X is Akira's loyalty. Sacrifice it at the beginning of your next end step.
+[-6]: [b][Create a red enchantment token named Overdrive with “Double all damage sources you control would deal.”][/b] => Paradigm shift {5}{R}{R} — Sorcery [i](You may cast this as a {5}{R}{R} sorcery with only bracketed text.)[/i]Paradigm shift [i](You may cast this as a {5}{R}{R} sorcery with only bracketed text.)[/i]
+[+1]: Surveil 1, then exile the top card of your library. You may play it on any turn you attacked.
+[0]: Create an X/1 red Spirit creature token with haste, where X is Akira's loyalty. Sacrifice it at the beginning of your next end step.
+[-7]: [b][Create a red enchantment token named Overdrive with “Triple all damage sources you control would deal.”][/b]
+loyalty: 3 => 4
+
+Voidqueller Sidearm
+cost: {1}{U} => {2}{U}
+rules_text: Equipped creature has prowess.
+Whenever equipped creature attacks, copy the next instant or sorcery spell with mana value 2 or less you cast this turn when you cast it.
+Equip—Conjure Fatigue on top of your library. Activate only once each turn. [i](It's a 2 sorcery with “Draw a card.”)[/i] => Whenever equipped creature attacks, when you next cast an instant or sorcery spell with mana value 2 or less this turn, copy it. You may choose new targets for the copy.
+Equip—Conjure Fatigue on top of your library. Activate only once each turn. [i](It's a 2 sorcery with “Draw a card.”)[/i]
+
+Overwhelmed Void Line
+rules_text: {T}: Add {C}.
+Overwhelmed Void Line and other Terminals you control have “{2}{W}{W}, {T}, Sacrifice this land: Return target creature card with mana value 2 or less from your graveyard to the battlefield tapped.” => {T}: Add {C}.
+Overwhelmed Void Line and other Terminals you control have “{2}{W}{W}, {T}, Sacrifice this land: Put a +1/+1 counter on each creature you control.”
+
+
+VERSION 16 CHANGELOG
 ====================
 
 
