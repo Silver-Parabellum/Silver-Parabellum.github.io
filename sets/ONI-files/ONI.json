@@ -2598,8 +2598,8 @@
             "number": 231,
             "color_identity": "WU",
             "cost": "{1}{W}{U}",
-            "rules_text": "Flying\nOther Advisors you control get +1/+1.\n{X}{W}{U}{U}: You gain X life and draw X cards. X can't be greater than the number of Advisors you control.",
-            "flavor_text": "[i]There are no more capable hands.[/i]",
+            "rules_text": "Flying\nOther Advisors you control get +1/+1.\nWhenever one or more Advisors you control attack, surveil that many cards. When you put one or more nonland cards with mv 2 or less into your graveyard this way, you may cast a copy of one of them without paying its mana cost.",
+            "flavor_text": "[i]Tenkami's most capable hands.[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
@@ -5824,5 +5824,5 @@
             "notes": ""
         }
     ],
-    "version": 18
+    "version": 19
 }

@@ -5,7 +5,7 @@
 			<name>ONI</name>
 			<longname>Onigaiko: Future Past</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-02-25</releasedate>
+			<releasedate>2026-02-26</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -2416,7 +2416,7 @@ Valiant — Whenever Bonded Confidants becomes the target of a spell or ability 
 			<name>Satsuki, Council Vice</name>
 			<text>Flying
 Other Advisors you control get +1/+1.
-{X}{W}{U}{U}: You gain X life and draw X cards. X can&apos;t be greater than the number of Advisors you control.</text>
+Whenever one or more Advisors you control attack, surveil that many cards. When you put one or more nonland cards with mv 2 or less into your graveyard this way, you may cast a copy of one of them without paying its mana cost.</text>
 			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/231_Satsuki, Council Vice.png" num="231">ONI</set>
 			<prop>
 				<layout>normal</layout>

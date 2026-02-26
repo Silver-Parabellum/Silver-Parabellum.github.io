@@ -1,4 +1,17 @@
-﻿VERSION 18 CHANGELOG
+﻿VERSION 19 CHANGELOG
+====================
+
+
+
+Satsuki, Council Vice
+rules_text: Flying
+Other Advisors you control get +1/+1.
+{X}{W}{U}{U}: You gain X life and draw X cards. X can't be greater than the number of Advisors you control. => Flying
+Other Advisors you control get +1/+1.
+Whenever one or more Advisors you control attack, surveil that many cards. When you put one or more nonland cards with mv 2 or less into your graveyard this way, you may cast a copy of one of them without paying its mana cost.
+
+
+VERSION 18 CHANGELOG
 ====================
 
 Perfect-Form Ascetic added.
