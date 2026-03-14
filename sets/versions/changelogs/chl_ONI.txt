@@ -1,4 +1,27 @@
-﻿VERSION 20 CHANGELOG
+﻿VERSION 21 CHANGELOG
+====================
+
+
+
+Old Ways Hellraiser
+rules_text: Paradigm shift {2}{R} — Instant [i](You may cast this as a {2}{R} instant with only bracketed text.)[/i]
+Trample
+When Old Ways Hellraiser enters, [b][Old Ways Hellraiser deals 4 damage to any target.][/b] => Paradigm shift {1}{R}{R} — Instant [i](You may cast this as a {2}{R} instant with only bracketed text.)[/i]
+Trample
+When Old Ways Hellraiser enters, [b][Old Ways Hellraiser deals 4 damage to any target.][/b]
+special_text: Paradigm shift {2}{R} — Instant [i](You may cast this as a {2}{R} instant with only bracketed text.)[/i]
+Trample
+When Old Ways Hellraiser enters, [b][Old Ways Hellraiser deals 4 damage to any target.][/b] => Paradigm shift {1}{R}{R} — Instant [i](You may cast this as a {2}{R} instant with only bracketed text.)[/i]
+Trample
+When Old Ways Hellraiser enters, [b][Old Ways Hellraiser deals 4 damage to any target.][/b]
+
+Itakura, Hellraiser's Captain
+rules_text: Prowess
+Whenever a creature you control with prowess deals combat damage to a player, exile that many cards from the top of that player's library. You may cast a spell exiled this way without paying its mana cost. => Prowess
+Whenever one or more creatures you control with prowess deal combat damage to a player, exile that many cards from the top of that player's library. You may cast a spell exiled this way without paying its mana cost.
+
+
+VERSION 20 CHANGELOG
 ====================
 
 Contracted Vengeant added.

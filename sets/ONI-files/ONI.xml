@@ -1389,7 +1389,7 @@ Double strike</text>
 		</card>
 		<card>
 			<name>Old Ways Hellraiser</name>
-			<text>Paradigm shift {2}{R} — Instant (You may cast this as a {2}{R} instant with only bracketed text.)
+			<text>Paradigm shift {1}{R}{R} — Instant (You may cast this as a {2}{R} instant with only bracketed text.)
 Trample
 When Old Ways Hellraiser enters, [b][Old Ways Hellraiser deals 4 damage to any target.][/b]</text>
 			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/132_Old Ways Hellraiser.png" num="132">ONI</set>
@@ -2835,7 +2835,7 @@ When this creature dies you may exile it. If you do, return target permanent car
 		<card>
 			<name>Itakura, Hellraiser&apos;s Captain</name>
 			<text>Prowess
-Whenever a creature you control with prowess deals combat damage to a player, exile that many cards from the top of that player&apos;s library. You may cast a spell exiled this way without paying its mana cost.</text>
+Whenever one or more creatures you control with prowess deal combat damage to a player, exile that many cards from the top of that player&apos;s library. You may cast a spell exiled this way without paying its mana cost.</text>
 			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/210_Itakura, Hellraiser&apos;s Captain.png" num="210">ONI</set>
 			<prop>
 				<layout>normal</layout>
