@@ -1,7 +1,7 @@
 ﻿[
     {
-        "card_name": "Graduation",
-        "number": 9,
+        "card_name": "Mechanized Experience",
+        "number": 20,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -41,7 +41,7 @@
     },
     {
         "card_name": "Rin, Obstructive Exorcist",
-        "number": 24,
+        "number": 25,
         "shape": "planeswalker",
         "set": "ONI",
         "rotated": false,
@@ -64,7 +64,7 @@
         "position": ""
     },
     {
-        "card_name": "Hibana, Test Pilot",
+        "card_name": "Hibana, Highrise Runner",
         "number": 126,
         "shape": "normal",
         "set": "ONI",
@@ -88,7 +88,7 @@
         "position": ""
     },
     {
-        "card_name": "Cognitoshadow",
+        "card_name": "Beckoned Beyond",
         "number": 41,
         "shape": "normal",
         "set": "ONI",
@@ -105,7 +105,7 @@
     },
     {
         "card_name": "Chieko, Untamed Rover",
-        "number": 117,
+        "number": 116,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -121,47 +121,7 @@
     },
     {
         "card_name": "Kaede, Drama Head",
-        "number": 17,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Dismissive Dramatist",
-        "number": 44,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Cursebound Bully",
-        "number": 81,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Gate Guardian's Fury",
-        "number": 123,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Gate-Guard Komainu",
-        "number": 152,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Ryujin of Divine Justice",
-        "number": 25,
+        "number": 16,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -176,8 +136,48 @@
         "position": ""
     },
     {
-        "card_name": "Masborg, Lethal Protector",
-        "number": 92,
+        "card_name": "Cursebound Bully",
+        "number": 80,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Ever-Learning Exorcist",
+        "number": 120,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Gate-Guard Komainu",
+        "number": 152,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Repel the Void",
+        "number": 24,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Okayim, Cognitoshadow",
+        "number": 54,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Devillish Diva",
+        "number": 82,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -192,7 +192,7 @@
         "position": ""
     },
     {
-        "card_name": "Nightpack Contractor",
+        "card_name": "Ogura, Nightpack Contractor",
         "number": 160,
         "shape": "normal",
         "set": "ONI",
@@ -200,48 +200,8 @@
         "position": ""
     },
     {
-        "card_name": "Satomi, Spectacular Dramatist",
+        "card_name": "Ryujin of Divine Justice",
         "number": 26,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Junko, Tenkami's Favored",
-        "number": 54,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Ryujin of Night's Sorrow",
-        "number": 97,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Old Ways Hellraiser",
-        "number": 133,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "On Patrol",
-        "number": 161,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Setting Sun",
-        "number": 28,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -256,15 +216,55 @@
         "position": ""
     },
     {
-        "card_name": "Skilled Diabolist",
-        "number": 100,
+        "card_name": "Masborg, Lethal Protector",
+        "number": 92,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Ryo, Delinquent Hinotori",
+        "card_name": "Prototype Hypersuit",
+        "number": 134,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "On Patrol",
+        "number": 161,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Satomi, Scathing Critic",
+        "number": 27,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Sky-Spirited Gal",
+        "number": 64,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Ryujin of Night's Sorrow",
+        "number": 98,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Ryo, Old Ways Hellraiser",
         "number": 138,
         "shape": "normal",
         "set": "ONI",
@@ -280,7 +280,7 @@
         "position": ""
     },
     {
-        "card_name": "Teachings Past",
+        "card_name": "Taraikyo Paragon",
         "number": 33,
         "shape": "normal",
         "set": "ONI",
@@ -288,15 +288,15 @@
         "position": ""
     },
     {
-        "card_name": "Tetsuya, Soulsculptor Strix",
-        "number": 71,
+        "card_name": "Soul Agency Retriever",
+        "number": 65,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Smitten Duskwing",
+        "card_name": "Skilled Diabolist",
         "number": 101,
         "shape": "normal",
         "set": "ONI",
@@ -321,15 +321,15 @@
     },
     {
         "card_name": "Track Stars",
-        "number": 35,
+        "number": 34,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Trackbound Colossus",
-        "number": 73,
+        "card_name": "Tetsuya, Soulsculptor Strix",
+        "number": 72,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -368,8 +368,8 @@
         "position": ""
     },
     {
-        "card_name": "Voidqueller Sidearm",
-        "number": 75,
+        "card_name": "Trackbound Colossus",
+        "number": 74,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -384,7 +384,7 @@
         "position": ""
     },
     {
-        "card_name": "Shrineguard's Ward",
+        "card_name": "Soul Spite",
         "number": 144,
         "shape": "normal",
         "set": "ONI",
@@ -393,7 +393,7 @@
     },
     {
         "card_name": "Tokuhime, Soul Mediator",
-        "number": 183,
+        "number": 184,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -409,23 +409,23 @@
     },
     {
         "card_name": "Dreadbound Skyswimmers",
-        "number": 45,
+        "number": 44,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Contracted Hunger",
-        "number": 80,
+        "card_name": "Exorcist Trainee",
+        "number": 85,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Blazing Conflict",
-        "number": 116,
+        "card_name": "City Exploration",
+        "number": 117,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -456,7 +456,7 @@
         "position": ""
     },
     {
-        "card_name": "Exorcist Trainee",
+        "card_name": "Friends Forgotten",
         "number": 86,
         "shape": "normal",
         "set": "ONI",
@@ -488,16 +488,16 @@
         "position": ""
     },
     {
-        "card_name": "Haiden Pactbreaker",
-        "number": 49,
+        "card_name": "Guretani Oddsmaker",
+        "number": 48,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Friends Forgotten",
-        "number": 87,
+        "card_name": "Hidanko Voidshaper",
+        "number": 88,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -505,7 +505,7 @@
     },
     {
         "card_name": "Fervent Idolatry",
-        "number": 120,
+        "number": 121,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -528,16 +528,16 @@
         "position": ""
     },
     {
-        "card_name": "Homesickness",
-        "number": 51,
+        "card_name": "Haiden Pactbreaker",
+        "number": 49,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Hidanko Voidshaper",
-        "number": 89,
+        "card_name": "Pact of New Return",
+        "number": 97,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -545,7 +545,7 @@
     },
     {
         "card_name": "Flamejaw Apex",
-        "number": 122,
+        "number": 123,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -561,15 +561,15 @@
     },
     {
         "card_name": "Haiden Consecrator",
-        "number": 10,
+        "number": 9,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Old Ways Soulseeker",
-        "number": 55,
+        "card_name": "Homesickness",
+        "number": 51,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -577,7 +577,7 @@
     },
     {
         "card_name": "Seijuku Star Pilot",
-        "number": 98,
+        "number": 99,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -601,15 +601,15 @@
     },
     {
         "card_name": "Hiruya Star Aspirant",
-        "number": 12,
+        "number": 11,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Reminiscent Archivist",
-        "number": 60,
+        "card_name": "Old Ways Soulseeker",
+        "number": 55,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -617,7 +617,7 @@
     },
     {
         "card_name": "Shrinebound Aberrant",
-        "number": 99,
+        "number": 100,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -641,15 +641,15 @@
     },
     {
         "card_name": "Inugami Twins",
-        "number": 16,
+        "number": 15,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Ryu-Blood Inheritor",
-        "number": 61,
+        "card_name": "Reminiscent Archivist",
+        "number": 60,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -681,15 +681,15 @@
     },
     {
         "card_name": "Kyoko's Rejection",
-        "number": 18,
+        "number": 17,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Soul Agency Sergeant",
-        "number": 64,
+        "card_name": "Ryu-Blood Inheritor",
+        "number": 61,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -720,8 +720,8 @@
         "position": ""
     },
     {
-        "card_name": "Life's Travels",
-        "number": 19,
+        "card_name": "Learn From the Best",
+        "number": 18,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -729,7 +729,7 @@
     },
     {
         "card_name": "Spell Pierce",
-        "number": 67,
+        "number": 68,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -761,7 +761,7 @@
     },
     {
         "card_name": "Senzao Peak Skythresher",
-        "number": 27,
+        "number": 28,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -769,7 +769,7 @@
     },
     {
         "card_name": "Tangled Troubles",
-        "number": 69,
+        "number": 70,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -777,7 +777,7 @@
     },
     {
         "card_name": "Soulseek Thrills",
-        "number": 105,
+        "number": 106,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -792,7 +792,7 @@
         "position": ""
     },
     {
-        "card_name": "Titanicoil Uwabami",
+        "card_name": "Soultutored Playwright",
         "number": 182,
         "shape": "normal",
         "set": "ONI",
@@ -800,7 +800,7 @@
         "position": ""
     },
     {
-        "card_name": "Subsumed Self",
+        "card_name": "Subsume Self",
         "number": 30,
         "shape": "normal",
         "set": "ONI",
@@ -809,7 +809,7 @@
     },
     {
         "card_name": "Thirst for Inspiration",
-        "number": 72,
+        "number": 73,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -817,7 +817,7 @@
     },
     {
         "card_name": "Source of the Endless",
-        "number": 106,
+        "number": 107,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -832,16 +832,16 @@
         "position": ""
     },
     {
-        "card_name": "Underground Negotiation",
-        "number": 184,
+        "card_name": "Titanicoil Uwabami",
+        "number": 183,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Voidcharged Splitblade",
-        "number": 37,
+        "card_name": "Traveltime Studies",
+        "number": 35,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -849,7 +849,7 @@
     },
     {
         "card_name": "Travelled Tag",
-        "number": 74,
+        "number": 75,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -872,7 +872,7 @@
         "position": ""
     },
     {
-        "card_name": "Uplifting Playwright",
+        "card_name": "Underground Negotiations",
         "number": 185,
         "shape": "normal",
         "set": "ONI",
@@ -961,7 +961,7 @@
     },
     {
         "card_name": "Hellraisers Seraph",
-        "number": 11,
+        "number": 10,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -977,7 +977,7 @@
     },
     {
         "card_name": "Defy",
-        "number": 82,
+        "number": 81,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1001,7 +1001,7 @@
     },
     {
         "card_name": "Hollowed Vanguard",
-        "number": 13,
+        "number": 12,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1016,7 +1016,7 @@
         "position": ""
     },
     {
-        "card_name": "Devillish Diva",
+        "card_name": "Ebon Moon Descendant",
         "number": 83,
         "shape": "normal",
         "set": "ONI",
@@ -1025,7 +1025,7 @@
     },
     {
         "card_name": "Fireblood Seishin",
-        "number": 121,
+        "number": 122,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1041,22 +1041,22 @@
     },
     {
         "card_name": "Horrific Confidant",
-        "number": 14,
+        "number": 13,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Guretani Oddsmaker",
-        "number": 48,
+        "card_name": "Eager Soulseeker",
+        "number": 45,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Ebon Moon Descendant",
+        "card_name": "Endless Nuisance",
         "number": 84,
         "shape": "normal",
         "set": "ONI",
@@ -1081,7 +1081,7 @@
     },
     {
         "card_name": "Inspiring Senior",
-        "number": 15,
+        "number": 14,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1096,8 +1096,8 @@
         "position": ""
     },
     {
-        "card_name": "Endless Nuisance",
-        "number": 85,
+        "card_name": "Hateful Seishin",
+        "number": 87,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1121,7 +1121,7 @@
     },
     {
         "card_name": "Lost in Transit",
-        "number": 20,
+        "number": 19,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1136,8 +1136,8 @@
         "position": ""
     },
     {
-        "card_name": "Hateful Seishin",
-        "number": 88,
+        "card_name": "Kitsune Heiress",
+        "number": 89,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1185,7 +1185,7 @@
     },
     {
         "card_name": "Oni Shrineguard",
-        "number": 134,
+        "number": 133,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1329,7 +1329,7 @@
     },
     {
         "card_name": "Soul Agency Street Patrol",
-        "number": 65,
+        "number": 66,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1369,15 +1369,15 @@
     },
     {
         "card_name": "Soulwatcher student",
-        "number": 66,
+        "number": 67,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Taraikyo Egotist",
-        "number": 107,
+        "card_name": "Soul Agency Sergeant",
+        "number": 105,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1400,23 +1400,23 @@
         "position": ""
     },
     {
-        "card_name": "Territorial Defense",
-        "number": 34,
+        "card_name": "Voidcharged Splitblade",
+        "number": 37,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Student Council Mentor",
-        "number": 68,
+        "card_name": "Student Council Trainee",
+        "number": 69,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Unwitting Diabolist",
+        "card_name": "Taraikyo Egotist",
         "number": 108,
         "shape": "normal",
         "set": "ONI",
@@ -1448,8 +1448,8 @@
         "position": ""
     },
     {
-        "card_name": "Territory Lookout",
-        "number": 70,
+        "card_name": "Tenkami Head Nurse",
+        "number": 71,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1493,46 +1493,6 @@
     },
     "a->gold",
     {
-        "card_name": "Timewinder Seraph",
-        "number": 238,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Itakura, Hellraiser's Captain",
-        "number": 208,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Pactbound by Blood",
-        "number": 220,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Maki, the Unbridled",
-        "number": 212,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Freila, Council President",
-        "number": 197,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
         "card_name": "Satsuki, Council Vice",
         "number": 229,
         "shape": "normal",
@@ -1541,32 +1501,32 @@
         "position": ""
     },
     {
-        "card_name": "Tsumugi, the Pactbinder",
-        "number": 239,
+        "card_name": "Vielle, Aekyan Transfer",
+        "number": 241,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Hollow Pact",
-        "number": 205,
+        "card_name": "Pactbound by Blood",
+        "number": 222,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Enspirited Spring",
-        "number": 196,
+        "card_name": "Maki, the Unbridled",
+        "number": 214,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Inami, Taraikyo Star",
-        "number": 206,
+        "card_name": "Freila, Council President",
+        "number": 199,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1581,8 +1541,48 @@
         "position": ""
     },
     {
-        "card_name": "Voidwrit Teachings",
-        "number": 242,
+        "card_name": "Itakura, Hellraiser's Captain",
+        "number": 210,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Hollow Pact",
+        "number": 207,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Enspirited Spring",
+        "number": 197,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Inami, Taraikyo Star",
+        "number": 208,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Soul Agency Commissioner",
+        "number": 234,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Tsumugi, the Pactbinder",
+        "number": 238,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1606,15 +1606,7 @@
     },
     {
         "card_name": "Emerald-Down Shrinehead",
-        "number": 195,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Soul Agency Commissioner",
-        "number": 234,
+        "number": 196,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1622,6 +1614,14 @@
     },
     {
         "card_name": "e"
+    },
+    {
+        "card_name": "Voidwrit Teachings",
+        "number": 242,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -1659,7 +1659,7 @@
     },
     {
         "card_name": "Daemthine, Dread Influencer",
-        "number": 193,
+        "number": 194,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1675,7 +1675,7 @@
     },
     {
         "card_name": "Orochi's Soulcaller",
-        "number": 218,
+        "number": 220,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1691,7 +1691,7 @@
     },
     {
         "card_name": "Nightmares In Reality",
-        "number": 215,
+        "number": 217,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1699,7 +1699,7 @@
     },
     {
         "card_name": "Kuro, Bitter Shadow",
-        "number": 210,
+        "number": 212,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1707,7 +1707,7 @@
     },
     {
         "card_name": "Guretani Soulseekers",
-        "number": 199,
+        "number": 201,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1715,7 +1715,7 @@
     },
     {
         "card_name": "Omukade, Void Feaster",
-        "number": 217,
+        "number": 219,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1731,22 +1731,6 @@
     },
     {
         "card_name": "Kyoko's Trackstrider",
-        "number": 211,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Persistent Cursebinder",
-        "number": 221,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Manifold Technique",
         "number": 213,
         "shape": "normal",
         "set": "ONI",
@@ -1754,7 +1738,7 @@
         "position": ""
     },
     {
-        "card_name": "Recollection's Consumption",
+        "card_name": "Persistent Diabolist",
         "number": 223,
         "shape": "normal",
         "set": "ONI",
@@ -1762,8 +1746,24 @@
         "position": ""
     },
     {
+        "card_name": "Manifold Technique",
+        "number": 215,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Recollection's Consumption",
+        "number": 225,
+        "shape": "normal",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
         "card_name": "Helios Ignition",
-        "number": 202,
+        "number": 204,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1771,7 +1771,7 @@
     },
     {
         "card_name": "Future Past",
-        "number": 198,
+        "number": 200,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1788,7 +1788,7 @@
     },
     {
         "card_name": "Twintuft Duelists",
-        "number": 241,
+        "number": 240,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1796,7 +1796,7 @@
     },
     {
         "card_name": "Railworks Signaller",
-        "number": 222,
+        "number": 224,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1827,7 +1827,7 @@
     },
     {
         "card_name": "Hidanko Discipline",
-        "number": 203,
+        "number": 205,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1835,7 +1835,7 @@
     },
     {
         "card_name": "Consuming Adoration",
-        "number": 191,
+        "number": 192,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1851,7 +1851,7 @@
     },
     {
         "card_name": "Kami-Blessed Spiritualist",
-        "number": 209,
+        "number": 211,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1859,7 +1859,7 @@
     },
     {
         "card_name": "Inner Mirrorings",
-        "number": 207,
+        "number": 209,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1867,15 +1867,15 @@
     },
     {
         "card_name": "Hajime, Hidanko Dean",
-        "number": 201,
+        "number": 203,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Ryujin's Favor",
-        "number": 227,
+        "card_name": "Call of the Ryujin",
+        "number": 190,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1883,7 +1883,7 @@
     },
     {
         "card_name": "Reiko, Battle Choreographer",
-        "number": 225,
+        "number": 226,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1899,7 +1899,7 @@
     },
     {
         "card_name": "Contracted Denial",
-        "number": 192,
+        "number": 193,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1907,7 +1907,7 @@
     },
     {
         "card_name": "Pactbound Burden",
-        "number": 219,
+        "number": 221,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1944,7 +1944,7 @@
     },
     {
         "card_name": "Ogaki, Contracted Vengeant",
-        "number": 216,
+        "number": 218,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1960,7 +1960,7 @@
     },
     {
         "card_name": "Night Parade",
-        "number": 214,
+        "number": 216,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1968,15 +1968,15 @@
     },
     {
         "card_name": "Challenging Lesson",
-        "number": 190,
+        "number": 191,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Recursive Lesson",
-        "number": 224,
+        "card_name": "Final Class Photo",
+        "number": 198,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1984,7 +1984,7 @@
     },
     {
         "card_name": "Hollow Encounter",
-        "number": 204,
+        "number": 206,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1992,7 +1992,7 @@
     },
     {
         "card_name": "Haiden Flourishing",
-        "number": 200,
+        "number": 202,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -2000,7 +2000,7 @@
     },
     {
         "card_name": "Risky Business",
-        "number": 226,
+        "number": 227,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -2008,7 +2008,7 @@
     },
     {
         "card_name": "Dramatist's Encore",
-        "number": 194,
+        "number": 195,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -2016,7 +2016,7 @@
     },
     {
         "card_name": "Turf Encroachment",
-        "number": 240,
+        "number": 239,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -2116,26 +2116,6 @@
         "position": ""
     },
     {
-        "card_name": "Contract",
-        "number": 282,
-        "shape": "normal",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
         "card_name": "er"
     },
     {
@@ -2150,7 +2130,7 @@
     "a->land",
     {
         "card_name": "Overwhelmed Void Line",
-        "number": 270,
+        "number": 271,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -2190,7 +2170,7 @@
     },
     {
         "card_name": "Outskirts Exit",
-        "number": 269,
+        "number": 270,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -2206,15 +2186,15 @@
     },
     {
         "card_name": "Back-Alleys Exit",
-        "number": 256,
+        "number": 257,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Culture District Exit",
-        "number": 261,
+        "card_name": "Leisure District Exit",
+        "number": 268,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -2244,8 +2224,8 @@
         "card_name": "er"
     },
     {
-        "card_name": "Skyport Station",
-        "number": 272,
+        "card_name": "Aerport Station",
+        "number": 254,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -2253,7 +2233,7 @@
     },
     {
         "card_name": "Okirumi Station",
-        "number": 268,
+        "number": 269,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -2269,7 +2249,7 @@
     },
     {
         "card_name": "Akigara Station",
-        "number": 254,
+        "number": 255,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -2300,7 +2280,7 @@
     },
     {
         "card_name": "Aoyama Station",
-        "number": 255,
+        "number": 256,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -2332,7 +2312,7 @@
     },
     {
         "card_name": "Senzao Station",
-        "number": 271,
+        "number": 272,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -2362,8 +2342,8 @@
         "position": ""
     },
     {
-        "card_name": "Backalley Karaoke",
-        "number": 257,
+        "card_name": "Derelict Connection",
+        "number": 261,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -2379,7 +2359,7 @@
     },
     {
         "card_name": "Everywhere",
-        "number": 283,
+        "number": 282,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -2457,7 +2437,7 @@
     },
     "a->token",
     {
-        "card_name": "Fan",
+        "card_name": "Copy",
         "number": 1,
         "shape": "token",
         "set": "ONI",
@@ -2465,23 +2445,7 @@
         "position": ""
     },
     {
-        "card_name": "Spirit Nightmare",
-        "number": 16,
-        "shape": "token",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Treasure",
-        "number": 19,
-        "shape": "token",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Spirit",
+        "card_name": "Fan",
         "number": 2,
         "shape": "token",
         "set": "ONI",
@@ -2489,7 +2453,23 @@
         "position": ""
     },
     {
-        "card_name": "Spirit Samurai",
+        "card_name": "Spirit Nightmare",
+        "number": 15,
+        "shape": "token",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Treasure",
+        "number": 18,
+        "shape": "token",
+        "set": "ONI",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Spirit",
         "number": 3,
         "shape": "token",
         "set": "ONI",
@@ -2497,7 +2477,7 @@
         "position": ""
     },
     {
-        "card_name": "Cat",
+        "card_name": "Spirit Samurai",
         "number": 4,
         "shape": "token",
         "set": "ONI",
@@ -2505,7 +2485,7 @@
         "position": ""
     },
     {
-        "card_name": "Demon Horror",
+        "card_name": "Cat",
         "number": 5,
         "shape": "token",
         "set": "ONI",
@@ -2513,7 +2493,7 @@
         "position": ""
     },
     {
-        "card_name": "Robot Fan",
+        "card_name": "Demon Horror",
         "number": 6,
         "shape": "token",
         "set": "ONI",
@@ -2521,7 +2501,7 @@
         "position": ""
     },
     {
-        "card_name": "Hypersuit",
+        "card_name": "Robot Fan",
         "number": 7,
         "shape": "token",
         "set": "ONI",
@@ -2577,7 +2557,7 @@
         "position": ""
     },
     {
-        "card_name": "Spirit",
+        "card_name": "Spirit Horror",
         "number": 14,
         "shape": "token",
         "set": "ONI",
@@ -2585,16 +2565,8 @@
         "position": ""
     },
     {
-        "card_name": "Spirit Horror",
-        "number": 15,
-        "shape": "token",
-        "set": "ONI",
-        "rotated": false,
-        "position": ""
-    },
-    {
         "card_name": "Student",
-        "number": 17,
+        "number": 16,
         "shape": "token",
         "set": "ONI",
         "rotated": false,
@@ -2602,11 +2574,14 @@
     },
     {
         "card_name": "Student Advisor",
-        "number": 18,
+        "number": 17,
         "shape": "token",
         "set": "ONI",
         "rotated": false,
         "position": ""
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "e"
