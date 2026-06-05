@@ -64,8 +64,8 @@
         "position": ""
     },
     {
-        "card_name": "Hibana, Highrise Runner",
-        "number": 126,
+        "card_name": "Hibana, Highrise Explorer",
+        "number": 125,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -144,8 +144,8 @@
         "position": ""
     },
     {
-        "card_name": "Ever-Learning Exorcist",
-        "number": 120,
+        "card_name": "Ever-Learning Shrineguard",
+        "number": 119,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -185,7 +185,7 @@
     },
     {
         "card_name": "Halfblade Instigator",
-        "number": 124,
+        "number": 123,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -224,8 +224,8 @@
         "position": ""
     },
     {
-        "card_name": "Prototype Hypersuit",
-        "number": 134,
+        "card_name": "Ryo, Old Ways Hellraiser",
+        "number": 137,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -264,7 +264,7 @@
         "position": ""
     },
     {
-        "card_name": "Ryo, Old Ways Hellraiser",
+        "card_name": "Ryujin of Unfettered Joy",
         "number": 138,
         "shape": "normal",
         "set": "ONI",
@@ -304,8 +304,8 @@
         "position": ""
     },
     {
-        "card_name": "Ryujin of Unfettered Joy",
-        "number": 139,
+        "card_name": "Savvy Part-Timer",
+        "number": 141,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -344,8 +344,8 @@
         "position": ""
     },
     {
-        "card_name": "Savvy Part-Timer",
-        "number": 142,
+        "card_name": "Sneak Deployment",
+        "number": 143,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -424,7 +424,7 @@
         "position": ""
     },
     {
-        "card_name": "City Exploration",
+        "card_name": "Delinquent Oni",
         "number": 117,
         "shape": "normal",
         "set": "ONI",
@@ -464,8 +464,8 @@
         "position": ""
     },
     {
-        "card_name": "Delinquent Oni",
-        "number": 118,
+        "card_name": "Fervent Idolatry",
+        "number": 120,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -504,8 +504,8 @@
         "position": ""
     },
     {
-        "card_name": "Fervent Idolatry",
-        "number": 121,
+        "card_name": "Flamejaw Apex",
+        "number": 122,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -544,8 +544,8 @@
         "position": ""
     },
     {
-        "card_name": "Flamejaw Apex",
-        "number": 123,
+        "card_name": "Hollowed Possession",
+        "number": 127,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -584,7 +584,7 @@
         "position": ""
     },
     {
-        "card_name": "Hollowed Possession",
+        "card_name": "Hotheaded Teacher",
         "number": 128,
         "shape": "normal",
         "set": "ONI",
@@ -624,8 +624,8 @@
         "position": ""
     },
     {
-        "card_name": "Hotheaded Teacher",
-        "number": 129,
+        "card_name": "Learn from the City",
+        "number": 130,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -745,7 +745,7 @@
     },
     {
         "card_name": "Reckless Rage",
-        "number": 136,
+        "number": 135,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -785,7 +785,7 @@
     },
     {
         "card_name": "Relentless Revenant",
-        "number": 137,
+        "number": 136,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -985,7 +985,7 @@
     },
     {
         "card_name": "Enheartened Proposal",
-        "number": 119,
+        "number": 118,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1025,7 +1025,7 @@
     },
     {
         "card_name": "Fireblood Seishin",
-        "number": 122,
+        "number": 121,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1065,7 +1065,7 @@
     },
     {
         "card_name": "Hellraisers Recruit",
-        "number": 125,
+        "number": 124,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1105,7 +1105,7 @@
     },
     {
         "card_name": "Highblood Sophomore",
-        "number": 127,
+        "number": 126,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1145,7 +1145,7 @@
     },
     {
         "card_name": "Inaba Sparkcaster",
-        "number": 130,
+        "number": 129,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1225,7 +1225,7 @@
     },
     {
         "card_name": "Rapid Draw",
-        "number": 135,
+        "number": 134,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1265,7 +1265,7 @@
     },
     {
         "card_name": "Sarugami Titan",
-        "number": 140,
+        "number": 139,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1305,7 +1305,7 @@
     },
     {
         "card_name": "Savage Familiar",
-        "number": 141,
+        "number": 140,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1345,7 +1345,7 @@
     },
     {
         "card_name": "Seijuku Disruptor",
-        "number": 143,
+        "number": 142,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1573,8 +1573,8 @@
         "position": ""
     },
     {
-        "card_name": "Soul Agency Commissioner",
-        "number": 234,
+        "card_name": "Training-Hired Maid",
+        "number": 237,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1628,7 +1628,7 @@
     },
     {
         "card_name": "Spiritstealer Herd",
-        "number": 235,
+        "number": 234,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1843,7 +1843,7 @@
     },
     {
         "card_name": "Taraikyo Expression",
-        "number": 237,
+        "number": 236,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1918,7 +1918,7 @@
     },
     {
         "card_name": "Tandem Defiance",
-        "number": 236,
+        "number": 235,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
