@@ -1,4 +1,406 @@
-﻿VERSION 25 CHANGELOG
+﻿VERSION 26 CHANGELOG
+====================
+
+Legacy's Retribution added.
+One Stop to Oblivion added.
+Inked Delver added.
+Legacy's Expectations added.
+Invigorating Shrineguard added.
+Ryu-Blood Prefect added.
+Battleshaping Coordinators added.
+Illicit Concert Tickets added.
+Refuse to Fall added.
+Reminiscent Dramatist added.
+Dreamrazer Contract added.
+Highrise Jumper added.
+Overprotective Teacher added.
+Hellraiser's Rebuke added.
+Group Class Photo added.
+City Exploration added.
+Undercover Soul Agent added.
+Draconic Advisor added.
+Idol's Stage-Suit added.
+Mysteries of Miyakawa added.
+Perfect Calm Technique added.
+Cinematic Tutor added.
+Hyperflare Tyrant added.
+Itakura, Ryu-Blood Channeler added.
+Dragonpride Delinquent added.
+Dragonpride Soulcaller added.
+Mastercrafted Mechadragon added.
+Cognitoshadow added.
+Junko, Tenkami's Favored added.
+Draconic Dreadbearer added.
+Darkblood Pactmaker added.
+Lanternlight Ancestor added.
+Learned Archivist added.
+Bloodline Rejector added.
+
+Late-Night Line Practice removed.
+Last Stop to Oblivion removed.
+Mezu Dreadbearer removed.
+Reinforced Responders removed.
+Reality Collapse removed.
+Senzao Border Patrol removed.
+Attended Prefect removed.
+Battleshaping Coordinator removed.
+Voidstring Puppeteer removed.
+Festival Drums removed.
+Tsumugi, the Pactbinder removed.
+Endless Nuisance removed.
+Itakura, Hellraiser's Captain removed.
+Voidwrit Teachings removed.
+Source of the Endless removed.
+Actor's Visage removed.
+Ryu-Blood Inheritor removed.
+Soul Agency Reaper removed.
+Relentless Revenant removed.
+Inner Mirrorings removed.
+Pactbound by Blood removed.
+Reminiscent Archivist removed.
+Training-Hired Maid removed.
+Pactbound Burden removed.
+Tandem Defiance removed.
+Hibana, Highrise Explorer removed.
+Sky-Spirited Gal removed.
+Learn from the City removed.
+Repel the Void removed.
+Final Class Photo removed.
+Mechanized Experience removed.
+Soul Agency Retriever removed.
+Okayim, Cognitoshadow removed.
+Tenkami Head Nurse removed.
+
+Seiran, Thundering Star
+rules_text: Menace
+Seiran, Thundering Star gets +1/+0 for each card you've drawn this turn.
+If you would draw a card, instead draw two cards, then discard a card. => Menace
+Seiran, Thundering Star gets +1/+0 for each card you have drawn this turn.
+If you would draw a card, draw two cards, then discard a card instead.
+
+Hellraisers Recruit
+rules_text: Technique shift {R} — Instant [i](You may cast this spell as a {R} instant with only bracketed text.)[/i]
+Prowess
+When Hellraisers Recruit enters, [b][Hellraisers Recruit deals 2 damage to any target.][/b] => Technique shift {R} — Instant [i](You may cast this spell as a {R} instant with only bracketed text.)[/i]
+Prowess
+When Hellraisers Recruit enters, [b][it deals 2 damage to any target.][/b]
+special_text: Technique shift {R} — Instant [i](You may cast this spell as a {R} instant with only bracketed text.)[/i]
+Prowess
+When Hellraisers Recruit enters, [b][Hellraisers Recruit deals 2 damage to any target.][/b] => Technique shift {R} — Instant [i](You may cast this spell as a {R} instant with only bracketed text.)[/i]
+Prowess
+When Hellraisers Recruit enters, [b][it deals 2 damage to any target.][/b]
+
+Hellraisers Seraph
+rules_text: Flying
+Whenever Hellraisers Seraph attacks, you may sacrifice another creature. If you do, Hellraisers Seraph gets +2/+1 until end of turn. => Flying
+Whenever Hellraisers Seraph attacks you may sacrifice another creature. If you do, Hellraisers Seraph gets +2/+1 until end of turn.
+
+Raging Sarugami
+rules_text: Technique shift {X}{R} — Instant [i](You may cast this spell as a {X}{R} instant with only bracketed text.)[/i]
+When Raging Sarugami enters, up to one [b][Target creature gets +X/+0 and gains trample until end of turn][/b], where X is the number of instant, sorcery and cards with technique shift in your graveyard. => Technique shift {X}{R} — Instant [i](You may cast this spell as a {X}{R} instant with only bracketed text.)[/i]
+When Raging Sarugami enters, up to one [b][Target creature gets +X/+0 and gains trample until end of turn][/b], where X is the number of instant, sorcery and cards with technique in your graveyard.
+special_text: Technique shift {X}{R} — Instant [i](You may cast this spell as a {X}{R} instant with only bracketed text.)[/i]
+When Raging Sarugami enters, up to one [b][Target creature gets +X/+0 and gains trample until end of turn][/b], where X is the number of instant, sorcery and cards with technique shift in your graveyard. => Technique shift {X}{R} — Instant [i](You may cast this spell as a {X}{R} instant with only bracketed text.)[/i]
+When Raging Sarugami enters, up to one [b][Target creature gets +X/+0 and gains trample until end of turn][/b], where X is the number of instant, sorcery and cards with technique in your graveyard.
+
+Taraikyo Egotist
+cost: {3}{B} => {4}{B}
+pt: 4/3 => 5/4
+
+One Last Time
+rules_text: This spell costs {4} less to cast if it targets a card that was put into a graveyard from the battlefield this turn.
+Return target creature card from your graveyard to the battlefield tapped. => This spell costs {4} less to cast if it targets a creature that was put into a graveyard from the battlefield this turn.
+Return target creature card from your graveyard to the battlefield tapped.
+
+Dazzling Dancers
+rules_text: Lifelink
+Whenever you cast a noncreature spell, tap up to one target creature. This ability triggers only once each turn. => Lifelink
+Whenever you cast a noncreature spell, tap up to one target creature. This ability triggers only one each turn.
+
+Maki, the Unbridled
+rules_text: [i]Valiant[/i] — Whenever Maki, the Unbridled becomes the target of a spell or ability you control for the first time each turn, copy that spell or ability. You may choose new targets for the copy. [i](Copies of permanents become tokens.)[/i] => [i]Valiant[/i] — Whenever Maki, the Unbridled becomes the target of a spell or ability you control for the first time each turn, copy it. You may choose new targets for the copy. [i](copies of permanents become tokens.)[/i]
+
+Hajime, Hidanko Dean
+rules_text: Menace, prowess
+Whenever you cast a spell for its technique shift cost, exile it instead of putting it into a graveyard as it resolves. You may cast that card for its mana cost for as long as it remains exiled. => Menace, prowess
+Whenever you cast a spell for its technique shift cost, exile it as it resolves. You may cast that card for its mana cost for as long as it remains exiled.
+
+Sakura-Tail Blademaster
+
+Approach the Contract
+rules_text: Target creature you control studies. It gains hexproof until end of turn. [i](Exile the top card of your library. You may put a +1/+1 counter on that creature. If you don't, you may play that card this turn.)[/i] => Target creature you control gets +0/+3 and gains hexproof until end of turn. Untap it.
+
+Detention
+rules_text: Enchant creature
+You may cast Detention as though it had flash if you've cast another noncreature spell this turn.
+Enchanted creature loses all abilities and can't become untapped. => Enchant creature
+You may cast Detention as though it had flash if you've cast another noncreature spell this turn.
+Enchanted creature loses all abilities can't become untapped.
+
+Ryo, Old Ways Hellraiser
+rules_text: Technique shift {6}{W}{B} — Sorcery [i](You may cast this spell as a {6}{W}{B} sorcery with only bracketed text.)[/i]
+Haste
+When Ryo, Old Ways Hellraiser enters[b], [return each creature card from your graveyard to the battlefield][/b] that died this turn. They gain haste. Exile them at the beginning of the next end step. After this phase, there is an additional combat phase. => Technique shift {6}{W}{B} — Sorcery [i](You may cast this spell as a {6}{W}{B} sorcery with only bracketed text.)[/i]
+Haste
+When Ryo, Old Ways Hellraiser enters, if it was cast[b], [return each creature card from your graveyard to the battlefield][/b] that died this turn. They gain haste. Exile them at the beginning of the next end step. After this phase, there is an additional combat phase.
+special_text: Technique shift {6}{W}{B} — Sorcery [i](You may cast this spell as a {6}{W}{B} sorcery with only bracketed text.)[/i]
+Haste
+When Ryo, Old Ways Hellraiser enters[b], [return each creature card from your graveyard to the battlefield][/b] that died this turn. They gain haste. Exile them at the beginning of the next end step. After this phase, there is an additional combat phase. => Technique shift {6}{W}{B} — Sorcery [i](You may cast this spell as a {6}{W}{B} sorcery with only bracketed text.)[/i]
+Haste
+When Ryo, Old Ways Hellraiser enters, if it was cast[b], [return each creature card from your graveyard to the battlefield][/b] that died this turn. They gain haste. Exile them at the beginning of the next end step. After this phase, there is an additional combat phase.
+
+Senzao Peak Skythresher
+rules_text: Technique shift {1}{W} — Sorcery [i](You may cast this spell as a {1}{W} sorcery with only bracketed text.)[/i]
+Flying
+Whenever you attack with exactly two creatures, [b][look at the top four cards of your library. You may reveal a Plains card or creature card with power 3 or less from among them and put it into your hand. Then shuffle.][/b] => Technique shift {1}{W} — Sorcery [i](You may cast this spell as a {1}{W} sorcery with only bracketed text.)[/i]
+Flying
+Whenever you attack with exactly two creatures, [b][Look at the top four cards of your library. You may reveal a Plains card or creature card with power 3 or less from among them and put it into your hand, then shuffle.][/b]
+special_text: Technique shift {1}{W} — Sorcery [i](You may cast this spell as a {1}{W} sorcery with only bracketed text.)[/i]
+Flying
+Whenever you attack with exactly two creatures, [b][look at the top four cards of your library. You may reveal a Plains card or creature card with power 3 or less from among them and put it into your hand. Then shuffle.][/b] => Technique shift {1}{W} — Sorcery [i](You may cast this spell as a {1}{W} sorcery with only bracketed text.)[/i]
+Flying
+Whenever you attack with exactly two creatures, [b][Look at the top four cards of your library. You may reveal a Plains card or creature card with power 3 or less from among them and put it into your hand, then shuffle.][/b]
+
+Everywhere
+
+Disaster Site Surveyor
+rules_text: Technique shift {2}{R} — Sorcery [i](You may cast this spell as a {2}{R} sorcery with only bracketed text.)[/i]
+When Disaster Site Surveyor dies, you may [b][return another target instant, sorcery or card with technique shift from your graveyard to your hand. Exile Disaster Site Surveyor][/b] => Technique shift {2}{R} — Sorcery [i](You may cast this spell as a {2}{R} sorcery with only bracketed text.)[/i]
+When Disaster Site Surveyor dies, you may [b][return another target instant, sorcery or card with technique from your graveyard to your hand. Exile Disaster Site Surveyor][/b]
+special_text: Technique shift {2}{R} — Sorcery [i](You may cast this spell as a {2}{R} sorcery with only bracketed text.)[/i]
+When Disaster Site Surveyor dies, you may [b][return another target instant, sorcery or card with technique shift from your graveyard to your hand. Exile Disaster Site Surveyor][/b] => Technique shift {2}{R} — Sorcery [i](You may cast this spell as a {2}{R} sorcery with only bracketed text.)[/i]
+When Disaster Site Surveyor dies, you may [b][return another target instant, sorcery or card with technique from your graveyard to your hand. Exile Disaster Site Surveyor][/b]
+
+Kuro, Bitter Shadow
+cost: {2}{W}{B} => {1}{W}{B}
+pt: 2/4 => 2/2
+
+Twintuft Duelists
+rules_text: Lifelink, haste
+The first spell or ability you cast/activate each turn that targets a creature you control costs {R}{W} less to cast or activate. This effect reduces only the amount of colored mana you pay. => Lifelink, haste
+The first spell or ability you cast/activate each turn that targets a creature you control costs {R}{W} less to cast/activate. This effect reduces only the amount of colored mana you pay.
+
+Kaede, Drama Head
+rules_text: Technique shift {R}{G} — Sorcery [i](You may cast this spell as a {R}{G} sorcery with only bracketed text.)[/i]
+Whenever Kaede, Drama Head enters or attacks, [b][look at the top six cards of your library. You may put a creature card with mana value 2 or less from among them onto the battlefield. Then shuffle.][/b] => Technique shift {R}{G} — Sorcery [i](You may cast this spell as a {R}{G} sorcery with only bracketed text.)[/i]
+Whenever Kaede, Drama Head enters or attacks, [b][look at the top six cards of your library. You may put a creature card with mana value 2 or less from among them onto the battlefield, then shuffle.][/b]
+special_text: Technique shift {R}{G} — Sorcery [i](You may cast this spell as a {R}{G} sorcery with only bracketed text.)[/i]
+Whenever Kaede, Drama Head enters or attacks, [b][look at the top six cards of your library. You may put a creature card with mana value 2 or less from among them onto the battlefield. Then shuffle.][/b] => Technique shift {R}{G} — Sorcery [i](You may cast this spell as a {R}{G} sorcery with only bracketed text.)[/i]
+Whenever Kaede, Drama Head enters or attacks, [b][look at the top six cards of your library. You may put a creature card with mana value 2 or less from among them onto the battlefield, then shuffle.][/b]
+
+Exorcist Prodigy
+
+Railworks Signaller
+rules_text: When Railworks Signaller enters, search your library for a basic land card or Terminal card, reveal it, put it into your hand, then shuffle.
+Railworks Signaller gets +2/+2 as long as you control five or more differently named lands. => When Railworks Signaller enters, search your library for a basic land card or Terminal card, put it into your hand, then shuffle.
+Railworks Signaller gets +2/+2 as long as you control five or more differently named lands.
+
+Kami-Blessed Spiritualist
+type: Creature — Demigod Monk => Creature — Dragon Monk
+
+Haiden Pactbreaker
+type: Creature — Human Monk Advisor => Creature — Dragon Monk Advisor
+
+Fireblood Seishin
+rules_text: {2}, {T}, Discard a card or sacrifice a land: Draw a card. This ability costs {2} less to activate if you control a Spirit with mana value 4 or greater. => {2}, {T}, Sacrifice a land or discard a card: Draw a card. This ability costs {2} less to activate if you control a Spirit with mana value 4 or greater.
+
+Azure Gust Descendant
+rules_text: You may pay {U} and exile an instant card and a sorcery card from your graveyard rather than pay this spell's mana cost.
+Flying, prowess => You may pay {U} and exile an instant and a sorcery card from your graveyard rather than pay this spell's mana cost.
+Flying, prowess
+
+Sarugami Titan
+rules_text: Technique shift {2}{B} — Instant [i](You may cast this spell as a {2}{B} instant with only bracketed text.)[/i]
+When Sarugami Titan enters, you may exile an instant, sorcery or card with technique shift from your graveyard. If you do, up to one [b][target creature gets +4/-4 until end of turn.][/b] => Technique shift {2}{B} — Instant [i](You may cast this spell as a {2}{B} instant with only bracketed text.)[/i]
+When Sarugami Titan enters, you may exile an instant, sorcery or card with technique from your graveyard. If you do, up to one [b][target creature gets +4/-4 until end of turn.][/b]
+special_text: Technique shift {2}{B} — Instant [i](You may cast this spell as a {2}{B} instant with only bracketed text.)[/i]
+When Sarugami Titan enters, you may exile an instant, sorcery or card with technique shift from your graveyard. If you do, up to one [b][target creature gets +4/-4 until end of turn.][/b] => Technique shift {2}{B} — Instant [i](You may cast this spell as a {2}{B} instant with only bracketed text.)[/i]
+When Sarugami Titan enters, you may exile an instant, sorcery or card with technique from your graveyard. If you do, up to one [b][target creature gets +4/-4 until end of turn.][/b]
+
+Seijuku Disruptor
+
+Ogura, Nightpack Contractor
+rules_text: Trample, haste
+Whenever Ogura, Nightpack Contractor attacks, reveal the top seven cards of your library. You may put a nonlegendary Spirit creature card from among them onto the battlefield tapped and attacking. Then shuffle. => Trample, haste
+Whenever Ogura, Nightpack Contractor attacks, reveal the top seven cards of your library. You may put a nonlegendary Spirit creature card from among them onto the battlefield tapped and attacking, then shuffle.
+
+Soul Agency Coroner
+
+Ryu-Blood Yearling
+type: Creature — Drake Fish Spirit => Creature — Dragon Fish Spirit
+
+Taraikyo Acting Aide
+type: Artifact Creature — Robot Performer => Artifact Creature — Doll Performer
+
+Rapid Draw
+rules_text: Rapid Draw deals 4 damage to any target. If a permanent is dealt excess damage this way you may discard a card. If you do, draw a card. => Rapid Draw deals 4 damage to any nonplayer target. If a permanent is dealt excess damage this way you may discard a card. If you do, draw a card.
+
+Recurring Memories
+
+Voidcharged Splitblade
+rules_text: When Voidcharged Splitblade enters, attach it to target creature you control.
+Equipped creature gets +1/+0 and has first strike.
+Equip 2{W} => When Voidcharged Splitblade enters, attach it to target creature you control.
+Equipped creature gets +1/+0 and has first strike.
+Equip {2}{W}
+
+Horrific Confidant
+rules_text: Technique shift {1}{W} — Instant [i](You may cast this spell as a {1}{W} instant with only bracketed text.)[/i]
+When Horrific Confidant enters, creatures you control [b][get +1/+1 until end of turn.][/b] => Technique shift {1}{W} — Instant [i](You may cast this spell as a {1}{W} instant with only bracketed text.)[/i]
+When Horrific Confidant enters, [b][creatures you control get +1/+1 until end of turn.][/b]
+special_text: Technique shift {1}{W} — Instant [i](You may cast this spell as a {1}{W} instant with only bracketed text.)[/i]
+When Horrific Confidant enters, creatures you control [b][get +1/+1 until end of turn.][/b] => Technique shift {1}{W} — Instant [i](You may cast this spell as a {1}{W} instant with only bracketed text.)[/i]
+When Horrific Confidant enters, [b][creatures you control get +1/+1 until end of turn.][/b]
+
+Yoru, Shadow of Regrets
+rules_text: Technique shift {2}{G}{U} — Instant [i](You may cast this spell as a {2}{G}{U} instant with only bracketed text.)[/i]
+Menace
+Whenever Yoru, Shadow of Regrets attacks, you may [b][create a token that's a copy of target permanent][/b] card in your graveyard. If you do, exile that card. => Technique shift {2}{G}{U} — Instant [i](You may cast this spell as a {2}{G}{U} instant with only bracketed text.)[/i]
+Menace
+Whenever Yoru, Shadow of Regrets attacks, you may [b][create a token that's a copy of target permanent][/b] card in defending player's graveyard.
+special_text: Technique shift {2}{G}{U} — Instant [i](You may cast this spell as a {2}{G}{U} instant with only bracketed text.)[/i]
+Menace
+Whenever Yoru, Shadow of Regrets attacks, you may [b][create a token that's a copy of target permanent][/b] card in your graveyard. If you do, exile that card. => Technique shift {2}{G}{U} — Instant [i](You may cast this spell as a {2}{G}{U} instant with only bracketed text.)[/i]
+Menace
+Whenever Yoru, Shadow of Regrets attacks, you may [b][create a token that's a copy of target permanent][/b] card in defending player's graveyard.
+
+Miyako's Acceptance
+cost: {X}{B} => {1}{B}
+rules_text: Target creature gets -X/-X until end of turn, where X is the amount of mana you've spent to cast noncreature spells this turn. => As an additional cost to cast this spell, sacrifice an artifact or creature.
+Draw two cards.
+Flashback {4}{B} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Demolition Club Captain
+type: Creature — Drake Warrior Advisor => Creature — Dragon Warrior Advisor
+
+Jun, Ryu Heiress
+rules_text: Technique shift {4}{U}{U}{U} — Sorcery [i](You may cast this spell as a {4}{U}{U}{U} sorcery with only bracketed text.)[/i]Technique shift [i](You may cast this spell as a {4}{U}{U}{U} sorcery with only bracketed text.)[/i]
+[+1]: You may tap or untap up to one target permanent. Draw a card.
+[-2]: Return up to two target creatures to their owners' hands.
+[-9]: Exile all but the bottom ten cards of each opponent's library. Any number of players [b][draw seven cards.][/b] => Technique shift {4}{U}{U}{U} — Sorcery [i](You may cast this spell as a {4}{U}{U}{U} sorcery with only bracketed text.)[/i]Technique shift [i](You may cast this spell as a {4}{U}{U}{U} sorcery with only bracketed text.)[/i]
+[+1]: Tap or untap up to one target permanent. Draw a card.
+[-2]: Return up to two target creatures to their owners' hands.
+[-9]: Exile all but the bottom ten cards of each opponent's library. Any number of players [b][draw seven cards.][/b]
+special_text: Technique shift {4}{U}{U}{U} — Sorcery [i](You may cast this spell as a {4}{U}{U}{U} sorcery with only bracketed text.)[/i]Technique shift [i](You may cast this spell as a {4}{U}{U}{U} sorcery with only bracketed text.)[/i]
+[+1]: You may tap or untap up to one target permanent. Draw a card.
+[-2]: Return up to two target creatures to their owners' hands.
+[-9]: Exile all but the bottom ten cards of each opponent's library. Any number of players [b][draw seven cards.][/b] => Technique shift {4}{U}{U}{U} — Sorcery [i](You may cast this spell as a {4}{U}{U}{U} sorcery with only bracketed text.)[/i]Technique shift [i](You may cast this spell as a {4}{U}{U}{U} sorcery with only bracketed text.)[/i]
+[+1]: Tap or untap up to one target permanent. Draw a card.
+[-2]: Return up to two target creatures to their owners' hands.
+[-9]: Exile all but the bottom ten cards of each opponent's library. Any number of players [b][draw seven cards.][/b]
+
+Rin, Obstructive Exorcist
+rules_text: Technique shift {3}{W}{W} — Sorcery [i](You may cast this spell as a {3}{W}{W} sorcery with only bracketed text.)[/i]Technique shift [i](You may cast this spell as a {3}{W}{W} sorcery with only bracketed text.)[/i]
+[+1]: Until your next turn, creatures target player controls assign combat damage equal to their their toughness rather than their power.
+[-2]: Create a 0/4 white Spirit creature token.
+[-6]: [b][Each creature deals damage to itself equal to its power.][/b] => Technique shift {3}{W}{W} — Sorcery [i](You may cast this spell as a {3}{W}{W} sorcery with only bracketed text.)[/i]Technique shift [i](You may cast this spell as a {3}{W}{W} sorcery with only bracketed text.)[/i]
+[+1]: Until end of turn, creatures target player controls assign combat damage using their toughness rather than their power.
+[-2]: Create a 0/4 white Spirit creature token.
+[-6]: [b][Each creature deals damage to itself equal to its power.][/b]
+special_text: Technique shift {3}{W}{W} — Sorcery [i](You may cast this spell as a {3}{W}{W} sorcery with only bracketed text.)[/i]Technique shift [i](You may cast this spell as a {3}{W}{W} sorcery with only bracketed text.)[/i]
+[+1]: Until your next turn, creatures target player controls assign combat damage equal to their their toughness rather than their power.
+[-2]: Create a 0/4 white Spirit creature token.
+[-6]: [b][Each creature deals damage to itself equal to its power.][/b] => Technique shift {3}{W}{W} — Sorcery [i](You may cast this spell as a {3}{W}{W} sorcery with only bracketed text.)[/i]Technique shift [i](You may cast this spell as a {3}{W}{W} sorcery with only bracketed text.)[/i]
+[+1]: Until end of turn, creatures target player controls assign combat damage using their toughness rather than their power.
+[-2]: Create a 0/4 white Spirit creature token.
+[-6]: [b][Each creature deals damage to itself equal to its power.][/b]
+
+Freila, Council President
+rules_text: Instruct [i](Whenever this creature attacks, up to one other target attacking creature gains the following abilities until end of turn.)[/i]
+First strike
+Whenever this creature deals combat damage to a player or noncreature permanent, put that many +1/+1 counters on it. => Instruct [i](Whenever this creature attacks, up to one other target attacking creature gains the following abilities until end of turn.)[/i]
+Whenever this creature deals combat damage to a player, it studies that many times. [i](Exile the top card of your library. You may put a +1/+1 counter on this creature. If you don't, you may play that card this turn.)[/i]
+
+Book of Eternity
+rules_text: Whenever Book of Eternity enters or a creature dies, put a page counter on Book of Eternity.
+{T}, Remove X page counters from Book of Eternity: Return target creature card with mana value X or less from your graveyard to the battlefield with a finality counter on it. => Whenever Book of Eternity enters or a creature dies, put a page counter on Book of Eternity.
+{T}, Remove X page counters from Book of Eternity: Return target creature card with mana value X or less from your graveyard to the battlefield with a finality counter.
+
+Trackbound Colossus
+
+Soulwatcher student
+rules_text: {T}: Add one mana of any color. Spend this mana only to cast instant or sorcery spells.
+{1}, {T}: Add one mana of any color. => {T}: Add {U}. Spend this mana only to cast instant or sorcery spells.
+{1}, {T}: Add one mana of any color.
+
+Hollow Encounter
+rules_text: Return target permanent card with mana value 7 or less from your graveyard to the battlefield. => Return target permanent card from your graveyard to the battlefield.
+
+Warped Summons
+rules_text: Create an X/X Spirit Nightmare creature token that's all colors, where X is the number of other permanents you control.
+Flashback {3}{G}{W}{U} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Create an X/X Spirit Nightmare creature token that's all colors, where X is the number of permanents you control.
+Flashback {3}{G}{W}{U} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Ai, Chasing Stars
+rules_text: Technique shift {2}{B}{B} — Sorcery [i](You may cast this spell as a {2}{B}{B} sorcery with only bracketed text.)[/i]Technique shift [i](You may cast this spell as a {2}{B}{B} sorcery with only bracketed text.)[/i]
+[+2]: You draw X cards and each opponent loses X life, where X is one plus the number of creatures that died this turn.
+[+1]: Create a 2/2 black Robot Fan artifact creature token with menace.
+[-3]: [b][Each player sacrifices two creatures.][/b] => Technique shift {2}{B}{B} — Sorcery [i](You may cast this spell as a {2}{B}{B} sorcery with only bracketed text.)[/i]Technique shift [i](You may cast this spell as a {2}{B}{B} sorcery with only bracketed text.)[/i]
+[+2]: You draw X cards and each opponent loses X life, where X is one plus the number of creatures that have died this turn.
+[+1]: Create a 2/2 black Robot Fan artifact creature token with menace.
+[-3]: [b][Each player sacrifices two creatures.][/b]
+special_text: Technique shift {2}{B}{B} — Sorcery [i](You may cast this spell as a {2}{B}{B} sorcery with only bracketed text.)[/i]Technique shift [i](You may cast this spell as a {2}{B}{B} sorcery with only bracketed text.)[/i]
+[+2]: You draw X cards and each opponent loses X life, where X is one plus the number of creatures that died this turn.
+[+1]: Create a 2/2 black Robot Fan artifact creature token with menace.
+[-3]: [b][Each player sacrifices two creatures.][/b] => Technique shift {2}{B}{B} — Sorcery [i](You may cast this spell as a {2}{B}{B} sorcery with only bracketed text.)[/i]Technique shift [i](You may cast this spell as a {2}{B}{B} sorcery with only bracketed text.)[/i]
+[+2]: You draw X cards and each opponent loses X life, where X is one plus the number of creatures that have died this turn.
+[+1]: Create a 2/2 black Robot Fan artifact creature token with menace.
+[-3]: [b][Each player sacrifices two creatures.][/b]
+
+Ogaki, Contracted Vengeant
+rules_text: Ward—{2}, pay 2 life
+Creatures you control entering and attacking cause abilities of that creature to trigger as though it had died. => Ward {2}, pay 2 life
+Creatures you control entering and attacking cause abilities of that creature to trigger as though it had died.
+
+Soul Agency Sergeant
+cost: {2}{B} => {1}{B}
+rules_text: Instruct [i](Whenever this creature attacks, up to one other target attacking creature gains the following abilities until end of turn.)[/i]
+Whenever this creature dies, each opponent loses 2 life and you gain 2 life. => Instruct [i](Whenever this creature attacks, up to one other target attacking creature gains the following abilities until end of turn.)[/i]
+Whenever this creature dies, create a treasure token.
+pt: 3/2 => 2/1
+
+Learn From the Best
+rules_text: Each of up to two target creatures you control studies. Untap those creatures. [i](Exile the top card of your library. You may put a +1/+1 counter on that creature. If you don't, you may play that card this turn.)[/i] => Each of up two two target creatures you control studies. Untap those creatures. [i](Exile the top card of your library. You may put a +1/+1 counter on that creature. If you don't, you may play that card this turn.)[/i]
+
+Taraikyo Paragon
+rules_text: Lifelink
+Whenever you gain life, Taraikyo Paragon studies. This ability triggers only once each turn. [i](Exile the top card of your library. You may put a +1/+1 counter on this creature. If you don't, you may play that card this turn.)[/i] => Lifelink
+Whenever you gain life, Taraikyo Paragon studies. [i](Exile the top card of your library. You may put a +1/+1 counter on this creature. If you don't, you may play that card this turn.)[/i]
+
+Ever-Learning Shrineguard
+
+Beckoned Beyond
+rules_text: Create an X/X Spirit nightmare creature token that's all colors, where X is the number of cards in your hand.
+Whenever you draw your second card each turn, return Beckoned Beyond from your graveyard to your hand. => Create an X/X Spirit nightmare creature token that's all colors, where X is the number of cards in your hand.
+Whenever you draw your second card each turn, you may discard a card. If you do, return Beckoned Beyond from your graveyard to your hand.
+
+Vielle, Aekyan Transfer
+rules_text: Deathtouch, protection from legendary
+When Vielle, Aekyan Transfer enters, put X loyalty counters on it, then exile up to one target planeswalker card with mana value less than or equal to the amount of mana spent to cast it from a graveyard.
+Vielle has all loyalty abilities of cards exiled with it. => Deathtouch, protection from legendary.
+Vielle, Aekyan Transfer enters with a number of loyalty counters on it equal to the amount of mana spent to cast it. When it does, exile up to one target planeswalker card from a graveyard with equal or lesser mana value. Vielle gains its loyalty abilities.
+
+Satsuki, Council Vice
+type: Legendary Creature — Drake Student Advisor => Legendary Creature — Dragon Student Advisor
+
+Gate-Guard Komainu
+rules_text: Instruct [i](Whenever this creature attacks, up to one other target attacking creature gains the following abilities until end of turn.)[/i]
+When this creature dies, you may exile it. If you do, return target permanent card with mana value less than its mana value from your graveyard to your hand. => Instruct [i](Whenever this creature attacks, up to one other target attacking creature gains the following abilities until end of turn.)[/i]
+At the beginning of your end step, put a +1/+1 counter on this creature if you attacked this turn.
+pt: 2/1 => 1/1
+
+Taraikyo Expression
+cost: {3}{R}{G}{W} => {1}{R}{G}{W}
+rules_text: Look at the top seven cards of your library. Put up to two creature cards with mana value 4 or less from among them onto the battlefield and the rest on the bottom of your library in any order. For each of those creatures, put your choice of a trample, lifelink, or haste counter on it. => Look at the top six cards of your library. You may cast up to two spells each with mana value 3 or less that share no types from among them without paying their mana cost. Put the rest on the bottom of your library in any order.
+
+Bonded Rivals
+cost: {R}{W} => {3}{R}{W}
+rules_text: Double strike
+[i]Valiant[/i] — Whenever Bonded Rivals becomes the target of a spell or ability you control for the first time each turn, Exile up to one other target nonland permanent. Return it to the battlefield under its owner's control at the beginning of the next end step. => [i]Valiant[/i] — Whenever Bonded Rivals becomes the target of a spell or ability you control for the first time each turn, untap each creature you control. If it's your main or combat phase, there is an additional combat phase after this phase.
+pt: 1/1 => 5/4
+
+
+VERSION 25 CHANGELOG
 ====================
 
 No changes.
