@@ -337,7 +337,7 @@ When Taraikyo Egotist enters, you may sacrifice a creature or discard a creature
 Flash
 Flying
 When Ebon Moon Descendant enters, you may [b][destroy target creature or planeswalker] [/b]that was dealt damage this turn.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/86_Ebon Moon Descendant.png" num="86">ONI</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/84_Ebon Moon Descendant.png" num="84">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -355,7 +355,7 @@ When Ebon Moon Descendant enters, you may [b][destroy target creature or planesw
 			<name>Contracted Aberrant</name>
 			<text>Technique shift {1}{U} — Instant (You may cast this spell as a {1}{U} instant with only bracketed text.)
 When Contracted Aberrant dies, [b][look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.][/b]</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/80_Contracted Aberrant.png" num="80">ONI</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/79_Contracted Aberrant.png" num="79">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -373,7 +373,7 @@ When Contracted Aberrant dies, [b][look at the top three cards of your library. 
 			<name>One Stop to Oblivion</name>
 			<text>Return up to two target creature and/or planeswalker cards from your graveyard to your hand.
 Terminalcycling {2} ({2}, Discard this card: Search your library for a Terminal card, reveal it, put it into your hand, then shuffle.)</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/98_One Stop to Oblivion.png" num="98">ONI</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/97_One Stop to Oblivion.png" num="97">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -390,7 +390,7 @@ Terminalcycling {2} ({2}, Discard this card: Search your library for a Terminal 
 			<name>Devilish Diva</name>
 			<text>Deathtouch
 Whenever another creature dies, Devilish Diva studies. (Exile the top card of your library. You may put a +1/+1 counter on this creature. If you don&apos;t, you may play that card this turn.)</text>
-			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/85_Devilish Diva.png" num="85">ONI</set>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/83_Devilish Diva.png" num="83">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -425,7 +425,7 @@ Whenever another creature dies, Devilish Diva studies. (Exile the top card of yo
 			<name>Seijuku Star Pilot</name>
 			<text>Technique shift {2}{B} — Sorcery (You may cast this spell as a {2}{B} sorcery with only bracketed text.)
 At the beginning of your end step, if you&apos;ve cast a creature and a noncreature spell this turn, [b][return target creature or planeswalker card with mana value 4 or less from your graveyard to the battlefield tapped.] [/b]</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/102_Seijuku Star Pilot.png" num="102">ONI</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/101_Seijuku Star Pilot.png" num="101">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -462,7 +462,7 @@ When Titanicoil Uwabami enters, [b][put a +1/+1 counter on another target creatu
 			<name>One Last Time</name>
 			<text>This spell costs {4} less to cast if it targets a creature that was put into a graveyard from the battlefield this turn.
 Return target creature card from your graveyard to the battlefield tapped.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/97_One Last Time.png" num="97">ONI</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/96_One Last Time.png" num="96">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -723,7 +723,7 @@ Whenever Ryujin of Divine Justice attacks, [b][create two 2/1 white Spirit Samur
 			<text>Technique shift {1}{B} — Instant (You may cast this spell as a {1}{B} instant with only bracketed text.)
 Flying, menace
 Whenever Ryujin of Night&apos;s Sorrow attacks,[b] [each opponent sacrifices a creature.][/b] For each creature with mana value 3 or less sacrificed this way, put it onto the battlefield under your control. It enters tapped and attacking.</text>
-			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/100_Ryujin of Night&apos;s Sorrow.png" num="100">ONI</set>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/99_Ryujin of Night&apos;s Sorrow.png" num="99">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -847,7 +847,7 @@ Terminalcycling {2} ({2}, Discard this card: Search your library for a Terminal 
 			<name>Pact of New Return</name>
 			<text>Enchant creature
 When enchanted creature dies, return it to the battlefield under your control, then it studies. (Exile the top card of your library. You may put a +1/+1 counter on this creature. If you don&apos;t, you may play that card this turn.)</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/99_Pact of New Return.png" num="99">ONI</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/98_Pact of New Return.png" num="98">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1245,7 +1245,7 @@ Once during each of your turns, you may cast a permanent spell with mana value 4
 			<text>Technique shift {1}{G} — Instant (You may cast this spell as a {1}{G} instant with only bracketed text.)
 Ward—Discard a card
 Whenever Hateful Seishin attacks, [b][target creature you control gains deathtouch and indestructible until end of turn.][/b]</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/89_Hateful Seishin.png" num="89">ONI</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/86_Hateful Seishin.png" num="86">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2091,7 +2091,7 @@ Whenever another creature you control dies, put a +1/+1 counter on Obsessive Sta
 		<card>
 			<name>Class-Cutting Exorcist</name>
 			<text>When Class-Cutting Exorcist enters, each opponent sacrifices a creature, then sacrifice a creature unless you&apos;ve cast a noncreature spell this turn.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/79_Class-Cutting Exorcist.png" num="79">ONI</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/78_Class-Cutting Exorcist.png" num="78">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2158,16 +2158,17 @@ Reach</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Friends Forgotten</name>
-			<text>Exile target creature or enchantment with mana value less than or equal to the greatest number of nonland cards in a graveyard.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/88_Friends Forgotten.png" num="88">ONI</set>
+			<name>Surprise Strike</name>
+			<text>This spell costs {2} less to cast if you&apos;ve cast a creature spell this turn.
+Target creature gets -5/-5 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/108_Surprise Strike.png" num="108">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Instant</type>
 				<maintype>Instant</maintype>
-				<manacost>1B</manacost>
-				<cmc>2</cmc>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -2229,7 +2230,7 @@ Flying, prowess</text>
 		<card>
 			<name>Social Encounters</name>
 			<text>Return up to one target creature card with mana value less than or equal to the number of lands you control from your graveyard to the battlefield.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/105_Social Encounters.png" num="105">ONI</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/104_Social Encounters.png" num="104">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2382,7 +2383,7 @@ Valiant — Whenever Savvy Part-Timer becomes the target of a spell or ability y
 			<name>Cursebound Bully</name>
 			<text>Prowess
 At the beginning of your end step, if you&apos;ve cast a creature and a noncreature spell this turn, each opponent loses life equal to the life they lost this turn.</text>
-			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/82_Cursebound Bully.png" num="82">ONI</set>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/80_Cursebound Bully.png" num="80">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2400,7 +2401,7 @@ At the beginning of your end step, if you&apos;ve cast a creature and a noncreat
 			<name>Skilled Diabolist</name>
 			<text>Whenever you cast your first noncreature spell each turn, create a tapped 1/1 black Demon Horror creature token.
 Sacrifice an artifact or creature: Surveil 1.</text>
-			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/104_Skilled Diabolist.png" num="104">ONI</set>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/103_Skilled Diabolist.png" num="103">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2418,7 +2419,7 @@ Sacrifice an artifact or creature: Surveil 1.</text>
 			<name>Exorcist Trainee</name>
 			<text>Technique shift {4}{R} — Sorcery (You may cast this spell as a {4}{R} sorcery with only bracketed text.)
 When Exorcist Trainee enters, if it entered from your graveyard or you cast it from your graveyard, exile it. If you do, [b][create a 5/5 black and red Spirit Horror creature token with menace.][/b]</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/87_Exorcist Trainee.png" num="87">ONI</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/85_Exorcist Trainee.png" num="85">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2522,7 +2523,7 @@ Whenever Impairing Oarfish deals damage to a player or planeswalker, draw a card
 		<card>
 			<name>Kitsune Heiress</name>
 			<text>Whenever you sacrifice another permanent, put a +1/+1 counter on Kitsune Heiress. This ability triggers only once each turn.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/91_Kitsune Heiress.png" num="91">ONI</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/90_Kitsune Heiress.png" num="90">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2700,7 +2701,7 @@ When Consuming Sorrow enters, you may sacrifice another creature or artifact. If
 			<text>Choose one —
 • Target player draws two cards and loses 2 life.
 • Creatures target player controls get -1/-1 until end of turn.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/108_Soulseek Thrills.png" num="108">ONI</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/107_Soulseek Thrills.png" num="107">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2717,7 +2718,7 @@ When Consuming Sorrow enters, you may sacrifice another creature or artifact. If
 			<name>Hidanko Voidshaper</name>
 			<text>Hidanko Voidshaper enters tapped.
 Whenever you cast your first noncreature spell each turn, return Hidanko Voidshaper from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/90_Hidanko Voidshaper.png" num="90">ONI</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/87_Hidanko Voidshaper.png" num="87">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2735,7 +2736,7 @@ Whenever you cast your first noncreature spell each turn, return Hidanko Voidsha
 			<name>Shrinebound Aberrant</name>
 			<text>Technique shift {X}{W}{W} — Sorcery (You may cast this spell as a {X}{W}{W} sorcery with only bracketed text.)
 When Shrinebound Aberrant enters, [b][create X 2/2 green Spirit creature tokens][/b], where X is the number of creature cards in your graveyard.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/103_Shrinebound Aberrant.png" num="103">ONI</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/102_Shrinebound Aberrant.png" num="102">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2752,7 +2753,7 @@ When Shrinebound Aberrant enters, [b][create X 2/2 green Spirit creature tokens]
 		<card>
 			<name>Soul Agency Coroner</name>
 			<text>Whenever Soul Agency Coroner or another creature you control dies, each opponent loses 1 life and you gain 1 life.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/106_Soul Agency Coroner.png" num="106">ONI</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/105_Soul Agency Coroner.png" num="105">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3114,7 +3115,7 @@ Equip {2}</text>
 			<text>Technique shift {1}{W}{U} — Instant (You may cast this spell as a {1}{W}{U} instant with only bracketed text.)
 Ward—Pay 4 life.
 Once during each of your turns, whenever an opponent loses life, you may [b][search your library for a noncreature, nonland card, reveal it, put it into your hand, then shuffle.][/b]</text>
-			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/93_Masborg, Lethal Protector.png" num="93">ONI</set>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/92_Masborg, Lethal Protector.png" num="92">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3212,7 +3213,7 @@ Whenever you cast a black noncreature spell, you may pay 1 life. If you do, crea
 {2}{W}{U}{B}{R}{G}: Transform Miyako, the Watched.
 ---
 (Back): Conduit of Mugeni</text>
-			<set rarity="mythic" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/95_Miyako, the Watched_front.png" num="95a">ONI</set>
+			<set rarity="mythic" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/94_Miyako, the Watched_front.png" num="94a">ONI</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -3233,7 +3234,7 @@ Whenever you cast a black noncreature spell, you may pay 1 life. If you do, crea
 Whenever you cast a noncreature spell, copy it if three or more types of mana were spent to cast it.
 ---
 (Front): Miyako, the Watched</text>
-			<set rarity="mythic" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/95_Miyako, the Watched_back.png" num="95b">ONI</set>
+			<set rarity="mythic" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/94_Miyako, the Watched_back.png" num="94b">ONI</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -3409,28 +3410,9 @@ Whenever Yoru, Shadow of Regrets attacks, you may [b][create a token that&apos;s
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Contracted Dreamculler</name>
-			<text>Instruct (Whenever this creature attacks, up to one other target attacking creature gains the following abilities until end of turn.)
-Flying
-Whenever this creature deals combat damage to a player, they discard a card.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/81_Contracted Dreamculler.png" num="81">ONI</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Creature — Dragon Spirit Horror</type>
-				<maintype>Creature</maintype>
-				<manacost>3B</manacost>
-				<cmc>4</cmc>
-				<colors>B</colors>
-				<coloridentity>B</coloridentity>
-				<pt>2/3</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
 			<name>Defy</name>
 			<text>Target player reveals their hand. You choose an instant or sorcery card, or a creature card with mana value 4 or greater from it. That player discards that card.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/84_Defy.png" num="84">ONI</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/82_Defy.png" num="82">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3448,7 +3430,7 @@ Whenever this creature deals combat damage to a player, they discard a card.</te
 			<text>As an additional cost to cast this spell, sacrifice an artifact or creature.
 Draw two cards.
 Flashback {4}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/96_Miyako&apos;s Acceptance.png" num="96">ONI</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/95_Miyako&apos;s Acceptance.png" num="95">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3699,7 +3681,7 @@ Whenever this creature deals combat damage to a player, it studies that many tim
 			<name>Book of Eternity</name>
 			<text>Whenever Book of Eternity enters or a creature dies, put a page counter on Book of Eternity.
 {T}, Remove X page counters from Book of Eternity: Return target creature card with mana value X or less from your graveyard to the battlefield with a finality counter.</text>
-			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/78_Book of Eternity.png" num="78">ONI</set>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/77_Book of Eternity.png" num="77">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4220,7 +4202,7 @@ Creatures you control entering and attacking cause abilities of that creature to
 			<name>Soul Agency Sergeant</name>
 			<text>Instruct (Whenever this creature attacks, up to one other target attacking creature gains the following abilities until end of turn.)
 Whenever this creature dies, create a Treasure token.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/107_Soul Agency Sergeant.png" num="107">ONI</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/106_Soul Agency Sergeant.png" num="106">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5120,7 +5102,7 @@ Whenever you cast a noncreature spell, you may [b][exile target nonland permanen
 			<name>Darkblood Pactmaker</name>
 			<text>Deathtouch
 Sacrifice another creature: Each opponent loses 1 life. Surveil 1.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/83_Darkblood Pactmaker.png" num="83">ONI</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/81_Darkblood Pactmaker.png" num="81">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5135,13 +5117,14 @@ Sacrifice another creature: Each opponent loses 1 life. Surveil 1.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Bloodline Rejector</name>
-			<text>Whenever you cast an instant, sorcery or dragon spell, put a +1/+1 counter on Bloodline Rejector. This ability triggers only once each turn.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/77_Bloodline Rejector.png" num="77">ONI</set>
+			<name>Intimidating Meditant</name>
+			<text>Prowess
+Whenever you cast a noncreature spell, surveil 1. You gain 1 life.</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/89_Intimidating Meditant.png" num="89">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Dragon Citizen</type>
+				<type>Creature — Drake Student</type>
 				<maintype>Creature</maintype>
 				<manacost>2B</manacost>
 				<cmc>3</cmc>
@@ -5222,7 +5205,7 @@ Whenever you draw your second card each turn, tap or untap up to one target nonl
 		<card>
 			<name>Late-Night Line Practice</name>
 			<text>Target creature gets -3/-3 until end of turn. If that creature would die this turn, exile it instead.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/92_Late-Night Line Practice.png" num="92">ONI</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/91_Late-Night Line Practice.png" num="91">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5238,7 +5221,7 @@ Whenever you draw your second card each turn, tap or untap up to one target nonl
 		<card>
 			<name>Seijuku Programmer</name>
 			<text>Lifelink, prowess</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/101_Seijuku Programmer.png" num="101">ONI</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/100_Seijuku Programmer.png" num="100">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5256,7 +5239,7 @@ Whenever you draw your second card each turn, tap or untap up to one target nonl
 			<name>Mezu Dreadbearer</name>
 			<text>Menace, prowess
 Mezu Dreadbearer has indestructible as long as you&apos;ve cast a creature and a noncreature spell this turn.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/94_Mezu Dreadbearer.png" num="94">ONI</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/93_Mezu Dreadbearer.png" num="93">ONI</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5303,6 +5286,25 @@ Mezu Dreadbearer has indestructible as long as you&apos;ve cast a creature and a
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Imposing Shrineguard</name>
+			<text>Instruct (Whenever this creature attacks, up to one other target attacking creature gains the following abilities until end of turn.)
+Menace
+Whenever this creature deals combat damage to a player, they discard a card.</text>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/ONI-files/img/88_Imposing Shrineguard.png" num="88">ONI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fox Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>

@@ -57,7 +57,7 @@
     },
     {
         "card_name": "Miyako, the Watched",
-        "number": 95,
+        "number": 94,
         "shape": "transform double faced",
         "set": "ONI",
         "rotated": false,
@@ -97,7 +97,7 @@
     },
     {
         "card_name": "Book of Eternity",
-        "number": 78,
+        "number": 77,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -137,7 +137,7 @@
     },
     {
         "card_name": "Cursebound Bully",
-        "number": 82,
+        "number": 80,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -177,7 +177,7 @@
     },
     {
         "card_name": "Devilish Diva",
-        "number": 85,
+        "number": 83,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -217,7 +217,7 @@
     },
     {
         "card_name": "Masborg, Lethal Protector",
-        "number": 93,
+        "number": 92,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -257,7 +257,7 @@
     },
     {
         "card_name": "Ryujin of Night's Sorrow",
-        "number": 100,
+        "number": 99,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -297,7 +297,7 @@
     },
     {
         "card_name": "Skilled Diabolist",
-        "number": 104,
+        "number": 103,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -416,8 +416,8 @@
         "position": ""
     },
     {
-        "card_name": "Bloodline Rejector",
-        "number": 77,
+        "card_name": "Exorcist Trainee",
+        "number": 85,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -456,8 +456,8 @@
         "position": ""
     },
     {
-        "card_name": "Contracted Dreamculler",
-        "number": 81,
+        "card_name": "Hidanko Voidshaper",
+        "number": 87,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -496,8 +496,8 @@
         "position": ""
     },
     {
-        "card_name": "Exorcist Trainee",
-        "number": 87,
+        "card_name": "Imposing Shrineguard",
+        "number": 88,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -536,8 +536,8 @@
         "position": ""
     },
     {
-        "card_name": "Friends Forgotten",
-        "number": 88,
+        "card_name": "Intimidating Meditant",
+        "number": 89,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -576,8 +576,8 @@
         "position": ""
     },
     {
-        "card_name": "Hidanko Voidshaper",
-        "number": 90,
+        "card_name": "Pact of New Return",
+        "number": 98,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -616,8 +616,8 @@
         "position": ""
     },
     {
-        "card_name": "Pact of New Return",
-        "number": 99,
+        "card_name": "Seijuku Star Pilot",
+        "number": 101,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -656,7 +656,7 @@
         "position": ""
     },
     {
-        "card_name": "Seijuku Star Pilot",
+        "card_name": "Shrinebound Aberrant",
         "number": 102,
         "shape": "normal",
         "set": "ONI",
@@ -696,8 +696,8 @@
         "position": ""
     },
     {
-        "card_name": "Shrinebound Aberrant",
-        "number": 103,
+        "card_name": "Social Encounters",
+        "number": 104,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -736,7 +736,7 @@
         "position": ""
     },
     {
-        "card_name": "Social Encounters",
+        "card_name": "Soul Agency Coroner",
         "number": 105,
         "shape": "normal",
         "set": "ONI",
@@ -776,8 +776,8 @@
         "position": ""
     },
     {
-        "card_name": "Soul Agency Coroner",
-        "number": 106,
+        "card_name": "Soulseek Thrills",
+        "number": 107,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -816,7 +816,7 @@
         "position": ""
     },
     {
-        "card_name": "Soulseek Thrills",
+        "card_name": "Surprise Strike",
         "number": 108,
         "shape": "normal",
         "set": "ONI",
@@ -897,7 +897,7 @@
     },
     {
         "card_name": "Class-Cutting Exorcist",
-        "number": 79,
+        "number": 78,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -937,7 +937,7 @@
     },
     {
         "card_name": "Contracted Aberrant",
-        "number": 80,
+        "number": 79,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -977,7 +977,7 @@
     },
     {
         "card_name": "Darkblood Pactmaker",
-        "number": 83,
+        "number": 81,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1017,7 +1017,7 @@
     },
     {
         "card_name": "Defy",
-        "number": 84,
+        "number": 82,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1057,7 +1057,7 @@
     },
     {
         "card_name": "Ebon Moon Descendant",
-        "number": 86,
+        "number": 84,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1097,7 +1097,7 @@
     },
     {
         "card_name": "Hateful Seishin",
-        "number": 89,
+        "number": 86,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1137,7 +1137,7 @@
     },
     {
         "card_name": "Kitsune Heiress",
-        "number": 91,
+        "number": 90,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1177,7 +1177,7 @@
     },
     {
         "card_name": "Late-Night Line Practice",
-        "number": 92,
+        "number": 91,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1217,7 +1217,7 @@
     },
     {
         "card_name": "Mezu Dreadbearer",
-        "number": 94,
+        "number": 93,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1257,7 +1257,7 @@
     },
     {
         "card_name": "Miyako's Acceptance",
-        "number": 96,
+        "number": 95,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1297,7 +1297,7 @@
     },
     {
         "card_name": "One Last Time",
-        "number": 97,
+        "number": 96,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1337,7 +1337,7 @@
     },
     {
         "card_name": "One Stop to Oblivion",
-        "number": 98,
+        "number": 97,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1377,7 +1377,7 @@
     },
     {
         "card_name": "Seijuku Programmer",
-        "number": 101,
+        "number": 100,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,
@@ -1417,7 +1417,7 @@
     },
     {
         "card_name": "Soul Agency Sergeant",
-        "number": 107,
+        "number": 106,
         "shape": "normal",
         "set": "ONI",
         "rotated": false,

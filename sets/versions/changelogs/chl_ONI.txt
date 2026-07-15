@@ -1,4 +1,16 @@
-﻿VERSION 27 CHANGELOG
+﻿VERSION 28 CHANGELOG
+====================
+
+Surprise Strike added.
+Intimidating Meditant added.
+Imposing Shrineguard added.
+
+Friends Forgotten removed.
+Contracted Dreamculler removed.
+Bloodline Rejector removed.
+
+
+VERSION 27 CHANGELOG
 ====================
 
 Devilish Diva added.
