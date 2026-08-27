@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/SSC-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>SSC visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/SSC-files/logo.png" />
+	<img class="preload-hidden" src="../sets/DWA-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MSY-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ONI-files/icon.png" />
+		<img class="preload-hidden" src="../sets/RSD-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SSC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/URA-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/SSC"><img src="../sets/SSC-files/icon.png">Shiyue: Soul’s Crossing</a>
+	
+		<a class="set-bar inactive" href="../previews/DWA"><img src="../sets/DWA-files/icon.png">Drauholm: Winter’s Approach</a>
+	
+		<a class="set-bar inactive" href="../previews/MSY"><img src="../sets/MSY-files/icon.png">MSEM Mystery Community Slots</a>
+	
+		<a class="set-bar inactive" href="../previews/ONI"><img src="../sets/ONI-files/icon.png">Onigaiko: Future Past</a>
+	
+		<a class="set-bar inactive" href="../previews/RSD"><img src="../sets/RSD-files/icon.png">Risemara: Second Dawn</a>
+	
+		<a class="set-bar inactive" href="../previews/URA"><img src="../sets/URA-files/icon.png">Umamusume: Racer’s Advent</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/SSC-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\SSC-files\img\3_Bai Hu, Warding Cardinal.png" id="SSC_3_Bai Hu, Warding Cardinal" data-flag="@X" onclick="openSidebar('SSC_3_Bai Hu, Warding Cardinal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\46_Divine Knowledge.png" id="SSC_46_Divine Knowledge" data-flag="@X" onclick="openSidebar('SSC_46_Divine Knowledge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\83_Cauldron of Lost Authority.png" id="SSC_83_Cauldron of Lost Authority" data-flag="@X" onclick="openSidebar('SSC_83_Cauldron of Lost Authority',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\133_Ferocious Emissary.png" id="SSC_133_Ferocious Emissary" data-flag="@X" onclick="openSidebar('SSC_133_Ferocious Emissary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\163_Imperial Mediator.png" id="SSC_163_Imperial Mediator" data-flag="@X" onclick="openSidebar('SSC_163_Imperial Mediator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\13_Fableweaver Huxian.png" id="SSC_13_Fableweaver Huxian" data-flag="@X" onclick="openSidebar('SSC_13_Fableweaver Huxian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\56_Jun, Draconic Visitor.png" id="SSC_56_Jun, Draconic Visitor" data-flag="@X" onclick="openSidebar('SSC_56_Jun, Draconic Visitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\110_Tian Lang, Lost to Tales.png" id="SSC_110_Tian Lang, Lost to Tales" data-flag="@X" onclick="openSidebar('SSC_110_Tian Lang, Lost to Tales',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\151_Zhu Que, Incarnated Cardinal.png" id="SSC_151_Zhu Que, Incarnated Cardinal" data-flag="@X" onclick="openSidebar('SSC_151_Zhu Que, Incarnated Cardinal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\187_Xuan Wu, Stalwart Cardinal.png" id="SSC_187_Xuan Wu, Stalwart Cardinal" data-flag="@X" onclick="openSidebar('SSC_187_Xuan Wu, Stalwart Cardinal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\39_Yan Lei, Regal Outsider.png" id="SSC_39_Yan Lei, Regal Outsider" data-flag="@X" onclick="openSidebar('SSC_39_Yan Lei, Regal Outsider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\61_Qin Long, Flowing Cardinal.png" id="SSC_61_Qin Long, Flowing Cardinal" data-flag="@X" onclick="openSidebar('SSC_61_Qin Long, Flowing Cardinal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\79_Beizu Grand Temple.png" id="SSC_79_Beizu Grand Temple" data-flag="@X" onclick="openSidebar('SSC_79_Beizu Grand Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\117_Bloodthrall Tigren.png" id="SSC_117_Bloodthrall Tigren" data-flag="@X" onclick="openSidebar('SSC_117_Bloodthrall Tigren',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\156_Da Po, Jun's Guide.png" id="SSC_156_Da Po, Juns Guide" data-flag="@X" onclick="openSidebar('SSC_156_Da Po, Juns Guide',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\9_Chord of Return.png" id="SSC_9_Chord of Return" data-flag="@X" onclick="openSidebar('SSC_9_Chord of Return',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\44_Deep-Thought Kun.png" id="SSC_44_Deep-Thought Kun" data-flag="@X" onclick="openSidebar('SSC_44_Deep-Thought Kun',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\86_Dreadmother Nuwa.png" id="SSC_86_Dreadmother Nuwa" data-flag="@X" onclick="openSidebar('SSC_86_Dreadmother Nuwa',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\125_Crossed Invitation.png" id="SSC_125_Crossed Invitation" data-flag="@X" onclick="openSidebar('SSC_125_Crossed Invitation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\157_Evernourish Jinmenju.png" id="SSC_157_Evernourish Jinmenju" data-flag="@X" onclick="openSidebar('SSC_157_Evernourish Jinmenju',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\11_Dijiang of Shared Blessings.png" id="SSC_11_Dijiang of Shared Blessings" data-flag="@X" onclick="openSidebar('SSC_11_Dijiang of Shared Blessings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\54_Jiaoren Shallowstalker.png" id="SSC_54_Jiaoren Shallowstalker" data-flag="@X" onclick="openSidebar('SSC_54_Jiaoren Shallowstalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\97_Maskstealer.png" id="SSC_97_Maskstealer" data-flag="@X" onclick="openSidebar('SSC_97_Maskstealer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\134_Field-Scorcher Huolong.png" id="SSC_134_Field-Scorcher Huolong" data-flag="@X" onclick="openSidebar('SSC_134_Field-Scorcher Huolong',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\161_Imaginative Ensemble.png" id="SSC_161_Imaginative Ensemble" data-flag="@X" onclick="openSidebar('SSC_161_Imaginative Ensemble',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\17_Godsbreath.png" id="SSC_17_Godsbreath" data-flag="@X" onclick="openSidebar('SSC_17_Godsbreath',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\58_Memories Relived.png" id="SSC_58_Memories Relived" data-flag="@X" onclick="openSidebar('SSC_58_Memories Relived',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\98_Merchant of Beyond.png" id="SSC_98_Merchant of Beyond" data-flag="@X" onclick="openSidebar('SSC_98_Merchant of Beyond',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\136_Gloryforger.png" id="SSC_136_Gloryforger" data-flag="@X" onclick="openSidebar('SSC_136_Gloryforger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\167_Liang Grand Temple.png" id="SSC_167_Liang Grand Temple" data-flag="@X" onclick="openSidebar('SSC_167_Liang Grand Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\24_Moon-Chaser Tiangou.png" id="SSC_24_Moon-Chaser Tiangou" data-flag="@X" onclick="openSidebar('SSC_24_Moon-Chaser Tiangou',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\59_Mirror Fate.png" id="SSC_59_Mirror Fate" data-flag="@X" onclick="openSidebar('SSC_59_Mirror Fate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\99_Mist-Stalker Zhujian.png" id="SSC_99_Mist-Stalker Zhujian" data-flag="@X" onclick="openSidebar('SSC_99_Mist-Stalker Zhujian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\142_Lonqua Grand Temple.png" id="SSC_142_Lonqua Grand Temple" data-flag="@X" onclick="openSidebar('SSC_142_Lonqua Grand Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\178_Reliquary-Back Bixi.png" id="SSC_178_Reliquary-Back Bixi" data-flag="@X" onclick="openSidebar('SSC_178_Reliquary-Back Bixi',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\26_Nurturing Matriarch.png" id="SSC_26_Nurturing Matriarch" data-flag="@X" onclick="openSidebar('SSC_26_Nurturing Matriarch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\64_Realmguide Orator.png" id="SSC_64_Realmguide Orator" data-flag="@X" onclick="openSidebar('SSC_64_Realmguide Orator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\103_Pit's Petition.png" id="SSC_103_Pits Petition" data-flag="@X" onclick="openSidebar('SSC_103_Pits Petition',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\143_Nezha of Ignited Tales.png" id="SSC_143_Nezha of Ignited Tales" data-flag="@X" onclick="openSidebar('SSC_143_Nezha of Ignited Tales',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\179_Reverent Xiangliu.png" id="SSC_179_Reverent Xiangliu" data-flag="@X" onclick="openSidebar('SSC_179_Reverent Xiangliu',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\30_Shenme Grand Temple.png" id="SSC_30_Shenme Grand Temple" data-flag="@X" onclick="openSidebar('SSC_30_Shenme Grand Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\72_Tidal Expulsion.png" id="SSC_72_Tidal Expulsion" data-flag="@X" onclick="openSidebar('SSC_72_Tidal Expulsion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\111_Treasonous Mandate.png" id="SSC_111_Treasonous Mandate" data-flag="@X" onclick="openSidebar('SSC_111_Treasonous Mandate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\148_Vermillion Reincarnation.png" id="SSC_148_Vermillion Reincarnation" data-flag="@X" onclick="openSidebar('SSC_148_Vermillion Reincarnation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\182_Storied Order.png" id="SSC_182_Storied Order" data-flag="@X" onclick="openSidebar('SSC_182_Storied Order',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\35_Tang Yang, Ji's Second.png" id="SSC_35_Tang Yang, Jis Second" data-flag="@X" onclick="openSidebar('SSC_35_Tang Yang, Jis Second',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\76_Yizan Grand Temple.png" id="SSC_76_Yizan Grand Temple" data-flag="@X" onclick="openSidebar('SSC_76_Yizan Grand Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\80_Betrayer's Finale.png" id="SSC_80_Betrayers Finale" data-flag="@X" onclick="openSidebar('SSC_80_Betrayers Finale',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\116_Bile Blaze.png" id="SSC_116_Bile Blaze" data-flag="@X" onclick="openSidebar('SSC_116_Bile Blaze',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\152_Ancestor's Presence.png" id="SSC_152_Ancestors Presence" data-flag="@X" onclick="openSidebar('SSC_152_Ancestors Presence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\5_Bifang-Blood Warden.png" id="SSC_5_Bifang-Blood Warden" data-flag="@X" onclick="openSidebar('SSC_5_Bifang-Blood Warden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\40_Ancestral Guidance.png" id="SSC_40_Ancestral Guidance" data-flag="@X" onclick="openSidebar('SSC_40_Ancestral Guidance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\81_Bloodwilter.png" id="SSC_81_Bloodwilter" data-flag="@X" onclick="openSidebar('SSC_81_Bloodwilter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\118_Conquer Psyche.png" id="SSC_118_Conquer Psyche" data-flag="@X" onclick="openSidebar('SSC_118_Conquer Psyche',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\154_Bounty of Heritage.png" id="SSC_154_Bounty of Heritage" data-flag="@X" onclick="openSidebar('SSC_154_Bounty of Heritage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\6_Boonmother Nuwa.png" id="SSC_6_Boonmother Nuwa" data-flag="@X" onclick="openSidebar('SSC_6_Boonmother Nuwa',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\41_Climb The Gate.png" id="SSC_41_Climb The Gate" data-flag="@X" onclick="openSidebar('SSC_41_Climb The Gate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\82_Call the Damned.png" id="SSC_82_Call the Damned" data-flag="@X" onclick="openSidebar('SSC_82_Call the Damned',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\126_Deflected Advance.png" id="SSC_126_Deflected Advance" data-flag="@X" onclick="openSidebar('SSC_126_Deflected Advance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\158_Festival Guide.png" id="SSC_158_Festival Guide" data-flag="@X" onclick="openSidebar('SSC_158_Festival Guide',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\10_Custodian Captain.png" id="SSC_10_Custodian Captain" data-flag="@X" onclick="openSidebar('SSC_10_Custodian Captain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\42_Deep Betrayal.png" id="SSC_42_Deep Betrayal" data-flag="@X" onclick="openSidebar('SSC_42_Deep Betrayal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\84_Darkest Prayers.png" id="SSC_84_Darkest Prayers" data-flag="@X" onclick="openSidebar('SSC_84_Darkest Prayers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\127_Dragonheart Ancestor.png" id="SSC_127_Dragonheart Ancestor" data-flag="@X" onclick="openSidebar('SSC_127_Dragonheart Ancestor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\160_Groundforger Pangu.png" id="SSC_160_Groundforger Pangu" data-flag="@X" onclick="openSidebar('SSC_160_Groundforger Pangu',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\12_Divine Guardianship.png" id="SSC_12_Divine Guardianship" data-flag="@X" onclick="openSidebar('SSC_12_Divine Guardianship',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\43_Deep-Hoarder Jiaolong.png" id="SSC_43_Deep-Hoarder Jiaolong" data-flag="@X" onclick="openSidebar('SSC_43_Deep-Hoarder Jiaolong',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\88_Forgemaster's Edict.png" id="SSC_88_Forgemasters Edict" data-flag="@X" onclick="openSidebar('SSC_88_Forgemasters Edict',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\129_Embercaller.png" id="SSC_129_Embercaller" data-flag="@X" onclick="openSidebar('SSC_129_Embercaller',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\162_Impenetrable Ruishi.png" id="SSC_162_Impenetrable Ruishi" data-flag="@X" onclick="openSidebar('SSC_162_Impenetrable Ruishi',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\14_Festival Server.png" id="SSC_14_Festival Server" data-flag="@X" onclick="openSidebar('SSC_14_Festival Server',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\48_Enervating Skykoi.png" id="SSC_48_Enervating Skykoi" data-flag="@X" onclick="openSidebar('SSC_48_Enervating Skykoi',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\89_Gorging Mogwai.png" id="SSC_89_Gorging Mogwai" data-flag="@X" onclick="openSidebar('SSC_89_Gorging Mogwai',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\130_Endless Joys.png" id="SSC_130_Endless Joys" data-flag="@X" onclick="openSidebar('SSC_130_Endless Joys',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\166_Iron-Breaker.png" id="SSC_166_Iron-Breaker" data-flag="@X" onclick="openSidebar('SSC_166_Iron-Breaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\15_Fly Beyond.png" id="SSC_15_Fly Beyond" data-flag="@X" onclick="openSidebar('SSC_15_Fly Beyond',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\51_Freeze Belief.png" id="SSC_51_Freeze Belief" data-flag="@X" onclick="openSidebar('SSC_51_Freeze Belief',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\90_Heartless Act.png" id="SSC_90_Heartless Act" data-flag="@X" onclick="openSidebar('SSC_90_Heartless Act',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\131_Excited Attendee.png" id="SSC_131_Excited Attendee" data-flag="@X" onclick="openSidebar('SSC_131_Excited Attendee',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\169_Liang Sparrer.png" id="SSC_169_Liang Sparrer" data-flag="@X" onclick="openSidebar('SSC_169_Liang Sparrer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\16_Gateward Huli Jing.png" id="SSC_16_Gateward Huli Jing" data-flag="@X" onclick="openSidebar('SSC_16_Gateward Huli Jing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\52_Ideal Reflection.png" id="SSC_52_Ideal Reflection" data-flag="@X" onclick="openSidebar('SSC_52_Ideal Reflection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\94_Jiufeng of Darkest Cycles.png" id="SSC_94_Jiufeng of Darkest Cycles" data-flag="@X" onclick="openSidebar('SSC_94_Jiufeng of Darkest Cycles',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\132_Fabled General.png" id="SSC_132_Fabled General" data-flag="@X" onclick="openSidebar('SSC_132_Fabled General',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\170_Malevolent Strength.png" id="SSC_170_Malevolent Strength" data-flag="@X" onclick="openSidebar('SSC_170_Malevolent Strength',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\18_Hopegranter Crane.png" id="SSC_18_Hopegranter Crane" data-flag="@X" onclick="openSidebar('SSC_18_Hopegranter Crane',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\55_Jingwei Pyredancer.png" id="SSC_55_Jingwei Pyredancer" data-flag="@X" onclick="openSidebar('SSC_55_Jingwei Pyredancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\100_Obsessed Jiangshi.png" id="SSC_100_Obsessed Jiangshi" data-flag="@X" onclick="openSidebar('SSC_100_Obsessed Jiangshi',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\135_Fiery Virtue.png" id="SSC_135_Fiery Virtue" data-flag="@X" onclick="openSidebar('SSC_135_Fiery Virtue',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\171_Millennial Greatkoi.png" id="SSC_171_Millennial Greatkoi" data-flag="@X" onclick="openSidebar('SSC_171_Millennial Greatkoi',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\21_Jiufeng's Boon.png" id="SSC_21_Jiufengs Boon" data-flag="@X" onclick="openSidebar('SSC_21_Jiufengs Boon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\66_Resplendent Fuzhu.png" id="SSC_66_Resplendent Fuzhu" data-flag="@X" onclick="openSidebar('SSC_66_Resplendent Fuzhu',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\102_Patient Fangblade.png" id="SSC_102_Patient Fangblade" data-flag="@X" onclick="openSidebar('SSC_102_Patient Fangblade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\139_Irresolute Zhubajie.png" id="SSC_139_Irresolute Zhubajie" data-flag="@X" onclick="openSidebar('SSC_139_Irresolute Zhubajie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\173_Power of Tales.png" id="SSC_173_Power of Tales" data-flag="@X" onclick="openSidebar('SSC_173_Power of Tales',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\23_Moon Rabbit Joyseeker.png" id="SSC_23_Moon Rabbit Joyseeker" data-flag="@X" onclick="openSidebar('SSC_23_Moon Rabbit Joyseeker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\67_Ripplewatcher.png" id="SSC_67_Ripplewatcher" data-flag="@X" onclick="openSidebar('SSC_67_Ripplewatcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\104_Pry Desire.png" id="SSC_104_Pry Desire" data-flag="@X" onclick="openSidebar('SSC_104_Pry Desire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\140_Liang Punisher.png" id="SSC_140_Liang Punisher" data-flag="@X" onclick="openSidebar('SSC_140_Liang Punisher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\174_Qilin Harvestguide.png" id="SSC_174_Qilin Harvestguide" data-flag="@X" onclick="openSidebar('SSC_174_Qilin Harvestguide',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\27_Pilgrimage's Reward.png" id="SSC_27_Pilgrimages Reward" data-flag="@X" onclick="openSidebar('SSC_27_Pilgrimages Reward',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\69_Soulblighted Wanderer.png" id="SSC_69_Soulblighted Wanderer" data-flag="@X" onclick="openSidebar('SSC_69_Soulblighted Wanderer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\109_Thought-Scraper Hou.png" id="SSC_109_Thought-Scraper Hou" data-flag="@X" onclick="openSidebar('SSC_109_Thought-Scraper Hou',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\141_Long-Blessed Pyredancer.png" id="SSC_141_Long-Blessed Pyredancer" data-flag="@X" onclick="openSidebar('SSC_141_Long-Blessed Pyredancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\176_Regrow Bonds.png" id="SSC_176_Regrow Bonds" data-flag="@X" onclick="openSidebar('SSC_176_Regrow Bonds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\28_Realmbreach.png" id="SSC_28_Realmbreach" data-flag="@X" onclick="openSidebar('SSC_28_Realmbreach',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\70_Spirit's Claim.png" id="SSC_70_Spirits Claim" data-flag="@X" onclick="openSidebar('SSC_70_Spirits Claim',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\112_Wake the Bones.png" id="SSC_112_Wake the Bones" data-flag="@X" onclick="openSidebar('SSC_112_Wake the Bones',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\144_Nian Soulforger.png" id="SSC_144_Nian Soulforger" data-flag="@X" onclick="openSidebar('SSC_144_Nian Soulforger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\180_Rumbling Battlesage.png" id="SSC_180_Rumbling Battlesage" data-flag="@X" onclick="openSidebar('SSC_180_Rumbling Battlesage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\32_Sun's Defiance.png" id="SSC_32_Suns Defiance" data-flag="@X" onclick="openSidebar('SSC_32_Suns Defiance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\71_Tactical Battlesage.png" id="SSC_71_Tactical Battlesage" data-flag="@X" onclick="openSidebar('SSC_71_Tactical Battlesage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\113_Wangliang Shade.png" id="SSC_113_Wangliang Shade" data-flag="@X" onclick="openSidebar('SSC_113_Wangliang Shade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\147_Spiteful Prayer.png" id="SSC_147_Spiteful Prayer" data-flag="@X" onclick="openSidebar('SSC_147_Spiteful Prayer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\183_Strengthwarder.png" id="SSC_183_Strengthwarder" data-flag="@X" onclick="openSidebar('SSC_183_Strengthwarder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\33_Supportive Performer.png" id="SSC_33_Supportive Performer" data-flag="@X" onclick="openSidebar('SSC_33_Supportive Performer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\74_Witness Uniformity.png" id="SSC_74_Witness Uniformity" data-flag="@X" onclick="openSidebar('SSC_74_Witness Uniformity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\114_Weaving Maskwright.png" id="SSC_114_Weaving Maskwright" data-flag="@X" onclick="openSidebar('SSC_114_Weaving Maskwright',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\150_Zealous Rivalry.png" id="SSC_150_Zealous Rivalry" data-flag="@X" onclick="openSidebar('SSC_150_Zealous Rivalry',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\186_Tireless Chronicler.png" id="SSC_186_Tireless Chronicler" data-flag="@X" onclick="openSidebar('SSC_186_Tireless Chronicler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\37_Whitehorn Ascetic.png" id="SSC_37_Whitehorn Ascetic" data-flag="@X" onclick="openSidebar('SSC_37_Whitehorn Ascetic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\75_Yaoguai Formeater.png" id="SSC_75_Yaoguai Formeater" data-flag="@X" onclick="openSidebar('SSC_75_Yaoguai Formeater',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\78_Beizu Fangblade.png" id="SSC_78_Beizu Fangblade" data-flag="@X" onclick="openSidebar('SSC_78_Beizu Fangblade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\115_Acolyte Aspirant.png" id="SSC_115_Acolyte Aspirant" data-flag="@X" onclick="openSidebar('SSC_115_Acolyte Aspirant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\153_Beizu Serpent-Guard.png" id="SSC_153_Beizu Serpent-Guard" data-flag="@X" onclick="openSidebar('SSC_153_Beizu Serpent-Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\2_Accompanied Trueblood.png" id="SSC_2_Accompanied Trueblood" data-flag="@X" onclick="openSidebar('SSC_2_Accompanied Trueblood',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\45_Divine Connection.png" id="SSC_45_Divine Connection" data-flag="@X" onclick="openSidebar('SSC_45_Divine Connection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\85_Decaying Disciple.png" id="SSC_85_Decaying Disciple" data-flag="@X" onclick="openSidebar('SSC_85_Decaying Disciple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\119_CR02 Wardens Flamesignaller.png" id="SSC_119_CR02 Wardens Flamesignaller" data-flag="@X" onclick="openSidebar('SSC_119_CR02 Wardens Flamesignaller',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\155_Burgeoning Nest.png" id="SSC_155_Burgeoning Nest" data-flag="@X" onclick="openSidebar('SSC_155_Burgeoning Nest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\4_Balanced Acolyte.png" id="SSC_4_Balanced Acolyte" data-flag="@X" onclick="openSidebar('SSC_4_Balanced Acolyte',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\47_Dreamsifter Kalavinka.png" id="SSC_47_Dreamsifter Kalavinka" data-flag="@X" onclick="openSidebar('SSC_47_Dreamsifter Kalavinka',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\87_Enshadowed Huodou.png" id="SSC_87_Enshadowed Huodou" data-flag="@X" onclick="openSidebar('SSC_87_Enshadowed Huodou',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\120_CR08 Inner Rage Daoshi.png" id="SSC_120_CR08 Inner Rage Daoshi" data-flag="@X" onclick="openSidebar('SSC_120_CR08 Inner Rage Daoshi',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\159_Gateward Colossus.png" id="SSC_159_Gateward Colossus" data-flag="@X" onclick="openSidebar('SSC_159_Gateward Colossus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\7_Breezelifted Quingqiao.png" id="SSC_7_Breezelifted Quingqiao" data-flag="@X" onclick="openSidebar('SSC_7_Breezelifted Quingqiao',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\49_Feng-Brood Yearling.png" id="SSC_49_Feng-Brood Yearling" data-flag="@X" onclick="openSidebar('SSC_49_Feng-Brood Yearling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\91_Hero's Downfall.png" id="SSC_91_Heros Downfall" data-flag="@X" onclick="openSidebar('SSC_91_Heros Downfall',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\121_CR09 Crossed Defiance.png" id="SSC_121_CR09 Crossed Defiance" data-flag="@X" onclick="openSidebar('SSC_121_CR09 Crossed Defiance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\164_Imperial Storyteller.png" id="SSC_164_Imperial Storyteller" data-flag="@X" onclick="openSidebar('SSC_164_Imperial Storyteller',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\8_Celestial Sanction.png" id="SSC_8_Celestial Sanction" data-flag="@X" onclick="openSidebar('SSC_8_Celestial Sanction',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\50_Festival Troublemakers.png" id="SSC_50_Festival Troublemakers" data-flag="@X" onclick="openSidebar('SSC_50_Festival Troublemakers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\92_Imperial Battlesage.png" id="SSC_92_Imperial Battlesage" data-flag="@X" onclick="openSidebar('SSC_92_Imperial Battlesage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\122_CR10 Sudden Flourish.png" id="SSC_122_CR10 Sudden Flourish" data-flag="@X" onclick="openSidebar('SSC_122_CR10 Sudden Flourish',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\165_Inner Strength Daoshi.png" id="SSC_165_Inner Strength Daoshi" data-flag="@X" onclick="openSidebar('SSC_165_Inner Strength Daoshi',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\19_Huyao Bondforger.png" id="SSC_19_Huyao Bondforger" data-flag="@X" onclick="openSidebar('SSC_19_Huyao Bondforger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\53_Inner Flow Daoshi.png" id="SSC_53_Inner Flow Daoshi" data-flag="@X" onclick="openSidebar('SSC_53_Inner Flow Daoshi',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\93_Inner Blight Daoshi.png" id="SSC_93_Inner Blight Daoshi" data-flag="@X" onclick="openSidebar('SSC_93_Inner Blight Daoshi',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\123_CR11 Festival Preparations.png" id="SSC_123_CR11 Festival Preparations" data-flag="@X" onclick="openSidebar('SSC_123_CR11 Festival Preparations',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\168_Liang Protective Stance.png" id="SSC_168_Liang Protective Stance" data-flag="@X" onclick="openSidebar('SSC_168_Liang Protective Stance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\20_Inner Peace Daoshi.png" id="SSC_20_Inner Peace Daoshi" data-flag="@X" onclick="openSidebar('SSC_20_Inner Peace Daoshi',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\57_Lofty Denial.png" id="SSC_57_Lofty Denial" data-flag="@X" onclick="openSidebar('SSC_57_Lofty Denial',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\95_Lonqua Qibinder.png" id="SSC_95_Lonqua Qibinder" data-flag="@X" onclick="openSidebar('SSC_95_Lonqua Qibinder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\124_CR13 Ignited Qi Technique.png" id="SSC_124_CR13 Ignited Qi Technique" data-flag="@X" onclick="openSidebar('SSC_124_CR13 Ignited Qi Technique',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\172_Mountain's Might.png" id="SSC_172_Mountains Might" data-flag="@X" onclick="openSidebar('SSC_172_Mountains Might',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\22_Masters Rebuttal.png" id="SSC_22_Masters Rebuttal" data-flag="@X" onclick="openSidebar('SSC_22_Masters Rebuttal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\60_Perfected Guard.png" id="SSC_60_Perfected Guard" data-flag="@X" onclick="openSidebar('SSC_60_Perfected Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\96_Malevolent Scorn.png" id="SSC_96_Malevolent Scorn" data-flag="@X" onclick="openSidebar('SSC_96_Malevolent Scorn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\128_Dreamstoker.png" id="SSC_128_Dreamstoker" data-flag="@X" onclick="openSidebar('SSC_128_Dreamstoker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\175_Realm Confrontation.png" id="SSC_175_Realm Confrontation" data-flag="@X" onclick="openSidebar('SSC_175_Realm Confrontation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\25_Moonsight Warden.png" id="SSC_25_Moonsight Warden" data-flag="@X" onclick="openSidebar('SSC_25_Moonsight Warden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\62_Ragged Jiangshi.png" id="SSC_62_Ragged Jiangshi" data-flag="@X" onclick="openSidebar('SSC_62_Ragged Jiangshi',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\101_Ox-Head Guardian.png" id="SSC_101_Ox-Head Guardian" data-flag="@X" onclick="openSidebar('SSC_101_Ox-Head Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\137_Greedy Jin Chan.png" id="SSC_137_Greedy Jin Chan" data-flag="@X" onclick="openSidebar('SSC_137_Greedy Jin Chan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\177_Reject the Malevolent.png" id="SSC_177_Reject the Malevolent" data-flag="@X" onclick="openSidebar('SSC_177_Reject the Malevolent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\29_Revoke.png" id="SSC_29_Revoke" data-flag="@X" onclick="openSidebar('SSC_29_Revoke',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\63_Realmbound Sentence.png" id="SSC_63_Realmbound Sentence" data-flag="@X" onclick="openSidebar('SSC_63_Realmbound Sentence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\105_Read the Shadows.png" id="SSC_105_Read the Shadows" data-flag="@X" onclick="openSidebar('SSC_105_Read the Shadows',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\138_Huo-Brood Yearling.png" id="SSC_138_Huo-Brood Yearling" data-flag="@X" onclick="openSidebar('SSC_138_Huo-Brood Yearling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\181_Savage Zhizhujing.png" id="SSC_181_Savage Zhizhujing" data-flag="@X" onclick="openSidebar('SSC_181_Savage Zhizhujing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\31_Skyward Leap.png" id="SSC_31_Skyward Leap" data-flag="@X" onclick="openSidebar('SSC_31_Skyward Leap',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\65_Reckless Studies.png" id="SSC_65_Reckless Studies" data-flag="@X" onclick="openSidebar('SSC_65_Reckless Studies',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\106_Refuse Mortality.png" id="SSC_106_Refuse Mortality" data-flag="@X" onclick="openSidebar('SSC_106_Refuse Mortality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\145_Realm's Rebuke.png" id="SSC_145_Realms Rebuke" data-flag="@X" onclick="openSidebar('SSC_145_Realms Rebuke',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\184_Taotie Paineater.png" id="SSC_184_Taotie Paineater" data-flag="@X" onclick="openSidebar('SSC_184_Taotie Paineater',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\34_Tales Retold.png" id="SSC_34_Tales Retold" data-flag="@X" onclick="openSidebar('SSC_34_Tales Retold',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\68_Soulblight Enervation.png" id="SSC_68_Soulblight Enervation" data-flag="@X" onclick="openSidebar('SSC_68_Soulblight Enervation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\107_Shadowtreader.png" id="SSC_107_Shadowtreader" data-flag="@X" onclick="openSidebar('SSC_107_Shadowtreader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\146_Shenme Courtesan.png" id="SSC_146_Shenme Courtesan" data-flag="@X" onclick="openSidebar('SSC_146_Shenme Courtesan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\185_Tigren Ascetic.png" id="SSC_185_Tigren Ascetic" data-flag="@X" onclick="openSidebar('SSC_185_Tigren Ascetic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\36_Temple Vitalist.png" id="SSC_36_Temple Vitalist" data-flag="@X" onclick="openSidebar('SSC_36_Temple Vitalist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\73_Treasured Memory.png" id="SSC_73_Treasured Memory" data-flag="@X" onclick="openSidebar('SSC_73_Treasured Memory',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\108_Soulblight Corrosion.png" id="SSC_108_Soulblight Corrosion" data-flag="@X" onclick="openSidebar('SSC_108_Soulblight Corrosion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\149_Young Pyredancer.png" id="SSC_149_Young Pyredancer" data-flag="@X" onclick="openSidebar('SSC_149_Young Pyredancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\188_Yaoguai Qi-Seekers.png" id="SSC_188_Yaoguai Qi-Seekers" data-flag="@X" onclick="openSidebar('SSC_188_Yaoguai Qi-Seekers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\38_Windcarp Pyredancer.png" id="SSC_38_Windcarp Pyredancer" data-flag="@X" onclick="openSidebar('SSC_38_Windcarp Pyredancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\77_Yizan Talekeeper.png" id="SSC_77_Yizan Talekeeper" data-flag="@X" onclick="openSidebar('SSC_77_Yizan Talekeeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\210_Tiger Skyguard.png" id="SSC_210_Tiger Skyguard" data-flag="@X" onclick="openSidebar('SSC_210_Tiger Skyguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\208_Soulblighter Mage.png" id="SSC_208_Soulblighter Mage" data-flag="@X" onclick="openSidebar('SSC_208_Soulblighter Mage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\201_Kingpin's Enforcer.png" id="SSC_201_Kingpins Enforcer" data-flag="@X" onclick="openSidebar('SSC_201_Kingpins Enforcer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\198_Hou De, Martial Master.png" id="SSC_198_Hou De, Martial Master" data-flag="@X" onclick="openSidebar('SSC_198_Hou De, Martial Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\209_Splendorous Tengshe.png" id="SSC_209_Splendorous Tengshe" data-flag="@X" onclick="openSidebar('SSC_209_Splendorous Tengshe',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\223_Li Hua, Imperial Scion.png" id="SSC_223_Li Hua, Imperial Scion" data-flag="@X" onclick="openSidebar('SSC_223_Li Hua, Imperial Scion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\193_Dredge Thoughts.png" id="SSC_193_Dredge Thoughts" data-flag="@X" onclick="openSidebar('SSC_193_Dredge Thoughts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\224_Ling Guang, Discarded Vessel.png" id="SSC_224_Ling Guang, Discarded Vessel" data-flag="@X" onclick="openSidebar('SSC_224_Ling Guang, Discarded Vessel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\204_Patron of Celebrations.png" id="SSC_204_Patron of Celebrations" data-flag="@X" onclick="openSidebar('SSC_204_Patron of Celebrations',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\219_An Gong, Temple-Keeper.png" id="SSC_219_An Gong, Temple-Keeper" data-flag="@X" onclick="openSidebar('SSC_219_An Gong, Temple-Keeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\197_Guiding Zhulong.png" id="SSC_197_Guiding Zhulong" data-flag="@X" onclick="openSidebar('SSC_197_Guiding Zhulong',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\213_Ai Yao, Acclaimed Pyredancer.png" id="SSC_213_Ai Yao, Acclaimed Pyredancer" data-flag="@X" onclick="openSidebar('SSC_213_Ai Yao, Acclaimed Pyredancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\202_Lonqua Kingpin.png" id="SSC_202_Lonqua Kingpin" data-flag="@X" onclick="openSidebar('SSC_202_Lonqua Kingpin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\222_Jing Cao, Liang Prodigy.png" id="SSC_222_Jing Cao, Liang Prodigy" data-flag="@X" onclick="openSidebar('SSC_222_Jing Cao, Liang Prodigy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\190_Bountiful Fuzhu.png" id="SSC_190_Bountiful Fuzhu" data-flag="@X" onclick="openSidebar('SSC_190_Bountiful Fuzhu',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\234_Sky-Gate Temple.png" id="SSC_234_Sky-Gate Temple" data-flag="@X" onclick="openSidebar('SSC_234_Sky-Gate Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\206_Realm Corrosion.png" id="SSC_206_Realm Corrosion" data-flag="@X" onclick="openSidebar('SSC_206_Realm Corrosion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\217_Dread-Gate Temple.png" id="SSC_217_Dread-Gate Temple" data-flag="@X" onclick="openSidebar('SSC_217_Dread-Gate Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\211_Wild-Stoker Xiongmao.png" id="SSC_211_Wild-Stoker Xiongmao" data-flag="@X" onclick="openSidebar('SSC_211_Wild-Stoker Xiongmao',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\237_Valley-Gate Temple.png" id="SSC_237_Valley-Gate Temple" data-flag="@X" onclick="openSidebar('SSC_237_Valley-Gate Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\243_Yizan Ascetic.png" id="SSC_243_Yizan Ascetic" data-flag="@X" onclick="openSidebar('SSC_243_Yizan Ascetic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\231_Port-Gate Temple.png" id="SSC_231_Port-Gate Temple" data-flag="@X" onclick="openSidebar('SSC_231_Port-Gate Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\225_Lonqua Bladewright.png" id="SSC_225_Lonqua Bladewright" data-flag="@X" onclick="openSidebar('SSC_225_Lonqua Bladewright',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\216_Cliff-Gate Temple.png" id="SSC_216_Cliff-Gate Temple" data-flag="@X" onclick="openSidebar('SSC_216_Cliff-Gate Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\230_Peakbound Pangu.png" id="SSC_230_Peakbound Pangu" data-flag="@X" onclick="openSidebar('SSC_230_Peakbound Pangu',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\214_Bloodless Belle.png" id="SSC_214_Bloodless Belle" data-flag="@X" onclick="openSidebar('SSC_214_Bloodless Belle',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\235_Spider Manifestation.png" id="SSC_235_Spider Manifestation" data-flag="@X" onclick="openSidebar('SSC_235_Spider Manifestation',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\200_Impose Balance.png" id="SSC_200_Impose Balance" data-flag="@X" onclick="openSidebar('SSC_200_Impose Balance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\203_Mirror-Form Technique.png" id="SSC_203_Mirror-Form Technique" data-flag="@X" onclick="openSidebar('SSC_203_Mirror-Form Technique',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\205_Qi Reapers.png" id="SSC_205_Qi Reapers" data-flag="@X" onclick="openSidebar('SSC_205_Qi Reapers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\199_Imperious Geji.png" id="SSC_199_Imperious Geji" data-flag="@X" onclick="openSidebar('SSC_199_Imperious Geji',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\192_Cyclical Wisdom.png" id="SSC_192_Cyclical Wisdom" data-flag="@X" onclick="openSidebar('SSC_192_Cyclical Wisdom',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\240_Xiao Shen, God-Shunned.png" id="SSC_240_Xiao Shen, God-Shunned" data-flag="@X" onclick="openSidebar('SSC_240_Xiao Shen, God-Shunned',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\242_Xing Zhe, Sun's Chosen.png" id="SSC_242_Xing Zhe, Suns Chosen" data-flag="@X" onclick="openSidebar('SSC_242_Xing Zhe, Suns Chosen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\236_Sun Hu, Crossed General.png" id="SSC_236_Sun Hu, Crossed General" data-flag="@X" onclick="openSidebar('SSC_236_Sun Hu, Crossed General',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\221_Ji Chen, Supreme Warden.png" id="SSC_221_Ji Chen, Supreme Warden" data-flag="@X" onclick="openSidebar('SSC_221_Ji Chen, Supreme Warden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\207_Realmfarers Temple.png" id="SSC_207_Realmfarers Temple" data-flag="@X" onclick="openSidebar('SSC_207_Realmfarers Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\189_Beizu Shadowstalker.png" id="SSC_189_Beizu Shadowstalker" data-flag="@X" onclick="openSidebar('SSC_189_Beizu Shadowstalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\195_Fervent Stageplay.png" id="SSC_195_Fervent Stageplay" data-flag="@X" onclick="openSidebar('SSC_195_Fervent Stageplay',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\194_Fengxi Magistrate.png" id="SSC_194_Fengxi Magistrate" data-flag="@X" onclick="openSidebar('SSC_194_Fengxi Magistrate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\212_Xiao Shen, Warden Aspirant.png" id="SSC_212_Xiao Shen, Warden Aspirant" data-flag="@X" onclick="openSidebar('SSC_212_Xiao Shen, Warden Aspirant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\227_Ming Su, Reborn Lotus.png" id="SSC_227_Ming Su, Reborn Lotus" data-flag="@X" onclick="openSidebar('SSC_227_Ming Su, Reborn Lotus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\226_Marsh-Gate Temple.png" id="SSC_226_Marsh-Gate Temple" data-flag="@X" onclick="openSidebar('SSC_226_Marsh-Gate Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\218_Foam-Gate Temple.png" id="SSC_218_Foam-Gate Temple" data-flag="@X" onclick="openSidebar('SSC_218_Foam-Gate Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\228_Moss-Gate Temple.png" id="SSC_228_Moss-Gate Temple" data-flag="@X" onclick="openSidebar('SSC_228_Moss-Gate Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\215_City-Gate Temple.png" id="SSC_215_City-Gate Temple" data-flag="@X" onclick="openSidebar('SSC_215_City-Gate Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\196_Gate-Bound Kun.png" id="SSC_196_Gate-Bound Kun" data-flag="@X" onclick="openSidebar('SSC_196_Gate-Bound Kun',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\220_Inexperienced Pyredancer.png" id="SSC_220_Inexperienced Pyredancer" data-flag="@X" onclick="openSidebar('SSC_220_Inexperienced Pyredancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\233_Royal Custodian.png" id="SSC_233_Royal Custodian" data-flag="@X" onclick="openSidebar('SSC_233_Royal Custodian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\239_Withered Penghou.png" id="SSC_239_Withered Penghou" data-flag="@X" onclick="openSidebar('SSC_239_Withered Penghou',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\238_Wardens Mentor.png" id="SSC_238_Wardens Mentor" data-flag="@X" onclick="openSidebar('SSC_238_Wardens Mentor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\232_Roaming-Gate Temple.png" id="SSC_232_Roaming-Gate Temple" data-flag="@X" onclick="openSidebar('SSC_232_Roaming-Gate Temple',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\229_Mourning Yaoguai.png" id="SSC_229_Mourning Yaoguai" data-flag="@X" onclick="openSidebar('SSC_229_Mourning Yaoguai',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\241_Xiao Shen, In Balance.png" id="SSC_241_Xiao Shen, In Balance" data-flag="@X" onclick="openSidebar('SSC_241_Xiao Shen, In Balance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\191_Cardinal Alignment.png" id="SSC_191_Cardinal Alignment" data-flag="@X" onclick="openSidebar('SSC_191_Cardinal Alignment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\273_Legend of the Masters.png" id="SSC_273_Legend of the Masters" data-flag="@X" onclick="openSidebar('SSC_273_Legend of the Masters',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\1_Longwang, Celestial Ancestor.png" id="SSC_1_Longwang, Celestial Ancestor" data-flag="@X" onclick="openSidebar('SSC_1_Longwang, Celestial Ancestor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\249_Mox Jade.png" id="SSC_249_Mox Jade" data-flag="@X" onclick="openSidebar('SSC_249_Mox Jade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\247_Fabled Lotus.png" id="SSC_247_Fabled Lotus" data-flag="@X" onclick="openSidebar('SSC_247_Fabled Lotus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\250_Pearlcarver's Masterpiece.png" id="SSC_250_Pearlcarvers Masterpiece" data-flag="@X" onclick="openSidebar('SSC_250_Pearlcarvers Masterpiece',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\251_Propagating Yaoguai.png" id="SSC_251_Propagating Yaoguai" data-flag="@X" onclick="openSidebar('SSC_251_Propagating Yaoguai',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\244_Accursed Legion.png" id="SSC_244_Accursed Legion" data-flag="@X" onclick="openSidebar('SSC_244_Accursed Legion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\252_Realmscroll.png" id="SSC_252_Realmscroll" data-flag="@X" onclick="openSidebar('SSC_252_Realmscroll',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\254_Soulblessed Jian.png" id="SSC_254_Soulblessed Jian" data-flag="@X" onclick="openSidebar('SSC_254_Soulblessed Jian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\245_Awakened Terracotta.png" id="SSC_245_Awakened Terracotta" data-flag="@X" onclick="openSidebar('SSC_245_Awakened Terracotta',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\246_Crossed's Lantern.png" id="SSC_246_Crosseds Lantern" data-flag="@X" onclick="openSidebar('SSC_246_Crosseds Lantern',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\248_Ironforged Leigong.png" id="SSC_248_Ironforged Leigong" data-flag="@X" onclick="openSidebar('SSC_248_Ironforged Leigong',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\253_Shrine to Those Forgotten.png" id="SSC_253_Shrine to Those Forgotten" data-flag="@X" onclick="openSidebar('SSC_253_Shrine to Those Forgotten',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\271_Balance.png" id="SSC_271_Balance" data-flag="@X" onclick="openSidebar('SSC_271_Balance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\272_Heir.png" id="SSC_272_Heir" data-flag="@X" onclick="openSidebar('SSC_272_Heir',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\268_Suntouched Pond.png" id="SSC_268_Suntouched Pond" data-flag="@X" onclick="openSidebar('SSC_268_Suntouched Pond',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\257_Deepwater Mire.png" id="SSC_257_Deepwater Mire" data-flag="@X" onclick="openSidebar('SSC_257_Deepwater Mire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\255_Bloodsoaked Meadow.png" id="SSC_255_Bloodsoaked Meadow" data-flag="@X" onclick="openSidebar('SSC_255_Bloodsoaked Meadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\266_Peakcarved Village.png" id="SSC_266_Peakcarved Village" data-flag="@X" onclick="openSidebar('SSC_266_Peakcarved Village',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\260_Flourishing Court.png" id="SSC_260_Flourishing Court" data-flag="@X" onclick="openSidebar('SSC_260_Flourishing Court',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\263_Misty Monument.png" id="SSC_263_Misty Monument" data-flag="@X" onclick="openSidebar('SSC_263_Misty Monument',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\267_Roiling Crag.png" id="SSC_267_Roiling Crag" data-flag="@X" onclick="openSidebar('SSC_267_Roiling Crag',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\264_Moldering Cavern.png" id="SSC_264_Moldering Cavern" data-flag="@X" onclick="openSidebar('SSC_264_Moldering Cavern',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\258_Festival Ground.png" id="SSC_258_Festival Ground" data-flag="@X" onclick="openSidebar('SSC_258_Festival Ground',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\259_Flooded Field.png" id="SSC_259_Flooded Field" data-flag="@X" onclick="openSidebar('SSC_259_Flooded Field',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\256_Court of the Storied.png" id="SSC_256_Court of the Storied" data-flag="@X" onclick="openSidebar('SSC_256_Court of the Storied',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\261_Imperial Saga.png" id="SSC_261_Imperial Saga" data-flag="@X" onclick="openSidebar('SSC_261_Imperial Saga',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\270_Weathered Gates.png" id="SSC_270_Weathered Gates" data-flag="@X" onclick="openSidebar('SSC_270_Weathered Gates',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\265_Myriad Landscape.png" id="SSC_265_Myriad Landscape" data-flag="@X" onclick="openSidebar('SSC_265_Myriad Landscape',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\269_Venerated Stage.png" id="SSC_269_Venerated Stage" data-flag="@X" onclick="openSidebar('SSC_269_Venerated Stage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\262_Inactive Crossing.png" id="SSC_262_Inactive Crossing" data-flag="@X" onclick="openSidebar('SSC_262_Inactive Crossing',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\278_Swamp.png" id="SSC_278_Swamp" data-flag="@X" onclick="openSidebar('SSC_278_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\276_Mountain.png" id="SSC_276_Mountain" data-flag="@X" onclick="openSidebar('SSC_276_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\275_Island.png" id="SSC_275_Island" data-flag="@X" onclick="openSidebar('SSC_275_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\274_Forest.png" id="SSC_274_Forest" data-flag="@X" onclick="openSidebar('SSC_274_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\277_Plains.png" id="SSC_277_Plains" data-flag="@X" onclick="openSidebar('SSC_277_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\1t_Copy.png" id="SSC_1t_Copy" data-flag="@X" onclick="openSidebar('SSC_1t_Copy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\2t_Shrine.png" id="SSC_2t_Shrine" data-flag="@X" onclick="openSidebar('SSC_2t_Shrine',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\16t_Panda Bear.png" id="SSC_16t_Panda Bear" data-flag="@X" onclick="openSidebar('SSC_16t_Panda Bear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\17t_Golem.png" id="SSC_17t_Golem" data-flag="@X" onclick="openSidebar('SSC_17t_Golem',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\18t_Treasure.png" id="SSC_18t_Treasure" data-flag="@X" onclick="openSidebar('SSC_18t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\3t_Insect.png" id="SSC_3t_Insect" data-flag="@X" onclick="openSidebar('SSC_3t_Insect',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\4t_Soldier.png" id="SSC_4t_Soldier" data-flag="@X" onclick="openSidebar('SSC_4t_Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\5t_Spirit.png" id="SSC_5t_Spirit" data-flag="@X" onclick="openSidebar('SSC_5t_Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\6t_Bird.png" id="SSC_6t_Bird" data-flag="@X" onclick="openSidebar('SSC_6t_Bird',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\7t_Dragon.png" id="SSC_7t_Dragon" data-flag="@X" onclick="openSidebar('SSC_7t_Dragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\8t_Ape.png" id="SSC_8t_Ape" data-flag="@X" onclick="openSidebar('SSC_8t_Ape',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\9t_Beast.png" id="SSC_9t_Beast" data-flag="@X" onclick="openSidebar('SSC_9t_Beast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\10t_Bird.png" id="SSC_10t_Bird" data-flag="@X" onclick="openSidebar('SSC_10t_Bird',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\11t_Cat.png" id="SSC_11t_Cat" data-flag="@X" onclick="openSidebar('SSC_11t_Cat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\12t_Demon.png" id="SSC_12t_Demon" data-flag="@X" onclick="openSidebar('SSC_12t_Demon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\13t_Dragon.png" id="SSC_13t_Dragon" data-flag="@X" onclick="openSidebar('SSC_13t_Dragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\14t_Snake.png" id="SSC_14t_Snake" data-flag="@X" onclick="openSidebar('SSC_14t_Snake',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SSC-files\img\15t_Snake.png" id="SSC_15t_Snake" data-flag="@X" onclick="openSidebar('SSC_15t_Snake',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SSC_e" data-flag="@E" onclick="openSidebar('SSC_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SSC_er" data-flag="@E" onclick="openSidebar('SSC_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>
