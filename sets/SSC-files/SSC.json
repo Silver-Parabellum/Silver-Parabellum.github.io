@@ -1,10 +1,11 @@
 ﻿{
     "name": "Shiyue: Soul\u2019s Crossing",
     "formats": "",
-    "trimmed": "n",
     "image_type": "png",
     "draft_structure": "play booster",
     "unpreviewed": "card back",
+    "image_name": "position",
+    "v_mana": "",
     "cards": [
         {
             "card_name": "Guiding Zhulong",
@@ -23,6 +24,8 @@
             "loyalty": "",
             "artist": "Willa Wei",
             "alias": "",
+            "position": "0",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -42,6 +45,8 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "1",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -61,6 +66,8 @@
             "loyalty": "",
             "artist": "Zhang_Bo",
             "alias": "",
+            "position": "2",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -80,6 +87,8 @@
             "loyalty": "",
             "artist": "Luciano Javier Carreira",
             "alias": "",
+            "position": "3",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -99,6 +108,8 @@
             "loyalty": "",
             "artist": "Li Ying",
             "alias": "",
+            "position": "4",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -118,6 +129,8 @@
             "loyalty": "",
             "artist": "Howlite",
             "alias": "",
+            "position": "5",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -137,6 +150,8 @@
             "loyalty": "",
             "artist": "Y\u67f4\u4e0d\u4f1a\u753b\u753b",
             "alias": "",
+            "position": "6",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -156,6 +171,8 @@
             "loyalty": "",
             "artist": "ZOUPE",
             "alias": "",
+            "position": "7",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -175,6 +192,8 @@
             "loyalty": "",
             "artist": "Elyonlz",
             "alias": "",
+            "position": "8",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -194,6 +213,8 @@
             "loyalty": "",
             "artist": "Lana Marushchenko",
             "alias": "",
+            "position": "9",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -213,6 +234,8 @@
             "loyalty": "",
             "artist": "Cjsdh1000",
             "alias": "",
+            "position": "10",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -232,6 +255,8 @@
             "loyalty": "",
             "artist": "Pengren_Siya",
             "alias": "",
+            "position": "11",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -251,6 +276,8 @@
             "loyalty": "",
             "artist": "Ro_Ka_Ro_Ka",
             "alias": "",
+            "position": "12",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -270,6 +297,8 @@
             "loyalty": "",
             "artist": "@Gigan1024896",
             "alias": "",
+            "position": "13",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -289,6 +318,8 @@
             "loyalty": "",
             "artist": "Zephra",
             "alias": "",
+            "position": "14",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -308,6 +339,8 @@
             "loyalty": "",
             "artist": "\u5c0f\u5b9d\u54e5",
             "alias": "",
+            "position": "15",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -327,6 +360,8 @@
             "loyalty": "",
             "artist": "Moonct",
             "alias": "",
+            "position": "16",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -346,6 +381,8 @@
             "loyalty": "",
             "artist": "Zeradok",
             "alias": "",
+            "position": "17",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -365,6 +402,8 @@
             "loyalty": "",
             "artist": "Jianbing_Guozi",
             "alias": "",
+            "position": "18",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -384,6 +423,8 @@
             "loyalty": "",
             "artist": "Ikurauni",
             "alias": "",
+            "position": "19",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -403,6 +444,8 @@
             "loyalty": "",
             "artist": "Washiya0",
             "alias": "",
+            "position": "20",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -422,6 +465,8 @@
             "loyalty": "",
             "artist": "Chen_Hui",
             "alias": "",
+            "position": "21",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -441,6 +486,8 @@
             "loyalty": "",
             "artist": "NetEase",
             "alias": "",
+            "position": "22",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -460,6 +507,8 @@
             "loyalty": "",
             "artist": "Ye_Xing_Caomei",
             "alias": "",
+            "position": "23",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -479,6 +528,8 @@
             "loyalty": "",
             "artist": "Qin_Xin",
             "alias": "",
+            "position": "24",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -498,6 +549,8 @@
             "loyalty": "",
             "artist": "Epple Rice",
             "alias": "",
+            "position": "25",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -517,6 +570,8 @@
             "loyalty": "",
             "artist": "Aniao_Ya",
             "alias": "",
+            "position": "26",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -536,6 +591,8 @@
             "loyalty": "",
             "artist": "Jingxi",
             "alias": "",
+            "position": "27",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -555,6 +612,8 @@
             "loyalty": "",
             "artist": "Tomo_Ro",
             "alias": "",
+            "position": "28",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -574,6 +633,8 @@
             "loyalty": "",
             "artist": "@666KArt",
             "alias": "",
+            "position": "29",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -593,6 +654,8 @@
             "loyalty": "",
             "artist": "Chiaspicy",
             "alias": "",
+            "position": "30",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -612,6 +675,8 @@
             "loyalty": "",
             "artist": "Mugon",
             "alias": "",
+            "position": "31",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -631,6 +696,8 @@
             "loyalty": "",
             "artist": "Shaiziji",
             "alias": "",
+            "position": "32",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -650,6 +717,8 @@
             "loyalty": "",
             "artist": "Woody_Zhou",
             "alias": "",
+            "position": "33",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -669,6 +738,8 @@
             "loyalty": "",
             "artist": "Sunga2usagi",
             "alias": "",
+            "position": "34",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -688,6 +759,8 @@
             "loyalty": "",
             "artist": "Akio_Akio_1963",
             "alias": "",
+            "position": "35",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -707,6 +780,8 @@
             "loyalty": "",
             "artist": "Mengyou_zhanshi",
             "alias": "",
+            "position": "36",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -726,6 +801,8 @@
             "loyalty": "",
             "artist": "Kusarukusa",
             "alias": "",
+            "position": "37",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -745,6 +822,8 @@
             "loyalty": "",
             "artist": "Hen_Na",
             "alias": "",
+            "position": "38",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -764,6 +843,8 @@
             "loyalty": "",
             "artist": "Jrtgl11",
             "alias": "",
+            "position": "39",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -783,6 +864,8 @@
             "loyalty": "",
             "artist": "Kumo_Ryuun",
             "alias": "",
+            "position": "40",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -802,6 +885,8 @@
             "loyalty": "",
             "artist": "Congmin_Lan",
             "alias": "",
+            "position": "41",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -821,6 +906,8 @@
             "loyalty": "",
             "artist": "Ydpfa",
             "alias": "",
+            "position": "42",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -840,6 +927,8 @@
             "loyalty": "",
             "artist": "Huang_Shihu",
             "alias": "",
+            "position": "43",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -859,6 +948,8 @@
             "loyalty": "",
             "artist": "@_Plive",
             "alias": "",
+            "position": "44",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -878,6 +969,8 @@
             "loyalty": "",
             "artist": "Elise_Carret",
             "alias": "",
+            "position": "45",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -897,6 +990,8 @@
             "loyalty": "",
             "artist": "Valtear",
             "alias": "",
+            "position": "46",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -916,6 +1011,8 @@
             "loyalty": "",
             "artist": "Yoshioka_Yoshiko",
             "alias": "",
+            "position": "47",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -935,6 +1032,8 @@
             "loyalty": "",
             "artist": "TJ_Foo",
             "alias": "",
+            "position": "48",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -954,6 +1053,8 @@
             "loyalty": "",
             "artist": "Eudaemonm",
             "alias": "",
+            "position": "49",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -973,6 +1074,8 @@
             "loyalty": "",
             "artist": "Lana Marushchenko",
             "alias": "",
+            "position": "50",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -992,6 +1095,8 @@
             "loyalty": "",
             "artist": "Salmon88",
             "alias": "",
+            "position": "51",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1011,6 +1116,8 @@
             "loyalty": "",
             "artist": "Weibo_1581197152",
             "alias": "",
+            "position": "52",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1030,6 +1137,8 @@
             "loyalty": "",
             "artist": "Mizuku_Hei",
             "alias": "",
+            "position": "53",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1049,6 +1158,8 @@
             "loyalty": "",
             "artist": "Ainezu",
             "alias": "",
+            "position": "54",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1068,6 +1179,8 @@
             "loyalty": "",
             "artist": "Wataru_Rei",
             "alias": "",
+            "position": "55",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1087,6 +1200,8 @@
             "loyalty": "",
             "artist": "@NeonLaboratory",
             "alias": "",
+            "position": "56",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1106,6 +1221,8 @@
             "loyalty": "",
             "artist": "Spectacled_Snake",
             "alias": "",
+            "position": "57",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1125,6 +1242,8 @@
             "loyalty": "",
             "artist": "Edwaed Lee",
             "alias": "",
+            "position": "58",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1144,6 +1263,8 @@
             "loyalty": "",
             "artist": "Hekouziran",
             "alias": "",
+            "position": "59",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1163,6 +1284,8 @@
             "loyalty": "",
             "artist": "Neonlabs",
             "alias": "",
+            "position": "60",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1182,6 +1305,8 @@
             "loyalty": "",
             "artist": "Alexander Leskinen",
             "alias": "",
+            "position": "61",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1201,6 +1326,8 @@
             "loyalty": "",
             "artist": "Demeter_Wu",
             "alias": "",
+            "position": "62",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1220,6 +1347,8 @@
             "loyalty": "",
             "artist": "2:10 Animation",
             "alias": "",
+            "position": "63",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1239,6 +1368,8 @@
             "loyalty": "",
             "artist": "Nai_Ga",
             "alias": "",
+            "position": "64",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1258,6 +1389,8 @@
             "loyalty": "",
             "artist": "Favilia",
             "alias": "",
+            "position": "65",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1277,6 +1410,8 @@
             "loyalty": "",
             "artist": "Huang Shihu",
             "alias": "",
+            "position": "66",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1296,6 +1431,8 @@
             "loyalty": "",
             "artist": "Y\u67f4\u4e0d\u4f1a\u753b\u753b",
             "alias": "",
+            "position": "67",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1315,6 +1452,8 @@
             "loyalty": "",
             "artist": "Xiao_Xiaolong",
             "alias": "",
+            "position": "68",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1334,6 +1473,8 @@
             "loyalty": "",
             "artist": "Deersheep",
             "alias": "",
+            "position": "69",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1353,6 +1494,8 @@
             "loyalty": "",
             "artist": "Kuro_Games",
             "alias": "",
+            "position": "70",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1372,6 +1515,8 @@
             "loyalty": "",
             "artist": "Peng_Lu",
             "alias": "",
+            "position": "71",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1391,6 +1536,8 @@
             "loyalty": "",
             "artist": "@NeonLaboratory",
             "alias": "",
+            "position": "72",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1410,6 +1557,8 @@
             "loyalty": "",
             "artist": "Y\u67f4\u4e0d\u4f1a\u753b\u753b",
             "alias": "",
+            "position": "73",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1429,6 +1578,8 @@
             "loyalty": "",
             "artist": "Aiubao",
             "alias": "",
+            "position": "74",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1448,6 +1599,8 @@
             "loyalty": "",
             "artist": "Slippy3",
             "alias": "",
+            "position": "75",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1467,6 +1620,8 @@
             "loyalty": "",
             "artist": "Woody_Zhou",
             "alias": "",
+            "position": "76",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1486,6 +1641,8 @@
             "loyalty": "",
             "artist": "Yunmaojan",
             "alias": "",
+            "position": "77",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1505,6 +1662,8 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "78",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1524,6 +1683,8 @@
             "loyalty": "",
             "artist": "Airi_Pan",
             "alias": "",
+            "position": "79",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1543,6 +1704,8 @@
             "loyalty": "",
             "artist": "Shan_Gui_Yu_Yao",
             "alias": "",
+            "position": "80",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1562,6 +1725,8 @@
             "loyalty": "",
             "artist": "Grafit_Studio",
             "alias": "",
+            "position": "81",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1581,6 +1746,8 @@
             "loyalty": "",
             "artist": "Kiuyan Ran Krusier",
             "alias": "",
+            "position": "82",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1600,6 +1767,8 @@
             "loyalty": "",
             "artist": "Cloud's Sigh",
             "alias": "",
+            "position": "83",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1619,6 +1788,8 @@
             "loyalty": "",
             "artist": "BBangwoo",
             "alias": "",
+            "position": "84",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1638,6 +1809,8 @@
             "loyalty": "",
             "artist": "Suzuneko_Rin",
             "alias": "",
+            "position": "85",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1657,6 +1830,8 @@
             "loyalty": "",
             "artist": "Zhao_Yi",
             "alias": "",
+            "position": "86",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1676,6 +1851,8 @@
             "loyalty": "",
             "artist": "Greenyscrapy",
             "alias": "",
+            "position": "87",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1695,6 +1872,8 @@
             "loyalty": "",
             "artist": "Lana Marushchenko",
             "alias": "",
+            "position": "88",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1714,6 +1893,8 @@
             "loyalty": "",
             "artist": "- Lan -",
             "alias": "",
+            "position": "89",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1733,6 +1914,8 @@
             "loyalty": "",
             "artist": "Cai_Yu_Qing",
             "alias": "",
+            "position": "90",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1752,6 +1935,8 @@
             "loyalty": "",
             "artist": "Birds_Mix",
             "alias": "",
+            "position": "91",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1771,6 +1956,8 @@
             "loyalty": "",
             "artist": "Egor Kapustin",
             "alias": "",
+            "position": "92",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1790,6 +1977,8 @@
             "loyalty": "",
             "artist": "Kuroduki",
             "alias": "",
+            "position": "93",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1809,6 +1998,8 @@
             "loyalty": "",
             "artist": "Park_Jae_Cheol",
             "alias": "",
+            "position": "94",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1828,6 +2019,8 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "95",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1847,6 +2040,8 @@
             "loyalty": "",
             "artist": "9_vcat",
             "alias": "",
+            "position": "96",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1866,6 +2061,8 @@
             "loyalty": "",
             "artist": "Tim_Melnyk",
             "alias": "",
+            "position": "97",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1885,6 +2082,8 @@
             "loyalty": "",
             "artist": "Yao_Lee",
             "alias": "",
+            "position": "98",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1904,6 +2103,8 @@
             "loyalty": "",
             "artist": "Ruoganzhao",
             "alias": "",
+            "position": "99",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1923,6 +2124,8 @@
             "loyalty": "",
             "artist": "Sabou_San_Shitsu_Kokoro",
             "alias": "",
+            "position": "100",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1942,6 +2145,8 @@
             "loyalty": "",
             "artist": "Kuro_Games",
             "alias": "",
+            "position": "101",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1961,6 +2166,8 @@
             "loyalty": "",
             "artist": "Francisco Badilla",
             "alias": "",
+            "position": "102",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1980,6 +2187,8 @@
             "loyalty": "",
             "artist": "Jmxd",
             "alias": "",
+            "position": "103",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1999,6 +2208,8 @@
             "loyalty": "",
             "artist": "Queenoflade",
             "alias": "",
+            "position": "104",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2018,6 +2229,8 @@
             "loyalty": "",
             "artist": "Lack",
             "alias": "",
+            "position": "105",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2037,6 +2250,8 @@
             "loyalty": "",
             "artist": "Gohanduck",
             "alias": "",
+            "position": "106",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2056,6 +2271,8 @@
             "loyalty": "",
             "artist": "\u674e\u84c9",
             "alias": "",
+            "position": "107",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2075,6 +2292,8 @@
             "loyalty": "",
             "artist": "Sara_contreras",
             "alias": "",
+            "position": "108",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2094,6 +2313,8 @@
             "loyalty": "",
             "artist": "Qingqingxiaoo",
             "alias": "",
+            "position": "109",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2113,6 +2334,8 @@
             "loyalty": "",
             "artist": "Mino Jiang",
             "alias": "",
+            "position": "110",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2132,6 +2355,8 @@
             "loyalty": "",
             "artist": "Scarlet09jinliu",
             "alias": "",
+            "position": "111",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2151,6 +2376,8 @@
             "loyalty": "",
             "artist": "Srenzhaowoduhun93130",
             "alias": "",
+            "position": "112",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2170,6 +2397,8 @@
             "loyalty": "",
             "artist": "Kylin_Li",
             "alias": "",
+            "position": "113",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2189,6 +2418,8 @@
             "loyalty": "",
             "artist": "Pan_Ping",
             "alias": "",
+            "position": "114",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2208,6 +2439,8 @@
             "loyalty": "",
             "artist": "Natalia_Cabrero",
             "alias": "",
+            "position": "115",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2227,6 +2460,8 @@
             "loyalty": "",
             "artist": "Polora",
             "alias": "",
+            "position": "116",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2246,6 +2481,8 @@
             "loyalty": "",
             "artist": "Yamakawa_Huangquanmonu",
             "alias": "",
+            "position": "117",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2265,6 +2502,8 @@
             "loyalty": "",
             "artist": "Yuki_Xia",
             "alias": "",
+            "position": "118",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2284,6 +2523,8 @@
             "loyalty": "",
             "artist": "Kantakerro",
             "alias": "",
+            "position": "119",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2303,6 +2544,8 @@
             "loyalty": "",
             "artist": "Gesshi",
             "alias": "",
+            "position": "120",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2322,6 +2565,8 @@
             "loyalty": "",
             "artist": "Dan_Zhou",
             "alias": "",
+            "position": "121",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2341,6 +2586,8 @@
             "loyalty": "",
             "artist": "Morry",
             "alias": "",
+            "position": "122",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2360,6 +2607,8 @@
             "loyalty": "",
             "artist": "Cloud's Sigh",
             "alias": "",
+            "position": "123",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2379,6 +2628,8 @@
             "loyalty": "",
             "artist": "Maxwell_Boas",
             "alias": "",
+            "position": "124",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2398,6 +2649,8 @@
             "loyalty": "",
             "artist": "Yao_Lee",
             "alias": "",
+            "position": "125",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2417,6 +2670,8 @@
             "loyalty": "",
             "artist": "Y\u67f4\u4e0d\u4f1a\u753b\u753b",
             "alias": "",
+            "position": "126",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2436,6 +2691,8 @@
             "loyalty": "",
             "artist": "Elena_Shutkina",
             "alias": "",
+            "position": "127",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2455,6 +2712,8 @@
             "loyalty": "",
             "artist": "Kylin_Li",
             "alias": "",
+            "position": "128",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2474,6 +2733,8 @@
             "loyalty": "",
             "artist": "Kylin_Li",
             "alias": "",
+            "position": "129",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2493,6 +2754,8 @@
             "loyalty": "",
             "artist": "Krmpuris",
             "alias": "",
+            "position": "130",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2512,6 +2775,8 @@
             "loyalty": "",
             "artist": "Daymera",
             "alias": "",
+            "position": "131",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2531,6 +2796,8 @@
             "loyalty": "",
             "artist": "Shuangbatian",
             "alias": "",
+            "position": "132",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2550,6 +2817,8 @@
             "loyalty": "",
             "artist": "Fiehn",
             "alias": "",
+            "position": "133",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2569,6 +2838,8 @@
             "loyalty": "",
             "artist": "Yuyuya",
             "alias": "",
+            "position": "134",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2588,6 +2859,8 @@
             "loyalty": "",
             "artist": "Niukou_Kouzi",
             "alias": "",
+            "position": "135",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2607,6 +2880,8 @@
             "loyalty": "",
             "artist": "Zzzi_Gn",
             "alias": "",
+            "position": "136",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2626,6 +2901,8 @@
             "loyalty": "",
             "artist": "Kyouran_de_Onikoushi",
             "alias": "",
+            "position": "137",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2645,6 +2922,8 @@
             "loyalty": "",
             "artist": "Nejita",
             "alias": "",
+            "position": "138",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2664,6 +2943,8 @@
             "loyalty": "",
             "artist": "Koharu8107",
             "alias": "",
+            "position": "139",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2683,6 +2964,8 @@
             "loyalty": "",
             "artist": "Yao_Lee",
             "alias": "",
+            "position": "140",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2702,6 +2985,8 @@
             "loyalty": "",
             "artist": "Peng_Lu",
             "alias": "",
+            "position": "141",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2721,6 +3006,8 @@
             "loyalty": "",
             "artist": "Reuben_Yeo",
             "alias": "",
+            "position": "142",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2740,6 +3027,8 @@
             "loyalty": "",
             "artist": "yi_ke_da_cui_tao_tao",
             "alias": "",
+            "position": "143",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2759,6 +3048,8 @@
             "loyalty": "",
             "artist": "Epple_Rice",
             "alias": "",
+            "position": "144",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2778,6 +3069,8 @@
             "loyalty": "",
             "artist": "Kylin_Li",
             "alias": "",
+            "position": "145",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2797,6 +3090,8 @@
             "loyalty": "",
             "artist": "Quanquanwan",
             "alias": "",
+            "position": "146",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2816,6 +3111,8 @@
             "loyalty": "",
             "artist": "Dzikawa",
             "alias": "",
+            "position": "147",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2835,6 +3132,8 @@
             "loyalty": "",
             "artist": "Cloud's_Sigh",
             "alias": "",
+            "position": "148",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2854,6 +3153,8 @@
             "loyalty": "",
             "artist": "Leo-don't-want-to-be-a-painter",
             "alias": "",
+            "position": "149",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2873,6 +3174,8 @@
             "loyalty": "",
             "artist": "Papagxiong",
             "alias": "",
+            "position": "150",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2892,6 +3195,8 @@
             "loyalty": "",
             "artist": "Chen_Zhang",
             "alias": "",
+            "position": "151",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2911,6 +3216,8 @@
             "loyalty": "",
             "artist": "Dave_Greco",
             "alias": "",
+            "position": "152",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2930,6 +3237,8 @@
             "loyalty": "",
             "artist": "Ryosios",
             "alias": "",
+            "position": "153",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2949,6 +3258,8 @@
             "loyalty": "",
             "artist": "Z3zz4",
             "alias": "",
+            "position": "154",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2968,6 +3279,8 @@
             "loyalty": "",
             "artist": "Shu_Sumika",
             "alias": "",
+            "position": "155",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2987,6 +3300,8 @@
             "loyalty": "",
             "artist": "Yao_Banyang",
             "alias": "",
+            "position": "156",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3006,6 +3321,8 @@
             "loyalty": "",
             "artist": "Dotthebot",
             "alias": "",
+            "position": "157",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3025,6 +3342,8 @@
             "loyalty": "",
             "artist": "Ideomotor",
             "alias": "",
+            "position": "158",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3044,6 +3363,8 @@
             "loyalty": "",
             "artist": "JINGXI",
             "alias": "",
+            "position": "159",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3063,6 +3384,8 @@
             "loyalty": "",
             "artist": "Kaiqi_Ortileb",
             "alias": "",
+            "position": "160",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3082,6 +3405,8 @@
             "loyalty": "",
             "artist": "Yangmie_Miyei",
             "alias": "",
+            "position": "161",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3101,6 +3426,8 @@
             "loyalty": "",
             "artist": "Hanasei",
             "alias": "",
+            "position": "162",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3120,6 +3447,8 @@
             "loyalty": "",
             "artist": "Morncolour",
             "alias": "",
+            "position": "163",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3139,6 +3468,8 @@
             "loyalty": "",
             "artist": "Jfzm001",
             "alias": "",
+            "position": "164",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3158,6 +3489,8 @@
             "loyalty": "",
             "artist": "Tim_Melnyk",
             "alias": "",
+            "position": "165",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3177,6 +3510,8 @@
             "loyalty": "",
             "artist": "Zhang_Bo",
             "alias": "",
+            "position": "166",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3196,6 +3531,8 @@
             "loyalty": "",
             "artist": "Zhang_Bo",
             "alias": "",
+            "position": "167",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3215,6 +3552,8 @@
             "loyalty": "",
             "artist": "Satsuya",
             "alias": "",
+            "position": "168",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3234,6 +3573,8 @@
             "loyalty": "",
             "artist": "Asa_Moi",
             "alias": "",
+            "position": "169",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3253,6 +3594,8 @@
             "loyalty": "",
             "artist": "Leo-don't-want-to-be-a-painter",
             "alias": "",
+            "position": "170",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3272,6 +3615,8 @@
             "loyalty": "",
             "artist": "Dao_Gui_Yi_Xian",
             "alias": "",
+            "position": "171",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3291,6 +3636,8 @@
             "loyalty": "",
             "artist": "Saimire_Hala",
             "alias": "",
+            "position": "172",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3310,6 +3657,8 @@
             "loyalty": "",
             "artist": "Feng_Wei",
             "alias": "",
+            "position": "173",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3329,6 +3678,8 @@
             "loyalty": "",
             "artist": "You_Yeyou0904",
             "alias": "",
+            "position": "174",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3348,6 +3699,8 @@
             "loyalty": "",
             "artist": "ZOUPE",
             "alias": "",
+            "position": "175",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3367,6 +3720,8 @@
             "loyalty": "",
             "artist": "Oberyon_Blyat",
             "alias": "",
+            "position": "176",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3386,6 +3741,8 @@
             "loyalty": "",
             "artist": "Sakoki",
             "alias": "",
+            "position": "177",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3405,6 +3762,8 @@
             "loyalty": "",
             "artist": "Han_Yijie",
             "alias": "",
+            "position": "178",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3424,6 +3783,8 @@
             "loyalty": "",
             "artist": "Heng_Tang",
             "alias": "",
+            "position": "179",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3443,6 +3804,8 @@
             "loyalty": "",
             "artist": "Earl_Lan",
             "alias": "",
+            "position": "180",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3462,6 +3825,8 @@
             "loyalty": "",
             "artist": "Yao_Bangyang",
             "alias": "",
+            "position": "181",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3481,6 +3846,8 @@
             "loyalty": "",
             "artist": "ZOUPE",
             "alias": "",
+            "position": "182",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3500,6 +3867,8 @@
             "loyalty": "",
             "artist": "Daniel_Deng",
             "alias": "",
+            "position": "183",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3519,6 +3888,8 @@
             "loyalty": "",
             "artist": "Xiondueng_Li",
             "alias": "",
+            "position": "184",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3538,6 +3909,8 @@
             "loyalty": "",
             "artist": "One_Wang_Yaowan",
             "alias": "",
+            "position": "185",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3557,6 +3930,8 @@
             "loyalty": "",
             "artist": "E_Volution",
             "alias": "",
+            "position": "186",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3576,6 +3951,8 @@
             "loyalty": "",
             "artist": "Alan_Xiao",
             "alias": "",
+            "position": "187",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3595,6 +3972,8 @@
             "loyalty": "",
             "artist": "Stu_Dts",
             "alias": "",
+            "position": "188",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3614,6 +3993,8 @@
             "loyalty": "",
             "artist": "Yanyang_Sui",
             "alias": "",
+            "position": "189",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3633,6 +4014,8 @@
             "loyalty": "",
             "artist": "Han_Flores",
             "alias": "",
+            "position": "190",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3652,6 +4035,8 @@
             "loyalty": "",
             "artist": "Ting.L",
             "alias": "",
+            "position": "191",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3671,6 +4056,8 @@
             "loyalty": "",
             "artist": "Chris_hu",
             "alias": "",
+            "position": "192",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3690,6 +4077,8 @@
             "loyalty": "",
             "artist": "Vtasart",
             "alias": "",
+            "position": "193",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3709,6 +4098,8 @@
             "loyalty": "",
             "artist": "ZOUPE",
             "alias": "",
+            "position": "194",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3728,6 +4119,8 @@
             "loyalty": "",
             "artist": "Tim_Melnyk",
             "alias": "",
+            "position": "195",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3747,6 +4140,8 @@
             "loyalty": "",
             "artist": "2-10_Animation",
             "alias": "",
+            "position": "196",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3766,6 +4161,8 @@
             "loyalty": "",
             "artist": "Dreamworks",
             "alias": "",
+            "position": "197",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3785,6 +4182,8 @@
             "loyalty": "",
             "artist": "Hanyijie",
             "alias": "",
+            "position": "198",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3804,6 +4203,8 @@
             "loyalty": "",
             "artist": "Dreamworks",
             "alias": "",
+            "position": "199",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3823,6 +4224,8 @@
             "loyalty": "",
             "artist": "Dreamworks",
             "alias": "",
+            "position": "200",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3842,6 +4245,8 @@
             "loyalty": "",
             "artist": "Dreamworks",
             "alias": "",
+            "position": "201",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3861,6 +4266,8 @@
             "loyalty": "",
             "artist": "Dreamworks",
             "alias": "",
+            "position": "202",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3880,6 +4287,8 @@
             "loyalty": "",
             "artist": "GXLPics",
             "alias": "",
+            "position": "203",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3899,6 +4308,8 @@
             "loyalty": "",
             "artist": "Dou_G_Douglasiai513",
             "alias": "",
+            "position": "204",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3918,6 +4329,8 @@
             "loyalty": "",
             "artist": "Hundun_Hdun",
             "alias": "",
+            "position": "205",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3937,6 +4350,8 @@
             "loyalty": "",
             "artist": "Ideomotor",
             "alias": "",
+            "position": "206",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3956,6 +4371,8 @@
             "loyalty": "",
             "artist": "Bowsman_Zy",
             "alias": "",
+            "position": "207",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3975,6 +4392,8 @@
             "loyalty": "",
             "artist": "Ophi0",
             "alias": "",
+            "position": "208",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3994,6 +4413,8 @@
             "loyalty": "",
             "artist": "Monokubo",
             "alias": "",
+            "position": "209",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4013,6 +4434,8 @@
             "loyalty": "",
             "artist": "Bolichar",
             "alias": "",
+            "position": "210",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4032,6 +4455,8 @@
             "loyalty": "",
             "artist": "Nemo_Ani1995",
             "alias": "",
+            "position": "211",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4051,6 +4476,8 @@
             "loyalty": "",
             "artist": "Nervi_Fd",
             "alias": "",
+            "position": "212",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4070,6 +4497,8 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "213",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4089,6 +4518,8 @@
             "loyalty": "",
             "artist": "Julia_Zyr",
             "alias": "",
+            "position": "214",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4108,6 +4539,8 @@
             "loyalty": "",
             "artist": "Han_Flores",
             "alias": "",
+            "position": "215",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4127,6 +4560,8 @@
             "loyalty": "",
             "artist": "Juuden",
             "alias": "",
+            "position": "216",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4146,6 +4581,8 @@
             "loyalty": "",
             "artist": "Skavenprime",
             "alias": "",
+            "position": "217",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4165,6 +4602,8 @@
             "loyalty": "",
             "artist": "Jenner_Chen",
             "alias": "",
+            "position": "218",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4184,6 +4623,8 @@
             "loyalty": "",
             "artist": "Xin_Jin",
             "alias": "",
+            "position": "219",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4203,6 +4644,8 @@
             "loyalty": "",
             "artist": "Raya_Uk",
             "alias": "",
+            "position": "220",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4222,6 +4665,8 @@
             "loyalty": "",
             "artist": "Tyhaya",
             "alias": "",
+            "position": "221",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4241,6 +4686,8 @@
             "loyalty": "",
             "artist": "Ricket_Carolyn",
             "alias": "",
+            "position": "222",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4260,6 +4707,8 @@
             "loyalty": "",
             "artist": "Xi_Zhang",
             "alias": "",
+            "position": "223",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4279,6 +4728,8 @@
             "loyalty": "",
             "artist": "Zassyoku_Dd",
             "alias": "",
+            "position": "224",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4298,6 +4749,8 @@
             "loyalty": "",
             "artist": "2-10_Animation",
             "alias": "",
+            "position": "225",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4317,6 +4770,8 @@
             "loyalty": "",
             "artist": "Hizuki_Miya",
             "alias": "",
+            "position": "226",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4336,6 +4791,8 @@
             "loyalty": "",
             "artist": "Kaeri",
             "alias": "",
+            "position": "227",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4355,6 +4812,8 @@
             "loyalty": "",
             "artist": "Afire",
             "alias": "",
+            "position": "228",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4374,6 +4833,8 @@
             "loyalty": "",
             "artist": "Zonegau4",
             "alias": "",
+            "position": "229",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4393,6 +4854,8 @@
             "loyalty": "",
             "artist": "Jenner_Chen",
             "alias": "",
+            "position": "230",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4412,6 +4875,8 @@
             "loyalty": "",
             "artist": "Ruoruoqiu",
             "alias": "",
+            "position": "231",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4431,6 +4896,8 @@
             "loyalty": "",
             "artist": "Yvan_Fernandes",
             "alias": "",
+            "position": "232",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4450,6 +4917,8 @@
             "loyalty": "",
             "artist": "JOker_(Stjoker)",
             "alias": "",
+            "position": "233",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4469,6 +4938,8 @@
             "loyalty": "",
             "artist": "Simian_Chuge",
             "alias": "",
+            "position": "234",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4488,6 +4959,8 @@
             "loyalty": "",
             "artist": "Hope",
             "alias": "",
+            "position": "235",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4507,6 +4980,8 @@
             "loyalty": "",
             "artist": "Weber_Aki",
             "alias": "",
+            "position": "236",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4526,6 +5001,8 @@
             "loyalty": "",
             "artist": "\u5e7d\u84dd",
             "alias": "",
+            "position": "237",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4545,6 +5022,8 @@
             "loyalty": "",
             "artist": "Demeter_Wu",
             "alias": "",
+            "position": "238",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4564,6 +5043,8 @@
             "loyalty": "",
             "artist": "Zi_Zhang",
             "alias": "",
+            "position": "239",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4583,6 +5064,8 @@
             "loyalty": "",
             "artist": "Earl_Lan",
             "alias": "",
+            "position": "240",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4602,6 +5085,8 @@
             "loyalty": "",
             "artist": "Con_Potata",
             "alias": "",
+            "position": "241",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4621,6 +5106,8 @@
             "loyalty": "",
             "artist": "Zhuzhiji_Zulu",
             "alias": "",
+            "position": "242",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4640,6 +5127,8 @@
             "loyalty": "",
             "artist": "Ste7619",
             "alias": "",
+            "position": "243",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4659,6 +5148,8 @@
             "loyalty": "",
             "artist": "Kaifei_(Kaifei_29)",
             "alias": "",
+            "position": "244",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4678,6 +5169,8 @@
             "loyalty": "",
             "artist": "Woody_Zhou",
             "alias": "",
+            "position": "245",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4697,6 +5190,8 @@
             "loyalty": "",
             "artist": "Lim_Wai_Yee",
             "alias": "",
+            "position": "246",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4716,6 +5211,8 @@
             "loyalty": "",
             "artist": "Kirina_Zero",
             "alias": "",
+            "position": "247",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4735,6 +5232,8 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "248",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4754,6 +5253,8 @@
             "loyalty": "",
             "artist": "Ukumo_Uichi",
             "alias": "",
+            "position": "249",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4773,6 +5274,8 @@
             "loyalty": "",
             "artist": "Shinigami_Wyvern",
             "alias": "",
+            "position": "250",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4792,6 +5295,8 @@
             "loyalty": "",
             "artist": "Ali_Duo_Mu",
             "alias": "",
+            "position": "251",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4811,6 +5316,8 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "252",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4830,6 +5337,8 @@
             "loyalty": "",
             "artist": "Deersheep",
             "alias": "",
+            "position": "253",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4849,6 +5358,8 @@
             "loyalty": "",
             "artist": "Corina_Gabriela",
             "alias": "",
+            "position": "254",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4868,6 +5379,8 @@
             "loyalty": "",
             "artist": "Zephra",
             "alias": "",
+            "position": "255",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4887,6 +5400,8 @@
             "loyalty": "",
             "artist": "Heichuan_Qianshi",
             "alias": "",
+            "position": "256",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4906,6 +5421,8 @@
             "loyalty": "",
             "artist": "Quasarcake",
             "alias": "",
+            "position": "257",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4925,6 +5442,8 @@
             "loyalty": "",
             "artist": "Varvara_Sklyarevskaya",
             "alias": "",
+            "position": "258",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4944,6 +5463,8 @@
             "loyalty": "",
             "artist": "Masin0201",
             "alias": "",
+            "position": "259",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4963,6 +5484,8 @@
             "loyalty": "",
             "artist": "Malai_Lo",
             "alias": "",
+            "position": "260",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4982,6 +5505,8 @@
             "loyalty": "",
             "artist": "Toy_E",
             "alias": "",
+            "position": "261",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5001,6 +5526,8 @@
             "loyalty": "",
             "artist": "Ting.L",
             "alias": "",
+            "position": "262",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5020,6 +5547,8 @@
             "loyalty": "",
             "artist": "Kuro_Games",
             "alias": "",
+            "position": "263",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5039,6 +5568,8 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "264",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5058,6 +5589,8 @@
             "loyalty": "",
             "artist": "The_Ranyu",
             "alias": "",
+            "position": "265",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5077,6 +5610,8 @@
             "loyalty": "",
             "artist": "C_Z",
             "alias": "",
+            "position": "266",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5096,6 +5631,8 @@
             "loyalty": "",
             "artist": "Maxwell_boas",
             "alias": "",
+            "position": "267",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5115,6 +5652,8 @@
             "loyalty": "",
             "artist": "Luckyia",
             "alias": "",
+            "position": "268",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5134,6 +5673,8 @@
             "loyalty": "",
             "artist": "Leo-don't-want-to-be-a-painter",
             "alias": "",
+            "position": "269",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5153,6 +5694,8 @@
             "loyalty": "",
             "artist": "Zhang_Bo",
             "alias": "",
+            "position": "270",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5172,6 +5715,8 @@
             "loyalty": "",
             "artist": "Hypergriph",
             "alias": "",
+            "position": "271",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5191,6 +5736,8 @@
             "loyalty": "",
             "artist": "Dongbiao_Lu",
             "alias": "",
+            "position": "272",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5210,6 +5757,8 @@
             "loyalty": "",
             "artist": "2-10_Animation",
             "alias": "",
+            "position": "273",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5229,6 +5778,8 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "274",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5248,6 +5799,8 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "275",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5267,6 +5820,8 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "276",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5286,6 +5841,8 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "277",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5305,6 +5862,8 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "278",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5324,6 +5883,8 @@
             "loyalty": "4",
             "artist": "san_sui_dingshang_ya",
             "alias": "",
+            "position": "279",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5343,6 +5904,8 @@
             "loyalty": "6",
             "artist": "Pembiklimon",
             "alias": "",
+            "position": "280",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5362,6 +5925,8 @@
             "loyalty": "3",
             "artist": "Lanzen_Wu",
             "alias": "",
+            "position": "281",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5381,6 +5946,8 @@
             "loyalty": "4",
             "artist": "Ye_Xing_Caomei",
             "alias": "",
+            "position": "282",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5400,6 +5967,8 @@
             "loyalty": "",
             "artist": "Mei_Ren",
             "alias": "",
+            "position": "283",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5419,6 +5988,8 @@
             "loyalty": "",
             "artist": "JINGXI",
             "alias": "",
+            "position": "284",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5438,6 +6009,8 @@
             "loyalty": "",
             "artist": "Ion_932",
             "alias": "",
+            "position": "285",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5457,6 +6030,8 @@
             "loyalty": "",
             "artist": "Feng_Wei",
             "alias": "",
+            "position": "286",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5476,6 +6051,8 @@
             "loyalty": "",
             "artist": "Y\u67f4\u4e0d\u4f1a\u753b\u753b",
             "alias": "",
+            "position": "287",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5495,6 +6072,8 @@
             "loyalty": "",
             "artist": "Chun_Lo",
             "alias": "",
+            "position": "288",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5514,6 +6093,8 @@
             "loyalty": "",
             "artist": "hei_yan-m82a1",
             "alias": "",
+            "position": "289",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5533,6 +6114,8 @@
             "loyalty": "",
             "artist": "Herro_Zhao",
             "alias": "",
+            "position": "290",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5552,6 +6135,8 @@
             "loyalty": "",
             "artist": "JINGXI",
             "alias": "",
+            "position": "291",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5571,6 +6156,8 @@
             "loyalty": "",
             "artist": "Joe_Howarrd",
             "alias": "",
+            "position": "292",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5590,6 +6177,8 @@
             "loyalty": "",
             "artist": "Maycol_J_Perez",
             "alias": "",
+            "position": "293",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5609,6 +6198,8 @@
             "loyalty": "",
             "artist": "Woodylix",
             "alias": "",
+            "position": "294",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5628,8 +6219,10 @@
             "loyalty": "",
             "artist": "Zishengtian123",
             "alias": "",
+            "position": "295",
+            "rotated": false,
             "notes": ""
         }
     ],
-    "version": 1
+    "version": 2
 }

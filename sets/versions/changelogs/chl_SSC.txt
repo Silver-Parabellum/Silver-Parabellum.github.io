@@ -1,4 +1,592 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+
+
+Guiding Zhulong
+
+Realm Corrosion
+
+Lonqua Kingpin
+
+Wild-Stoker Xiongmao
+
+Bountiful Fuzhu
+
+Beizu Shadowstalker
+
+Fengxi Magistrate
+
+Gate-Bound Kun
+
+Fervent Stageplay
+
+Xiao Shen, Warden Aspirant
+
+Beizu Fangblade
+
+Lonqua Qibinder
+
+Decaying Disciple
+
+Enshadowed Huodou
+
+Inner Blight Daoshi
+
+Ox-Head Guardian
+
+Hero's Downfall
+
+Imperial Battlesage
+
+Read the Shadows
+
+Soulblight Corrosion
+
+Refuse Mortality
+
+Malevolent Scorn
+
+Bloodless Belle
+
+Lonqua Bladewright
+
+Spider Manifestation
+
+Peakbound Pangu
+
+Inexperienced Pyredancer
+
+Withered Penghou
+
+Mourning Yaoguai
+
+Wardens Mentor
+
+Royal Custodian
+
+Yizan Ascetic
+
+Myriad Landscape
+
+Venerated Stage
+
+Ferocious Emissary
+
+Xuan Wu, Stalwart Cardinal
+
+Zhu Que, Incarnated Cardinal
+
+Bai Hu, Warding Cardinal
+
+Qin Long, Flowing Cardinal
+
+Tian Lang, Lost to Tales
+
+Longwang, Celestial Ancestor
+
+Soulblighter Mage
+
+Vermillion Reincarnation
+
+Dreamsifter Kalavinka
+
+Inner Flow Daoshi
+
+Reckless Studies
+
+Yizan Talekeeper
+
+Soulblight Enervation
+
+Feng-Brood Yearling
+
+Lofty Denial
+
+Divine Connection
+
+Perfected Guard
+
+Realmbound Sentence
+
+Treasured Memory
+
+Ragged Jiangshi
+
+CR02 Wardens Flamesignaller
+
+Acolyte Aspirant
+
+Dreamstoker
+
+CR09 Crossed Defiance
+
+Shenme Courtesan
+
+CR08 Inner Rage Daoshi
+
+Greedy Jin Chan
+
+CR11 Festival Preparations
+
+Realm's Rebuke
+
+CR10 Sudden Flourish
+
+Young Pyredancer
+
+Yaoguai Qi-Seekers
+
+Reject the Malevolent
+
+Tigren Ascetic
+
+Mountain's Might
+
+Imperial Storyteller
+
+Burgeoning Nest
+
+Inner Strength Daoshi
+
+Savage Zhizhujing
+
+Gateward Colossus
+
+Liang Protective Stance
+
+Realm Confrontation
+
+Beizu Serpent-Guard
+
+Temple Vitalist
+
+Tales Retold
+
+Windcarp Pyredancer
+
+Inner Peace Daoshi
+
+Huyao Bondforger
+
+Breezelifted Quingqiao
+
+Balanced Acolyte
+
+Accompanied Trueblood
+
+Moonsight Warden
+
+Revoke
+
+Celestial Sanction
+
+Masters Rebuttal
+
+Skyward Leap
+
+Tang Yang, Ji's Second
+
+Dijiang of Shared Blessings
+
+Mox Jade
+
+Court of the Storied
+
+Cyclical Wisdom
+
+Imperial Mediator
+
+Cauldron of Lost Authority
+
+Divine Knowledge
+
+Fableweaver Huxian
+
+Shrine to Those Forgotten
+
+Crossed's Lantern
+
+Ironforged Leigong
+
+Awakened Terracotta
+
+Inactive Crossing
+
+Festival Server
+
+Gateward Huli Jing
+
+Moon Rabbit Joyseeker
+
+Boonmother Nuwa
+
+Custodian Captain
+
+Bifang-Blood Warden
+
+Hopegranter Crane
+
+Whitehorn Ascetic
+
+Deep-Hoarder Jiaolong
+
+Freeze Belief
+
+Climb The Gate
+
+Ideal Reflection
+
+Spirit's Claim
+
+Deep Betrayal
+
+Enervating Skykoi
+
+Ripplewatcher
+
+Jingwei Pyredancer
+
+Soulblighted Wanderer
+
+Resplendent Fuzhu
+
+Ancestral Guidance
+
+Yaoguai Formeater
+
+Witness Uniformity
+
+Shrine
+
+Taotie Paineater
+
+Cardinal Alignment
+
+Li Hua, Imperial Scion
+
+Ai Yao, Acclaimed Pyredancer
+
+Ling Guang, Discarded Vessel
+
+Jing Cao, Liang Prodigy
+
+An Gong, Temple-Keeper
+
+Xiao Shen, God-Shunned
+
+Ming Su, Reborn Lotus
+
+Ji Chen, Supreme Warden
+
+Xing Zhe, Sun's Chosen
+
+Mirror-Form Technique
+
+Imperious Geji
+
+Realmfarers Temple
+
+Qi Reapers
+
+Impose Balance
+
+Splendorous Tengshe
+
+Patron of Celebrations
+
+Kingpin's Enforcer
+
+Dredge Thoughts
+
+Tiger Skyguard
+
+Sun Hu, Crossed General
+
+Propagating Yaoguai
+
+Fabled Lotus
+
+Weathered Gates
+
+Imperial Saga
+
+Pearlcarver's Masterpiece
+
+Nurturing Matriarch
+
+Shenme Grand Temple
+
+Godsbreath
+
+Chord of Return
+
+Moon-Chaser Tiangou
+
+Deep-Thought Kun
+
+Realmguide Orator
+
+Tidal Expulsion
+
+Memories Relived
+
+Mirror Fate
+
+Yizan Grand Temple
+
+Jiaoren Shallowstalker
+
+Beizu Grand Temple
+
+Maskstealer
+
+Merchant of Beyond
+
+Pit's Petition
+
+Treasonous Mandate
+
+Mist-Stalker Zhujian
+
+Dreadmother Nuwa
+
+Gloryforger
+
+Field-Scorcher Huolong
+
+Bloodthrall Tigren
+
+Crossed Invitation
+
+Nezha of Ignited Tales
+
+Lonqua Grand Temple
+
+Evernourish Jinmenju
+
+Liang Grand Temple
+
+Reliquary-Back Bixi
+
+Storied Order
+
+Reverent Xiangliu
+
+Imaginative Ensemble
+
+Da Po, Jun's Guide
+
+Sky-Gate Temple
+
+Port-Gate Temple
+
+Dread-Gate Temple
+
+Cliff-Gate Temple
+
+Valley-Gate Temple
+
+Marsh-Gate Temple
+
+Moss-Gate Temple
+
+Roaming-Gate Temple
+
+Foam-Gate Temple
+
+City-Gate Temple
+
+Legend of the Masters
+
+Panda Bear
+
+Snake
+
+Ape
+
+Insect
+
+Bird
+
+Cat
+
+Divine Guardianship
+
+Fly Beyond
+
+Realmbreach
+
+Pilgrimage's Reward
+
+Sun's Defiance
+
+Jiufeng's Boon
+
+Supportive Performer
+
+Festival Troublemakers
+
+Tactical Battlesage
+
+Shadowtreader
+
+Jiufeng of Darkest Cycles
+
+Forgemaster's Edict
+
+Heartless Act
+
+Darkest Prayers
+
+Wake the Bones
+
+Call the Damned
+
+Pry Desire
+
+Patient Fangblade
+
+Thought-Scraper Hou
+
+Gorging Mogwai
+
+Betrayer's Finale
+
+Wangliang Shade
+
+Obsessed Jiangshi
+
+Bloodwilter
+
+Weaving Maskwright
+
+CR13 Ignited Qi Technique
+
+Huo-Brood Yearling
+
+Long-Blessed Pyredancer
+
+Endless Joys
+
+Embercaller
+
+Excited Attendee
+
+Nian Soulforger
+
+Fabled General
+
+Liang Punisher
+
+Dragonheart Ancestor
+
+Irresolute Zhubajie
+
+Bile Blaze
+
+Fiery Virtue
+
+Conquer Psyche
+
+Spiteful Prayer
+
+Zealous Rivalry
+
+Deflected Advance
+
+Millennial Greatkoi
+
+Regrow Bonds
+
+Ancestor's Presence
+
+Bounty of Heritage
+
+Malevolent Strength
+
+Strengthwarder
+
+Iron-Breaker
+
+Groundforger Pangu
+
+Impenetrable Ruishi
+
+Liang Sparrer
+
+Tireless Chronicler
+
+Festival Guide
+
+Qilin Harvestguide
+
+Rumbling Battlesage
+
+Power of Tales
+
+Accursed Legion
+
+Realmscroll
+
+Soulblessed Jian
+
+Suntouched Pond
+
+Deepwater Mire
+
+Bloodsoaked Meadow
+
+Peakcarved Village
+
+Flourishing Court
+
+Misty Monument
+
+Moldering Cavern
+
+Flooded Field
+
+Roiling Crag
+
+Festival Ground
+
+Yan Lei, Regal Outsider
+
+Jun, Draconic Visitor
+
+Hou De, Martial Master
+
+Xiao Shen, In Balance
+
+Balance
+
+Dragon
+
+Bird
+
+Demon
+
+Golem
+
+Snake
+
+Soldier
+
+Spirit
+
+Dragon
+
+Treasure
+
+Beast
+
+Copy
+
+Heir
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

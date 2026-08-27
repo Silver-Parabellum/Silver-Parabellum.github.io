@@ -14603,8 +14603,11 @@
             "loyalty": "",
             "artist": "Willa Wei",
             "alias": "",
+            "position": "0",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Realm Corrosion",
@@ -14623,8 +14626,11 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "1",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Lonqua Kingpin",
@@ -14643,8 +14649,11 @@
             "loyalty": "",
             "artist": "Zhang_Bo",
             "alias": "",
+            "position": "2",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Wild-Stoker Xiongmao",
@@ -14663,8 +14672,11 @@
             "loyalty": "",
             "artist": "Luciano Javier Carreira",
             "alias": "",
+            "position": "3",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Bountiful Fuzhu",
@@ -14683,8 +14695,11 @@
             "loyalty": "",
             "artist": "Li Ying",
             "alias": "",
+            "position": "4",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Beizu Shadowstalker",
@@ -14703,8 +14718,11 @@
             "loyalty": "",
             "artist": "Howlite",
             "alias": "",
+            "position": "5",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Fengxi Magistrate",
@@ -14723,8 +14741,11 @@
             "loyalty": "",
             "artist": "Y\u67f4\u4e0d\u4f1a\u753b\u753b",
             "alias": "",
+            "position": "6",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Gate-Bound Kun",
@@ -14743,8 +14764,11 @@
             "loyalty": "",
             "artist": "ZOUPE",
             "alias": "",
+            "position": "7",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Fervent Stageplay",
@@ -14763,8 +14787,11 @@
             "loyalty": "",
             "artist": "Elyonlz",
             "alias": "",
+            "position": "8",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Xiao Shen, Warden Aspirant",
@@ -14783,8 +14810,11 @@
             "loyalty": "",
             "artist": "Lana Marushchenko",
             "alias": "",
+            "position": "9",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Beizu Fangblade",
@@ -14803,8 +14833,11 @@
             "loyalty": "",
             "artist": "Cjsdh1000",
             "alias": "",
+            "position": "10",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Lonqua Qibinder",
@@ -14823,8 +14856,11 @@
             "loyalty": "",
             "artist": "Pengren_Siya",
             "alias": "",
+            "position": "11",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Decaying Disciple",
@@ -14843,8 +14879,11 @@
             "loyalty": "",
             "artist": "Ro_Ka_Ro_Ka",
             "alias": "",
+            "position": "12",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Enshadowed Huodou",
@@ -14863,8 +14902,11 @@
             "loyalty": "",
             "artist": "@Gigan1024896",
             "alias": "",
+            "position": "13",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Inner Blight Daoshi",
@@ -14883,8 +14925,11 @@
             "loyalty": "",
             "artist": "Zephra",
             "alias": "",
+            "position": "14",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ox-Head Guardian",
@@ -14903,8 +14948,11 @@
             "loyalty": "",
             "artist": "\u5c0f\u5b9d\u54e5",
             "alias": "",
+            "position": "15",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Hero's Downfall",
@@ -14923,8 +14971,11 @@
             "loyalty": "",
             "artist": "Moonct",
             "alias": "",
+            "position": "16",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Imperial Battlesage",
@@ -14943,8 +14994,11 @@
             "loyalty": "",
             "artist": "Zeradok",
             "alias": "",
+            "position": "17",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Read the Shadows",
@@ -14963,8 +15017,11 @@
             "loyalty": "",
             "artist": "Jianbing_Guozi",
             "alias": "",
+            "position": "18",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Soulblight Corrosion",
@@ -14983,8 +15040,11 @@
             "loyalty": "",
             "artist": "Ikurauni",
             "alias": "",
+            "position": "19",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Refuse Mortality",
@@ -15003,8 +15063,11 @@
             "loyalty": "",
             "artist": "Washiya0",
             "alias": "",
+            "position": "20",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Malevolent Scorn",
@@ -15023,8 +15086,11 @@
             "loyalty": "",
             "artist": "Chen_Hui",
             "alias": "",
+            "position": "21",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Bloodless Belle",
@@ -15043,8 +15109,11 @@
             "loyalty": "",
             "artist": "NetEase",
             "alias": "",
+            "position": "22",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Lonqua Bladewright",
@@ -15063,8 +15132,11 @@
             "loyalty": "",
             "artist": "Ye_Xing_Caomei",
             "alias": "",
+            "position": "23",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Spider Manifestation",
@@ -15083,8 +15155,11 @@
             "loyalty": "",
             "artist": "Qin_Xin",
             "alias": "",
+            "position": "24",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Peakbound Pangu",
@@ -15103,8 +15178,11 @@
             "loyalty": "",
             "artist": "Epple Rice",
             "alias": "",
+            "position": "25",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Inexperienced Pyredancer",
@@ -15123,8 +15201,11 @@
             "loyalty": "",
             "artist": "Aniao_Ya",
             "alias": "",
+            "position": "26",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Withered Penghou",
@@ -15143,8 +15224,11 @@
             "loyalty": "",
             "artist": "Jingxi",
             "alias": "",
+            "position": "27",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Mourning Yaoguai",
@@ -15163,8 +15247,11 @@
             "loyalty": "",
             "artist": "Tomo_Ro",
             "alias": "",
+            "position": "28",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Wardens Mentor",
@@ -15183,8 +15270,11 @@
             "loyalty": "",
             "artist": "@666KArt",
             "alias": "",
+            "position": "29",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Royal Custodian",
@@ -15203,8 +15293,11 @@
             "loyalty": "",
             "artist": "Chiaspicy",
             "alias": "",
+            "position": "30",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Yizan Ascetic",
@@ -15223,8 +15316,11 @@
             "loyalty": "",
             "artist": "Mugon",
             "alias": "",
+            "position": "31",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Myriad Landscape",
@@ -15243,8 +15339,11 @@
             "loyalty": "",
             "artist": "Shaiziji",
             "alias": "",
+            "position": "32",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Venerated Stage",
@@ -15263,8 +15362,11 @@
             "loyalty": "",
             "artist": "Woody_Zhou",
             "alias": "",
+            "position": "33",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ferocious Emissary",
@@ -15283,8 +15385,11 @@
             "loyalty": "",
             "artist": "Sunga2usagi",
             "alias": "",
+            "position": "34",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Xuan Wu, Stalwart Cardinal",
@@ -15303,8 +15408,11 @@
             "loyalty": "",
             "artist": "Akio_Akio_1963",
             "alias": "",
+            "position": "35",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Zhu Que, Incarnated Cardinal",
@@ -15323,8 +15431,11 @@
             "loyalty": "",
             "artist": "Mengyou_zhanshi",
             "alias": "",
+            "position": "36",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Bai Hu, Warding Cardinal",
@@ -15343,8 +15454,11 @@
             "loyalty": "",
             "artist": "Kusarukusa",
             "alias": "",
+            "position": "37",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Qin Long, Flowing Cardinal",
@@ -15363,8 +15477,11 @@
             "loyalty": "",
             "artist": "Hen_Na",
             "alias": "",
+            "position": "38",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tian Lang, Lost to Tales",
@@ -15383,8 +15500,11 @@
             "loyalty": "",
             "artist": "Jrtgl11",
             "alias": "",
+            "position": "39",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Longwang, Celestial Ancestor",
@@ -15403,8 +15523,11 @@
             "loyalty": "",
             "artist": "Kumo_Ryuun",
             "alias": "",
+            "position": "40",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Soulblighter Mage",
@@ -15423,8 +15546,11 @@
             "loyalty": "",
             "artist": "Congmin_Lan",
             "alias": "",
+            "position": "41",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Vermillion Reincarnation",
@@ -15443,8 +15569,11 @@
             "loyalty": "",
             "artist": "Ydpfa",
             "alias": "",
+            "position": "42",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Dreamsifter Kalavinka",
@@ -15463,8 +15592,11 @@
             "loyalty": "",
             "artist": "Huang_Shihu",
             "alias": "",
+            "position": "43",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Inner Flow Daoshi",
@@ -15483,8 +15615,11 @@
             "loyalty": "",
             "artist": "@_Plive",
             "alias": "",
+            "position": "44",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Reckless Studies",
@@ -15503,8 +15638,11 @@
             "loyalty": "",
             "artist": "Elise_Carret",
             "alias": "",
+            "position": "45",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Yizan Talekeeper",
@@ -15523,8 +15661,11 @@
             "loyalty": "",
             "artist": "Valtear",
             "alias": "",
+            "position": "46",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Soulblight Enervation",
@@ -15543,8 +15684,11 @@
             "loyalty": "",
             "artist": "Yoshioka_Yoshiko",
             "alias": "",
+            "position": "47",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Feng-Brood Yearling",
@@ -15563,8 +15707,11 @@
             "loyalty": "",
             "artist": "TJ_Foo",
             "alias": "",
+            "position": "48",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Lofty Denial",
@@ -15583,8 +15730,11 @@
             "loyalty": "",
             "artist": "Eudaemonm",
             "alias": "",
+            "position": "49",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Divine Connection",
@@ -15603,8 +15753,11 @@
             "loyalty": "",
             "artist": "Lana Marushchenko",
             "alias": "",
+            "position": "50",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Perfected Guard",
@@ -15623,8 +15776,11 @@
             "loyalty": "",
             "artist": "Salmon88",
             "alias": "",
+            "position": "51",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Realmbound Sentence",
@@ -15643,8 +15799,11 @@
             "loyalty": "",
             "artist": "Weibo_1581197152",
             "alias": "",
+            "position": "52",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Treasured Memory",
@@ -15663,8 +15822,11 @@
             "loyalty": "",
             "artist": "Mizuku_Hei",
             "alias": "",
+            "position": "53",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ragged Jiangshi",
@@ -15683,8 +15845,11 @@
             "loyalty": "",
             "artist": "Ainezu",
             "alias": "",
+            "position": "54",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "CR02 Wardens Flamesignaller",
@@ -15703,8 +15868,11 @@
             "loyalty": "",
             "artist": "Wataru_Rei",
             "alias": "",
+            "position": "55",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Acolyte Aspirant",
@@ -15723,8 +15891,11 @@
             "loyalty": "",
             "artist": "@NeonLaboratory",
             "alias": "",
+            "position": "56",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Dreamstoker",
@@ -15743,8 +15914,11 @@
             "loyalty": "",
             "artist": "Spectacled_Snake",
             "alias": "",
+            "position": "57",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "CR09 Crossed Defiance",
@@ -15763,8 +15937,11 @@
             "loyalty": "",
             "artist": "Edwaed Lee",
             "alias": "",
+            "position": "58",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Shenme Courtesan",
@@ -15783,8 +15960,11 @@
             "loyalty": "",
             "artist": "Hekouziran",
             "alias": "",
+            "position": "59",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "CR08 Inner Rage Daoshi",
@@ -15803,8 +15983,11 @@
             "loyalty": "",
             "artist": "Neonlabs",
             "alias": "",
+            "position": "60",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Greedy Jin Chan",
@@ -15823,8 +16006,11 @@
             "loyalty": "",
             "artist": "Alexander Leskinen",
             "alias": "",
+            "position": "61",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "CR11 Festival Preparations",
@@ -15843,8 +16029,11 @@
             "loyalty": "",
             "artist": "Demeter_Wu",
             "alias": "",
+            "position": "62",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Realm's Rebuke",
@@ -15863,8 +16052,11 @@
             "loyalty": "",
             "artist": "2:10 Animation",
             "alias": "",
+            "position": "63",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "CR10 Sudden Flourish",
@@ -15883,8 +16075,11 @@
             "loyalty": "",
             "artist": "Nai_Ga",
             "alias": "",
+            "position": "64",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Young Pyredancer",
@@ -15903,8 +16098,11 @@
             "loyalty": "",
             "artist": "Favilia",
             "alias": "",
+            "position": "65",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Yaoguai Qi-Seekers",
@@ -15923,8 +16121,11 @@
             "loyalty": "",
             "artist": "Huang Shihu",
             "alias": "",
+            "position": "66",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Reject the Malevolent",
@@ -15943,8 +16144,11 @@
             "loyalty": "",
             "artist": "Y\u67f4\u4e0d\u4f1a\u753b\u753b",
             "alias": "",
+            "position": "67",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tigren Ascetic",
@@ -15963,8 +16167,11 @@
             "loyalty": "",
             "artist": "Xiao_Xiaolong",
             "alias": "",
+            "position": "68",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Mountain's Might",
@@ -15983,8 +16190,11 @@
             "loyalty": "",
             "artist": "Deersheep",
             "alias": "",
+            "position": "69",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Imperial Storyteller",
@@ -16003,8 +16213,11 @@
             "loyalty": "",
             "artist": "Kuro_Games",
             "alias": "",
+            "position": "70",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Burgeoning Nest",
@@ -16023,8 +16236,11 @@
             "loyalty": "",
             "artist": "Peng_Lu",
             "alias": "",
+            "position": "71",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Inner Strength Daoshi",
@@ -16043,8 +16259,11 @@
             "loyalty": "",
             "artist": "@NeonLaboratory",
             "alias": "",
+            "position": "72",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Savage Zhizhujing",
@@ -16063,8 +16282,11 @@
             "loyalty": "",
             "artist": "Y\u67f4\u4e0d\u4f1a\u753b\u753b",
             "alias": "",
+            "position": "73",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Gateward Colossus",
@@ -16083,8 +16305,11 @@
             "loyalty": "",
             "artist": "Aiubao",
             "alias": "",
+            "position": "74",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Liang Protective Stance",
@@ -16103,8 +16328,11 @@
             "loyalty": "",
             "artist": "Slippy3",
             "alias": "",
+            "position": "75",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Realm Confrontation",
@@ -16123,8 +16351,11 @@
             "loyalty": "",
             "artist": "Woody_Zhou",
             "alias": "",
+            "position": "76",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Beizu Serpent-Guard",
@@ -16143,8 +16374,11 @@
             "loyalty": "",
             "artist": "Yunmaojan",
             "alias": "",
+            "position": "77",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Temple Vitalist",
@@ -16163,8 +16397,11 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "78",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tales Retold",
@@ -16183,8 +16420,11 @@
             "loyalty": "",
             "artist": "Airi_Pan",
             "alias": "",
+            "position": "79",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Windcarp Pyredancer",
@@ -16203,8 +16443,11 @@
             "loyalty": "",
             "artist": "Shan_Gui_Yu_Yao",
             "alias": "",
+            "position": "80",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Inner Peace Daoshi",
@@ -16223,8 +16466,11 @@
             "loyalty": "",
             "artist": "Grafit_Studio",
             "alias": "",
+            "position": "81",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Huyao Bondforger",
@@ -16243,8 +16489,11 @@
             "loyalty": "",
             "artist": "Kiuyan Ran Krusier",
             "alias": "",
+            "position": "82",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Breezelifted Quingqiao",
@@ -16263,8 +16512,11 @@
             "loyalty": "",
             "artist": "Cloud's Sigh",
             "alias": "",
+            "position": "83",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Balanced Acolyte",
@@ -16283,8 +16535,11 @@
             "loyalty": "",
             "artist": "BBangwoo",
             "alias": "",
+            "position": "84",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Accompanied Trueblood",
@@ -16303,8 +16558,11 @@
             "loyalty": "",
             "artist": "Suzuneko_Rin",
             "alias": "",
+            "position": "85",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Moonsight Warden",
@@ -16323,8 +16581,11 @@
             "loyalty": "",
             "artist": "Zhao_Yi",
             "alias": "",
+            "position": "86",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Revoke",
@@ -16343,8 +16604,11 @@
             "loyalty": "",
             "artist": "Greenyscrapy",
             "alias": "",
+            "position": "87",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Celestial Sanction",
@@ -16363,8 +16627,11 @@
             "loyalty": "",
             "artist": "Lana Marushchenko",
             "alias": "",
+            "position": "88",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Masters Rebuttal",
@@ -16383,8 +16650,11 @@
             "loyalty": "",
             "artist": "- Lan -",
             "alias": "",
+            "position": "89",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Skyward Leap",
@@ -16403,8 +16673,11 @@
             "loyalty": "",
             "artist": "Cai_Yu_Qing",
             "alias": "",
+            "position": "90",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tang Yang, Ji's Second",
@@ -16423,8 +16696,11 @@
             "loyalty": "",
             "artist": "Birds_Mix",
             "alias": "",
+            "position": "91",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Dijiang of Shared Blessings",
@@ -16443,8 +16719,11 @@
             "loyalty": "",
             "artist": "Egor Kapustin",
             "alias": "",
+            "position": "92",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Mox Jade",
@@ -16463,8 +16742,11 @@
             "loyalty": "",
             "artist": "Kuroduki",
             "alias": "",
+            "position": "93",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Court of the Storied",
@@ -16483,8 +16765,11 @@
             "loyalty": "",
             "artist": "Park_Jae_Cheol",
             "alias": "",
+            "position": "94",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Cyclical Wisdom",
@@ -16503,8 +16788,11 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "95",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Imperial Mediator",
@@ -16523,8 +16811,11 @@
             "loyalty": "",
             "artist": "9_vcat",
             "alias": "",
+            "position": "96",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Cauldron of Lost Authority",
@@ -16543,8 +16834,11 @@
             "loyalty": "",
             "artist": "Tim_Melnyk",
             "alias": "",
+            "position": "97",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Divine Knowledge",
@@ -16563,8 +16857,11 @@
             "loyalty": "",
             "artist": "Yao_Lee",
             "alias": "",
+            "position": "98",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Fableweaver Huxian",
@@ -16583,8 +16880,11 @@
             "loyalty": "",
             "artist": "Ruoganzhao",
             "alias": "",
+            "position": "99",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Shrine to Those Forgotten",
@@ -16603,8 +16903,11 @@
             "loyalty": "",
             "artist": "Sabou_San_Shitsu_Kokoro",
             "alias": "",
+            "position": "100",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Crossed's Lantern",
@@ -16623,8 +16926,11 @@
             "loyalty": "",
             "artist": "Kuro_Games",
             "alias": "",
+            "position": "101",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ironforged Leigong",
@@ -16643,8 +16949,11 @@
             "loyalty": "",
             "artist": "Francisco Badilla",
             "alias": "",
+            "position": "102",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Awakened Terracotta",
@@ -16663,8 +16972,11 @@
             "loyalty": "",
             "artist": "Jmxd",
             "alias": "",
+            "position": "103",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Inactive Crossing",
@@ -16683,8 +16995,11 @@
             "loyalty": "",
             "artist": "Queenoflade",
             "alias": "",
+            "position": "104",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Festival Server",
@@ -16703,8 +17018,11 @@
             "loyalty": "",
             "artist": "Lack",
             "alias": "",
+            "position": "105",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Gateward Huli Jing",
@@ -16723,8 +17041,11 @@
             "loyalty": "",
             "artist": "Gohanduck",
             "alias": "",
+            "position": "106",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Moon Rabbit Joyseeker",
@@ -16743,8 +17064,11 @@
             "loyalty": "",
             "artist": "\u674e\u84c9",
             "alias": "",
+            "position": "107",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Boonmother Nuwa",
@@ -16763,8 +17087,11 @@
             "loyalty": "",
             "artist": "Sara_contreras",
             "alias": "",
+            "position": "108",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Custodian Captain",
@@ -16783,8 +17110,11 @@
             "loyalty": "",
             "artist": "Qingqingxiaoo",
             "alias": "",
+            "position": "109",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Bifang-Blood Warden",
@@ -16803,8 +17133,11 @@
             "loyalty": "",
             "artist": "Mino Jiang",
             "alias": "",
+            "position": "110",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Hopegranter Crane",
@@ -16823,8 +17156,11 @@
             "loyalty": "",
             "artist": "Scarlet09jinliu",
             "alias": "",
+            "position": "111",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Whitehorn Ascetic",
@@ -16843,8 +17179,11 @@
             "loyalty": "",
             "artist": "Srenzhaowoduhun93130",
             "alias": "",
+            "position": "112",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Deep-Hoarder Jiaolong",
@@ -16863,8 +17202,11 @@
             "loyalty": "",
             "artist": "Kylin_Li",
             "alias": "",
+            "position": "113",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Freeze Belief",
@@ -16883,8 +17225,11 @@
             "loyalty": "",
             "artist": "Pan_Ping",
             "alias": "",
+            "position": "114",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Climb The Gate",
@@ -16903,8 +17248,11 @@
             "loyalty": "",
             "artist": "Natalia_Cabrero",
             "alias": "",
+            "position": "115",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ideal Reflection",
@@ -16923,8 +17271,11 @@
             "loyalty": "",
             "artist": "Polora",
             "alias": "",
+            "position": "116",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Spirit's Claim",
@@ -16943,8 +17294,11 @@
             "loyalty": "",
             "artist": "Yamakawa_Huangquanmonu",
             "alias": "",
+            "position": "117",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Deep Betrayal",
@@ -16963,8 +17317,11 @@
             "loyalty": "",
             "artist": "Yuki_Xia",
             "alias": "",
+            "position": "118",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Enervating Skykoi",
@@ -16983,8 +17340,11 @@
             "loyalty": "",
             "artist": "Kantakerro",
             "alias": "",
+            "position": "119",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ripplewatcher",
@@ -17003,8 +17363,11 @@
             "loyalty": "",
             "artist": "Gesshi",
             "alias": "",
+            "position": "120",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Jingwei Pyredancer",
@@ -17023,8 +17386,11 @@
             "loyalty": "",
             "artist": "Dan_Zhou",
             "alias": "",
+            "position": "121",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Soulblighted Wanderer",
@@ -17043,8 +17409,11 @@
             "loyalty": "",
             "artist": "Morry",
             "alias": "",
+            "position": "122",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Resplendent Fuzhu",
@@ -17063,8 +17432,11 @@
             "loyalty": "",
             "artist": "Cloud's Sigh",
             "alias": "",
+            "position": "123",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ancestral Guidance",
@@ -17083,8 +17455,11 @@
             "loyalty": "",
             "artist": "Maxwell_Boas",
             "alias": "",
+            "position": "124",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Yaoguai Formeater",
@@ -17103,8 +17478,11 @@
             "loyalty": "",
             "artist": "Yao_Lee",
             "alias": "",
+            "position": "125",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Witness Uniformity",
@@ -17123,8 +17501,11 @@
             "loyalty": "",
             "artist": "Y\u67f4\u4e0d\u4f1a\u753b\u753b",
             "alias": "",
+            "position": "126",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Shrine",
@@ -17143,8 +17524,11 @@
             "loyalty": "",
             "artist": "Elena_Shutkina",
             "alias": "",
+            "position": "127",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Taotie Paineater",
@@ -17163,8 +17547,11 @@
             "loyalty": "",
             "artist": "Kylin_Li",
             "alias": "",
+            "position": "128",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Cardinal Alignment",
@@ -17183,8 +17570,11 @@
             "loyalty": "",
             "artist": "Kylin_Li",
             "alias": "",
+            "position": "129",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Li Hua, Imperial Scion",
@@ -17203,8 +17593,11 @@
             "loyalty": "",
             "artist": "Krmpuris",
             "alias": "",
+            "position": "130",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ai Yao, Acclaimed Pyredancer",
@@ -17223,8 +17616,11 @@
             "loyalty": "",
             "artist": "Daymera",
             "alias": "",
+            "position": "131",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ling Guang, Discarded Vessel",
@@ -17243,8 +17639,11 @@
             "loyalty": "",
             "artist": "Shuangbatian",
             "alias": "",
+            "position": "132",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Jing Cao, Liang Prodigy",
@@ -17263,8 +17662,11 @@
             "loyalty": "",
             "artist": "Fiehn",
             "alias": "",
+            "position": "133",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "An Gong, Temple-Keeper",
@@ -17283,8 +17685,11 @@
             "loyalty": "",
             "artist": "Yuyuya",
             "alias": "",
+            "position": "134",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Xiao Shen, God-Shunned",
@@ -17303,8 +17708,11 @@
             "loyalty": "",
             "artist": "Niukou_Kouzi",
             "alias": "",
+            "position": "135",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ming Su, Reborn Lotus",
@@ -17323,8 +17731,11 @@
             "loyalty": "",
             "artist": "Zzzi_Gn",
             "alias": "",
+            "position": "136",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ji Chen, Supreme Warden",
@@ -17343,8 +17754,11 @@
             "loyalty": "",
             "artist": "Kyouran_de_Onikoushi",
             "alias": "",
+            "position": "137",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Xing Zhe, Sun's Chosen",
@@ -17363,8 +17777,11 @@
             "loyalty": "",
             "artist": "Nejita",
             "alias": "",
+            "position": "138",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Mirror-Form Technique",
@@ -17383,8 +17800,11 @@
             "loyalty": "",
             "artist": "Koharu8107",
             "alias": "",
+            "position": "139",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Imperious Geji",
@@ -17403,8 +17823,11 @@
             "loyalty": "",
             "artist": "Yao_Lee",
             "alias": "",
+            "position": "140",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Realmfarers Temple",
@@ -17423,8 +17846,11 @@
             "loyalty": "",
             "artist": "Peng_Lu",
             "alias": "",
+            "position": "141",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Qi Reapers",
@@ -17443,8 +17869,11 @@
             "loyalty": "",
             "artist": "Reuben_Yeo",
             "alias": "",
+            "position": "142",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Impose Balance",
@@ -17463,8 +17892,11 @@
             "loyalty": "",
             "artist": "yi_ke_da_cui_tao_tao",
             "alias": "",
+            "position": "143",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Splendorous Tengshe",
@@ -17483,8 +17915,11 @@
             "loyalty": "",
             "artist": "Epple_Rice",
             "alias": "",
+            "position": "144",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Patron of Celebrations",
@@ -17503,8 +17938,11 @@
             "loyalty": "",
             "artist": "Kylin_Li",
             "alias": "",
+            "position": "145",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Kingpin's Enforcer",
@@ -17523,8 +17961,11 @@
             "loyalty": "",
             "artist": "Quanquanwan",
             "alias": "",
+            "position": "146",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Dredge Thoughts",
@@ -17543,8 +17984,11 @@
             "loyalty": "",
             "artist": "Dzikawa",
             "alias": "",
+            "position": "147",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tiger Skyguard",
@@ -17563,8 +18007,11 @@
             "loyalty": "",
             "artist": "Cloud's_Sigh",
             "alias": "",
+            "position": "148",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Sun Hu, Crossed General",
@@ -17583,8 +18030,11 @@
             "loyalty": "",
             "artist": "Leo-don't-want-to-be-a-painter",
             "alias": "",
+            "position": "149",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Propagating Yaoguai",
@@ -17603,8 +18053,11 @@
             "loyalty": "",
             "artist": "Papagxiong",
             "alias": "",
+            "position": "150",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Fabled Lotus",
@@ -17623,8 +18076,11 @@
             "loyalty": "",
             "artist": "Chen_Zhang",
             "alias": "",
+            "position": "151",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Weathered Gates",
@@ -17643,8 +18099,11 @@
             "loyalty": "",
             "artist": "Dave_Greco",
             "alias": "",
+            "position": "152",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Imperial Saga",
@@ -17663,8 +18122,11 @@
             "loyalty": "",
             "artist": "Ryosios",
             "alias": "",
+            "position": "153",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Pearlcarver's Masterpiece",
@@ -17683,8 +18145,11 @@
             "loyalty": "",
             "artist": "Z3zz4",
             "alias": "",
+            "position": "154",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Nurturing Matriarch",
@@ -17703,8 +18168,11 @@
             "loyalty": "",
             "artist": "Shu_Sumika",
             "alias": "",
+            "position": "155",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Shenme Grand Temple",
@@ -17723,8 +18191,11 @@
             "loyalty": "",
             "artist": "Yao_Banyang",
             "alias": "",
+            "position": "156",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Godsbreath",
@@ -17743,8 +18214,11 @@
             "loyalty": "",
             "artist": "Dotthebot",
             "alias": "",
+            "position": "157",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Chord of Return",
@@ -17763,8 +18237,11 @@
             "loyalty": "",
             "artist": "Ideomotor",
             "alias": "",
+            "position": "158",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Moon-Chaser Tiangou",
@@ -17783,8 +18260,11 @@
             "loyalty": "",
             "artist": "JINGXI",
             "alias": "",
+            "position": "159",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Deep-Thought Kun",
@@ -17803,8 +18283,11 @@
             "loyalty": "",
             "artist": "Kaiqi_Ortileb",
             "alias": "",
+            "position": "160",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Realmguide Orator",
@@ -17823,8 +18306,11 @@
             "loyalty": "",
             "artist": "Yangmie_Miyei",
             "alias": "",
+            "position": "161",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tidal Expulsion",
@@ -17843,8 +18329,11 @@
             "loyalty": "",
             "artist": "Hanasei",
             "alias": "",
+            "position": "162",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Memories Relived",
@@ -17863,8 +18352,11 @@
             "loyalty": "",
             "artist": "Morncolour",
             "alias": "",
+            "position": "163",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Mirror Fate",
@@ -17883,8 +18375,11 @@
             "loyalty": "",
             "artist": "Jfzm001",
             "alias": "",
+            "position": "164",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Yizan Grand Temple",
@@ -17903,8 +18398,11 @@
             "loyalty": "",
             "artist": "Tim_Melnyk",
             "alias": "",
+            "position": "165",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Jiaoren Shallowstalker",
@@ -17923,8 +18421,11 @@
             "loyalty": "",
             "artist": "Zhang_Bo",
             "alias": "",
+            "position": "166",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Beizu Grand Temple",
@@ -17943,8 +18444,11 @@
             "loyalty": "",
             "artist": "Zhang_Bo",
             "alias": "",
+            "position": "167",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Maskstealer",
@@ -17963,8 +18467,11 @@
             "loyalty": "",
             "artist": "Satsuya",
             "alias": "",
+            "position": "168",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Merchant of Beyond",
@@ -17983,8 +18490,11 @@
             "loyalty": "",
             "artist": "Asa_Moi",
             "alias": "",
+            "position": "169",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Pit's Petition",
@@ -18003,8 +18513,11 @@
             "loyalty": "",
             "artist": "Leo-don't-want-to-be-a-painter",
             "alias": "",
+            "position": "170",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Treasonous Mandate",
@@ -18023,8 +18536,11 @@
             "loyalty": "",
             "artist": "Dao_Gui_Yi_Xian",
             "alias": "",
+            "position": "171",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Mist-Stalker Zhujian",
@@ -18043,8 +18559,11 @@
             "loyalty": "",
             "artist": "Saimire_Hala",
             "alias": "",
+            "position": "172",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Dreadmother Nuwa",
@@ -18063,8 +18582,11 @@
             "loyalty": "",
             "artist": "Feng_Wei",
             "alias": "",
+            "position": "173",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Gloryforger",
@@ -18083,8 +18605,11 @@
             "loyalty": "",
             "artist": "You_Yeyou0904",
             "alias": "",
+            "position": "174",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Field-Scorcher Huolong",
@@ -18103,8 +18628,11 @@
             "loyalty": "",
             "artist": "ZOUPE",
             "alias": "",
+            "position": "175",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Bloodthrall Tigren",
@@ -18123,8 +18651,11 @@
             "loyalty": "",
             "artist": "Oberyon_Blyat",
             "alias": "",
+            "position": "176",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Crossed Invitation",
@@ -18143,8 +18674,11 @@
             "loyalty": "",
             "artist": "Sakoki",
             "alias": "",
+            "position": "177",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Nezha of Ignited Tales",
@@ -18163,8 +18697,11 @@
             "loyalty": "",
             "artist": "Han_Yijie",
             "alias": "",
+            "position": "178",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Lonqua Grand Temple",
@@ -18183,8 +18720,11 @@
             "loyalty": "",
             "artist": "Heng_Tang",
             "alias": "",
+            "position": "179",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Evernourish Jinmenju",
@@ -18203,8 +18743,11 @@
             "loyalty": "",
             "artist": "Earl_Lan",
             "alias": "",
+            "position": "180",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Liang Grand Temple",
@@ -18223,8 +18766,11 @@
             "loyalty": "",
             "artist": "Yao_Bangyang",
             "alias": "",
+            "position": "181",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Reliquary-Back Bixi",
@@ -18243,8 +18789,11 @@
             "loyalty": "",
             "artist": "ZOUPE",
             "alias": "",
+            "position": "182",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Storied Order",
@@ -18263,8 +18812,11 @@
             "loyalty": "",
             "artist": "Daniel_Deng",
             "alias": "",
+            "position": "183",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Reverent Xiangliu",
@@ -18283,8 +18835,11 @@
             "loyalty": "",
             "artist": "Xiondueng_Li",
             "alias": "",
+            "position": "184",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Imaginative Ensemble",
@@ -18303,8 +18858,11 @@
             "loyalty": "",
             "artist": "One_Wang_Yaowan",
             "alias": "",
+            "position": "185",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Da Po, Jun's Guide",
@@ -18323,8 +18881,11 @@
             "loyalty": "",
             "artist": "E_Volution",
             "alias": "",
+            "position": "186",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Sky-Gate Temple",
@@ -18343,8 +18904,11 @@
             "loyalty": "",
             "artist": "Alan_Xiao",
             "alias": "",
+            "position": "187",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Port-Gate Temple",
@@ -18363,8 +18927,11 @@
             "loyalty": "",
             "artist": "Stu_Dts",
             "alias": "",
+            "position": "188",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Dread-Gate Temple",
@@ -18383,8 +18950,11 @@
             "loyalty": "",
             "artist": "Yanyang_Sui",
             "alias": "",
+            "position": "189",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Cliff-Gate Temple",
@@ -18403,8 +18973,11 @@
             "loyalty": "",
             "artist": "Han_Flores",
             "alias": "",
+            "position": "190",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Valley-Gate Temple",
@@ -18423,8 +18996,11 @@
             "loyalty": "",
             "artist": "Ting.L",
             "alias": "",
+            "position": "191",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Marsh-Gate Temple",
@@ -18443,8 +19019,11 @@
             "loyalty": "",
             "artist": "Chris_hu",
             "alias": "",
+            "position": "192",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Moss-Gate Temple",
@@ -18463,8 +19042,11 @@
             "loyalty": "",
             "artist": "Vtasart",
             "alias": "",
+            "position": "193",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Roaming-Gate Temple",
@@ -18483,8 +19065,11 @@
             "loyalty": "",
             "artist": "ZOUPE",
             "alias": "",
+            "position": "194",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Foam-Gate Temple",
@@ -18503,8 +19088,11 @@
             "loyalty": "",
             "artist": "Tim_Melnyk",
             "alias": "",
+            "position": "195",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "City-Gate Temple",
@@ -18523,8 +19111,11 @@
             "loyalty": "",
             "artist": "2-10_Animation",
             "alias": "",
+            "position": "196",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Legend of the Masters",
@@ -18543,8 +19134,11 @@
             "loyalty": "",
             "artist": "Dreamworks",
             "alias": "",
+            "position": "197",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Panda Bear",
@@ -18563,8 +19157,11 @@
             "loyalty": "",
             "artist": "Hanyijie",
             "alias": "",
+            "position": "198",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Snake",
@@ -18583,8 +19180,11 @@
             "loyalty": "",
             "artist": "Dreamworks",
             "alias": "",
+            "position": "199",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ape",
@@ -18603,8 +19203,11 @@
             "loyalty": "",
             "artist": "Dreamworks",
             "alias": "",
+            "position": "200",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Insect",
@@ -18623,8 +19226,11 @@
             "loyalty": "",
             "artist": "Dreamworks",
             "alias": "",
+            "position": "201",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Bird",
@@ -18643,8 +19249,11 @@
             "loyalty": "",
             "artist": "Dreamworks",
             "alias": "",
+            "position": "202",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Cat",
@@ -18663,8 +19272,11 @@
             "loyalty": "",
             "artist": "GXLPics",
             "alias": "",
+            "position": "203",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Divine Guardianship",
@@ -18683,8 +19295,11 @@
             "loyalty": "",
             "artist": "Dou_G_Douglasiai513",
             "alias": "",
+            "position": "204",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Fly Beyond",
@@ -18703,8 +19318,11 @@
             "loyalty": "",
             "artist": "Hundun_Hdun",
             "alias": "",
+            "position": "205",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Realmbreach",
@@ -18723,8 +19341,11 @@
             "loyalty": "",
             "artist": "Ideomotor",
             "alias": "",
+            "position": "206",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Pilgrimage's Reward",
@@ -18743,8 +19364,11 @@
             "loyalty": "",
             "artist": "Bowsman_Zy",
             "alias": "",
+            "position": "207",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Sun's Defiance",
@@ -18763,8 +19387,11 @@
             "loyalty": "",
             "artist": "Ophi0",
             "alias": "",
+            "position": "208",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Jiufeng's Boon",
@@ -18783,8 +19410,11 @@
             "loyalty": "",
             "artist": "Monokubo",
             "alias": "",
+            "position": "209",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Supportive Performer",
@@ -18803,8 +19433,11 @@
             "loyalty": "",
             "artist": "Bolichar",
             "alias": "",
+            "position": "210",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Festival Troublemakers",
@@ -18823,8 +19456,11 @@
             "loyalty": "",
             "artist": "Nemo_Ani1995",
             "alias": "",
+            "position": "211",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tactical Battlesage",
@@ -18843,8 +19479,11 @@
             "loyalty": "",
             "artist": "Nervi_Fd",
             "alias": "",
+            "position": "212",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Shadowtreader",
@@ -18863,8 +19502,11 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "213",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Jiufeng of Darkest Cycles",
@@ -18883,8 +19525,11 @@
             "loyalty": "",
             "artist": "Julia_Zyr",
             "alias": "",
+            "position": "214",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Forgemaster's Edict",
@@ -18903,8 +19548,11 @@
             "loyalty": "",
             "artist": "Han_Flores",
             "alias": "",
+            "position": "215",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Heartless Act",
@@ -18923,8 +19571,11 @@
             "loyalty": "",
             "artist": "Juuden",
             "alias": "",
+            "position": "216",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Darkest Prayers",
@@ -18943,8 +19594,11 @@
             "loyalty": "",
             "artist": "Skavenprime",
             "alias": "",
+            "position": "217",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Wake the Bones",
@@ -18963,8 +19617,11 @@
             "loyalty": "",
             "artist": "Jenner_Chen",
             "alias": "",
+            "position": "218",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Call the Damned",
@@ -18983,8 +19640,11 @@
             "loyalty": "",
             "artist": "Xin_Jin",
             "alias": "",
+            "position": "219",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Pry Desire",
@@ -19003,8 +19663,11 @@
             "loyalty": "",
             "artist": "Raya_Uk",
             "alias": "",
+            "position": "220",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Patient Fangblade",
@@ -19023,8 +19686,11 @@
             "loyalty": "",
             "artist": "Tyhaya",
             "alias": "",
+            "position": "221",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Thought-Scraper Hou",
@@ -19043,8 +19709,11 @@
             "loyalty": "",
             "artist": "Ricket_Carolyn",
             "alias": "",
+            "position": "222",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Gorging Mogwai",
@@ -19063,8 +19732,11 @@
             "loyalty": "",
             "artist": "Xi_Zhang",
             "alias": "",
+            "position": "223",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Betrayer's Finale",
@@ -19083,8 +19755,11 @@
             "loyalty": "",
             "artist": "Zassyoku_Dd",
             "alias": "",
+            "position": "224",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Wangliang Shade",
@@ -19103,8 +19778,11 @@
             "loyalty": "",
             "artist": "2-10_Animation",
             "alias": "",
+            "position": "225",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Obsessed Jiangshi",
@@ -19123,8 +19801,11 @@
             "loyalty": "",
             "artist": "Hizuki_Miya",
             "alias": "",
+            "position": "226",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Bloodwilter",
@@ -19143,8 +19824,11 @@
             "loyalty": "",
             "artist": "Kaeri",
             "alias": "",
+            "position": "227",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Weaving Maskwright",
@@ -19163,8 +19847,11 @@
             "loyalty": "",
             "artist": "Afire",
             "alias": "",
+            "position": "228",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "CR13 Ignited Qi Technique",
@@ -19183,8 +19870,11 @@
             "loyalty": "",
             "artist": "Zonegau4",
             "alias": "",
+            "position": "229",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Huo-Brood Yearling",
@@ -19203,8 +19893,11 @@
             "loyalty": "",
             "artist": "Jenner_Chen",
             "alias": "",
+            "position": "230",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Long-Blessed Pyredancer",
@@ -19223,8 +19916,11 @@
             "loyalty": "",
             "artist": "Ruoruoqiu",
             "alias": "",
+            "position": "231",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Endless Joys",
@@ -19243,8 +19939,11 @@
             "loyalty": "",
             "artist": "Yvan_Fernandes",
             "alias": "",
+            "position": "232",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Embercaller",
@@ -19263,8 +19962,11 @@
             "loyalty": "",
             "artist": "JOker_(Stjoker)",
             "alias": "",
+            "position": "233",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Excited Attendee",
@@ -19283,8 +19985,11 @@
             "loyalty": "",
             "artist": "Simian_Chuge",
             "alias": "",
+            "position": "234",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Nian Soulforger",
@@ -19303,8 +20008,11 @@
             "loyalty": "",
             "artist": "Hope",
             "alias": "",
+            "position": "235",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Fabled General",
@@ -19323,8 +20031,11 @@
             "loyalty": "",
             "artist": "Weber_Aki",
             "alias": "",
+            "position": "236",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Liang Punisher",
@@ -19343,8 +20054,11 @@
             "loyalty": "",
             "artist": "\u5e7d\u84dd",
             "alias": "",
+            "position": "237",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Dragonheart Ancestor",
@@ -19363,8 +20077,11 @@
             "loyalty": "",
             "artist": "Demeter_Wu",
             "alias": "",
+            "position": "238",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Irresolute Zhubajie",
@@ -19383,8 +20100,11 @@
             "loyalty": "",
             "artist": "Zi_Zhang",
             "alias": "",
+            "position": "239",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Bile Blaze",
@@ -19403,8 +20123,11 @@
             "loyalty": "",
             "artist": "Earl_Lan",
             "alias": "",
+            "position": "240",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Fiery Virtue",
@@ -19423,8 +20146,11 @@
             "loyalty": "",
             "artist": "Con_Potata",
             "alias": "",
+            "position": "241",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Conquer Psyche",
@@ -19443,8 +20169,11 @@
             "loyalty": "",
             "artist": "Zhuzhiji_Zulu",
             "alias": "",
+            "position": "242",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Spiteful Prayer",
@@ -19463,8 +20192,11 @@
             "loyalty": "",
             "artist": "Ste7619",
             "alias": "",
+            "position": "243",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Zealous Rivalry",
@@ -19483,8 +20215,11 @@
             "loyalty": "",
             "artist": "Kaifei_(Kaifei_29)",
             "alias": "",
+            "position": "244",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Deflected Advance",
@@ -19503,8 +20238,11 @@
             "loyalty": "",
             "artist": "Woody_Zhou",
             "alias": "",
+            "position": "245",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Millennial Greatkoi",
@@ -19523,8 +20261,11 @@
             "loyalty": "",
             "artist": "Lim_Wai_Yee",
             "alias": "",
+            "position": "246",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Regrow Bonds",
@@ -19543,8 +20284,11 @@
             "loyalty": "",
             "artist": "Kirina_Zero",
             "alias": "",
+            "position": "247",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Ancestor's Presence",
@@ -19563,8 +20307,11 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "248",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Bounty of Heritage",
@@ -19583,8 +20330,11 @@
             "loyalty": "",
             "artist": "Ukumo_Uichi",
             "alias": "",
+            "position": "249",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Malevolent Strength",
@@ -19603,8 +20353,11 @@
             "loyalty": "",
             "artist": "Shinigami_Wyvern",
             "alias": "",
+            "position": "250",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Strengthwarder",
@@ -19623,8 +20376,11 @@
             "loyalty": "",
             "artist": "Ali_Duo_Mu",
             "alias": "",
+            "position": "251",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Iron-Breaker",
@@ -19643,8 +20399,11 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "252",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Groundforger Pangu",
@@ -19663,8 +20422,11 @@
             "loyalty": "",
             "artist": "Deersheep",
             "alias": "",
+            "position": "253",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Impenetrable Ruishi",
@@ -19683,8 +20445,11 @@
             "loyalty": "",
             "artist": "Corina_Gabriela",
             "alias": "",
+            "position": "254",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Liang Sparrer",
@@ -19703,8 +20468,11 @@
             "loyalty": "",
             "artist": "Zephra",
             "alias": "",
+            "position": "255",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Tireless Chronicler",
@@ -19723,8 +20491,11 @@
             "loyalty": "",
             "artist": "Heichuan_Qianshi",
             "alias": "",
+            "position": "256",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Festival Guide",
@@ -19743,8 +20514,11 @@
             "loyalty": "",
             "artist": "Quasarcake",
             "alias": "",
+            "position": "257",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Qilin Harvestguide",
@@ -19763,8 +20537,11 @@
             "loyalty": "",
             "artist": "Varvara_Sklyarevskaya",
             "alias": "",
+            "position": "258",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Rumbling Battlesage",
@@ -19783,8 +20560,11 @@
             "loyalty": "",
             "artist": "Masin0201",
             "alias": "",
+            "position": "259",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Power of Tales",
@@ -19803,8 +20583,11 @@
             "loyalty": "",
             "artist": "Malai_Lo",
             "alias": "",
+            "position": "260",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Accursed Legion",
@@ -19823,8 +20606,11 @@
             "loyalty": "",
             "artist": "Toy_E",
             "alias": "",
+            "position": "261",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Realmscroll",
@@ -19843,8 +20629,11 @@
             "loyalty": "",
             "artist": "Ting.L",
             "alias": "",
+            "position": "262",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Soulblessed Jian",
@@ -19863,8 +20652,11 @@
             "loyalty": "",
             "artist": "Kuro_Games",
             "alias": "",
+            "position": "263",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Suntouched Pond",
@@ -19883,8 +20675,11 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "264",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Deepwater Mire",
@@ -19903,8 +20698,11 @@
             "loyalty": "",
             "artist": "The_Ranyu",
             "alias": "",
+            "position": "265",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Bloodsoaked Meadow",
@@ -19923,8 +20721,11 @@
             "loyalty": "",
             "artist": "C_Z",
             "alias": "",
+            "position": "266",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Peakcarved Village",
@@ -19943,8 +20744,11 @@
             "loyalty": "",
             "artist": "Maxwell_boas",
             "alias": "",
+            "position": "267",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Flourishing Court",
@@ -19963,8 +20767,11 @@
             "loyalty": "",
             "artist": "Luckyia",
             "alias": "",
+            "position": "268",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Misty Monument",
@@ -19983,8 +20790,11 @@
             "loyalty": "",
             "artist": "Leo-don't-want-to-be-a-painter",
             "alias": "",
+            "position": "269",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Moldering Cavern",
@@ -20003,8 +20813,11 @@
             "loyalty": "",
             "artist": "Zhang_Bo",
             "alias": "",
+            "position": "270",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Flooded Field",
@@ -20023,8 +20836,11 @@
             "loyalty": "",
             "artist": "Hypergriph",
             "alias": "",
+            "position": "271",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Roiling Crag",
@@ -20043,8 +20859,11 @@
             "loyalty": "",
             "artist": "Dongbiao_Lu",
             "alias": "",
+            "position": "272",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Festival Ground",
@@ -20063,8 +20882,11 @@
             "loyalty": "",
             "artist": "2-10_Animation",
             "alias": "",
+            "position": "273",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Swamp",
@@ -20083,8 +20905,11 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "274",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Mountain",
@@ -20103,8 +20928,11 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "275",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Island",
@@ -20123,8 +20951,11 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "276",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Forest",
@@ -20143,8 +20974,11 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "277",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Plains",
@@ -20163,8 +20997,11 @@
             "loyalty": "",
             "artist": "Wenjun_Lin",
             "alias": "",
+            "position": "278",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Yan Lei, Regal Outsider",
@@ -20183,8 +21020,11 @@
             "loyalty": "4",
             "artist": "san_sui_dingshang_ya",
             "alias": "",
+            "position": "279",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Jun, Draconic Visitor",
@@ -20203,8 +21043,11 @@
             "loyalty": "6",
             "artist": "Pembiklimon",
             "alias": "",
+            "position": "280",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Hou De, Martial Master",
@@ -20223,8 +21066,11 @@
             "loyalty": "3",
             "artist": "Lanzen_Wu",
             "alias": "",
+            "position": "281",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Xiao Shen, In Balance",
@@ -20243,8 +21089,11 @@
             "loyalty": "4",
             "artist": "Ye_Xing_Caomei",
             "alias": "",
+            "position": "282",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Balance",
@@ -20263,8 +21112,11 @@
             "loyalty": "",
             "artist": "Mei_Ren",
             "alias": "",
+            "position": "283",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Dragon",
@@ -20283,8 +21135,11 @@
             "loyalty": "",
             "artist": "JINGXI",
             "alias": "",
+            "position": "284",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Bird",
@@ -20303,8 +21158,11 @@
             "loyalty": "",
             "artist": "Ion_932",
             "alias": "",
+            "position": "285",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Demon",
@@ -20323,8 +21181,11 @@
             "loyalty": "",
             "artist": "Feng_Wei",
             "alias": "",
+            "position": "286",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Golem",
@@ -20343,8 +21204,11 @@
             "loyalty": "",
             "artist": "Y\u67f4\u4e0d\u4f1a\u753b\u753b",
             "alias": "",
+            "position": "287",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Snake",
@@ -20363,8 +21227,11 @@
             "loyalty": "",
             "artist": "Chun_Lo",
             "alias": "",
+            "position": "288",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Soldier",
@@ -20383,8 +21250,11 @@
             "loyalty": "",
             "artist": "hei_yan-m82a1",
             "alias": "",
+            "position": "289",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Spirit",
@@ -20403,8 +21273,11 @@
             "loyalty": "",
             "artist": "Herro_Zhao",
             "alias": "",
+            "position": "290",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Dragon",
@@ -20423,8 +21296,11 @@
             "loyalty": "",
             "artist": "JINGXI",
             "alias": "",
+            "position": "291",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Treasure",
@@ -20443,8 +21319,11 @@
             "loyalty": "",
             "artist": "Joe_Howarrd",
             "alias": "",
+            "position": "292",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Beast",
@@ -20463,8 +21342,11 @@
             "loyalty": "",
             "artist": "Maycol_J_Perez",
             "alias": "",
+            "position": "293",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Copy",
@@ -20483,8 +21365,11 @@
             "loyalty": "",
             "artist": "Woodylix",
             "alias": "",
+            "position": "294",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "Heir",
@@ -20503,8 +21388,11 @@
             "loyalty": "",
             "artist": "Zishengtian123",
             "alias": "",
+            "position": "295",
+            "rotated": false,
             "notes": "",
-            "image_type": "png"
+            "image_type": "png",
+            "v_mana": ""
         },
         {
             "card_name": "W01-",
