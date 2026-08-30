@@ -5,7 +5,7 @@
 			<name>SSC</name>
 			<longname>Shiyue: Soul&apos;s Crossing</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-08-27</releasedate>
+			<releasedate>2026-08-30</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -54,11 +54,11 @@ When Lonqua Kingpin enters, if a creature you control died this turn, draw two c
 				<side>front</side>
 				<type>Creature — Rat Rogue</type>
 				<maintype>Creature</maintype>
-				<manacost>BR</manacost>
-				<cmc>2</cmc>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
 				<colors>BR</colors>
 				<coloridentity>BR</coloridentity>
-				<pt>2/1</pt>
+				<pt>3/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -77,7 +77,7 @@ When Wild-Stoker Xiongmao enters, put a +1/+1 counter on each other creature you
 				<cmc>7</cmc>
 				<colors>RG</colors>
 				<coloridentity>RG</coloridentity>
-				<pt>4/4</pt>
+				<pt>5/5</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -190,7 +190,7 @@ When Gate-Bound Kun enters, venerate twice. (You may reveal and put a Shrine car
 		<card>
 			<name>Beizu Fangblade</name>
 			<text>Deathtouch
-Whenever Beizu Fangblade enters or you put one or more counters on a permanent, surveil 1.</text>
+Whenever Beizu Fangblade enters or you put one or more counters on a permanent, surveil 1. This ability triggers only once each turn.</text>
 			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/10.png" num="78">SSC</set>
 			<prop>
 				<layout>normal</layout>
@@ -608,7 +608,7 @@ Yizan Ascetic gets +1/+1 as long as you control another creature with flying.</t
 			<name>Ferocious Emissary</name>
 			<text>Ferocious Emissary gets +2/+2 and has flying as long as you control a Dragon.
 If you would draw a card, you may instead search your library for a Dragon card, reveal it, put it into your hand, then shuffle. Ferocious Emissary deals damage to you equal to that card&apos;s power.</text>
-			<set rarity="mythic" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/34.png" num="133">SSC</set>
+			<set rarity="mythic" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/34.png" num="128">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -693,8 +693,8 @@ If you would draw a card, you may instead search your library for a Dragon card,
 		<card>
 			<name>Tian Lang, Lost to Tales</name>
 			<text>Lifelink
-When Tian Lang, Lost to Tales enters or attacks, each player sacrifices a creature.
-Whenever another creature dies, you draw a card and lose 1 life.</text>
+When Tian Lang, Lost to Tales enters or attacks, you may have each player sacrifice a creature.
+Whenever a creature dies, you may pay 1 life. If you do, draw a card.</text>
 			<set rarity="mythic" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/39.png" num="110">SSC</set>
 			<prop>
 				<layout>normal</layout>
@@ -749,7 +749,7 @@ When Soulblighter Mage enters, target instant or sorcery card in your graveyard 
 			<name>Vermillion Reincarnation</name>
 			<text>Exile target creature. That creature&apos;s controller reveals cards from the top of their library until they reveal a creature card. That player puts that card onto the battlefield, then shuffles the rest into their library.
 Trespass {5}{R}{R} (You may cast this spell from your graveyard for {5}{R}{R}, and may sacrifice a creature to reduce that cost by {X}, where X is its power. Then exile this spell.)</text>
-			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/42.png" num="148">SSC</set>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/42.png" num="147">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -972,10 +972,10 @@ Whenever a token you control enters, put a +1/+1 counter on Ragged Jiangshi.</te
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR02 Wardens Flamesignaller</name>
+			<name>Wardens Flamesignaller</name>
 			<text>Reach
 Whenever Wardens Flamesignaller becomes tapped, add {R}. Until end of turn, you don&apos;t lose this mana as steps and phases end.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/55.png" num="119">SSC</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/55.png" num="148">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1010,7 +1010,7 @@ Whenever Wardens Flamesignaller becomes tapped, add {R}. Until end of turn, you 
 			<name>Dreamstoker</name>
 			<text>Yin-yang (If you control four or more tapped and four or more untapped permanents, become balanced for the rest of the game.)
 Whenever Dreamstoker attacks, it gains first strike until end of turn. If you&apos;re balanced, it gains double strike instead.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/57.png" num="128">SSC</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/57.png" num="123">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1028,7 +1028,7 @@ Whenever Dreamstoker attacks, it gains first strike until end of turn. If you&ap
 			<name>CR09 Crossed Defiance</name>
 			<text>Crossed Defiance deals 2 damage to any target.
 Trespass {4}{R}{R} (You may cast this spell from your graveyard for {4}{R}{R}, and may sacrifice a creature to reduce that cost by {X}, where X is its power. Then exile this spell.)</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/58.png" num="121">SSC</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/58.png" num="119">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1046,7 +1046,7 @@ Trespass {4}{R}{R} (You may cast this spell from your graveyard for {4}{R}{R}, a
 			<text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature&apos;s color.)
 Haste
 When Shenme Courtesan enters, up to one target creature can&apos;t block this turn.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/59.png" num="146">SSC</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/59.png" num="144">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1061,11 +1061,11 @@ When Shenme Courtesan enters, up to one target creature can&apos;t block this tu
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR08 Inner Rage Daoshi</name>
+			<name>Inner Rage Daoshi</name>
 			<text>Trample
 Whenever Inner Rage Daoshi attacks, another target creature you control gets +2/+0 and gains trample until end of turn.
 Mountaincycling {1}{R} ({1}{R}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/60.png" num="120">SSC</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/60.png" num="136">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1082,7 +1082,7 @@ Mountaincycling {1}{R} ({1}{R}, Discard this card: Search your library for a Mou
 		<card>
 			<name>Greedy Jin Chan</name>
 			<text></text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/61.png" num="137">SSC</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/61.png" num="133">SSC</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -1097,10 +1097,10 @@ Mountaincycling {1}{R} ({1}{R}, Discard this card: Search your library for a Mou
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR11 Festival Preparations</name>
+			<name>Festival Preparations</name>
 			<text>As an additional cost to cast this spell, sacrifice an enchantment or discard a card.
 Draw two cards.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/62.png" num="123">SSC</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/62.png" num="129">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1117,7 +1117,7 @@ Draw two cards.</text>
 			<name>Realm&apos;s Rebuke</name>
 			<text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature&apos;s color.)
 Realm&apos;s Rebuke deals damage to target creature or planeswalker equal to the number of lands you control.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/63.png" num="145">SSC</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/63.png" num="143">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1131,11 +1131,11 @@ Realm&apos;s Rebuke deals damage to target creature or planeswalker equal to the
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR10 Sudden Flourish</name>
+			<name>Sudden Flourish</name>
 			<text>Choose one — 
 • Destroy target artifact.
 • Target creature gets +3/+2 and gains trample until end of turn.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/64.png" num="122">SSC</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/64.png" num="146">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2025,7 +2025,7 @@ Venerate. (You may reveal and put a Shrine card you own from outside the game in
 		</card>
 		<card>
 			<name>Climb The Gate</name>
-			<text>Whenever you cast a spell from your graveyard, create a 3/3 blue Dragon enchantment creature token.</text>
+			<text>Whenever you cast a spell from your graveyard, create a 3/3 blue Dragon enchantment creature token with flying.</text>
 			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/115.png" num="41">SSC</set>
 			<prop>
 				<layout>normal</layout>
@@ -2693,16 +2693,15 @@ If you would create one or more tokens, you may instead create that many tokens 
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>Imperial Saga</name>
-			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Imperial Saga gains &quot;{T}: Add {C}.&quot;
-Imperial Saga gains &quot;{T}, Pay 1 life: Add one mana of any color.&quot;
-Search your library for an enchantment card with mana value 1 or less and that shares a color with a permanent you control, put it onto the battlefield, then shuffle.</text>
+			<name>Imperial Throne</name>
+			<text>Yin-yang (If you control four or more tapped and four or more untapped permanents, become balanced for the rest of the game.)
+{T}: Add {C}. If Imperial Throne entered this turn, you may add one mana of any color instead.
+{5}, {T}: Create a 3/3 blue Dragon enchantment creature token with flying. Activate only if you&apos;re balanced.</text>
 			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/153.png" num="261">SSC</set>
 			<prop>
-				<layout>saga</layout>
+				<layout>normal</layout>
 				<side>front</side>
-				<type>Enchantment Land — Saga</type>
+				<type>Land</type>
 				<maintype>Land</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
@@ -2985,14 +2984,14 @@ When Merchant of Beyond enters, surveil 1.
 		<card>
 			<name>Pit&apos;s Petition</name>
 			<text>Search your library for a card, exile it, then shuffle. If this spell was cast from a graveyard, you may put that card into your hand. If you don&apos;t, put it into your graveyard.
-Trespass {4}{B}{B} (You may cast this spell from your graveyard for {4}{B}{B}, and may sacrifice a creature to reduce that cost by {X}, where X is its power. Then exile this spell.)</text>
+Trespass {5}{B} (You may cast this spell from your graveyard for {5}{B}, and may sacrifice a creature to reduce that cost by {X}, where X is its power. Then exile this spell.)</text>
 			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/170.png" num="103">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>1BB</manacost>
+				<manacost>2B</manacost>
 				<cmc>3</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
@@ -3053,9 +3052,9 @@ Swampcycling {2B} ({2B}, Discard this card: Search your library for a Swamp card
 		</card>
 		<card>
 			<name>Gloryforger</name>
-			<text>If one or more tokens would be created under your control, those tokens plus that many Treasure tokens are created instead.
-{1}{R}: Creatures you control get +1/+0 until end of turn.</text>
-			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/174.png" num="136">SSC</set>
+			<text>If one or more tokens would be created under your control, those tokens plus that many tapped Treasure tokens are created instead.
+{1}{R}: Creatures you control get +1/+0 and gain haste until end of turn.</text>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/174.png" num="132">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3074,7 +3073,7 @@ Swampcycling {2B} ({2B}, Discard this card: Search your library for a Swamp card
 			<text>Flying
 Whenever a Mountain you control enters, Field-Scorcher Huolong deals 3 damage to any target.
 Mountaincycling {2R} ({2R}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)</text>
-			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/175.png" num="134">SSC</set>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/175.png" num="130">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3110,7 +3109,7 @@ Bloodthrall Tigren&apos;s power is equal to the greatest mana value among creatu
 			<name>Crossed Invitation</name>
 			<text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature&apos;s color.)
 At the beginning of combat on your turn, gain control of target creature an opponent controls until end of turn. Untap it. It gains haste until end of turn.</text>
-			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/177.png" num="125">SSC</set>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/177.png" num="120">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3126,7 +3125,7 @@ At the beginning of combat on your turn, gain control of target creature an oppo
 		<card>
 			<name>Nezha of Ignited Tales</name>
 			<text></text>
-			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/178.png" num="143">SSC</set>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/178.png" num="141">SSC</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -3143,7 +3142,7 @@ At the beginning of combat on your turn, gain control of target creature an oppo
 		<card>
 			<name>Lonqua Grand Temple</name>
 			<text>At the beginning of combat on your turn, create an X/1 colorless Golem artifact creature token with haste, where X is the number of Shrines you control. Sacrifice it at the beginning of the next end step.</text>
-			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/179.png" num="142">SSC</set>
+			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/179.png" num="140">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3209,9 +3208,8 @@ Forestcycling {2G} ({2G}, Discard this card: Search your library for a Forest ca
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Storied Order</name>
-			<text>As an additional cost to cast this spell, sacrifice a creature with power 4 or greater.
-Search your library for a green enchantment card, put it onto the battlefield, then shuffle.</text>
+			<name>Storied Possibility</name>
+			<text>Look at the top six cards of your library. You may put up to two enchantment cards with total mana value 6 or less from among them onto the battlefield, and the rest on the bottom of your library in any order.</text>
 			<set rarity="rare" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/183.png" num="182">SSC</set>
 			<prop>
 				<layout>normal</layout>
@@ -3313,15 +3311,15 @@ Whenever a land you control enters, copy the next loyalty ability you activate t
 		</card>
 		<card>
 			<name>Dread-Gate Temple</name>
-			<text>At the beginning of combat on your turn, create a 1/1 red Demon enchantment creature token with haste. At the beginning of your next end step, sacrifice that token unless you control three or more Shrines.</text>
+			<text>At the beginning of combat on your turn, create a tapped Treasure token, then Dread-Gate Temple deals 1 damage to you for each Treasure you control unless you control three or more Shrines.</text>
 			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/189.png" num="217">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Legendary Enchantment — Shrine</type>
 				<maintype>Enchantment</maintype>
-				<manacost>2B/R</manacost>
-				<cmc>3</cmc>
+				<manacost>1B/R</manacost>
+				<cmc>2</cmc>
 				<colors>BR</colors>
 				<coloridentity>BR</coloridentity>
 			</prop>
@@ -3409,15 +3407,15 @@ Whenever a land you control enters, copy the next loyalty ability you activate t
 		</card>
 		<card>
 			<name>Foam-Gate Temple</name>
-			<text>At the beginning of combat on your turn, switch up to one target creature&apos;s power and toughness until end of turn if you control it, or control three or more Shrines.</text>
+			<text>At the beginning of combat on your turn, you may have Foam-Gate Temple become a copy of target creature you control until end of turn if it has mana value 4 or less or you control three or more Shrines.</text>
 			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/195.png" num="218">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Legendary Enchantment — Shrine</type>
 				<maintype>Enchantment</maintype>
-				<manacost>1U/R</manacost>
-				<cmc>2</cmc>
+				<manacost>2U/R</manacost>
+				<cmc>3</cmc>
 				<colors>UR</colors>
 				<coloridentity>UR</coloridentity>
 			</prop>
@@ -3989,7 +3987,7 @@ Whenever you attack, if you&apos;re balanced, you may return Obsessed Jiangshi f
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Spider Monk</type>
+				<type>Enchantment Creature — Spider Monk</type>
 				<maintype>Creature</maintype>
 				<manacost>1B</manacost>
 				<cmc>2</cmc>
@@ -4000,9 +3998,9 @@ Whenever you attack, if you&apos;re balanced, you may return Obsessed Jiangshi f
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR13 Ignited Qi Technique</name>
+			<name>Ignited Qi Technique</name>
 			<text>Ignited Qi Technique deals 6 damage to target creature and 2 damage to up to one target creature token.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/229.png" num="124">SSC</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/229.png" num="135">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4019,7 +4017,7 @@ Whenever you attack, if you&apos;re balanced, you may return Obsessed Jiangshi f
 			<name>Huo-Brood Yearling</name>
 			<text>Flying
 When Huo-Brood Yearling enters, you may sacrifice another creature or enchantment. If you do, exile the top two cards of your library. until the end of your next turn, you may play those cards.</text>
-			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/230.png" num="138">SSC</set>
+			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/230.png" num="134">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4037,7 +4035,7 @@ When Huo-Brood Yearling enters, you may sacrifice another creature or enchantmen
 			<name>Long-Blessed Pyredancer</name>
 			<text>Yin-yang (If you control four or more tapped and four or more untapped permanents, become balanced for the rest of the game.)
 Whenever Long-Blessed Pyredancer attacks, you may pay {1}{R}. If you do, create a tapped and attacking 3/1 red Dragon enchantment creature token. Sacrifice it at end of combat unless you&apos;re balanced.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/231.png" num="141">SSC</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/231.png" num="139">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4056,7 +4054,7 @@ Whenever Long-Blessed Pyredancer attacks, you may pay {1}{R}. If you do, create 
 			<text>Exile the top card of your library. You may play it this turn.
 You may cast Endless Joys from exile.
 Trespass {3}{R} (You may cast this spell from your graveyard for {3}{R}, and may sacrifice a creature to reduce that cost by {X}, where X is its power. Then exile this spell.)</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/232.png" num="130">SSC</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/232.png" num="125">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4072,7 +4070,7 @@ Trespass {3}{R} (You may cast this spell from your graveyard for {3}{R}, and may
 		<card>
 			<name>Embercaller</name>
 			<text>{T}: Add two mana of any one color. Spend this mana only to cast Dragon spells or activate abilities of Dragon sources.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/233.png" num="129">SSC</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/233.png" num="124">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4090,7 +4088,7 @@ Trespass {3}{R} (You may cast this spell from your graveyard for {3}{R}, and may
 			<name>Excited Attendee</name>
 			<text>Haste
 At the beginning of your end step, if Excited Attendee attacked this turn, return a creature you control to its owner&apos;s hand.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/234.png" num="131">SSC</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/234.png" num="126">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4107,7 +4105,7 @@ At the beginning of your end step, if Excited Attendee attacked this turn, retur
 		<card>
 			<name>Nian Soulforger</name>
 			<text></text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/235.png" num="144">SSC</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/235.png" num="142">SSC</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -4126,7 +4124,7 @@ At the beginning of your end step, if Excited Attendee attacked this turn, retur
 			<text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature&apos;s color.)
 Double strike
 Fabled General&apos;s power is equal to the number of creatures you control.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/236.png" num="132">SSC</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/236.png" num="127">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4144,7 +4142,7 @@ Fabled General&apos;s power is equal to the number of creatures you control.</te
 			<name>Liang Punisher</name>
 			<text>Reach
 If a source you control with mana value 4 or greater would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus 2 instead.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/237.png" num="140">SSC</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/237.png" num="138">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4162,7 +4160,7 @@ If a source you control with mana value 4 or greater would deal damage to an opp
 			<name>Dragonheart Ancestor</name>
 			<text>Flying, haste
 When Dragonheart Ancestor enters, exile up to one target instant or sorcery card with mana value 2 or less from your graveyard. Until end of turn, you may cast a copy of it without paying its mana cost.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/238.png" num="127">SSC</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/238.png" num="122">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4179,7 +4177,7 @@ When Dragonheart Ancestor enters, exile up to one target instant or sorcery card
 		<card>
 			<name>Irresolute Zhubajie</name>
 			<text></text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/239.png" num="139">SSC</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/239.png" num="137">SSC</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -4212,7 +4210,7 @@ When Dragonheart Ancestor enters, exile up to one target instant or sorcery card
 		<card>
 			<name>Fiery Virtue</name>
 			<text>Creature tokens you control get +1/+0 and have haste.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/241.png" num="135">SSC</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/241.png" num="131">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4245,7 +4243,7 @@ When Dragonheart Ancestor enters, exile up to one target instant or sorcery card
 			<name>Spiteful Prayer</name>
 			<text>When Spiteful Prayer enters, venerate. (You may reveal and put a Shrine card you own from outside the game into your hand, or create a 1/1 colorless Shrine enchantment creature token.)
 Whenever another enchantment you control enters or dies, Spiteful Prayer deals 1 damage to each opponent.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/243.png" num="147">SSC</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/243.png" num="145">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4280,7 +4278,7 @@ Whenever another enchantment you control enters or dies, Spiteful Prayer deals 1
 			<name>Deflected Advance</name>
 			<text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature&apos;s color.)
 Change the target of target spell or ability with a single target.</text>
-			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/245.png" num="126">SSC</set>
+			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/245.png" num="121">SSC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4384,8 +4382,8 @@ Trespass {5}{G}{G} (You may cast this spell from your graveyard for {5}{G}{G}, a
 		</card>
 		<card>
 			<name>Strengthwarder</name>
-			<text>Vigilance
-When Strengthwarder enters, remove all counters from up to one target permanent. If you do, you gain that much life.</text>
+			<text>Haste
+When Strengthwarder enters, remove all counters from up to one target permanent. If you do, up to one target creature gets +1/+1 for each counter removed this way,</text>
 			<set rarity="uncommon" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/251.png" num="183">SSC</set>
 			<prop>
 				<layout>normal</layout>
@@ -4396,7 +4394,7 @@ When Strengthwarder enters, remove all counters from up to one target permanent.
 				<cmc>4</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
-				<pt>4/3</pt>
+				<pt>4/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -4476,7 +4474,7 @@ When Iron-Breaker enters, it fights up to one target creature you don&apos;t con
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Kirin Monk</type>
+				<type>Creature — Human Advisor</type>
 				<maintype>Creature</maintype>
 				<manacost>2G</manacost>
 				<cmc>3</cmc>

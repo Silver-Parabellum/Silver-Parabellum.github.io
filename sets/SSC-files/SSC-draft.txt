@@ -23,7 +23,7 @@
 		{
 			"name": "Lonqua Kingpin",
 			"rarity": "uncommon",
-			"mana_cost": "{B}{R}",
+			"mana_cost": "{1}{B}{R}",
 			"type": "Creature — Rat Rogue",
 			"collector_number": "202",
 			"image_uris": {
@@ -345,7 +345,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{R}{R}",
 			"type": "Creature — Human Monk",
-			"collector_number": "133",
+			"collector_number": "128",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/34.png"
 			}
@@ -425,7 +425,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "148",
+			"collector_number": "147",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/42.png"
 			}
@@ -551,11 +551,11 @@
 			}
 		},
 		{
-			"name": "CR02 Wardens Flamesignaller",
+			"name": "Wardens Flamesignaller",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "119",
+			"collector_number": "148",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/55.png"
 			}
@@ -575,7 +575,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Warlock",
-			"collector_number": "128",
+			"collector_number": "123",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/57.png"
 			}
@@ -585,7 +585,7 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "121",
+			"collector_number": "119",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/58.png"
 			}
@@ -595,17 +595,17 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Enchantment Creature — Fox Citizen",
-			"collector_number": "146",
+			"collector_number": "144",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/59.png"
 			}
 		},
 		{
-			"name": "CR08 Inner Rage Daoshi",
+			"name": "Inner Rage Daoshi",
 			"rarity": "common",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Creature — Panda Bear Monk",
-			"collector_number": "120",
+			"collector_number": "136",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/60.png"
 			}
@@ -615,17 +615,17 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Enchantment Creature — Saga Frog",
-			"collector_number": "137",
+			"collector_number": "133",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/61.png"
 			}
 		},
 		{
-			"name": "CR11 Festival Preparations",
+			"name": "Festival Preparations",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "123",
+			"collector_number": "129",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/62.png"
 			}
@@ -635,17 +635,17 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "145",
+			"collector_number": "143",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/63.png"
 			}
 		},
 		{
-			"name": "CR10 Sudden Flourish",
+			"name": "Sudden Flourish",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "122",
+			"collector_number": "146",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/64.png"
 			}
@@ -1531,10 +1531,10 @@
 			}
 		},
 		{
-			"name": "Imperial Saga",
+			"name": "Imperial Throne",
 			"rarity": "rare",
 			"mana_cost": "",
-			"type": "Enchantment Land — Saga",
+			"type": "Land",
 			"collector_number": "261",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/153.png"
@@ -1703,7 +1703,7 @@
 		{
 			"name": "Pit's Petition",
 			"rarity": "rare",
-			"mana_cost": "{1}{B}{B}",
+			"mana_cost": "{2}{B}",
 			"type": "Sorcery",
 			"collector_number": "103",
 			"image_uris": {
@@ -1745,7 +1745,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Azra Artificer",
-			"collector_number": "136",
+			"collector_number": "132",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/174.png"
 			}
@@ -1755,7 +1755,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}{R}",
 			"type": "Enchantment Creature — Dragon",
-			"collector_number": "134",
+			"collector_number": "130",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/175.png"
 			}
@@ -1775,7 +1775,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}{R}",
 			"type": "Enchantment",
-			"collector_number": "125",
+			"collector_number": "120",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/177.png"
 			}
@@ -1785,7 +1785,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment Creature — Saga Demon",
-			"collector_number": "143",
+			"collector_number": "141",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/178.png"
 			}
@@ -1795,7 +1795,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Enchantment — Shrine",
-			"collector_number": "142",
+			"collector_number": "140",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/179.png"
 			}
@@ -1831,7 +1831,7 @@
 			}
 		},
 		{
-			"name": "Storied Order",
+			"name": "Storied Possibility",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Sorcery",
@@ -1893,7 +1893,7 @@
 		{
 			"name": "Dread-Gate Temple",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{B/R}",
+			"mana_cost": "{1}{B/R}",
 			"type": "Legendary Enchantment — Shrine",
 			"collector_number": "217",
 			"image_uris": {
@@ -1953,7 +1953,7 @@
 		{
 			"name": "Foam-Gate Temple",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{U/R}",
+			"mana_cost": "{2}{U/R}",
 			"type": "Legendary Enchantment — Shrine",
 			"collector_number": "218",
 			"image_uris": {
@@ -2284,18 +2284,18 @@
 			"name": "Weaving Maskwright",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Spider Monk",
+			"type": "Enchantment Creature — Spider Monk",
 			"collector_number": "114",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/228.png"
 			}
 		},
 		{
-			"name": "CR13 Ignited Qi Technique",
+			"name": "Ignited Qi Technique",
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Instant",
-			"collector_number": "124",
+			"collector_number": "135",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/229.png"
 			}
@@ -2305,7 +2305,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Enchantment Creature — Dragon",
-			"collector_number": "138",
+			"collector_number": "134",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/230.png"
 			}
@@ -2315,7 +2315,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Performer",
-			"collector_number": "141",
+			"collector_number": "139",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/231.png"
 			}
@@ -2325,7 +2325,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "130",
+			"collector_number": "125",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/232.png"
 			}
@@ -2335,7 +2335,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Dragon Warlock",
-			"collector_number": "129",
+			"collector_number": "124",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/233.png"
 			}
@@ -2345,7 +2345,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Creature — Human Citizen",
-			"collector_number": "131",
+			"collector_number": "126",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/234.png"
 			}
@@ -2355,7 +2355,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Enchantment Creature — Saga Dragon",
-			"collector_number": "144",
+			"collector_number": "142",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/235.png"
 			}
@@ -2365,7 +2365,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Enchantment Creature — Monkey Soldier",
-			"collector_number": "132",
+			"collector_number": "127",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/236.png"
 			}
@@ -2375,7 +2375,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Wolf Monk",
-			"collector_number": "140",
+			"collector_number": "138",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/237.png"
 			}
@@ -2385,7 +2385,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{R}{R}",
 			"type": "Enchantment Creature — Dragon",
-			"collector_number": "127",
+			"collector_number": "122",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/238.png"
 			}
@@ -2395,7 +2395,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment Creature — Saga Boar",
-			"collector_number": "139",
+			"collector_number": "137",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/239.png"
 			}
@@ -2415,7 +2415,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment",
-			"collector_number": "135",
+			"collector_number": "131",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/241.png"
 			}
@@ -2435,7 +2435,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Enchantment",
-			"collector_number": "147",
+			"collector_number": "145",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/243.png"
 			}
@@ -2455,7 +2455,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Instant",
-			"collector_number": "126",
+			"collector_number": "121",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/245.png"
 			}
@@ -2564,7 +2564,7 @@
 			"name": "Tireless Chronicler",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Kirin Monk",
+			"type": "Creature — Human Advisor",
 			"collector_number": "186",
 			"image_uris": {
 				"en": "https://Silver-Parabellum.github.io/sets/SSC-files/img/256.png"
@@ -3005,7 +3005,7 @@
 	2 Propagating Yaoguai
 	2 Fabled Lotus
 	2 Weathered Gates
-	2 Imperial Saga
+	2 Imperial Throne
 	2 Pearlcarver's Masterpiece
 	2 Nurturing Matriarch
 	2 Shenme Grand Temple
@@ -3035,7 +3035,7 @@
 	2 Evernourish Jinmenju
 	2 Liang Grand Temple
 	2 Reliquary-Back Bixi
-	2 Storied Order
+	2 Storied Possibility
 	2 Reverent Xiangliu
 	2 Imaginative Ensemble
 	2 Da Po, Jun's Guide
@@ -3179,16 +3179,16 @@
 	8 Realmbound Sentence
 	8 Treasured Memory
 	8 Ragged Jiangshi
-	8 CR02 Wardens Flamesignaller
+	8 Wardens Flamesignaller
 	8 Acolyte Aspirant
 	8 Dreamstoker
 	8 CR09 Crossed Defiance
 	8 Shenme Courtesan
-	8 CR08 Inner Rage Daoshi
+	8 Inner Rage Daoshi
 	8 Greedy Jin Chan
-	8 CR11 Festival Preparations
+	8 Festival Preparations
 	8 Realm's Rebuke
-	8 CR10 Sudden Flourish
+	8 Sudden Flourish
 	8 Young Pyredancer
 	8 Yaoguai Qi-Seekers
 	8 Reject the Malevolent
@@ -3223,7 +3223,7 @@
 	8 Taotie Paineater
 	8 Festival Troublemakers
 	8 Shadowtreader
-	8 CR13 Ignited Qi Technique
+	8 Ignited Qi Technique
 	8 Huo-Brood Yearling
 	8 Suntouched Pond
 	8 Deepwater Mire
@@ -3270,16 +3270,16 @@
 	8 Realmbound Sentence
 	8 Treasured Memory
 	8 Ragged Jiangshi
-	8 CR02 Wardens Flamesignaller
+	8 Wardens Flamesignaller
 	8 Acolyte Aspirant
 	8 Dreamstoker
 	8 CR09 Crossed Defiance
 	8 Shenme Courtesan
-	8 CR08 Inner Rage Daoshi
+	8 Inner Rage Daoshi
 	8 Greedy Jin Chan
-	8 CR11 Festival Preparations
+	8 Festival Preparations
 	8 Realm's Rebuke
-	8 CR10 Sudden Flourish
+	8 Sudden Flourish
 	8 Young Pyredancer
 	8 Yaoguai Qi-Seekers
 	8 Reject the Malevolent
@@ -3314,7 +3314,7 @@
 	8 Taotie Paineater
 	8 Festival Troublemakers
 	8 Shadowtreader
-	8 CR13 Ignited Qi Technique
+	8 Ignited Qi Technique
 	8 Huo-Brood Yearling
 	8 Suntouched Pond
 	8 Deepwater Mire
@@ -3382,16 +3382,16 @@
 	12 Realmbound Sentence
 	12 Treasured Memory
 	12 Ragged Jiangshi
-	12 CR02 Wardens Flamesignaller
+	12 Wardens Flamesignaller
 	12 Acolyte Aspirant
 	12 Dreamstoker
 	12 CR09 Crossed Defiance
 	12 Shenme Courtesan
-	12 CR08 Inner Rage Daoshi
+	12 Inner Rage Daoshi
 	12 Greedy Jin Chan
-	12 CR11 Festival Preparations
+	12 Festival Preparations
 	12 Realm's Rebuke
-	12 CR10 Sudden Flourish
+	12 Sudden Flourish
 	12 Young Pyredancer
 	12 Yaoguai Qi-Seekers
 	12 Reject the Malevolent
@@ -3479,7 +3479,7 @@
 	2 Propagating Yaoguai
 	2 Fabled Lotus
 	2 Weathered Gates
-	2 Imperial Saga
+	2 Imperial Throne
 	2 Pearlcarver's Masterpiece
 	2 Nurturing Matriarch
 	2 Shenme Grand Temple
@@ -3509,7 +3509,7 @@
 	2 Evernourish Jinmenju
 	2 Liang Grand Temple
 	2 Reliquary-Back Bixi
-	2 Storied Order
+	2 Storied Possibility
 	2 Reverent Xiangliu
 	2 Imaginative Ensemble
 	2 Da Po, Jun's Guide
@@ -3548,7 +3548,7 @@
 	6 Obsessed Jiangshi
 	6 Bloodwilter
 	6 Weaving Maskwright
-	12 CR13 Ignited Qi Technique
+	12 Ignited Qi Technique
 	12 Huo-Brood Yearling
 	6 Long-Blessed Pyredancer
 	6 Endless Joys
@@ -3653,16 +3653,16 @@
 	6 Realmbound Sentence
 	6 Treasured Memory
 	6 Ragged Jiangshi
-	6 CR02 Wardens Flamesignaller
+	6 Wardens Flamesignaller
 	6 Acolyte Aspirant
 	6 Dreamstoker
 	6 CR09 Crossed Defiance
 	6 Shenme Courtesan
-	6 CR08 Inner Rage Daoshi
+	6 Inner Rage Daoshi
 	6 Greedy Jin Chan
-	6 CR11 Festival Preparations
+	6 Festival Preparations
 	6 Realm's Rebuke
-	6 CR10 Sudden Flourish
+	6 Sudden Flourish
 	6 Young Pyredancer
 	6 Yaoguai Qi-Seekers
 	6 Reject the Malevolent
@@ -3750,7 +3750,7 @@
 	7 Propagating Yaoguai
 	7 Fabled Lotus
 	7 Weathered Gates
-	7 Imperial Saga
+	7 Imperial Throne
 	7 Pearlcarver's Masterpiece
 	7 Nurturing Matriarch
 	7 Shenme Grand Temple
@@ -3780,7 +3780,7 @@
 	7 Evernourish Jinmenju
 	7 Liang Grand Temple
 	7 Reliquary-Back Bixi
-	7 Storied Order
+	7 Storied Possibility
 	7 Reverent Xiangliu
 	7 Imaginative Ensemble
 	7 Da Po, Jun's Guide
@@ -3819,7 +3819,7 @@
 	15 Obsessed Jiangshi
 	15 Bloodwilter
 	15 Weaving Maskwright
-	6 CR13 Ignited Qi Technique
+	6 Ignited Qi Technique
 	6 Huo-Brood Yearling
 	15 Long-Blessed Pyredancer
 	15 Endless Joys

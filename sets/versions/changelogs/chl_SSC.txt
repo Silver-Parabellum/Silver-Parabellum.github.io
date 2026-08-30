@@ -1,4 +1,77 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Wardens Flamesignaller added.
+Inner Rage Daoshi added.
+Festival Preparations added.
+Sudden Flourish added.
+Imperial Throne added.
+Storied Possibility added.
+Ignited Qi Technique added.
+
+CR02 Wardens Flamesignaller removed.
+CR08 Inner Rage Daoshi removed.
+CR11 Festival Preparations removed.
+CR10 Sudden Flourish removed.
+Imperial Saga removed.
+Storied Order removed.
+CR13 Ignited Qi Technique removed.
+
+Lonqua Kingpin
+cost: {B}{R} => {1}{B}{R}
+pt: 2/1 => 3/1
+
+Wild-Stoker Xiongmao
+pt: 4/4 => 5/5
+
+Beizu Fangblade
+rules_text: Deathtouch
+Whenever Beizu Fangblade enters or you put one or more counters on a permanent, surveil 1. => Deathtouch
+Whenever Beizu Fangblade enters or you put one or more counters on a permanent, surveil 1. This ability triggers only once each turn.
+
+Tian Lang, Lost to Tales
+rules_text: Lifelink
+When Tian Lang, Lost to Tales enters or attacks, each player sacrifices a creature.
+Whenever another creature dies, you draw a card and lose 1 life. => Lifelink
+When Tian Lang, Lost to Tales enters or attacks, you may have each player sacrifice a creature.
+Whenever a creature dies, you may pay 1 life. If you do, draw a card.
+
+Climb The Gate
+rules_text: Whenever you cast a spell from your graveyard, create a 3/3 blue Dragon enchantment creature token. => Whenever you cast a spell from your graveyard, create a 3/3 blue Dragon enchantment creature token with flying.
+
+Pit's Petition
+cost: {1}{B}{B} => {2}{B}
+rules_text: Search your library for a card, exile it, then shuffle. If this spell was cast from a graveyard, you may put that card into your hand. If you don't, put it into your graveyard.
+Trespass {4}{B}{B} [i](You may cast this spell from your graveyard for {4}{B}{B}, and may sacrifice a creature to reduce that cost by {X}, where X is its power. Then exile this spell.)[/i] => Search your library for a card, exile it, then shuffle. If this spell was cast from a graveyard, you may put that card into your hand. If you don't, put it into your graveyard.
+Trespass {5}{B} [i](You may cast this spell from your graveyard for {5}{B}, and may sacrifice a creature to reduce that cost by {X}, where X is its power. Then exile this spell.)[/i]
+
+Gloryforger
+rules_text: If one or more tokens would be created under your control, those tokens plus that many Treasure tokens are created instead.
+{1}{R}: Creatures you control get +1/+0 until end of turn. => If one or more tokens would be created under your control, those tokens plus that many tapped Treasure tokens are created instead.
+{1}{R}: Creatures you control get +1/+0 and gain haste until end of turn.
+
+Dread-Gate Temple
+cost: {2}{BR} => {1}{BR}
+rules_text: At the beginning of combat on your turn, create a 1/1 red Demon enchantment creature token with haste. At the beginning of your next end step, sacrifice that token unless you control three or more Shrines. => At the beginning of combat on your turn, create a tapped Treasure token, then Dread-Gate Temple deals 1 damage to you for each Treasure you control unless you control three or more Shrines.
+
+Foam-Gate Temple
+cost: {1}{UR} => {2}{UR}
+rules_text: At the beginning of combat on your turn, switch up to one target creature's power and toughness until end of turn if you control it, or control three or more Shrines. => At the beginning of combat on your turn, you may have Foam-Gate Temple become a copy of target creature you control until end of turn if it has mana value 4 or less or you control three or more Shrines.
+
+Weaving Maskwright
+type: Creature — Spider Monk => Enchantment Creature — Spider Monk
+
+Strengthwarder
+rules_text: Vigilance
+When Strengthwarder enters, remove all counters from up to one target permanent. If you do, you gain that much life. => Haste
+When Strengthwarder enters, remove all counters from up to one target permanent. If you do, up to one target creature gets +1/+1 for each counter removed this way,
+pt: 4/3 => 4/4
+
+Tireless Chronicler
+type: Creature — Kirin Monk => Creature — Human Advisor
+
+
+VERSION 2 CHANGELOG
 ====================
 
 

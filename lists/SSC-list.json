@@ -25,7 +25,7 @@
     },
     {
         "card_name": "Ferocious Emissary",
-        "number": 133,
+        "number": 128,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -145,7 +145,7 @@
     },
     {
         "card_name": "Crossed Invitation",
-        "number": 125,
+        "number": 120,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -185,7 +185,7 @@
     },
     {
         "card_name": "Field-Scorcher Huolong",
-        "number": 134,
+        "number": 130,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -225,7 +225,7 @@
     },
     {
         "card_name": "Gloryforger",
-        "number": 136,
+        "number": 132,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -265,7 +265,7 @@
     },
     {
         "card_name": "Lonqua Grand Temple",
-        "number": 142,
+        "number": 140,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -305,7 +305,7 @@
     },
     {
         "card_name": "Nezha of Ignited Tales",
-        "number": 143,
+        "number": 141,
         "shape": "saga",
         "set": "SSC",
         "rotated": false,
@@ -345,14 +345,14 @@
     },
     {
         "card_name": "Vermillion Reincarnation",
-        "number": 148,
+        "number": 147,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
         "position": "42"
     },
     {
-        "card_name": "Storied Order",
+        "card_name": "Storied Possibility",
         "number": 182,
         "shape": "normal",
         "set": "SSC",
@@ -465,7 +465,7 @@
     },
     {
         "card_name": "Deflected Advance",
-        "number": 126,
+        "number": 121,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -505,7 +505,7 @@
     },
     {
         "card_name": "Dragonheart Ancestor",
-        "number": 127,
+        "number": 122,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -545,7 +545,7 @@
     },
     {
         "card_name": "Embercaller",
-        "number": 129,
+        "number": 124,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -585,7 +585,7 @@
     },
     {
         "card_name": "Endless Joys",
-        "number": 130,
+        "number": 125,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -625,7 +625,7 @@
     },
     {
         "card_name": "Excited Attendee",
-        "number": 131,
+        "number": 126,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -665,7 +665,7 @@
     },
     {
         "card_name": "Fabled General",
-        "number": 132,
+        "number": 127,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -705,7 +705,7 @@
     },
     {
         "card_name": "Fiery Virtue",
-        "number": 135,
+        "number": 131,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -745,7 +745,7 @@
     },
     {
         "card_name": "Irresolute Zhubajie",
-        "number": 139,
+        "number": 137,
         "shape": "saga",
         "set": "SSC",
         "rotated": false,
@@ -785,7 +785,7 @@
     },
     {
         "card_name": "Liang Punisher",
-        "number": 140,
+        "number": 138,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -825,7 +825,7 @@
     },
     {
         "card_name": "Long-Blessed Pyredancer",
-        "number": 141,
+        "number": 139,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -865,7 +865,7 @@
     },
     {
         "card_name": "Nian Soulforger",
-        "number": 144,
+        "number": 142,
         "shape": "saga",
         "set": "SSC",
         "rotated": false,
@@ -905,7 +905,7 @@
     },
     {
         "card_name": "Spiteful Prayer",
-        "number": 147,
+        "number": 145,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -1024,12 +1024,12 @@
         "position": "12"
     },
     {
-        "card_name": "CR02 Wardens Flamesignaller",
+        "card_name": "CR09 Crossed Defiance",
         "number": 119,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
-        "position": "55"
+        "position": "58"
     },
     {
         "card_name": "Burgeoning Nest",
@@ -1064,12 +1064,12 @@
         "position": "13"
     },
     {
-        "card_name": "CR08 Inner Rage Daoshi",
-        "number": 120,
+        "card_name": "Dreamstoker",
+        "number": 123,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
-        "position": "60"
+        "position": "57"
     },
     {
         "card_name": "Gateward Colossus",
@@ -1104,12 +1104,12 @@
         "position": "16"
     },
     {
-        "card_name": "CR09 Crossed Defiance",
-        "number": 121,
+        "card_name": "Festival Preparations",
+        "number": 129,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
-        "position": "58"
+        "position": "62"
     },
     {
         "card_name": "Imperial Storyteller",
@@ -1144,12 +1144,12 @@
         "position": "17"
     },
     {
-        "card_name": "CR10 Sudden Flourish",
-        "number": 122,
-        "shape": "normal",
+        "card_name": "Greedy Jin Chan",
+        "number": 133,
+        "shape": "saga",
         "set": "SSC",
         "rotated": false,
-        "position": "64"
+        "position": "61"
     },
     {
         "card_name": "Inner Strength Daoshi",
@@ -1184,12 +1184,12 @@
         "position": "14"
     },
     {
-        "card_name": "CR11 Festival Preparations",
-        "number": 123,
+        "card_name": "Huo-Brood Yearling",
+        "number": 134,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
-        "position": "62"
+        "position": "230"
     },
     {
         "card_name": "Liang Protective Stance",
@@ -1224,8 +1224,8 @@
         "position": "11"
     },
     {
-        "card_name": "CR13 Ignited Qi Technique",
-        "number": 124,
+        "card_name": "Ignited Qi Technique",
+        "number": 135,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
@@ -1264,12 +1264,12 @@
         "position": "21"
     },
     {
-        "card_name": "Dreamstoker",
-        "number": 128,
+        "card_name": "Inner Rage Daoshi",
+        "number": 136,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
-        "position": "57"
+        "position": "60"
     },
     {
         "card_name": "Realm Confrontation",
@@ -1304,12 +1304,12 @@
         "position": "15"
     },
     {
-        "card_name": "Greedy Jin Chan",
-        "number": 137,
-        "shape": "saga",
+        "card_name": "Realm's Rebuke",
+        "number": 143,
+        "shape": "normal",
         "set": "SSC",
         "rotated": false,
-        "position": "61"
+        "position": "63"
     },
     {
         "card_name": "Reject the Malevolent",
@@ -1344,12 +1344,12 @@
         "position": "18"
     },
     {
-        "card_name": "Huo-Brood Yearling",
-        "number": 138,
+        "card_name": "Shenme Courtesan",
+        "number": 144,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
-        "position": "230"
+        "position": "59"
     },
     {
         "card_name": "Savage Zhizhujing",
@@ -1384,12 +1384,12 @@
         "position": "20"
     },
     {
-        "card_name": "Realm's Rebuke",
-        "number": 145,
+        "card_name": "Sudden Flourish",
+        "number": 146,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
-        "position": "63"
+        "position": "64"
     },
     {
         "card_name": "Taotie Paineater",
@@ -1424,12 +1424,12 @@
         "position": "213"
     },
     {
-        "card_name": "Shenme Courtesan",
-        "number": 146,
+        "card_name": "Wardens Flamesignaller",
+        "number": 148,
         "shape": "normal",
         "set": "SSC",
         "rotated": false,
-        "position": "59"
+        "position": "55"
     },
     {
         "card_name": "Tigren Ascetic",
@@ -2284,9 +2284,9 @@
         "position": "94"
     },
     {
-        "card_name": "Imperial Saga",
+        "card_name": "Imperial Throne",
         "number": 261,
-        "shape": "saga",
+        "shape": "normal",
         "set": "SSC",
         "rotated": false,
         "position": "153"
