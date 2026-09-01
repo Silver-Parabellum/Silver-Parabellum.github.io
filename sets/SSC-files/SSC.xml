@@ -5,7 +5,7 @@
 			<name>SSC</name>
 			<longname>Shiyue: Soul&apos;s Crossing</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-08-30</releasedate>
+			<releasedate>2026-09-01</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -313,7 +313,8 @@ When Ox-Head Guardian dies, venerate. (You may reveal and put a Shrine card you 
 		<card>
 			<name>Imperial Battlesage</name>
 			<text>Yin-yang (If you control four or more tapped and four or more untapped permanents, become balanced for the rest of the game.)
-During your turn, Imperial Battlesage has deathtouch and indestructible as long as you&apos;re balanced.</text>
+Deathtouch
+During your turn, Imperial Battlesage has indestructible as long as you&apos;re balanced.</text>
 			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/17.png" num="92">SSC</set>
 			<prop>
 				<layout>normal</layout>
@@ -852,7 +853,7 @@ Trespass {4}{U} (You may cast this spell from your graveyard for {4}{U}, and may
 		<card>
 			<name>Feng-Brood Yearling</name>
 			<text>Flying
-When Feng-Brood Yearling enters, venerate (You may reveal and put a Shrine card you own from outside the game into your hand, or create a 1/1 colorless Shrine enchantment creature token.)</text>
+When Feng-Brood Yearling enters, venerate. (You may reveal and put a Shrine card you own from outside the game into your hand, or create a 1/1 colorless Shrine enchantment creature token.)</text>
 			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/48.png" num="49">SSC</set>
 			<prop>
 				<layout>normal</layout>
@@ -1025,7 +1026,7 @@ Whenever Dreamstoker attacks, it gains first strike until end of turn. If you&ap
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR09 Crossed Defiance</name>
+			<name>Crossed Defiance</name>
 			<text>Crossed Defiance deals 2 damage to any target.
 Trespass {4}{R}{R} (You may cast this spell from your graveyard for {4}{R}{R}, and may sacrifice a creature to reduce that cost by {X}, where X is its power. Then exile this spell.)</text>
 			<set rarity="common" picurl="https://Silver-Parabellum.github.io/sets/SSC-files/img/58.png" num="119">SSC</set>

@@ -1,4 +1,23 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+Crossed Defiance added.
+
+CR09 Crossed Defiance removed.
+
+Imperial Battlesage
+rules_text: Yin-yang [i](If you control four or more tapped and four or more untapped permanents, become balanced for the rest of the game.)[/i]
+During your turn, Imperial Battlesage has deathtouch and indestructible as long as you're balanced. => Yin-yang [i](If you control four or more tapped and four or more untapped permanents, become balanced for the rest of the game.)[/i]
+Deathtouch
+During your turn, Imperial Battlesage has indestructible as long as you're balanced.
+
+Feng-Brood Yearling
+rules_text: Flying
+When Feng-Brood Yearling enters, venerate [i](You may reveal and put a Shrine card you own from outside the game into your hand, or create a 1/1 colorless Shrine enchantment creature token.)[/i] => Flying
+When Feng-Brood Yearling enters, venerate. [i](You may reveal and put a Shrine card you own from outside the game into your hand, or create a 1/1 colorless Shrine enchantment creature token.)[/i]
+
+
+VERSION 3 CHANGELOG
 ====================
 
 Wardens Flamesignaller added.

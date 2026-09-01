@@ -581,7 +581,7 @@
 			}
 		},
 		{
-			"name": "CR09 Crossed Defiance",
+			"name": "Crossed Defiance",
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
@@ -3182,7 +3182,7 @@
 	8 Wardens Flamesignaller
 	8 Acolyte Aspirant
 	8 Dreamstoker
-	8 CR09 Crossed Defiance
+	8 Crossed Defiance
 	8 Shenme Courtesan
 	8 Inner Rage Daoshi
 	8 Greedy Jin Chan
@@ -3273,7 +3273,7 @@
 	8 Wardens Flamesignaller
 	8 Acolyte Aspirant
 	8 Dreamstoker
-	8 CR09 Crossed Defiance
+	8 Crossed Defiance
 	8 Shenme Courtesan
 	8 Inner Rage Daoshi
 	8 Greedy Jin Chan
@@ -3385,7 +3385,7 @@
 	12 Wardens Flamesignaller
 	12 Acolyte Aspirant
 	12 Dreamstoker
-	12 CR09 Crossed Defiance
+	12 Crossed Defiance
 	12 Shenme Courtesan
 	12 Inner Rage Daoshi
 	12 Greedy Jin Chan
@@ -3656,7 +3656,7 @@
 	6 Wardens Flamesignaller
 	6 Acolyte Aspirant
 	6 Dreamstoker
-	6 CR09 Crossed Defiance
+	6 Crossed Defiance
 	6 Shenme Courtesan
 	6 Inner Rage Daoshi
 	6 Greedy Jin Chan

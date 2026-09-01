@@ -14985,7 +14985,7 @@
             "number": 92,
             "color_identity": "B",
             "cost": "{4}{B}",
-            "rules_text": "Yin-yang [i](If you control four or more tapped and four or more untapped permanents, become balanced for the rest of the game.)[/i]\nDuring your turn, Imperial Battlesage has deathtouch and indestructible as long as you're balanced.",
+            "rules_text": "Yin-yang [i](If you control four or more tapped and four or more untapped permanents, become balanced for the rest of the game.)[/i]\nDeathtouch\nDuring your turn, Imperial Battlesage has indestructible as long as you're balanced.",
             "flavor_text": "[i][/i]",
             "pt": "5/4",
             "special_text": "",
@@ -15698,7 +15698,7 @@
             "number": 49,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Flying\nWhen Feng-Brood Yearling enters, venerate [i](You may reveal and put a Shrine card you own from outside the game into your hand, or create a 1/1 colorless Shrine enchantment creature token.)[/i]",
+            "rules_text": "Flying\nWhen Feng-Brood Yearling enters, venerate. [i](You may reveal and put a Shrine card you own from outside the game into your hand, or create a 1/1 colorless Shrine enchantment creature token.)[/i]",
             "flavor_text": "[i]Dragons of the feng lineage posses an unmatched curiosity for the mortal's prayers.[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -15921,7 +15921,7 @@
             "v_mana": ""
         },
         {
-            "card_name": "CR09 Crossed Defiance",
+            "card_name": "Crossed Defiance",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
