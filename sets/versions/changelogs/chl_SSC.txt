@@ -1,4 +1,325 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+Derelict Temple added.
+Qi-Shift Technique added.
+Write Out added.
+Storyteller's Expertise added.
+
+Shrine to Those Forgotten removed.
+Mirror-Form Technique removed.
+Godsbreath removed.
+Storied Possibility removed.
+Demon removed.
+
+Xiao Shen, Warden Aspirant
+rules_text: Whenever Xiao Shen becomes tapped, exile the top card of your library. You may play it this turn. => Whenever Xiao Shen, Warden Aspirant becomes tapped, exile the top card of your library. As long as you control Xiao Shen, you may play it this turn.
+
+Ferocious Emissary
+rules_text: Ferocious Emissary gets +2/+2 and has flying as long as you control a Dragon.
+If you would draw a card, you may instead search your library for a Dragon card, reveal it, put it into your hand, then shuffle. Ferocious Emissary deals damage to you equal to that card's power. => Ferocious Emissary gets +2/+2 and has flying as long as you control a Dragon creature.
+If you would draw a card, you may instead search your library for a Dragon card, reveal it, put it into your hand, then shuffle. Ferocious Emissary deals damage to you equal to that card's power.
+
+Xuan Wu, Stalwart Cardinal
+
+Tian Lang, Lost to Tales
+rules_text: Lifelink
+When Tian Lang, Lost to Tales enters or attacks, you may have each player sacrifice a creature.
+Whenever a creature dies, you may pay 1 life. If you do, draw a card. => Lifelink
+When Tian Lang, Lost to Tales enters or attacks, you may have each player sacrifice a creature.
+Whenever another creature dies, you may pay 1 life. If you do, draw a card.
+
+Soulblighter Mage
+
+Lofty Denial
+
+Young Pyredancer
+rules_text: Young Pyredancer gets +2/+0 and has menace as long as you sacrificed a permanent this turn. => Young Pyredancer gets +2/+0 and has menace as long as you sacrificed a nonland permanent this turn.
+
+Tang Yang, Ji's Second
+
+Cyclical Wisdom
+rules_text: Yin-yang [i](If you control four or more tapped and four or more untapped permanents, become balanced for the rest of the game.)[/i]
+Cyclical Wisdom can't be copied.
+Copy target spell, activated ability, or trigger ability. if you're balanced, copy that spell or ability thrice instead. You may choose new targets for the copies. => Yin-yang [i](If you control four or more tapped and four or more untapped permanents, become balanced for the rest of the game.)[/i]
+Cyclical Wisdom can't be copied.
+Copy target spell, activated ability, or triggered ability. if you're balanced, copy that spell or ability thrice instead. You may choose new targets for the copies.
+
+Cauldron of Lost Authority
+rules_text: If a creature an opponent controls would die, exile it instead.
+{X}{B}, {T}, Sacrifice a creature: Put a creature card with mana value X exiled with Cauldron of Lost Authority onto the battlefield under your control. => If a creature an opponent controls would die, exile it instead.
+{X}{B}, {T}, Sacrifice a creature: Put a creature card with mana value X exiled with Cauldron of Lost Authority onto the battlefield under your control. Activate only as a sorcery.
+
+Divine Knowledge
+
+Fableweaver Huxian
+type: Enchantment Creature — Fox Shapeshifter => Creature — Fox Shapeshifter
+
+Inactive Crossing
+rules_text: Inactive Crossing enters tapped unless it's your first, second, or third turn of the game.
+As Inactive Crossing enters, choose a color.
+{T}: Add one mana of the chosen color. => {T}: Add {C}.
+{T}: Add one mana of any color a basic land you control could produce.
+
+Festival Server
+rules_text: Whenever an enchantment you control enters, put a +1/+1 counter on Festival Server.
+Whenever Festival Server dies, draw a card if its power was 4 or greater. => Whenever an enchantment you control enters, put a +1/+1 counter on Festival Server.
+Whenever Festival Server dies, you gain life equal to its power.
+
+Gateward Huli Jing
+rules_text: Ward {2}
+When Gateward Huli Jing enters, exile up to one other target creature until Gateward Huli Jing leaves the battlefield. => Ward 1li
+When Gateward Huli Jing enters, exile up to one target creature you don't control until Gateward Huli Jing leaves the battlefield.
+
+Climb The Gate
+rules_text: Whenever you cast a spell from your graveyard, create a 3/3 blue Dragon enchantment creature token with flying. => Whenever you cast a spell from your graveyard, create a 3/3 blue Dragon enchantment creature token with flying. This ability triggers only once each turn.
+
+Enervating Skykoi
+
+Jingwei Pyredancer
+pt: 2/1 => 1/1
+
+Ancestral Guidance
+
+Ling Guang, Discarded Vessel
+rules_text: Heir — Spells or abilities you control have caused players to discard six or more cards this game. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Flying, ward—Pay 3 life.
+Ling Guang, Discarded Vessel gets -1/-1 for each card in your hand. => Heir — Spells or abilities you control have caused players to discard five or more cards this game. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Flying, ward—Pay 3 life.
+Ling Guang, Discarded Vessel gets -1/-1 for each card in your hand.
+special_text: Heir — Spells or abilities you control have caused players to discard six or more cards this game. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Flying, ward—Pay 3 life.
+Ling Guang, Discarded Vessel gets -1/-1 for each card in your hand. => Heir — Spells or abilities you control have caused players to discard five or more cards this game. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Flying, ward—Pay 3 life.
+Ling Guang, Discarded Vessel gets -1/-1 for each card in your hand.
+
+Ming Su, Reborn Lotus
+rules_text: Heir — Four or more cards have been put into your hand from outside the game this game. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Vigilance
+When Ming Su, Reborn Lotus enters, if it was cast, you may reveal a nonlegendary instant, sorcery or creature card you own from outside the game and put it into your hand. => Heir — Four or more cards have been put into your hand from outside the game this game. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Vigilance
+When Ming Su, Reborn Lotus enters, if she was cast, you may reveal a nonlegendary instant, sorcery or creature card you own from outside the game and put it into your hand.
+special_text: Heir — Four or more cards have been put into your hand from outside the game this game. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Vigilance
+When Ming Su, Reborn Lotus enters, if it was cast, you may reveal a nonlegendary instant, sorcery or creature card you own from outside the game and put it into your hand. => Heir — Four or more cards have been put into your hand from outside the game this game. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Vigilance
+When Ming Su, Reborn Lotus enters, if she was cast, you may reveal a nonlegendary instant, sorcery or creature card you own from outside the game and put it into your hand.
+
+Ji Chen, Supreme Warden
+rules_text: Heir — Declaring an attack has caused four or more abilities of permanents you control to trigger this game. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Once each turn, whenever you attack, untap each creature that attacked this turn. After this phase, there is an additional combat phase. => Heir — Declaring an attack has caused four or more abilities of permanents you control to trigger this game. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Whenever Ji Chen, Supreme Warden attacks, untap each creature that attacked this turn. After this phase, there is an additional combat phase. This ability triggers only once each turn.
+special_text: Heir — Declaring an attack has caused four or more abilities of permanents you control to trigger this game. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Once each turn, whenever you attack, untap each creature that attacked this turn. After this phase, there is an additional combat phase. => Heir — Declaring an attack has caused four or more abilities of permanents you control to trigger this game. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Whenever Ji Chen, Supreme Warden attacks, untap each creature that attacked this turn. After this phase, there is an additional combat phase. This ability triggers only once each turn.
+
+Xing Zhe, Sun's Chosen
+pt: 3/2 => 3/1
+
+Imperious Geji
+rules_text: Convoke [i](Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)[/i]
+Lifelink
+When Imperious Geji enters, it deals damage to any target equal to the number of creatures you control. => Convoke [i](Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)[/i]
+Lifelink
+When Imperious Geji enters, it deals damage to up to one target creature or planeswalker equal to the number of creatures you control.
+
+Realmfarers Temple
+rules_text: Whenever Realmfarers Temple or another Shrine you control enters, draw a card. You may put a land card from your hand onto the battlefield. => Whenever another Shrine you control enters, draw a card. You may put a land card from your hand onto the battlefield tapped. This ability triggers only once each turn.
+
+Qi Reapers
+rules_text: When Qi Reapers enters, surveil 3.
+Once each turn, you may cast a creature spell from your graveyard by removing three counters from among permanents you control in addition to its other costs. => Ward {3}
+When Qi Reapers enters, surveil 3.
+Once each turn, you may cast a creature spell from your graveyard by removing three counters from among permanents you control in addition to its other costs.
+
+Impose Balance
+
+Fabled Lotus
+rules_text: Whenever the final lore counter is put on a Saga you control, you may exile it. If you do, you may cast it this turn. A permanent spell cast this way enters with a finality counter.
+{T}: Add one mana of any color. => Whenever the final lore counter is put on a nontoken saga you control, you may exile it. If you do, you may cast a copy of it this turn.
+{T}: Add two mana of any one color.
+
+Weathered Gates
+
+Imperial Throne
+rules_text: Yin-yang [i](If you control four or more tapped and four or more untapped permanents, become balanced for the rest of the game.)[/i]
+{T}: Add {C}. If Imperial Throne entered this turn, you may add one mana of any color instead.
+{5}, {T}: Create a 3/3 blue Dragon enchantment creature token with flying. Activate only if you're balanced. => Yin-yang [i](If you control four or more tapped and four or more untapped permanents, become balanced for the rest of the game.)[/i]
+{T}: Add {C}. If Imperial Throne entered this turn, you may add one mana of any color instead.
+{X}{X}, {T}: Create an X/X green Snake creature token. Activate only if you're balanced.
+
+Pearlcarver's Masterpiece
+
+Chord of Return
+type: Instant => Sorcery
+rules_text: Convoke [i](Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)[/i]
+Return up to X target creature cards with mana value 3 or less from your graveyard to the battlefield tapped. => Convoke [i](Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)[/i]
+Return up to X target creature cards with mana value 3 or less from your graveyard to the battlefield.
+
+Moon-Chaser Tiangou
+
+Deep-Thought Kun
+
+Yizan Grand Temple
+rules_text: {5}{U}: Draw a card. This ability costs {1} less to activate for each other Shrine you control. => {5}{U}: Draw a card. This ability costs {1} less to activate for each other Shrine you control. Activate only once each turn.
+
+Beizu Grand Temple
+rules_text: At the beginning of your upkeep, you gain X life, where X is the number of Shrines you control. Beizu Grand Temple deals that much damage to any target. => At the beginning of your upkeep, exile up to one target creature card with mana value less than or equal to the number of Shrines you control from your graveyard. Create a token that's a copy of it.
+
+Maskstealer
+
+Merchant of Beyond
+rules_text: Merchant of Beyond can't block.
+When Merchant of Beyond enters, surveil 1.
+{3}{B}: Return Merchant of Beyond from your graveyard to the battlefield. This ability costs {1} less to activate for each creature that died this turn. => Merchant of Beyond can't block.
+When Merchant of Beyond enters, surveil 1.
+{3}{B}: Return Merchant of Beyond from your graveyard to the battlefield. This ability costs {1} less to activate for each non-Citizen creature that died this turn.
+
+Pit's Petition
+
+Treasonous Mandate
+cost: {B}{B}{B}{B} => {2}{B}{B}{B}
+rules_text: Destroy all creatures. => Each player sacrifices three creatures.
+
+Mist-Stalker Zhujian
+
+Field-Scorcher Huolong
+
+Bloodthrall Tigren
+rules_text: Menace
+Bloodthrall Tigren's power is equal to the greatest mana value among creatures you control. => Trample
+Bloodthrall Tigren's power is equal to the greatest mana value among creatures you control.
+
+Evernourish Jinmenju
+
+Liang Grand Temple
+rules_text: Tap an untapped Shrine you control: Add one mana of any color. => Whenever Liang Grand Temple or another Shrine you control enters, untap up to one target land.
+
+Reliquary-Back Bixi
+
+Reverent Xiangliu
+rules_text: Reverent Xiangliu enters with X +1/+1 counters on it.
+When Reverent Xiangliu enters, venerate X times. [i](You may reveal and put a Shrine card you own from outside the game into your hand, or create a 1/1 colorless Shrine enchantment creature token.)[/i] => Reverent Xiangliu enters with X +1/+1 counters on it.
+When Reverent Xiangliu enters, venerate half X times, rounded up. [i](You may reveal and put a Shrine card you own from outside the game into your hand, or create a 1/1 colorless Shrine enchantment creature token.)[/i]
+
+Da Po, Jun's Guide
+rules_text: When Da Po, Jun's Guide enters, you may search your library for a planeswalker card, reveal it, put it into your hand, then shuffle.
+Whenever a land you control enters, copy the next loyalty ability you activate this turn when you activate it. You may choose new targets for the copy. => When Da Po, Jun's Guide enters, you may discard a card. If you do, search your library for a planeswalker card, reveal it, put it into your hand, then shuffle.
+Whenever you play a land, copy the next loyalty ability you activate this turn when you activate it. You may choose new targets for the copy.
+
+Sky-Gate Temple
+rules_text: At the beginning of combat on your turn, exile up to one target nonland permanent you control if it has mana value 2 or less, or you control three or more Shrines. While its exiled, its owner may cast it for {2} rather than its mana cost. => At the beginning of combat on your turn, exile up to one target nonland permanent you control if it has mana value 2 or less or you control three or more Shrines. As long as its exiled, its owner may cast it for {2} rather than its mana cost.
+
+Dread-Gate Temple
+cost: {1}{BR} => {2}{BR}
+rules_text: At the beginning of combat on your turn, create a tapped Treasure token, then Dread-Gate Temple deals 1 damage to you for each Treasure you control unless you control three or more Shrines. => At the beginning of combat on your turn, you may create a Treasure token, then Dread-Gate Temple deals 1 damage to you for each Treasure you control unless you control three or more Shrines.
+
+Foam-Gate Temple
+cost: {2}{UR} => {1}{UR}
+rules_text: At the beginning of combat on your turn, you may have Foam-Gate Temple become a copy of target creature you control until end of turn if it has mana value 4 or less or you control three or more Shrines. => At the beginning of combat on your turn, you may have Foam-Gate Temple become a copy of target creature you control until end of turn if it has mana value 3 or less or you control three or more Shrines.
+
+Panda Bear
+rules_text: Panda Bear is all colors => Panda Bear is all colors.
+
+Darkest Prayers
+cost: {2}{B} => {1}{B}
+rules_text: When Darkest Prayers enters or leaves the battlefield, you draw a card, lose 1 life and venerate. [i](You may reveal and put a Shrine card you own from outside the game into your hand, or create a 1/1 colorless Shrine enchantment creature token.)[/i]
+{3}{B}{B}, Sacrifice Darkest Prayers: You draw a card and lose 1 life. => When Darkest Prayers enters or leaves the battlefield, you lose 1 life and venerate. [i](You may reveal and put a Shrine card you own from outside the game into your hand, or create a 1/1 colorless Shrine enchantment creature token.)[/i]
+{1}{B}, Sacrifice Darkest Prayers: Each opponent loses 2 life.
+
+Wake the Bones
+rules_text: Return target creature or enchantment card from your graveyard to the battlefield.
+Trespass {6}{B} [i](You may cast this spell from your graveyard for {6}{B}, and may sacrifice a creature to reduce that cost by {X}, where X is its power. Then exile this spell.)[/i] => Return target creature card from your graveyard to the battlefield.
+Trespass {6}{B} [i](You may cast this spell from your graveyard for {6}{B}, and may sacrifice a creature to reduce that cost by {X}, where X is its power. Then exile this spell.)[/i]
+
+Pry Desire
+
+Obsessed Jiangshi
+rules_text: Yin-yang [i](If you control four or more tapped and four or more untapped permanents, become balanced for the rest of the game.)[/i]
+Menace
+Whenever you attack, if you're balanced, you may return Obsessed Jiangshi from your graveyard to the battlefield tapped and attacking with a finality counter on it. => Yin-yang [i](If you control four or more tapped and four or more untapped permanents, become balanced for the rest of the game.)[/i]
+Menace
+Whenever you attack, if you're balanced, you may pay {1}{B}{B}. If you do, return Obsessed Jiangshi from your graveyard to the battlefield tapped and attacking.
+
+Long-Blessed Pyredancer
+pt: 0/3 => 2/2
+
+Endless Joys
+rules_text: Exile the top card of your library. You may play it this turn.
+You may cast Endless Joys from exile.
+Trespass {3}{R} [i](You may cast this spell from your graveyard for {3}{R}, and may sacrifice a creature to reduce that cost by {X}, where X is its power. Then exile this spell.)[/i] => Exile the top card of your library. You may play it this turn. If this spell was cast from a graveyard, create a Treasure token.
+Trespass {3}{R} [i](You may cast this spell from your graveyard for {3}{R}, and may sacrifice a creature to reduce that cost by {X}, where X is its power. Then exile this spell.)[/i]
+
+Dragonheart Ancestor
+rules_text: Flying, haste
+When Dragonheart Ancestor enters, exile up to one target instant or sorcery card with mana value 2 or less from your graveyard. Until end of turn, you may cast a copy of it without paying its mana cost. => Flying
+When Dragonheart Ancestor enters, exile up to one target instant or sorcery card with mana value 2 or less from your graveyard. Until end of turn, you may cast a copy of it without paying its mana cost.
+pt: 3/1 => 2/2
+
+Liang Sparrer
+
+Tireless Chronicler
+
+Bloodsoaked Meadow
+
+Peakcarved Village
+rules_text: {T}: Add {C}.
+{T}: Add {R} or {G}. Activate only if you control a Mountain or Forest. => {T}: Add {C}.
+{T}: Add {R} or {G}. Activate only if you control a Mountain or a Forest.
+
+Flourishing Court
+rules_text: {T}: Add {C}.
+{T}: Add {G} or {W}. Activate only if you control a Forest or Plains. => {T}: Add {C}.
+{T}: Add {G} or {W}. Activate only if you control a Forest or a Plains.
+
+Misty Monument
+rules_text: {T}: Add {C}.
+{T}: Add {W} or {B}. Activate only if you control a Plains or Swamp => {T}: Add {C}.
+{T}: Add {W} or {B}. Activate only if you control a Plains or a Swamp
+
+Moldering Cavern
+rules_text: {T}: Add {C}.
+{T}: Add {B} or {G}. Activate only if you control a Swamp or Forest. => {T}: Add {C}.
+{T}: Add {B} or {G}. Activate only if you control a Swamp or a Forest.
+
+Flooded Field
+rules_text: {T}: Add {C}.
+{T}: Add {G} or {U}. Activate only if you control a Forest or Island. => {T}: Add {C}.
+{T}: Add {G} or {U}. Activate only if you control a Forest or an Island.
+
+Roiling Crag
+rules_text: {T}: Add {C}.
+{T}: Add {U} or {R}. Activate only if you control an Island or Mountain. => {T}: Add {C}.
+{T}: Add {U} or {R}. Activate only if you control an Island or a Mountain.
+
+Festival Ground
+rules_text: {T}: Add {C}.
+{T}: Add {R} or {W}. Activate only if you control a Mountain or Plains. => {T}: Add {C}.
+{T}: Add {R} or {W}. Activate only if you control a Mountain or a Plains.
+
+Hou De, Martial Master
+
+Golem
+
+Snake
+type: Token Enchantment Creature — Snake => Token Creature — Snake
+
+Soldier
+
+Spirit
+
+Dragon
+
+Treasure
+
+Beast
+
+Copy
+
+Heir
+
+
+VERSION 4 CHANGELOG
 ====================
 
 Crossed Defiance added.
